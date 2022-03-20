@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo map</title>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .grid-container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        column-gap: 1em;
+        row-gap: 1em;
+        grid-template-columns: auto auto;
+      }
+
+      #map-all {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item"><div id="map-all"></div></div>
+      <div class="grid-item"><div id="map-swim"></div></div>
+      <div class="grid-item"><div id="map-bike"></div></div>
+      <div class="grid-item"><div id="map-run"></div></div>
+    </div>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1Ijoic3dhYWdpZSIsImEiOiJja3phY3JjdXgyMW5vMndyeGtma2d6NWxkIn0.sVSiLelg5k2XwpdokGxYUQ";
+      const map = new mapboxgl.Map({
+        container: "map-all", // container ID
+        style: "mapbox://styles/mapbox/dark-v10", // style URL
+        center: [6.4518885, 53.2165734], // starting position [lng, lat]
+        zoom: 12, // starting zoom
+      });
+    </script>
+  </body>
+</html>
