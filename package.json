@@ -1,0 +1,23 @@
+{
+  "name": "tri-map",
+  "version": "1.0.0",
+  "description": "Map utilies for triathlon events",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node ./bin/convert-gpx-to-geojson.mjs ./data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swaagie/tri-map.git"
+  },
+  "author": "Martijn Swaagman <martijn@swaagman.online>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Swaagie/tri-map/issues"
+  },
+  "homepage": "https://github.com/Swaagie/tri-map#readme",
+  "devDependencies": {
+    "togeojson": "^0.16.0",
+    "xmldom": "^0.6.0"
+  }
+}
