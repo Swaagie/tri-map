@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>transitie</name>
+    <link href="https://ridewithgps.com/routes/38908631">
+      <text>transitie</text>
+    </link>
+    <time>2022-03-29T12:11:16Z</time>
+  </metadata>
+  <trk>
+    <name>transitie</name>
+    <trkseg>
+      <trkpt lat="53.192054" lon="6.450857">
+        <ele>-1.0</ele>
+      </trkpt>
+      <trkpt lat="53.192153" lon="6.45053">
+        <ele>-1.0</ele>
+      </trkpt>
+      <trkpt lat="53.192429" lon="6.450712">
+        <ele>-0.2</ele>
+      </trkpt>
+      <trkpt lat="53.192849" lon="6.451093">
+        <ele>-0.7</ele>
+      </trkpt>
+      <trkpt lat="53.192926" lon="6.451259">
+        <ele>-0.8</ele>
+      </trkpt>
+      <trkpt lat="53.19339" lon="6.4507199">
+        <ele>-1.9</ele>
+      </trkpt>
+      <trkpt lat="53.19347" lon="6.45053">
+        <ele>-1.8</ele>
+      </trkpt>
+      <trkpt lat="53.19351" lon="6.45048">
+        <ele>-1.8</ele>
+      </trkpt>
+      <trkpt lat="53.19366" lon="6.4505">
+        <ele>-1.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
