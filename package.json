@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "convert": "node ./bin/convert-gpx-to-geojson.mjs ./data",
-    "start": "npx http-server"
+    "start": "npx http-server ./demo"
   },
   "repository": {
     "type": "git",
