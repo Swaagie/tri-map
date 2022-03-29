@@ -3,22 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <title>Demo map</title>
+    <link href="/assets/css/solid.css" rel="stylesheet" />
+    <link href="/assets/css/fontawesome.css" rel="stylesheet" />
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/mapbox-gl-style-switcher@1.0.11/styles.css"
+      rel="stylesheet"
+    />
     <style>
+      :root {
+        --red: #fd5959;
+        --orange: #ff9c6d;
+        --yellow: #fcff82;
+        --blue: #007cbf;
+        --gray: #aaaaaa;
+        --green: #90ee90;
+      }
+
       body {
         margin: 0;
       }
 
       .grid-container {
         display: grid;
-        width: 100vw;
-        height: 100vh;
-        column-gap: 1em;
+        column-gap: 0em;
         row-gap: 1em;
-        grid-template-columns: auto auto;
+      }
+
+      .grid-item {
+        height: 100vh;
       }
 
       #map-all {
@@ -26,25 +42,367 @@
         width: 100%;
         height: 100%;
       }
+
+      #start {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+
+      .legend {
+        background-color: #fff;
+        border-radius: 3px;
+        bottom: 4em;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        padding: 2em;
+        position: absolute;
+        right: 2em;
+        z-index: 1;
+      }
+
+      .legend h2 {
+        margin-top: 0;
+      }
+
+      .legend ul {
+        /* list-style: none; */
+        padding: 1em;
+      }
+
+      .legend span {
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        border: 1px solid var(--grey);
+        vertical-align: sub;
+      }
+
+      .marker {
+        border-radius: 0.5em;
+        padding: 0 1em;
+      }
     </style>
   </head>
   <body>
     <div class="grid-container">
-      <div class="grid-item"><div id="map-all"></div></div>
-      <div class="grid-item"><div id="map-swim"></div></div>
-      <div class="grid-item"><div id="map-bike"></div></div>
-      <div class="grid-item"><div id="map-run"></div></div>
+      <div class="grid-item">
+        <div id="map-all"></div>
+        <div class="legend">
+          <h2>Zwemparcours</h2>
+          <div>
+            <span style="background: var(--green)"></span>
+            <i class="fa-solid fa-person-swimming"></i> start
+          </div>
+          <div>
+            <span style="background: var(--red)"></span>
+            <i class="fa-solid fa-circle"></i> keerboeien
+          </div>
+          <div>
+            <span style="background: var(--gray)"></span>
+            <i class="fa-solid fa-stopwatch"></i> meetpunt transitie 1
+          </div>
+          <ul>
+            <li>500 meter</li>
+            <li>1 ronde</li>
+            <li>Leekstermeer</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div id="map-swim"></div>
+      </div>
+      <div class="grid-item">
+        <div id="map-bike"></div>
+      </div>
+      <div class="grid-item">
+        <div id="map-run"></div>
+      </div>
     </div>
+    <!-- Add mapbox -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
-    <script>
+    <script type="module">
       mapboxgl.accessToken =
-        "pk.eyJ1Ijoic3dhYWdpZSIsImEiOiJja3phY3JjdXgyMW5vMndyeGtma2d6NWxkIn0.sVSiLelg5k2XwpdokGxYUQ";
+        'pk.eyJ1Ijoic3dhYWdpZSIsImEiOiJja3phY3JjdXgyMW5vMndyeGtma2d6NWxkIn0.sVSiLelg5k2XwpdokGxYUQ';
+
       const map = new mapboxgl.Map({
-        container: "map-all", // container ID
-        style: "mapbox://styles/mapbox/dark-v10", // style URL
+        container: 'map-all', // container ID
+        style: 'mapbox://styles/mapbox/outdoors-v11', // style URL
         center: [6.4518885, 53.2165734], // starting position [lng, lat]
         zoom: 12, // starting zoom
       });
+
+      // Can fetch from Github https://docs.mapbox.com/mapbox.js/example/v1.0.0/geojson-marker-from-remote-url/
+      const response = await fetch('./data/zwemmen_1_8.json');
+      const data = await response.json();
+
+      const responseTransitie = await fetch('./data/transitie.json');
+      const dataTransitie = await responseTransitie.json();
+
+      // Get style switcher, nasty import
+      window.exports = {};
+      await import(
+        'https://unpkg.com/mapbox-gl-style-switcher@1.0.11/dist/index.js'
+      );
+      const { MapboxStyleSwitcherControl } = exports;
+
+      // Use style control
+      map.addControl(
+        new MapboxStyleSwitcherControl(null, {
+          defaultStyle: 'Outdoors',
+          eventListeners: {
+            onChange: () => {
+              map.once('styledata', render);
+            },
+          },
+        })
+      );
+
+      // disable map zoom when using scroll
+      map.scrollZoom.disable();
+
+      // Navigation controls
+      map.addControl(new mapboxgl.NavigationControl());
+
+      function getBoundingBox(coordinates = []) {
+        // Create a 'LngLatBounds' with both corners at the first coordinate.
+        const bounds = new mapboxgl.LngLatBounds(coordinates.slice(0, 2));
+
+        // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
+        for (const coord of coordinates) {
+          bounds.extend(coord);
+        }
+
+        return bounds;
+      }
+
+      // Start, transitions, finish
+      const markers = {
+        type: 'FeatureCollection',
+        features: [
+          {
+            type: 'Feature',
+            properties: {
+              borderColor: '#007cbf',
+              backgroundColor: '#90ee90',
+              message:
+                '<span><i class="fa-solid fa-person-swimming"></i> start</span>',
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: data.features[0].geometry.coordinates[0],
+            },
+          },
+          {
+            type: 'Feature',
+            properties: {
+              borderColor: '#007cbf',
+              backgroundColor: 'var(--gray)',
+              message: '<span><i class="fa-solid fa-stopwatch"></i> t1</span>',
+            },
+            geometry: {
+              type: 'Point',
+              coordinates:
+                data.features[0].geometry.coordinates[
+                  data.features[0].geometry.coordinates.length - 1
+                ],
+            },
+          },
+          //
+          {
+            type: 'Feature',
+            properties: {
+              color: 'var(--red)',
+              message: '<span><i class="fa-solid fa-circle"></i></span>',
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [
+                data.features[0].geometry.coordinates[
+                  data.features[0].geometry.coordinates.length - 3
+                ][0],
+                data.features[0].geometry.coordinates[
+                  data.features[0].geometry.coordinates.length - 3
+                ][1] + 0.00005,
+              ],
+            },
+          },
+          // Boei
+          {
+            type: 'Feature',
+            properties: {
+              color: 'var(--red)',
+              message: '<span><i class="fa-solid fa-circle"></i></span>',
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [
+                data.features[0].geometry.coordinates[
+                  data.features[0].geometry.coordinates.length - 4
+                ][0] + 0.00007,
+                data.features[0].geometry.coordinates[
+                  data.features[0].geometry.coordinates.length - 4
+                ][1] + 0.00002,
+              ],
+            },
+          },
+          // Transitie
+          {
+            type: 'Feature',
+            properties: {
+              name: 'park-ferme',
+              message: 'Locatie parc fermé',
+              backgroundColor: 'var(--orange)',
+            },
+            geometry: {
+              type: 'Polygon',
+              coordinates: [
+                [
+                  [6.450608, 53.194017],
+                  [6.451003, 53.193969],
+                  [6.450917, 53.193516],
+                  [6.450509, 53.193564],
+                  [6.450608, 53.194017],
+                ],
+              ],
+            },
+          },
+        ],
+      };
+
+      // all coordinates for bounding box
+      const allData = [
+        ...data.features[0].geometry.coordinates,
+        ...dataTransitie.features[0].geometry.coordinates,
+      ];
+
+      map.once('load', render);
+
+      function render() {
+        // Add transitie data
+        map.addSource('park-ferme', {
+          type: 'geojson',
+          data: markers.features[markers.features.length - 1],
+        });
+
+        map.addSource('swim', {
+          type: 'geojson',
+          data,
+        });
+
+        map.addSource('transitie', {
+          type: 'geojson',
+          data: dataTransitie,
+        });
+        const colors = {
+          transitie: '#ff9c6d',
+          swim: '#007cbf',
+        };
+
+        for (let layer of ['swim', 'transitie']) {
+          map.addLayer({
+            id: layer,
+            type: 'line',
+            source: layer,
+            layout: {
+              'line-join': 'round',
+              'line-cap': 'round',
+            },
+            paint: {
+              'line-color': colors[layer],
+              'line-width': 2,
+            },
+          });
+
+          map.addLayer({
+            id: layer + '-arrows',
+            type: 'symbol',
+            source: layer,
+            layout: {
+              'symbol-placement': 'line',
+              'text-field': '▶',
+              'text-size': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                12,
+                24,
+                22,
+                60,
+              ],
+              'symbol-spacing': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                12,
+                30,
+                22,
+                160,
+              ],
+              'text-keep-upright': false,
+            },
+            paint: {
+              'text-color': colors[layer],
+              'text-halo-color': 'hsl(55, 11%, 96%)',
+              'text-halo-width': 1,
+            },
+          });
+        }
+
+        // Add markers to the map.
+        for (const marker of markers.features) {
+          // Create a DOM element for each marker.
+          const el = document.createElement('div');
+          el.innerHTML = marker.properties.message;
+          el.className = 'marker';
+          if (marker.properties.borderColor) {
+            el.style.border = `2px solid ${marker.properties.borderColor}`;
+          }
+          el.style.color = marker.properties.color || '#333';
+          el.style.background = marker.properties.backgroundColor;
+
+          // Add markers to the map.
+          if (marker.geometry.type === 'Point') {
+            allData.push(marker.geometry.coordinates);
+            new mapboxgl.Marker(el)
+              .setLngLat(marker.geometry.coordinates)
+              .addTo(map);
+          } else if (marker.geometry.type === 'Polygon') {
+            allData.push(...marker.geometry.coordinates[0]);
+
+            new mapboxgl.Marker(el)
+              .setLngLat(marker.geometry.coordinates[0][0])
+              .addTo(map);
+
+            // Add a new layer to visualize the polygon.
+            map.addLayer({
+              id: 't1',
+              type: 'fill',
+              source: 'park-ferme',
+              layout: {},
+              paint: {
+                'fill-color': colors.transitie,
+                'fill-opacity': 0.5,
+              },
+            });
+            map.addLayer({
+              id: 't1-outline',
+              type: 'line',
+              source: 'park-ferme',
+              layout: {},
+              paint: {
+                'line-color': colors.transitie,
+                'line-width': 2,
+              },
+            });
+          }
+        }
+
+        // Calculate bounding box
+        map.fitBounds(getBoundingBox(allData), {
+          padding: 100,
+        });
+      }
     </script>
   </body>
 </html>

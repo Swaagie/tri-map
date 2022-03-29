@@ -4,7 +4,8 @@
   "description": "Map utilies for triathlon events",
   "main": "index.js",
   "scripts": {
-    "convert": "node ./bin/convert-gpx-to-geojson.mjs ./data"
+    "convert": "node ./bin/convert-gpx-to-geojson.mjs ./data",
+    "start": "npx http-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Swaagie/tri-map#readme",
   "devDependencies": {
+    "http-server": "^14.1.0",
     "togeojson": "^0.16.0",
     "xmldom": "^0.6.0"
   }
