@@ -1,3 +1,4 @@
+// const tj = require('@tmcw/togeojson'); // alternative
 import { DOMParser } from 'xmldom';
 import tj from 'togeojson';
 import fs from 'fs/promises';
@@ -13,14 +14,14 @@ let sources = await fs.readdir(source);
 
 await Promise.all(
   sources
-    .filter((file) => path.extname(file) === '.gpx')
+    .filter((file) => path.extname(file) === '.kml')
     .map(async function convert(file) {
       const data = await fs.readFile(path.join(source, file), 'utf-8');
       const xml = new DOMParser().parseFromString(data);
 
       await fs.writeFile(
-        path.join(source, path.basename(file, '.gpx') + '.json'),
-        JSON.stringify(tj.gpx(xml), null, 2)
+        path.join(source, path.basename(file, '.kml') + '.json'),
+        JSON.stringify(tj.kml(xml), null, 2)
       );
     })
 );
