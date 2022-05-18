@@ -196,10 +196,9 @@
         }
 
         function point({ properties, geometry }, n) {
-          return;
           // Create a DOM element for each marker.
           const el = document.createElement('div');
-          el.innerHTML = properties.description;
+          el.innerHTML = properties.description || properties.beschrijving;
           el.className = 'marker';
           el.style.border = `2px solid ${properties.borderColor || '#333'}`;
           el.style.color = properties.color || '#333';
