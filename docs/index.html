@@ -44,14 +44,14 @@
       }
 
       .legend {
-        background-color: #fff;
+        background-color: whitesmoke;
         border-radius: 3px;
-        bottom: 4em;
+        top: 2em;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
         padding: 2em;
         position: absolute;
-        right: 2em;
+        left: 2em;
         z-index: 1;
       }
 
@@ -72,6 +72,10 @@
         vertical-align: sub;
       }
 
+      summary {
+        font-size: 16px;
+      }
+
       .marker {
         font-size: 16px;
         background: whitesmoke;
@@ -86,30 +90,139 @@
       <div class="grid-item">
         <div id="map-all"></div>
         <div class="legend">
-          <h2>Zwemparcours</h2>
-          <div>
-            <span style="background: var(--green)"></span>
-            <i class="fa-solid fa-person-swimming"></i> start
-          </div>
-          <div>
-            <span style="background: var(--red)"></span>
-            <i class="fa-solid fa-circle"></i> keerboeien
-          </div>
-          <div>
-            <span style="background: var(--gray)"></span>
-            <i class="fa-solid fa-stopwatch"></i> meetpunt transitie 1
-          </div>
-          <ul>
-            <li>500 meter</li>
-            <li>1 ronde</li>
-            <li>Leekstermeer</li>
-          </ul>
+          <h1>050media Speedman triatlon Groningen</h1>
+          <details>
+            <summary><b>Wisselzone</b></summary>
+            <div>
+              <p>
+                <b>N.B: Parkeren bij P+R Transferium Hoogkerk</b><br />
+                Inschrijving noordzijde nabij tennisvereniging
+              </p>
+              <ul>
+                <li>
+                  <i
+                    class="fa-solid fa-check-circle"
+                    style="color: #424242"
+                  ></i>
+                  Check in/out
+                </li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary><b>Zwemparcours</b></summary>
+            <div>
+              <p>
+                <b>Sprint/standaard divisies:</b> ronde 750 meter<br />
+                <b>Sprint:</b> 1 ronde<br />
+                <b>Standaard:</b> 2 ronden<br /><br />
+
+                <b>Achtste/kwart individueel/estafette:</b> ronde 500 meter<br />
+                <b>Achtste:</b> 1 ronde<br />
+                <b>Kwart:</b> 2 ronden<br /><br />
+
+                <b>Locatie:</b> Ruskenveenseplas
+              </p>
+              <h3>Legenda</h3>
+              <ul>
+                <li>
+                  <i
+                    class="fa-solid fa-person-swimming"
+                    style="color: #0288d1"
+                  ></i>
+                  Start
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle" style="color: #ffd600"></i>
+                  Boeien
+                </li>
+                <li>
+                  <i
+                    class="fa-solid fa-flag-checkered"
+                    style="color: #0288d1"
+                  ></i>
+                  Finish zwemmen
+                </li>
+                <li>
+                  <i class="fa-solid fa-stopwatch" style="color: #424242"></i>
+                  Transitie
+                </li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary><b>Fietsparcours</b></summary>
+            <div>
+              <p>
+                <b>Aanloopstrook:</b> 1.5 kilometer<br />
+                <b>Ronde:</b> 10.6 kilometer<br /><br />
+
+                <b>Achtste/sprint:</b> 2 ronden<br />
+                <b>Kwart/standaard:</b> 4 ronden<br />
+              </p>
+              <h3>Legenda</h3>
+              <ul>
+                <li>
+                  <i
+                    class="fa-solid fa-arrow-circle-left"
+                    style="color: #a52714"
+                  ></i>
+                  Keerpunt
+                </li>
+                <li>
+                  <i class="fa-solid fa-warning" style="color: #ff5252"></i>
+                  Aandachtspunten
+                </li>
+                <li>
+                  <i
+                    class="fa-solid fa-hourglass-half"
+                    style="color: #ff5252"
+                  ></i>
+                  Penaltybox
+                </li>
+                <li>
+                  <i class="fa-solid fa-stopwatch" style="color: #424242"></i>
+                  Transitie
+                </li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary><b>Loopparcours</b></summary>
+            <div>
+              <p>
+                <b>Ronde:</b> 2.6 kilometer<br /><br />
+
+                <b>Achtste/sprint:</b> 2 ronden<br />
+                <b>Kwart/standaard:</b> 4 ronden<br />
+              </p>
+              <h3>Legenda</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-stopwatch" style="color: #424242"></i>
+                  Transitie
+                </li>
+                <li>
+                  <i
+                    class="fa-solid fa-flag-checkered"
+                    style="color: #097138"
+                  ></i>
+                  Finish
+                </li>
+              </ul>
+            </div>
+          </details>
         </div>
       </div>
     </div>
     <!-- Add mapbox -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+    <script>
+      // Enable use of style switcher without needing bundler (barf)
+      window.exports = {};
+    </script>
+    <script src="https://unpkg.com/mapbox-gl-style-switcher@1.0.11/dist/index.js"></script>
     <script>
       (async function main() {
         mapboxgl.accessToken =
@@ -122,29 +235,27 @@
           zoom: 12, // starting zoom
         });
 
-        const data = await fetchSourceFromGithub('speedman-divisies.json');
+        const query = new URL(window.location).searchParams.get('course');
+        const data = await fetchSourceFromGithub(
+          `speedman-${query || 'divisies'}.json`
+        );
 
-        // Get style switcher, nasty import
-        // window.exports = {};
-        // await import(
-        //   'https://unpkg.com/mapbox-gl-style-switcher@1.0.11/dist/index.js'
-        // );
-        // const { MapboxStyleSwitcherControl } = exports;
+        const MapboxStyleSwitcherControl = exports.MapboxStyleSwitcherControl;
 
         // Use style control
-        // map.addControl(
-        //   new MapboxStyleSwitcherControl(null, {
-        //     defaultStyle: 'Outdoors',
-        //     eventListeners: {
-        //       onChange: () => {
-        //         map.once('styledata', render);
-        //       },
-        //     },
-        //   })
-        // );
+        map.addControl(
+          new MapboxStyleSwitcherControl(null, {
+            defaultStyle: 'Outdoors',
+            eventListeners: {
+              onChange: () => {
+                map.once('styledata', render);
+              },
+            },
+          })
+        );
 
         // Navigation controls
-        // map.addControl(new mapboxgl.NavigationControl());
+        map.addControl(new mapboxgl.NavigationControl());
 
         async function fetchSourceFromGithub(url) {
           const response = await fetch(
@@ -177,7 +288,7 @@
           const el = document.createElement('span');
           el.className = `marker fa-solid ${properties.name}`;
           el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
-          console.log(properties.styleUrl.split('-')[2]);
+
           // Add markers with popups to the map.
           if (properties.beschrijving || properties.description) {
             new mapboxgl.Marker(el)
@@ -283,7 +394,7 @@
             layout: {
               'text-field': ['get', 'beschrijving'],
               'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
-              'text-justify': 'auto',
+              'text-justify': 'center',
             },
           });
         }
@@ -297,8 +408,6 @@
         map.once('load', render);
 
         function render() {
-          console.log('RENDERING');
-
           // Loop over all features
           data.features.forEach((feature, n) => {
             // Add all data
@@ -309,34 +418,34 @@
 
             renderers[feature.geometry.type](feature, n);
           });
-
-          // Calculate bounding box, normalize per feature
-          map.fitBounds(
-            getBoundingBox(
-              data.features.reduce((acc, feature) => {
-                let coordinates = [];
-
-                switch (feature.geometry.type) {
-                  case 'Point':
-                    coordinates = [feature.geometry.coordinates];
-                    break;
-                  case 'LineString':
-                    coordinates = feature.geometry.coordinates;
-                    break;
-                  case 'Polygon':
-                    coordinates = feature.geometry.coordinates[0];
-                    break;
-                }
-
-                acc.push.apply(acc, coordinates);
-                return acc;
-              }, [])
-            ),
-            {
-              padding: 100,
-            }
-          );
         }
+
+        // Calculate bounding box, normalize per feature
+        map.fitBounds(
+          getBoundingBox(
+            data.features.reduce((acc, feature) => {
+              let coordinates = [];
+
+              switch (feature.geometry.type) {
+                case 'Point':
+                  coordinates = [feature.geometry.coordinates];
+                  break;
+                case 'LineString':
+                  coordinates = feature.geometry.coordinates;
+                  break;
+                case 'Polygon':
+                  coordinates = feature.geometry.coordinates[0];
+                  break;
+              }
+
+              acc.push.apply(acc, coordinates);
+              return acc;
+            }, [])
+          ),
+          {
+            padding: 50,
+          }
+        );
       })();
     </script>
   </body>
