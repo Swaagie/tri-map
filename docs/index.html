@@ -43,12 +43,6 @@
         height: 100%;
       }
 
-      #start {
-        width: 20px;
-        height: 20px;
-        cursor: pointer;
-      }
-
       .legend {
         background-color: #fff;
         border-radius: 3px;
@@ -85,12 +79,6 @@
         border: 1px solid #ccc;
         border-radius: 50%;
       }
-
-      .buoy {
-        color: var(--green);
-        border: 2px solid #333;
-        border-radius: 50%;
-      }
     </style>
   </head>
   <body>
@@ -116,19 +104,7 @@
             <li>1 ronde</li>
             <li>Leekstermeer</li>
           </ul>
-          <h2>Route flyby</h2>
-          <i class="fa-solid fa-play" id="flyby-start"></i>
-          <i class="fa-solid fa-stop" id="flyby-stop"></i>
         </div>
-      </div>
-      <div class="grid-item">
-        <div id="map-swim"></div>
-      </div>
-      <div class="grid-item">
-        <div id="map-bike"></div>
-      </div>
-      <div class="grid-item">
-        <div id="map-run"></div>
       </div>
     </div>
     <!-- Add mapbox -->
@@ -142,13 +118,11 @@
         const map = new mapboxgl.Map({
           container: 'map-all', // container ID
           style: 'mapbox://styles/mapbox/outdoors-v11', // style URL
-          center: [6.51314, 53.2065], // starting position [lng, lat]
+          center: [6.51314, 53.2065], // starting position [lng, lat] = Groningen
           zoom: 12, // starting zoom
         });
 
-        const data = await fetchSourceFromGithub('speedman.json');
-        // const data = await fetchSourceFromGithub('zwemmen_1_8.json');
-        // const dataTransitie = await fetchSourceFromGithub('transitie.json');
+        const data = await fetchSourceFromGithub('speedman-divisies.json');
 
         // Get style switcher, nasty import
         // window.exports = {};
@@ -202,8 +176,8 @@
           // Create a DOM element for each marker.
           const el = document.createElement('span');
           el.className = `marker fa-solid ${properties.name}`;
-          el.style.color = properties.styleUrl.split('-')[2] || '#333';
-
+          el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
+          console.log(properties.styleUrl.split('-')[2]);
           // Add markers with popups to the map.
           if (properties.beschrijving || properties.description) {
             new mapboxgl.Marker(el)
@@ -211,9 +185,9 @@
               .setPopup(
                 new mapboxgl.Popup({ offset: 25 }) // add popups
                   .setHTML(
-                    `<p>${
+                    `<span>${
                       properties.beschrijving || properties.description
-                    }</p>`
+                    }</span>`
                   )
               )
               .addTo(map);
@@ -224,6 +198,7 @@
         }
 
         function linestring({ properties, geometry }, n) {
+          // Route
           map.addLayer({
             id: 'layer-' + n,
             type: 'line',
@@ -239,6 +214,7 @@
             },
           });
 
+          // Direction arrows
           map.addLayer({
             id: n + '-arrows',
             type: 'symbol',
@@ -275,6 +251,7 @@
         }
 
         function polygon({ properties, geometry }, n) {
+          // Polygon outline
           map.addLayer({
             id: 'layer-' + n,
             type: 'fill',
@@ -286,6 +263,7 @@
             },
           });
 
+          // Polygon fill
           map.addLayer({
             id: n + '-line',
             type: 'line',
@@ -294,6 +272,18 @@
             paint: {
               'line-color': properties.stroke,
               'line-width': properties['stroke-width'],
+            },
+          });
+
+          // Text labels on polygons
+          map.addLayer({
+            id: 'poi-labels-' + n,
+            type: 'symbol',
+            source: 'triathlon' + n,
+            layout: {
+              'text-field': ['get', 'beschrijving'],
+              'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+              'text-justify': 'auto',
             },
           });
         }
