@@ -143,7 +143,7 @@
           zoom: 12, // starting zoom
         });
 
-        const data = await fetchSourceFromGithub('speedman-2022.json');
+        const data = await fetchSourceFromGithub('speedman-divisies.json');
         // const data = await fetchSourceFromGithub('zwemmen_1_8.json');
         // const dataTransitie = await fetchSourceFromGithub('transitie.json');
 
@@ -196,235 +196,221 @@
         }
 
         // Start, transitions, finish
-        const markers = {
-          type: 'FeatureCollection',
-          features: [
-            {
-              type: 'Feature',
-              properties: {
-                borderColor: '#007cbf',
-                backgroundColor: '#90ee90',
-                message:
-                  '<span><i class="fa-solid fa-person-swimming"></i> start</span>',
-              },
-              geometry: {
-                type: 'Point',
-                coordinates: data.features[0].geometry.coordinates[0],
-              },
-            },
-            {
-              type: 'Feature',
-              properties: {
-                borderColor: '#007cbf',
-                backgroundColor: 'var(--gray)',
-                message:
-                  '<span><i class="fa-solid fa-stopwatch"></i> t1</span>',
-              },
-              geometry: {
-                type: 'Point',
-                coordinates:
-                  data.features[0].geometry.coordinates[
-                    data.features[0].geometry.coordinates.length - 1
-                  ],
-              },
-            },
-            //
-            {
-              type: 'Feature',
-              properties: {
-                color: 'var(--red)',
-                message: '<span><i class="fa-solid fa-circle buoy"></i></span>',
-              },
-              geometry: {
-                type: 'Point',
-                coordinates: [
-                  data.features[0].geometry.coordinates[
-                    data.features[0].geometry.coordinates.length - 3
-                  ][0],
-                  data.features[0].geometry.coordinates[
-                    data.features[0].geometry.coordinates.length - 3
-                  ][1] + 0.00005,
-                ],
-              },
-            },
-            // Boei
-            {
-              type: 'Feature',
-              properties: {
-                color: 'var(--red)',
-                message: '<span><i class="fa-solid fa-circle buoy"></i></span>',
-              },
-              geometry: {
-                type: 'Point',
-                coordinates: [
-                  data.features[0].geometry.coordinates[
-                    data.features[0].geometry.coordinates.length - 4
-                  ][0] + 0.00007,
-                  data.features[0].geometry.coordinates[
-                    data.features[0].geometry.coordinates.length - 4
-                  ][1] + 0.00002,
-                ],
-              },
-            },
-            // Transitie
-            {
-              type: 'Feature',
-              properties: {
-                name: 'park-ferme',
-                message: 'Locatie parc fermé',
-                backgroundColor: 'var(--orange)',
-              },
-              geometry: {
-                type: 'Polygon',
-                coordinates: [
-                  [
-                    [6.450608, 53.194017],
-                    [6.451003, 53.193969],
-                    [6.450917, 53.193516],
-                    [6.450509, 53.193564],
-                    [6.450608, 53.194017],
-                  ],
-                ],
-              },
-            },
-          ],
-        };
+        // const markers = {
+        //   type: 'FeatureCollection',
+        //   features: [
+        //     {
+        //       type: 'Feature',
+        //       properties: {
+        //         borderColor: '#007cbf',
+        //         backgroundColor: '#90ee90',
+        //         message:
+        //           '<span><i class="fa-solid fa-person-swimming"></i> start</span>',
+        //       },
+        //       geometry: {
+        //         type: 'Point',
+        //         coordinates: data.features[0].geometry.coordinates[0],
+        //       },
+        //     },
+        //     {
+        //       type: 'Feature',
+        //       properties: {
+        //         borderColor: '#007cbf',
+        //         backgroundColor: 'var(--gray)',
+        //         message:
+        //           '<span><i class="fa-solid fa-stopwatch"></i> t1</span>',
+        //       },
+        //       geometry: {
+        //         type: 'Point',
+        //         coordinates:
+        //           data.features[0].geometry.coordinates[
+        //             data.features[0].geometry.coordinates.length - 1
+        //           ],
+        //       },
+        //     },
+        //     //
+        //     {
+        //       type: 'Feature',
+        //       properties: {
+        //         color: 'var(--red)',
+        //         message: '<span><i class="fa-solid fa-circle buoy"></i></span>',
+        //       },
+        //       geometry: {
+        //         type: 'Point',
+        //         coordinates: [
+        //           data.features[0].geometry.coordinates[
+        //             data.features[0].geometry.coordinates.length - 3
+        //           ][0],
+        //           data.features[0].geometry.coordinates[
+        //             data.features[0].geometry.coordinates.length - 3
+        //           ][1] + 0.00005,
+        //         ],
+        //       },
+        //     },
+        //     // Boei
+        //     {
+        //       type: 'Feature',
+        //       properties: {
+        //         color: 'var(--red)',
+        //         message: '<span><i class="fa-solid fa-circle buoy"></i></span>',
+        //       },
+        //       geometry: {
+        //         type: 'Point',
+        //         coordinates: [
+        //           data.features[0].geometry.coordinates[
+        //             data.features[0].geometry.coordinates.length - 4
+        //           ][0] + 0.00007,
+        //           data.features[0].geometry.coordinates[
+        //             data.features[0].geometry.coordinates.length - 4
+        //           ][1] + 0.00002,
+        //         ],
+        //       },
+        //     },
+        //     // Transitie
+        //     {
+        //       type: 'Feature',
+        //       properties: {
+        //         name: 'park-ferme',
+        //         message: 'Locatie parc fermé',
+        //         backgroundColor: 'var(--orange)',
+        //       },
+        //       geometry: {
+        //         type: 'Polygon',
+        //         coordinates: [
+        //           [
+        //             [6.450608, 53.194017],
+        //             [6.451003, 53.193969],
+        //             [6.450917, 53.193516],
+        //             [6.450509, 53.193564],
+        //             [6.450608, 53.194017],
+        //           ],
+        //         ],
+        //       },
+        //     },
+        //   ],
+        // };
 
         // all coordinates for bounding box
-        const allData = [
-          ...data.features[0].geometry.coordinates,
-          ...dataTransitie.features[0].geometry.coordinates,
-        ];
+        // const allData = [
+        //   ...data.features[0].geometry.coordinates,
+        //   ...dataTransitie.features[0].geometry.coordinates,
+        // ];
+
+        function point({ properties, geometry }, n) {
+          return;
+          // Create a DOM element for each marker.
+          const el = document.createElement('div');
+          el.innerHTML = properties.description;
+          el.className = 'marker';
+          el.style.border = `2px solid ${properties.borderColor || '#333'}`;
+          el.style.color = properties.color || '#333';
+          // el.style.background = properties.backgroundColor || '#333';
+
+          // Add markers to the map.
+          new mapboxgl.Marker(el).setLngLat(geometry.coordinates).addTo(map);
+        }
+
+        function linestring({ properties, geometry }, n) {
+          map.addLayer({
+            id: 'layer-' + n,
+            type: 'line',
+            source: 'triathlon' + n,
+            layout: {
+              'line-join': 'round',
+              'line-cap': 'round',
+            },
+            paint: {
+              'line-color': properties.stroke,
+              'line-width': properties['stroke-width'],
+              'line-opacity': properties['stroke-opacity'],
+            },
+          });
+
+          map.addLayer({
+            id: n + '-arrows',
+            type: 'symbol',
+            source: 'triathlon' + n,
+            layout: {
+              'symbol-placement': 'line',
+              'text-field': '➞',
+              'text-size': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                12,
+                24,
+                22,
+                60,
+              ],
+              'symbol-spacing': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                12,
+                30,
+                22,
+                160,
+              ],
+              'text-keep-upright': false,
+            },
+            paint: {
+              'text-color': '#333',
+              // 'text-halo-color': 'hsl(55, 11%, 96%)',
+              // 'text-halo-width': 0,
+            },
+          });
+        }
+
+        function polygon({ properties, geometry }, n) {
+          map.addLayer({
+            id: 'layer-' + n,
+            type: 'fill',
+            source: 'triathlon' + n,
+            layout: {},
+            paint: {
+              'fill-color': properties.fill,
+              'fill-opacity': properties['fill-opacity'],
+            },
+          });
+
+          map.addLayer({
+            id: n + '-line',
+            type: 'line',
+            source: 'triathlon' + n,
+            layout: {},
+            paint: {
+              'line-color': properties.stroke,
+              'line-width': properties['stroke-width'],
+            },
+          });
+        }
+
+        const renderers = {
+          Point: point,
+          LineString: linestring,
+          Polygon: polygon,
+        };
 
         map.once('load', render);
 
         function render() {
           console.log('RENDERING');
 
-          // Add transitie data
-          map.addSource('park-ferme', {
-            type: 'geojson',
-            data: markers.features[markers.features.length - 1],
-          });
-
-          map.addSource('swim', {
-            type: 'geojson',
-            data,
-          });
-
-          map.addSource('transitie', {
-            type: 'geojson',
-            data: dataTransitie,
-          });
-          const colors = {
-            transitie: '#ff9c6d',
-            swim: '#007cbf',
-          };
-
-          for (let layer of ['swim', 'transitie']) {
-            map.addLayer({
-              id: layer,
-              type: 'line',
-              source: layer,
-              layout: {
-                'line-join': 'round',
-                'line-cap': 'round',
-              },
-              paint: {
-                'line-color': colors[layer],
-                'line-width': 8,
-                'line-opacity': 0.8,
-              },
+          // Loop over all features
+          data.features.forEach((feature, n) => {
+            // Add all data
+            map.addSource('triathlon' + n, {
+              type: 'geojson',
+              data: feature,
             });
 
-            map.addLayer({
-              id: layer + '-arrows',
-              type: 'symbol',
-              source: layer,
-              layout: {
-                'symbol-placement': 'line',
-                'text-field': '➞',
-                'text-size': [
-                  'interpolate',
-                  ['linear'],
-                  ['zoom'],
-                  12,
-                  24,
-                  22,
-                  60,
-                ],
-                'symbol-spacing': [
-                  'interpolate',
-                  ['linear'],
-                  ['zoom'],
-                  12,
-                  30,
-                  22,
-                  160,
-                ],
-                'text-keep-upright': false,
-              },
-              paint: {
-                'text-color': '#333',
-                // 'text-halo-color': 'hsl(55, 11%, 96%)',
-                // 'text-halo-width': 0,
-              },
-            });
-          }
-
-          // Add markers to the map.
-          for (const marker of markers.features) {
-            // Create a DOM element for each marker.
-            const el = document.createElement('div');
-            el.innerHTML = marker.properties.message;
-            el.className = 'marker';
-            if (marker.properties.borderColor) {
-              el.style.border = `2px solid ${marker.properties.borderColor}`;
-            }
-            el.style.color = marker.properties.color || '#333';
-            el.style.background = marker.properties.backgroundColor;
-
-            // Add markers to the map.
-            if (marker.geometry.type === 'Point') {
-              allData.push(marker.geometry.coordinates);
-              new mapboxgl.Marker(el)
-                .setLngLat(marker.geometry.coordinates)
-                .addTo(map);
-            } else if (marker.geometry.type === 'Polygon') {
-              allData.push(...marker.geometry.coordinates[0]);
-
-              new mapboxgl.Marker(el)
-                .setLngLat(marker.geometry.coordinates[0][0])
-                .addTo(map);
-
-              // Add a new layer to visualize the polygon.
-              map.addLayer({
-                id: 't1',
-                type: 'fill',
-                source: 'park-ferme',
-                layout: {},
-                paint: {
-                  'fill-color': colors.transitie,
-                  'fill-opacity': 0.5,
-                },
-              });
-              map.addLayer({
-                id: 't1-outline',
-                type: 'line',
-                source: 'park-ferme',
-                layout: {},
-                paint: {
-                  'line-color': colors.transitie,
-                  'line-width': 8,
-                },
-              });
-            }
-          }
+            renderers[feature.geometry.type](feature, n);
+          });
 
           // Calculate bounding box
-          map.fitBounds(getBoundingBox(allData), {
-            padding: 100,
-          });
+          // map.fitBounds(getBoundingBox(data.features), {
+          //   padding: 100,
+          // });
         }
       })();
     </script>
