@@ -48,13 +48,13 @@
           "normal": "#poly-000000-1501-77-normal",
           "highlight": "#poly-000000-1501-77-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: Wisselzone<br>name: ",
         "stroke": "#000000",
         "stroke-opacity": 1,
         "stroke-width": 1.501,
         "fill": "#000000",
         "fill-opacity": 0.30196078431372547,
-        "beschrijving": ""
+        "beschrijving": "Wisselzone"
       }
     },
     {
@@ -68,14 +68,14 @@
         ]
       },
       "properties": {
-        "name": "fa-clock-o",
+        "name": "fa-stopwatch",
         "styleUrl": "#icon-1899-424242",
         "styleHash": "-5c674dd",
         "styleMapHash": {
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-clock-o",
+        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
         "beschrijving": "Tijdbalk transitie 1"
       }
     },
@@ -241,14 +241,14 @@
         ]
       },
       "properties": {
-        "name": "fa-clock-o",
+        "name": "fa-stopwatch",
         "styleUrl": "#icon-1899-424242",
         "styleHash": "-5c674dd",
         "styleMapHash": {
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-clock-o",
+        "description": "beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch",
         "beschrijving": "Balk transitie 1 en start transitie 2"
       }
     },
@@ -300,14 +300,14 @@
         ]
       },
       "properties": {
-        "name": "fa-clock-o",
+        "name": "fa-stopwatch",
         "styleUrl": "#icon-1899-424242",
         "styleHash": "-5c674dd",
         "styleMapHash": {
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-clock-o",
+        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
         "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
       }
     },
@@ -397,13 +397,13 @@
           "normal": "#poly-000000-1200-77-normal",
           "highlight": "#poly-000000-1200-77-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: Registratie en organisatie<br>name: ",
         "stroke": "#000000",
         "stroke-opacity": 1,
         "stroke-width": 1.2,
         "fill": "#000000",
         "fill-opacity": 0.30196078431372547,
-        "beschrijving": ""
+        "beschrijving": "Registratie en organisatie"
       }
     },
     {
@@ -473,13 +473,13 @@
           "normal": "#poly-0288D1-1200-77-normal",
           "highlight": "#poly-0288D1-1200-77-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: Teamtenten<br>name: ",
         "stroke": "#0288d1",
         "stroke-opacity": 1,
         "stroke-width": 1.2,
         "fill": "#0288d1",
         "fill-opacity": 0.30196078431372547,
-        "beschrijving": ""
+        "beschrijving": "Teamtenten"
       }
     },
     {
@@ -1287,15 +1287,14 @@
         ]
       },
       "properties": {
-        "name": "Finish zwemmen",
+        "name": "fa-flag-checkered",
         "styleUrl": "#icon-1661-424242",
         "styleHash": "6480689e",
         "styleMapHash": {
           "normal": "#icon-1661-424242-normal",
           "highlight": "#icon-1661-424242-highlight"
         },
-        "description": "",
-        "naam": "fa-flag-checkered"
+        "description": ""
       }
     },
     {
@@ -1309,15 +1308,14 @@
         ]
       },
       "properties": {
-        "name": "Start individueel",
+        "name": "fa-person-swimming",
         "styleUrl": "#icon-1701-0288D1",
         "styleHash": "507c9fdb",
         "styleMapHash": {
           "normal": "#icon-1701-0288D1-normal",
           "highlight": "#icon-1701-0288D1-highlight"
         },
-        "description": "Start vanaf strand. Opstellen tussen afrastering",
-        "naam": "fa-person-swimming"
+        "description": "Start vanaf strand. Opstellen tussen afrastering"
       }
     },
     {
@@ -1368,8 +1366,7 @@
         "description": "500m per ronde\n\nachtste: 1 ronde\nkwart: 2 ronden",
         "stroke": "#0288d1",
         "stroke-opacity": 1,
-        "stroke-width": 2.55,
-        "naam": "Zwemparcours"
+        "stroke-width": 2.55
       }
     },
     {
@@ -1383,15 +1380,14 @@
         ]
       },
       "properties": {
-        "name": "Boei A",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1405,37 +1401,14 @@
         ]
       },
       "properties": {
-        "name": "Boei D",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5104265,
-          53.2068235,
-          0
-        ]
-      },
-      "properties": {
-        "name": "Boei E",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1449,15 +1422,14 @@
         ]
       },
       "properties": {
-        "name": "Boei F",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1478,7 +1450,7 @@
         ]
       },
       "properties": {
-        "name": "Zwemmen naar finish",
+        "name": "",
         "styleUrl": "#line-0288D1-1969",
         "styleHash": "24e0075a",
         "styleMapHash": {
@@ -1488,8 +1460,7 @@
         "description": "",
         "stroke": "#0288d1",
         "stroke-opacity": 1,
-        "stroke-width": 1.969,
-        "naam": ""
+        "stroke-width": 1.969
       }
     },
     {
@@ -1497,21 +1468,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.513402,
-          53.2066355,
+          6.5104265,
+          53.2068235,
           0
         ]
       },
       "properties": {
-        "name": "Waterstart",
-        "styleUrl": "#icon-1701-C2185B",
-        "styleHash": "-6256c1ad",
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
         "styleMapHash": {
-          "normal": "#icon-1701-C2185B-normal",
-          "highlight": "#icon-1701-C2185B-highlight"
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "Waterstart, opstellen tussen boei en afrastering",
-        "naam": "fa-person-swimming"
+        "description": ""
       }
     },
     {
@@ -1525,15 +1495,14 @@
         ]
       },
       "properties": {
-        "name": "Boei A",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1547,15 +1516,14 @@
         ]
       },
       "properties": {
-        "name": "Boei B",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1569,37 +1537,14 @@
         ]
       },
       "properties": {
-        "name": "Boei C",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5104272,
-          53.206825,
-          0
-        ]
-      },
-      "properties": {
-        "name": "Boei E",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1613,15 +1558,14 @@
         ]
       },
       "properties": {
-        "name": "Boei F",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish",
-        "naam": "fa-circle"
+        "description": "Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish"
       }
     },
     {
@@ -1677,8 +1621,7 @@
         "description": "750m per ronde\n\nsprint: 1 ronde\nstandaard: 2 ronde",
         "stroke": "#0288d1",
         "stroke-opacity": 1,
-        "stroke-width": 2.356,
-        "naam": "Zwemparcours"
+        "stroke-width": 2.356
       }
     },
     {
@@ -1692,15 +1635,14 @@
         ]
       },
       "properties": {
-        "name": "Boei D",
+        "name": "fa-circle",
         "styleUrl": "#icon-1499-FFD600",
         "styleHash": "-5eafd04f",
         "styleMapHash": {
           "normal": "#icon-1499-FFD600-normal",
           "highlight": "#icon-1499-FFD600-highlight"
         },
-        "description": "",
-        "naam": "fa-circle"
+        "description": ""
       }
     },
     {
@@ -1721,7 +1663,7 @@
         ]
       },
       "properties": {
-        "name": "Zwemmen naar finish",
+        "name": "",
         "styleUrl": "#line-0288D1-2356",
         "styleHash": "7804969c",
         "styleMapHash": {
@@ -1731,8 +1673,7 @@
         "description": "",
         "stroke": "#0288d1",
         "stroke-opacity": 1,
-        "stroke-width": 2.356,
-        "naam": ""
+        "stroke-width": 2.356
       }
     },
     {
@@ -1746,15 +1687,56 @@
         ]
       },
       "properties": {
-        "name": "Finish zwemmen",
+        "name": "fa-flag-checkered",
         "styleUrl": "#icon-1661-424242",
         "styleHash": "6480689e",
         "styleMapHash": {
           "normal": "#icon-1661-424242-normal",
           "highlight": "#icon-1661-424242-highlight"
         },
-        "description": "",
-        "naam": "fa-flag-checkered"
+        "description": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513402,
+          53.2066355,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person-swimming",
+        "styleUrl": "#icon-1701-C2185B",
+        "styleHash": "-6256c1ad",
+        "styleMapHash": {
+          "normal": "#icon-1701-C2185B-normal",
+          "highlight": "#icon-1701-C2185B-highlight"
+        },
+        "description": "Waterstart. Opstellen tussen boei en afrastering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5104272,
+          53.206825,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": ""
       }
     },
     {
@@ -2106,12 +2088,13 @@
       },
       "properties": {
         "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-A52714-2550-nodesc",
-        "styleHash": "-198278f5",
+        "styleUrl": "#line-A52714-2550",
+        "styleHash": "-1c8062fe",
         "styleMapHash": {
-          "normal": "#line-A52714-2550-nodesc-normal",
-          "highlight": "#line-A52714-2550-nodesc-highlight"
+          "normal": "#line-A52714-2550-normal",
+          "highlight": "#line-A52714-2550-highlight"
         },
+        "description": "",
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 2.55
@@ -2401,12 +2384,13 @@
       },
       "properties": {
         "name": "Terugkomstrook fietsen",
-        "styleUrl": "#line-A52714-2550-nodesc",
-        "styleHash": "-198278f5",
+        "styleUrl": "#line-A52714-2550",
+        "styleHash": "-1c8062fe",
         "styleMapHash": {
-          "normal": "#line-A52714-2550-nodesc-normal",
-          "highlight": "#line-A52714-2550-nodesc-highlight"
+          "normal": "#line-A52714-2550-normal",
+          "highlight": "#line-A52714-2550-highlight"
         },
+        "description": "",
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 2.55
@@ -3582,7 +3566,7 @@
           "normal": "#line-A52714-2550-normal",
           "highlight": "#line-A52714-2550-highlight"
         },
-        "description": "10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden",
+        "description": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden",
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 2.55
@@ -3599,7 +3583,7 @@
         ]
       },
       "properties": {
-        "name": "fa-arrow-circle-left ",
+        "name": "fa-arrow-circle-left",
         "styleUrl": "#icon-1899-A52714-labelson",
         "styleHash": "599868dc",
         "description": "Keerpunt volgende ronde fietsen, op weg blijven!"
@@ -3616,15 +3600,14 @@
         ]
       },
       "properties": {
-        "name": "Pionnen",
+        "name": "fa-warning",
         "styleUrl": "#icon-1499-FF5252",
         "styleHash": "528e3e01",
         "styleMapHash": {
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Overgang vanaf weg naar fietspad",
-        "naam": "fa-warning"
+        "description": "Overgang vanaf weg naar fietspad"
       }
     },
     {
@@ -3638,15 +3621,14 @@
         ]
       },
       "properties": {
-        "name": "Samenvoegen ronde",
+        "name": "fa-warning",
         "styleUrl": "#icon-1499-FF5252",
         "styleHash": "528e3e01",
         "styleMapHash": {
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg",
-        "naam": "fa-warning"
+        "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg"
       }
     },
     {
@@ -3660,15 +3642,14 @@
         ]
       },
       "properties": {
-        "name": "Oversteken naar fietspad",
+        "name": "fa-warning",
         "styleUrl": "#icon-1499-FF5252",
         "styleHash": "528e3e01",
         "styleMapHash": {
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Oversteken naar fietspad",
-        "naam": "fa-warning"
+        "description": "Oversteken naar fietspad"
       }
     },
     {
@@ -4134,8 +4115,7 @@
         "description": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden\n",
         "stroke": "#097138",
         "stroke-opacity": 1,
-        "stroke-width": 2.356,
-        "naam": "Loopparcours"
+        "stroke-width": 2.356
       }
     },
     {
@@ -4149,15 +4129,14 @@
         ]
       },
       "properties": {
-        "name": "Finish",
+        "name": "fa-flag-checkered",
         "styleUrl": "#icon-1661-097138",
         "styleHash": "14b7d402",
         "styleMapHash": {
           "normal": "#icon-1661-097138-normal",
           "highlight": "#icon-1661-097138-highlight"
         },
-        "description": "Finish, bocht linksom voor het ingaan van volgende loopronde",
-        "naam": "fa-flag-checkered"
+        "description": "Finish, bocht linksom voor het ingaan van volgende loopronde"
       }
     },
     {
@@ -4208,8 +4187,7 @@
         "description": "fa-flag-checkered",
         "stroke": "#097138",
         "stroke-opacity": 1,
-        "stroke-width": 2.356,
-        "naam": "Finish"
+        "stroke-width": 2.356
       }
     }
   ]

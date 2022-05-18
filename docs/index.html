@@ -201,33 +201,26 @@
         function point({ properties, geometry }, n) {
           // Create a DOM element for each marker.
           const el = document.createElement('span');
-          // el.innerHTML = `${properties.name}`;
-          el.className = `marker fa-solid ${
-            properties.beschrijving || properties.description
-          }`;
-          // el.style.border = `2px solid ${properties.borderColor || '#333'}`;
+          el.className = `marker fa-solid ${properties.name}`;
           el.style.color = properties.styleUrl.split('-')[2] || '#333';
-          // el.style.background = 'whitesmoke';
-          //        "name": "Check in/uit",
-          // "styleUrl": "#icon-1769-424242",
-          //         "styleHash": "-66799319",
-          //         "styleMapHash": {
-          //           "normal": "#icon-1769-424242-normal",
-          //           "highlight": "#icon-1769-424242-highlight"
-          //         },
-          //         "description": "beschrijving: fa-check-circle<br>name: Check in/uit",
-          //         "beschrijving": "fa-check-circle"
-          // }
-          // Add markers to the map.
-          new mapboxgl.Marker(el)
-            .setLngLat(geometry.coordinates)
-            .setPopup(
-              new mapboxgl.Popup({ offset: 25 }) // add popups
-                .setHTML(
-                  `<h3>${properties.name}</h3><p>${properties.beschrijving}</p>`
-                )
-            )
-            .addTo(map);
+
+          // Add markers with popups to the map.
+          if (properties.beschrijving || properties.description) {
+            new mapboxgl.Marker(el)
+              .setLngLat(geometry.coordinates)
+              .setPopup(
+                new mapboxgl.Popup({ offset: 25 }) // add popups
+                  .setHTML(
+                    `<p>${
+                      properties.beschrijving || properties.description
+                    }</p>`
+                  )
+              )
+              .addTo(map);
+          } else {
+            // Add markers with popups to the map.
+            new mapboxgl.Marker(el).setLngLat(geometry.coordinates).addTo(map);
+          }
         }
 
         function linestring({ properties, geometry }, n) {
