@@ -37,6 +37,40 @@
         <styleUrl>#icon-1499-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1499-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1499-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1499-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1499-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1499-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1499-FFD600-normal">
       <IconStyle>
         <color>ff00d6ff</color>
@@ -357,7 +391,7 @@
         <styleUrl>#icon-1899-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-A52714-labelson-nodesc">
+    <Style id="icon-1899-A52714-labelson">
       <IconStyle>
         <color>ff1427a5</color>
         <scale>1</scale>
@@ -366,9 +400,6 @@
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
     <Style id="icon-1899-FFD600-nodesc-normal">
       <IconStyle>
@@ -410,6 +441,28 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1899-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-1969-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.969</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-1969-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>2.9535</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-1969">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-1969-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-1969-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-0288D1-2356-normal">
@@ -778,14 +831,14 @@
       </Placemark>
       <Placemark>
         <name>Tijdbalk transitie 1 in</name>
-        <description><![CDATA[beschrijving: fa-clock-o<br>name: Transitie 1]]></description>
+        <description><![CDATA[beschrijving: Tijdbalk transitie 1<br>name: fa-clock-o]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>fa-clock-o</value>
+            <value>Tijdbalk transitie 1</value>
           </Data>
           <Data name="name">
-            <value>Transitie 1</value>
+            <value>fa-clock-o</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -867,19 +920,19 @@
       </Placemark>
       <Placemark>
         <name>Tijdbalk transitie 2 in</name>
-        <description><![CDATA[beschrijving: <br>name: ]]></description>
+        <description><![CDATA[beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-clock-o]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Balk transitie 1 en start transitie 2</value>
           </Data>
           <Data name="name">
-            <value/>
+            <value>fa-clock-o</value>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5132237,53.2077621,0
+            6.513224,53.2077669,0
           </coordinates>
         </Point>
       </Placemark>
@@ -906,14 +959,14 @@
       </Placemark>
       <Placemark>
         <name>Tijdbalk transitie 2 uit</name>
-        <description><![CDATA[beschrijving: <br>name: ]]></description>
+        <description><![CDATA[beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-clock-o]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Tijdbalk transitie 2 en volgende loopronde</value>
           </Data>
           <Data name="name">
-            <value/>
+            <value>fa-clock-o</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -924,14 +977,17 @@
       </Placemark>
       <Placemark>
         <name>Check in/uit</name>
-        <description><![CDATA[beschrijving: fa-check-circle<br>name: Check in/uit]]></description>
+        <description><![CDATA[beschrijving: Check in/out <br><br>Bereikbaar vanaf teamtenten en langs de wisselzone<br><br>name: fa-check-circle]]></description>
         <styleUrl>#icon-1769-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>fa-check-circle</value>
+            <value>Check in/out 
+
+Bereikbaar vanaf teamtenten en langs de wisselzone
+</value>
           </Data>
           <Data name="name">
-            <value>Check in/uit</value>
+            <value>fa-check-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -942,14 +998,14 @@
       </Placemark>
       <Placemark>
         <name>Check in/uit</name>
-        <description><![CDATA[beschrijving: fa-check-circle<br>name: Check in/uit]]></description>
+        <description><![CDATA[beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle]]></description>
         <styleUrl>#icon-1769-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>fa-check-circle</value>
+            <value>Check in/out vanaf registratie via fietsenstalling</value>
           </Data>
           <Data name="name">
-            <value>Check in/uit</value>
+            <value>fa-check-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1018,20 +1074,39 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Tijdbalk transitie 1 uit</name>
-        <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#icon-1899-424242</styleUrl>
+        <name>Wisselbox estafette</name>
+        <description><![CDATA[beschrijving: Wisselen van onderdelen voor estafette deelnemers<br>name: fa-circle]]></description>
+        <styleUrl>#icon-1499-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Wisselen van onderdelen voor estafette deelnemers</value>
           </Data>
           <Data name="name">
-            <value/>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5132224,53.2077757,0
+            6.5137924,53.2073012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strafbox</name>
+        <description><![CDATA[beschrijving: Strafbox<br><br>name: fa-hourglass-half]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Strafbox
+</value>
+          </Data>
+          <Data name="name">
+            <value>fa-hourglass-half</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5136026,53.2075648,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1221,14 +1296,14 @@
       <name>Zwemparcours individueel</name>
       <Placemark>
         <name>Finish zwemmen</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
+        <description><![CDATA[description: <br>naam: fa-flag-checkered]]></description>
         <styleUrl>#icon-1661-424242</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-flag-checkered</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1239,14 +1314,14 @@
       </Placemark>
       <Placemark>
         <name>Start individueel</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
+        <description><![CDATA[description: Start vanaf strand. Opstellen tussen afrastering<br>naam: fa-person-swimming]]></description>
         <styleUrl>#icon-1701-0288D1</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value/>
+            <value>Start vanaf strand. Opstellen tussen afrastering</value>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-person-swimming</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1257,7 +1332,7 @@
       </Placemark>
       <Placemark>
         <name>Zwemparcours individueel</name>
-        <description><![CDATA[description: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden<br>naam: ]]></description>
+        <description><![CDATA[description: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden<br>naam: Zwemparcours]]></description>
         <styleUrl>#line-0288D1-2550</styleUrl>
         <ExtendedData>
           <Data name="description">
@@ -1267,7 +1342,7 @@ achtste: 1 ronde
 kwart: 2 ronden</value>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>Zwemparcours</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -1284,14 +1359,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei A</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1302,14 +1377,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei D</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1320,14 +1395,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei E</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1338,14 +1413,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei F</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1354,19 +1429,39 @@ kwart: 2 ronden</value>
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>Zwemparcours divisies</name>
       <Placemark>
-        <name>Waterstart</name>
-        <description><![CDATA[description: <br>naam: Waterstart]]></description>
-        <styleUrl>#icon-1701-C2185B</styleUrl>
+        <name>Zwemmen naar finish</name>
+        <description><![CDATA[description: <br>naam: ]]></description>
+        <styleUrl>#line-0288D1-1969</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value>Waterstart</value>
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5126044,53.2071709,0
+            6.5133661,53.2071319,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Zwemparcours divisies</name>
+      <Placemark>
+        <name>Waterstart</name>
+        <description><![CDATA[description: Waterstart, opstellen tussen boei en afrastering<br>naam: fa-person-swimming]]></description>
+        <styleUrl>#icon-1701-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Waterstart, opstellen tussen boei en afrastering</value>
+          </Data>
+          <Data name="naam">
+            <value>fa-person-swimming</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1377,14 +1472,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei A</name>
-        <description><![CDATA[description: <br>naam: Boei A]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value>Boei A</value>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1395,14 +1490,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei B</name>
-        <description><![CDATA[description: <br>naam: Boei B]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value>Boei B</value>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1413,14 +1508,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei C</name>
-        <description><![CDATA[description: <br>naam: Boei C]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value>Boei C</value>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1431,14 +1526,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei E</name>
-        <description><![CDATA[description: <br>naam: Boei E]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value>Boei E</value>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1449,14 +1544,14 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei F</name>
-        <description><![CDATA[description: <br>naam: Boei F]]></description>
+        <description><![CDATA[description: Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish<br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value/>
+            <value>Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish</value>
           </Data>
           <Data name="naam">
-            <value>Boei F</value>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1495,14 +1590,14 @@ standaard: 2 ronde</value>
       </Placemark>
       <Placemark>
         <name>Boei D</name>
-        <description><![CDATA[description: <br>naam: Boei D]]></description>
+        <description><![CDATA[description: <br>naam: fa-circle]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="description">
             <value/>
           </Data>
           <Data name="naam">
-            <value>Boei D</value>
+            <value>fa-circle</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1533,14 +1628,14 @@ standaard: 2 ronde</value>
       </Placemark>
       <Placemark>
         <name>Finish zwemmen</name>
-        <description><![CDATA[description: fa-flag-checkered<br>naam: Finish zwemmen]]></description>
+        <description><![CDATA[description: <br>naam: fa-flag-checkered]]></description>
         <styleUrl>#icon-1661-424242</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value>fa-flag-checkered</value>
+            <value/>
           </Data>
           <Data name="naam">
-            <value>Finish zwemmen</value>
+            <value>fa-flag-checkered</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1935,8 +2030,9 @@ standaard: 2 ronde</value>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Keerpunt</name>
-        <styleUrl>#icon-1899-A52714-labelson-nodesc</styleUrl>
+        <name>fa-arrow-circle-left </name>
+        <description>Keerpunt volgende ronde fietsen, op weg blijven!</description>
+        <styleUrl>#icon-1899-A52714-labelson</styleUrl>
         <Point>
           <coordinates>
             6.5088901,53.201241,0
@@ -1948,14 +2044,14 @@ standaard: 2 ronde</value>
       <name>Markering/waarschuwingen</name>
       <Placemark>
         <name>Pionnen</name>
-        <description><![CDATA[description: <br>naam: Pionnen]]></description>
-        <styleUrl>#icon-1499-424242</styleUrl>
+        <description><![CDATA[description: Overgang vanaf weg naar fietspad<br>naam: fa-warning]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value/>
+            <value>Overgang vanaf weg naar fietspad</value>
           </Data>
           <Data name="naam">
-            <value>Pionnen</value>
+            <value>fa-warning</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1966,14 +2062,14 @@ standaard: 2 ronde</value>
       </Placemark>
       <Placemark>
         <name>Samenvoegen ronde</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
-        <styleUrl>#icon-1499-424242</styleUrl>
+        <description><![CDATA[description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<br>naam: fa-warning]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value/>
+            <value>Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg</value>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-warning</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1984,14 +2080,14 @@ standaard: 2 ronde</value>
       </Placemark>
       <Placemark>
         <name>Oversteken naar fietspad</name>
-        <description><![CDATA[description: <br>naam: ]]></description>
-        <styleUrl>#icon-1499-424242</styleUrl>
+        <description><![CDATA[description: Oversteken naar fietspad<br>naam: fa-warning]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value/>
+            <value>Oversteken naar fietspad</value>
           </Data>
           <Data name="naam">
-            <value/>
+            <value>fa-warning</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -2116,14 +2212,14 @@ kwart/standaard: 4 ronden
       </Placemark>
       <Placemark>
         <name>Finish</name>
-        <description><![CDATA[description: fa-flag-checkered<br>naam: Finish]]></description>
+        <description><![CDATA[description: Finish, bocht linksom voor het ingaan van volgende loopronde<br>naam: fa-flag-checkered]]></description>
         <styleUrl>#icon-1661-097138</styleUrl>
         <ExtendedData>
           <Data name="description">
-            <value>fa-flag-checkered</value>
+            <value>Finish, bocht linksom voor het ingaan van volgende loopronde</value>
           </Data>
           <Data name="naam">
-            <value>Finish</value>
+            <value>fa-flag-checkered</value>
           </Data>
         </ExtendedData>
         <Point>

@@ -79,8 +79,11 @@
       }
 
       .marker {
-        border-radius: 0.5em;
-        padding: 0 1em;
+        font-size: 16px;
+        background: whitesmoke;
+        padding: 4px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
       }
 
       .buoy {
@@ -143,7 +146,7 @@
           zoom: 12, // starting zoom
         });
 
-        const data = await fetchSourceFromGithub('speedman-divisies.json');
+        const data = await fetchSourceFromGithub('speedman.json');
         // const data = await fetchSourceFromGithub('zwemmen_1_8.json');
         // const dataTransitie = await fetchSourceFromGithub('transitie.json');
 
@@ -197,15 +200,34 @@
 
         function point({ properties, geometry }, n) {
           // Create a DOM element for each marker.
-          const el = document.createElement('div');
-          el.innerHTML = properties.description || properties.beschrijving;
-          el.className = 'marker';
-          el.style.border = `2px solid ${properties.borderColor || '#333'}`;
-          el.style.color = properties.color || '#333';
-          // el.style.background = properties.backgroundColor || '#333';
-
+          const el = document.createElement('span');
+          // el.innerHTML = `${properties.name}`;
+          el.className = `marker fa-solid ${
+            properties.beschrijving || properties.description
+          }`;
+          // el.style.border = `2px solid ${properties.borderColor || '#333'}`;
+          el.style.color = properties.styleUrl.split('-')[2] || '#333';
+          // el.style.background = 'whitesmoke';
+          //        "name": "Check in/uit",
+          // "styleUrl": "#icon-1769-424242",
+          //         "styleHash": "-66799319",
+          //         "styleMapHash": {
+          //           "normal": "#icon-1769-424242-normal",
+          //           "highlight": "#icon-1769-424242-highlight"
+          //         },
+          //         "description": "beschrijving: fa-check-circle<br>name: Check in/uit",
+          //         "beschrijving": "fa-check-circle"
+          // }
           // Add markers to the map.
-          new mapboxgl.Marker(el).setLngLat(geometry.coordinates).addTo(map);
+          new mapboxgl.Marker(el)
+            .setLngLat(geometry.coordinates)
+            .setPopup(
+              new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML(
+                  `<h3>${properties.name}</h3><p>${properties.beschrijving}</p>`
+                )
+            )
+            .addTo(map);
         }
 
         function linestring({ properties, geometry }, n) {
