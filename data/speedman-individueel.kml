@@ -1411,12 +1411,11 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       </Placemark>
       <Placemark>
         <name>Oversteken</name>
-        <description><![CDATA[beschrijving: name: fa-warning<br>description: Heen: naar fietspad, terug: naar rechterzijde weg<br>name: fa-warning<br>description: Heen: naar fietspad, terug: naar rechterzijde weg]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Heen: naar fietspad, terug: naar rechterzijde weg]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-warning
-description: Heen: naar fietspad, terug: naar rechterzijde weg</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
