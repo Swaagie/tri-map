@@ -105,6 +105,40 @@
         <styleUrl>#icon-1499-FFD600-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1625-424242-normal">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1625-424242-highlight">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1625-424242">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1625-424242-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1625-424242-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1661-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -171,6 +205,40 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1661-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1699-424242-normal">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1699-424242-highlight">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1699-424242">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1699-424242-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1699-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1701-0288D1-normal">
@@ -277,7 +345,7 @@
         <styleUrl>#icon-1899-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-A52714-labelson">
+    <Style id="icon-1899-A52714-normal">
       <IconStyle>
         <color>ff1427a5</color>
         <scale>1</scale>
@@ -286,7 +354,33 @@
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
     </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-0288D1-2356-normal">
       <LineStyle>
         <color>ffd18802</color>
@@ -331,98 +425,54 @@
         <styleUrl>#line-097138-2356-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-424242-2550-normal">
+    <Style id="line-424242-3000-normal">
       <LineStyle>
         <color>ff424242</color>
-        <width>2.55</width>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-424242-2550-highlight">
+    <Style id="line-424242-3000-highlight">
       <LineStyle>
         <color>ff424242</color>
-        <width>3.825</width>
+        <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-424242-2550">
+    <StyleMap id="line-424242-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-424242-2550-normal</styleUrl>
+        <styleUrl>#line-424242-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-424242-2550-highlight</styleUrl>
+        <styleUrl>#line-424242-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-424242-2744-normal">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>2.744</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-424242-2744-highlight">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>4.116</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-424242-2744">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-424242-2744-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-424242-2744-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-424242-2938-normal">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>2.938</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-424242-2938-highlight">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>4.407</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-424242-2938">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-424242-2938-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-424242-2938-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-A52714-2550-normal">
+    <Style id="line-A52714-3000-normal">
       <LineStyle>
         <color>ff1427a5</color>
-        <width>2.55</width>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-A52714-2550-highlight">
+    <Style id="line-A52714-3000-highlight">
       <LineStyle>
         <color>ff1427a5</color>
-        <width>3.825</width>
+        <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-A52714-2550">
+    <StyleMap id="line-A52714-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-A52714-2550-normal</styleUrl>
+        <styleUrl>#line-A52714-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-A52714-2550-highlight</styleUrl>
+        <styleUrl>#line-A52714-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-000000-1200-77-normal">
+    <Style id="poly-000000-2000-77-normal">
       <LineStyle>
         <color>ff000000</color>
-        <width>1.2</width>
+        <width>2</width>
       </LineStyle>
       <PolyStyle>
         <color>4d000000</color>
@@ -430,10 +480,10 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <Style id="poly-000000-1200-77-highlight">
+    <Style id="poly-000000-2000-77-highlight">
       <LineStyle>
         <color>ff000000</color>
-        <width>1.8</width>
+        <width>3</width>
       </LineStyle>
       <PolyStyle>
         <color>4d000000</color>
@@ -441,52 +491,20 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <StyleMap id="poly-000000-1200-77">
+    <StyleMap id="poly-000000-2000-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+        <styleUrl>#poly-000000-2000-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+        <styleUrl>#poly-000000-2000-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-000000-1501-77-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.501</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-000000-1501-77-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>2.2515</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-000000-1501-77">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-000000-1501-77-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-000000-1501-77-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-0288D1-1200-77-normal">
+    <Style id="poly-0288D1-2000-77-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>1.2</width>
+        <width>2</width>
       </LineStyle>
       <PolyStyle>
         <color>4dd18802</color>
@@ -494,10 +512,10 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <Style id="poly-0288D1-1200-77-highlight">
+    <Style id="poly-0288D1-2000-77-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>1.8</width>
+        <width>3</width>
       </LineStyle>
       <PolyStyle>
         <color>4dd18802</color>
@@ -505,46 +523,18 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <StyleMap id="poly-0288D1-1200-77">
+    <StyleMap id="poly-0288D1-2000-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-0288D1-1200-77-normal</styleUrl>
+        <styleUrl>#poly-0288D1-2000-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-0288D1-1200-77-highlight</styleUrl>
+        <styleUrl>#poly-0288D1-2000-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>Wisselzone en transities</name>
-      <Placemark>
-        <name>Wisselzone</name>
-        <description><![CDATA[beschrijving: Wisselzone<br>name: ]]></description>
-        <styleUrl>#poly-000000-1501-77</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Wisselzone</value>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                6.5136133,53.2075471,0
-                6.5137554,53.2073174,0
-                6.5138949,53.207033,0
-                6.5143723,53.2071118,0
-                6.5140612,53.2076146,0
-                6.5136133,53.2075471,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
       <Placemark>
         <name>Tijdbalk transitie 1 in</name>
         <description><![CDATA[beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch]]></description>
@@ -559,14 +549,14 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.514018,53.2070541,0
+            6.514018,53.207054,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Transitie 1 in</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2938</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -578,17 +568,17 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5133661,53.2071319,0
-            6.5138715,53.2070063,0
-            6.5140298,53.2070344,0
-            6.514018,53.2070541,0
+            6.513366,53.207132,0
+            6.513872,53.207006,0
+            6.51403,53.207034,0
+            6.514018,53.207054,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Transitie 1 uit</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2744</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -600,16 +590,16 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5138675,53.2075846,0
-            6.5137642,53.20775,0
-            6.5132224,53.2077757,0
+            6.513868,53.207585,0
+            6.513764,53.20775,0
+            6.513222,53.207776,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Transitie 2 in</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2550</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -621,16 +611,16 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5132237,53.2077621,0
-            6.5133337,53.2077532,0
-            6.5134423,53.2077002,0
-            6.5135121,53.2076464,0
-            6.5136113,53.2075083,0
-            6.5136703,53.2074207,0
-            6.5137387,53.2072898,0
-            6.5138085,53.2071587,0
-            6.5138536,53.2070603,0
-            6.5138827,53.2070614,0
+            6.513224,53.207762,0
+            6.513334,53.207753,0
+            6.513442,53.2077,0
+            6.513512,53.207646,0
+            6.513611,53.207508,0
+            6.51367,53.207421,0
+            6.513739,53.20729,0
+            6.513808,53.207159,0
+            6.513854,53.20706,0
+            6.513883,53.207061,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -648,14 +638,14 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.513224,53.2077669,0
+            6.513224,53.207767,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Transitie 2 uit</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2938</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -667,9 +657,9 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5140821,53.2075816,0
-            6.5141277,53.2076081,0
-            6.5141478,53.2076747,0
+            6.514082,53.207582,0
+            6.514128,53.207608,0
+            6.514148,53.207675,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -687,105 +677,9 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5141478,53.2076747,0
+            6.514148,53.207675,0
           </coordinates>
         </Point>
-      </Placemark>
-      <Placemark>
-        <name>Check in/uit</name>
-        <description><![CDATA[beschrijving: Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone<br><br>name: fa-check-circle]]></description>
-        <styleUrl>#icon-1769-424242</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone
-</value>
-          </Data>
-          <Data name="name">
-            <value>fa-check-circle</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5143056,53.2071017,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Check in/uit</name>
-        <description><![CDATA[beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle]]></description>
-        <styleUrl>#icon-1769-424242</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Check in/out vanaf registratie via fietsenstalling</value>
-          </Data>
-          <Data name="name">
-            <value>fa-check-circle</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5139519,53.2075987,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Registratie en organisatie</name>
-        <description><![CDATA[beschrijving: Registratie<br>name: ]]></description>
-        <styleUrl>#poly-000000-1200-77</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Registratie</value>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                6.5129052,53.2079579,0
-                6.5128998,53.2078921,0
-                6.5132458,53.2078776,0
-                6.5132512,53.2079418,0
-                6.5129052,53.2079579,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Teamtenten</name>
-        <description><![CDATA[beschrijving: Teamtenten<br>name: ]]></description>
-        <styleUrl>#poly-0288D1-1200-77</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Teamtenten</value>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                6.5140279,53.2069347,0
-                6.51417,53.2068721,0
-                6.5143471,53.206848,0
-                6.514449,53.2068223,0
-                6.5145268,53.206766,0
-                6.5145938,53.2066552,0
-                6.5148486,53.2067419,0
-                6.5147333,53.2069443,0
-                6.5146019,53.2070504,0
-                6.5140279,53.2069347,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
       </Placemark>
       <Placemark>
         <name>Wisselbox estafette</name>
@@ -801,18 +695,17 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5137924,53.2073012,0
+            6.513792,53.207301,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Strafbox</name>
-        <description><![CDATA[beschrijving: Strafbox<br><br>name: fa-hourglass-half]]></description>
+        <description><![CDATA[beschrijving: Strafbox<br>name: fa-hourglass-half]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Strafbox
-</value>
+            <value>Strafbox</value>
           </Data>
           <Data name="name">
             <value>fa-hourglass-half</value>
@@ -820,7 +713,43 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5136026,53.2075648,0
+            6.513603,53.207565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drop-off teamtenten</name>
+        <description><![CDATA[beschrijving: Ophalen en afzetten teamtenten, geen parkeergelegenheid! Volg de aanwijzingen van de vrijwilligers.<br>name: fa-suitcase]]></description>
+        <styleUrl>#icon-1699-424242</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Ophalen en afzetten teamtenten, geen parkeergelegenheid! Volg de aanwijzingen van de vrijwilligers.</value>
+          </Data>
+          <Data name="name">
+            <value>fa-suitcase</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.51269,53.208286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Captains/race briefing</name>
+        <description><![CDATA[beschrijving: Verzamelen nabij speeltoestel<br>name: fa-microphone]]></description>
+        <styleUrl>#icon-1625-424242</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Verzamelen nabij speeltoestel</value>
+          </Data>
+          <Data name="name">
+            <value>fa-microphone</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514214,53.20669,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1021,495 +950,6 @@ standaard: 2 ronde</value>
       </Placemark>
     </Folder>
     <Folder>
-      <name>Fietsparcours</name>
-      <Placemark>
-        <name>Aanloopstrook fietsen</name>
-        <description><![CDATA[name: Aanloopstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-A52714-2550</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>Aanloopstrook fietsen</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5132224,53.2077757,0
-            6.5099379,53.2079483,0
-            6.5096241,53.2079483,0
-            6.5083957,53.2080125,0
-            6.5072048,53.2080736,0
-            6.5068465,53.2080903,0
-            6.5067822,53.2080824,0
-            6.5067087,53.2080623,0
-            6.5065989,53.2080219,0
-            6.5065909,53.2079962,0
-            6.5066231,53.2079303,0
-            6.5067116,53.2078259,0
-            6.5068376,53.2076637,0
-            6.5069369,53.2075159,0
-            6.5072427,53.2070123,0
-            6.507641,53.2063368,0
-            6.5080248,53.2056763,0
-            6.5082876,53.2052538,0
-            6.5084566,53.2049839,0
-            6.5091379,53.2042112,0
-            6.5095,53.2038256,0
-            6.5101866,53.203085,0
-            6.5113266,53.2018913,0
-            6.5115599,53.2016503,0
-            6.5117235,53.2014253,0
-            6.5117155,53.2013723,0
-            6.5116887,53.2013129,0
-            6.5116323,53.2012695,0
-            6.5115519,53.2012293,0
-            6.5114285,53.2011892,0
-            6.5113373,53.2011458,0
-            6.5112247,53.2010895,0
-            6.5111388,53.2010172,0
-            6.5110664,53.2009642,0
-            6.5109591,53.2008726,0
-            6.510876,53.2008485,0
-            6.5107901,53.2008325,0
-            6.5107016,53.2008373,0
-            6.5104978,53.2008791,0
-            6.5102644,53.2009465,0
-            6.5098111,53.2010879,0
-            6.5090172,53.2013225,0
-            6.508698,53.2014028,0
-            6.5083413,53.2014832,0
-            6.5077405,53.2015635,0
-            6.507491,53.2015828,0
-            6.5070914,53.2016406,0
-            6.5066971,53.2017226,0
-            6.5062438,53.2018431,0
-            6.5051823,53.2021668,0
-            6.5049738,53.2022334,0
-            6.5039509,53.2025443,0
-            6.5016388,53.2032376,0
-            6.5008448,53.2034465,0
-            6.5000616,53.2036103,0
-            6.4994715,53.2037292,0
-            6.4989887,53.2038095,0
-            6.498345,53.2038963,0
-            6.4976655,53.2039711,0
-            6.4970084,53.2040273,0
-            6.4966288,53.2040514,0
-            6.4959096,53.2040804,0
-            6.4955489,53.2040965,0
-            6.4941273,53.2041575,0
-            6.4930705,53.2041921,0
-            6.4925475,53.2042097,0
-            6.4924536,53.2041969,0
-            6.492302,53.2041969,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Terugkomstrook fietsen</name>
-        <description><![CDATA[name: Terugkomstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-A52714-2550</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>Terugkomstrook fietsen</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5089268,53.2012125,0
-            6.5090092,53.2012443,0
-            6.5090991,53.2012267,0
-            6.5092868,53.2011769,0
-            6.5095014,53.201111,0
-            6.5097334,53.2010355,0
-            6.5099319,53.2009559,0
-            6.51007,53.2008893,0
-            6.5102832,53.2007897,0
-            6.5104254,53.2007278,0
-            6.5105863,53.2006908,0
-            6.5107137,53.2006796,0
-            6.5108157,53.2006876,0
-            6.5108881,53.2007053,0
-            6.5109337,53.2007149,0
-            6.5110048,53.2007656,0
-            6.5110919,53.2008772,0
-            6.5112073,53.2009704,0
-            6.5112877,53.2010379,0
-            6.5114648,53.2011254,0
-            6.5116418,53.2011889,0
-            6.5117906,53.2012925,0
-            6.5118121,53.2013102,0
-            6.5118416,53.2013681,0
-            6.5118121,53.2014283,0
-            6.5115653,53.2017287,0
-            6.5108706,53.2024662,0
-            6.5105112,53.2028405,0
-            6.5101786,53.2031771,0
-            6.5099265,53.2034301,0
-            6.5098058,53.2035659,0
-            6.5096288,53.203782,0
-            6.5093632,53.2040487,0
-            6.5091943,53.2042037,0
-            6.5089716,53.2044664,0
-            6.5086122,53.204876,0
-            6.5084419,53.2050889,0
-            6.5082863,53.2053331,0
-            6.5079296,53.2059661,0
-            6.5076185,53.2064801,0
-            6.5074227,53.2068095,0
-            6.5070981,53.2074119,0
-            6.5068514,53.2077492,0
-            6.5068138,53.207844,0
-            6.5068413,53.2079324,0
-            6.5069426,53.2079838,0
-            6.5070901,53.208007,0
-            6.5072832,53.2080183,0
-            6.507821,53.2079902,0
-            6.5086972,53.2079439,0
-            6.5089412,53.2079696,0
-            6.509589,53.2079334,0
-            6.5097633,53.2079326,0
-            6.5099471,53.2079318,0
-            6.5132237,53.2077621,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Fietsparcours</name>
-        <description><![CDATA[name: Fietsparcours<br>description: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden]]></description>
-        <styleUrl>#line-A52714-2550</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>Fietsparcours</value>
-          </Data>
-          <Data name="description">
-            <value>10.6 km per ronde
-
-achtste/sprint: 2 ronden
-kwart/standaard: 4 ronden</value>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5050013,53.2021868,0
-            6.5044289,53.2023621,0
-            6.5036269,53.2026139,0
-            6.5032206,53.2027366,0
-            6.5028182,53.2028601,0
-            6.5025804,53.2029247,0
-            6.5022907,53.2030114,0
-            6.5017274,53.2031785,0
-            6.5012755,53.2033047,0
-            6.5006518,53.203458,0
-            6.5003407,53.2035255,0
-            6.499634,53.2036677,0
-            6.4987609,53.2038155,0
-            6.4980166,53.2039006,0
-            6.4967881,53.2040003,0
-            6.4952941,53.204075,0
-            6.4937546,53.204136,0
-            6.493312,53.2041464,0
-            6.4926548,53.2041786,0
-            6.4924738,53.2041858,0
-            6.4915873,53.2042396,0
-            6.4914519,53.2042517,0
-            6.4913339,53.2042774,0
-            6.4912507,53.2043191,0
-            6.4912024,53.204369,0
-            6.491189,53.2044557,0
-            6.4912078,53.2045698,0
-            6.4912561,53.2050421,0
-            6.4912239,53.2053457,0
-            6.4910898,53.2056654,0
-            6.490674,53.2064285,0
-            6.4888555,53.209512,0
-            6.4887898,53.2095232,0
-            6.4887107,53.2095192,0
-            6.4886221,53.2095064,0
-            6.4865582,53.2091096,0
-            6.4863731,53.2090437,0
-            6.4862792,53.2089859,0
-            6.4861854,53.2089297,0
-            6.4860057,53.2088686,0
-            6.4842756,53.2085409,0
-            6.4806791,53.2078559,0
-            6.4805933,53.2078816,0
-            6.4805396,53.2079395,0
-            6.4796169,53.2097033,0
-            6.4794989,53.2097579,0
-            6.4793487,53.2097643,0
-            6.4792146,53.2097322,0
-            6.4715059,53.2081419,0
-            6.4713906,53.2080953,0
-            6.4713691,53.2080744,0
-            6.4713396,53.2080326,0
-            6.4713423,53.2079796,0
-            6.4719673,53.206778,0
-            6.4729865,53.2056888,0
-            6.4729865,53.2056229,0
-            6.4729517,53.2055699,0
-            6.4729007,53.2055314,0
-            6.4727317,53.2054896,0
-            6.4725976,53.2054832,0
-            6.4724903,53.2054944,0
-            6.4723669,53.2055201,0
-            6.4722355,53.2055073,0
-            6.4721684,53.2054719,0
-            6.4721068,53.2054221,0
-            6.4720558,53.2053804,0
-            6.4719244,53.2053402,0
-            6.4717607,53.2053081,0
-            6.4716454,53.2052952,0
-            6.4716374,53.2052294,0
-            6.4716803,53.2050783,0
-            6.4723991,53.2034397,0
-            6.4724152,53.2033433,0
-            6.472375,53.2032774,0
-            6.4722516,53.2031858,0
-            6.4720826,53.20312,0
-            6.4711358,53.2026942,0
-            6.4709775,53.2026396,0
-            6.4707576,53.2025769,0
-            6.470138,53.2024564,0
-            6.4700549,53.2024275,0
-            6.4700388,53.2024018,0
-            6.4700227,53.2023697,0
-            6.4700415,53.2023263,0
-            6.4700871,53.2021945,0
-            6.4700736,53.2021721,0
-            6.4700522,53.2021319,0
-            6.4699798,53.2020837,0
-            6.4698188,53.2020548,0
-            6.4671742,53.2015631,0
-            6.4660316,53.2013141,0
-            6.4640601,53.2008771,0
-            6.4634754,53.2007437,0
-            6.4613672,53.2002682,0
-            6.4611821,53.2002023,0
-            6.4609836,53.2001268,0
-            6.4608093,53.2000464,0
-            6.4606376,53.1999902,0
-            6.4595969,53.199754,0
-            6.455689,53.1988816,0
-            6.4519298,53.1980605,0
-            6.451333,53.1979569,0
-            6.4499571,53.1977175,0
-            6.4489995,53.1975777,0
-            6.4486321,53.1975327,0
-            6.4485033,53.1975005,0
-            6.4484309,53.1974588,0
-            6.448388,53.1974138,0
-            6.4483451,53.197372,0
-            6.4480956,53.1967469,0
-            6.4481251,53.1966971,0
-            6.4481761,53.1966457,0
-            6.4482619,53.1966088,0
-            6.4483531,53.1965943,0
-            6.4484792,53.1965911,0
-            6.4486052,53.1965975,0
-            6.4490934,53.1966586,0
-            6.4499517,53.1967855,0
-            6.4502602,53.1968385,0
-            6.451671,53.1971792,0
-            6.4535566,53.1976403,0
-            6.4565446,53.1983602,0
-            6.4591705,53.1989916,0
-            6.4609246,53.1994142,0
-            6.4610373,53.1994238,0
-            6.4611365,53.1994206,0
-            6.4612036,53.1994078,0
-            6.4612787,53.1993837,0
-            6.4613377,53.1993547,0
-            6.4613886,53.1993531,0
-            6.461453,53.1993692,0
-            6.4616891,53.1995026,0
-            6.4618419,53.1995813,0
-            6.4619546,53.1996231,0
-            6.4621947,53.1996817,0
-            6.4648782,53.2003035,0
-            6.4654012,53.200424,0
-            6.4661013,53.200559,0
-            6.4672278,53.200755,0
-            6.4695023,53.2011567,0
-            6.4713544,53.2014764,0
-            6.4718238,53.2015141,0
-            6.4729074,53.2015832,0
-            6.4731609,53.2016089,0
-            6.4734479,53.2016555,0
-            6.4740111,53.2017616,0
-            6.4743209,53.201829,0
-            6.4746964,53.2019134,0
-            6.4751591,53.2020283,0
-            6.4759611,53.20225,0
-            6.4768462,53.2025239,0
-            6.4773156,53.2026685,0
-            6.4779567,53.2028083,0
-            6.4787613,53.2029705,0
-            6.4799093,53.2031939,0
-            6.481186,53.2034188,0
-            6.4826948,53.2036582,0
-            6.4830783,53.2036807,0
-            6.4838508,53.2037168,0
-            6.484351,53.2037184,0
-            6.4848794,53.2037047,0
-            6.4860703,53.2036381,0
-            6.4873122,53.203561,0
-            6.4898227,53.2034019,0
-            6.4900641,53.2033891,0
-            6.490209,53.2034132,0
-            6.4902814,53.2034453,0
-            6.490335,53.2034951,0
-            6.4903726,53.203561,0
-            6.4904477,53.204051,0
-            6.4905161,53.2047803,0
-            6.4904752,53.2050908,0
-            6.4903404,53.2055037,0
-            6.490154,53.2059631,0
-            6.4900615,53.2061961,0
-            6.4900145,53.2063872,0
-            6.4900226,53.206474,0
-            6.4900628,53.2065318,0
-            6.4901138,53.2065607,0
-            6.4902237,53.2065864,0
-            6.4903149,53.2066041,0
-            6.4904303,53.2065977,0
-            6.4905107,53.206572,0
-            6.4905885,53.2064836,0
-            6.4910069,53.2057189,0
-            6.4911759,53.205351,0
-            6.4911974,53.2052354,0
-            6.491192,53.2049334,0
-            6.4911276,53.2044112,0
-            6.4911437,53.2043502,0
-            6.4911759,53.2043148,0
-            6.4912135,53.2042843,0
-            6.4912644,53.2042522,0
-            6.4913234,53.2042313,0
-            6.4913905,53.2042184,0
-            6.4914683,53.2042056,0
-            6.4920342,53.2041815,0
-            6.4930803,53.2041269,0
-            6.4939574,53.2040963,0
-            6.4960012,53.2040064,0
-            6.496763,53.2039678,0
-            6.4977902,53.2038907,0
-            6.4983616,53.2038361,0
-            6.4989168,53.2037678,0
-            6.4993822,53.2036827,0
-            6.5002526,53.2035172,0
-            6.5006616,53.2034321,0
-            6.5012208,53.2032931,0
-            6.5022897,53.2029886,0
-            6.5033612,53.2026729,0
-            6.5056464,53.201958,0
-            6.5062875,53.2017571,0
-            6.5067596,53.2016366,0
-            6.5072102,53.2015531,0
-            6.5078003,53.2014792,0
-            6.5086532,53.2012912,0
-            6.508849,53.2012157,0
-            6.5089268,53.2012125,0
-            6.5089328,53.2012438,0
-            6.5089161,53.2012723,0
-            6.5088617,53.2012988,0
-            6.5087638,53.2013242,0
-            6.5082483,53.2014381,0
-            6.5078781,53.2015039,0
-            6.5075777,53.2015377,0
-            6.5072881,53.2015666,0
-            6.5068348,53.201655,0
-            6.5065478,53.2017257,0
-            6.5060623,53.2018622,0
-            6.5053247,53.2020839,0
-            6.5050013,53.2021868,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Keerpunt</name>
-        <description><![CDATA[name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!]]></description>
-        <styleUrl>#icon-1899-A52714-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-arrow-circle-left</value>
-          </Data>
-          <Data name="description">
-            <value>Keerpunt volgende ronde fietsen, op weg blijven!</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5088901,53.201241,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Markering/waarschuwingen</name>
-      <Placemark>
-        <name>Pionnen</name>
-        <description><![CDATA[name: fa-warning<br>description: Overgang vanaf weg naar fietspad]]></description>
-        <styleUrl>#icon-1499-FF5252</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-warning</value>
-          </Data>
-          <Data name="description">
-            <value>Overgang vanaf weg naar fietspad</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5087135,53.2079456,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Samenvoegen ronde</name>
-        <description><![CDATA[name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg]]></description>
-        <styleUrl>#icon-1499-FF5252</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-warning</value>
-          </Data>
-          <Data name="description">
-            <value>Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.4923278,53.2041996,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Oversteken</name>
-        <description><![CDATA[name: fa-warning<br>description: Oversteken naar fietspad]]></description>
-        <styleUrl>#icon-1499-FF5252</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-warning</value>
-          </Data>
-          <Data name="description">
-            <value>Oversteken naar fietspad</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5067087,53.2080623,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
       <name>Loopparcours</name>
       <Placemark>
         <name>Loopparcours</name>
@@ -1663,6 +1103,658 @@ kwart/standaard: 4 ronden
             6.5142872,53.2073597,0
           </coordinates>
         </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Wisselzone</name>
+      <Placemark>
+        <name>Wisselzone</name>
+        <description><![CDATA[beschrijving: Wisselzone<br>name: ]]></description>
+        <styleUrl>#poly-000000-2000-77</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Wisselzone</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                6.513613,53.207547,0
+                6.513755,53.207317,0
+                6.513895,53.207033,0
+                6.514372,53.207112,0
+                6.514061,53.207615,0
+                6.513613,53.207547,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Teamtenten</name>
+        <description><![CDATA[beschrijving: Teamtenten<br>name: ]]></description>
+        <styleUrl>#poly-0288D1-2000-77</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Teamtenten</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                6.514028,53.206935,0
+                6.51417,53.206872,0
+                6.514347,53.206848,0
+                6.514449,53.206822,0
+                6.514527,53.206766,0
+                6.514594,53.206655,0
+                6.514849,53.206742,0
+                6.514733,53.206944,0
+                6.514602,53.20705,0
+                6.514028,53.206935,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Check in/uit</name>
+        <description><![CDATA[beschrijving: Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone<br>name: fa-check-circle]]></description>
+        <styleUrl>#icon-1769-424242</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone</value>
+          </Data>
+          <Data name="name">
+            <value>fa-check-circle</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514306,53.207102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Check in/uit</name>
+        <description><![CDATA[beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle]]></description>
+        <styleUrl>#icon-1769-424242</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Check in/out vanaf registratie via fietsenstalling</value>
+          </Data>
+          <Data name="name">
+            <value>fa-check-circle</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513952,53.207599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Registratie en organisatie</name>
+        <description><![CDATA[beschrijving: Registratie<br>name: ]]></description>
+        <styleUrl>#poly-000000-2000-77</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Registratie</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                6.512905,53.207958,0
+                6.5129,53.207892,0
+                6.513246,53.207878,0
+                6.513251,53.207942,0
+                6.512905,53.207958,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Fietsparcours</name>
+      <Placemark>
+        <name>Aanloopstrook fietsen</name>
+        <description><![CDATA[beschrijving: name: Aanloopstrook fietsen<br>description:<br>name: Aanloopstrook fietsen<br>description: ]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: Aanloopstrook fietsen
+description:</value>
+          </Data>
+          <Data name="name">
+            <value>Aanloopstrook fietsen</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.513222,53.207776,0
+            6.509938,53.207948,0
+            6.509624,53.207948,0
+            6.508396,53.208012,0
+            6.507205,53.208074,0
+            6.506846,53.20809,0
+            6.506782,53.208082,0
+            6.506709,53.208062,0
+            6.506652,53.20803,0
+            6.506674,53.207982,0
+            6.506714,53.207927,0
+            6.506797,53.207826,0
+            6.506894,53.207694,0
+            6.507001,53.207537,0
+            6.507318,53.207009,0
+            6.507722,53.20633,0
+            6.508092,53.205676,0
+            6.508321,53.205296,0
+            6.508331,53.205255,0
+            6.50833,53.20522,0
+            6.508348,53.205165,0
+            6.508457,53.204984,0
+            6.509138,53.204211,0
+            6.5095,53.203826,0
+            6.510187,53.203085,0
+            6.511327,53.201891,0
+            6.51156,53.20165,0
+            6.511724,53.201425,0
+            6.511716,53.201372,0
+            6.511689,53.201313,0
+            6.511632,53.20127,0
+            6.511552,53.201229,0
+            6.511428,53.201189,0
+            6.511337,53.201146,0
+            6.511225,53.20109,0
+            6.511139,53.201017,0
+            6.511066,53.200964,0
+            6.510959,53.200873,0
+            6.510876,53.200848,0
+            6.51079,53.200832,0
+            6.510702,53.200837,0
+            6.510498,53.200879,0
+            6.510264,53.200946,0
+            6.509811,53.201088,0
+            6.509017,53.201322,0
+            6.508698,53.201403,0
+            6.508341,53.201483,0
+            6.50774,53.201564,0
+            6.507491,53.201583,0
+            6.507091,53.201641,0
+            6.506697,53.201723,0
+            6.506244,53.201843,0
+            6.505182,53.202167,0
+            6.504974,53.202233,0
+            6.503951,53.202544,0
+            6.501639,53.203238,0
+            6.500845,53.203446,0
+            6.500062,53.20361,0
+            6.499472,53.203729,0
+            6.498989,53.20381,0
+            6.498345,53.203896,0
+            6.497666,53.203971,0
+            6.497008,53.204027,0
+            6.496629,53.204051,0
+            6.49591,53.20408,0
+            6.495549,53.204096,0
+            6.494127,53.204158,0
+            6.49307,53.204192,0
+            6.492548,53.20421,0
+            6.492454,53.204197,0
+            6.492302,53.204197,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Terugkomstrook fietsen</name>
+        <description><![CDATA[beschrijving: name: Terugkomstrook fietsen<br>description:<br>name: Terugkomstrook fietsen<br>description: ]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: Terugkomstrook fietsen
+description:</value>
+          </Data>
+          <Data name="name">
+            <value>Terugkomstrook fietsen</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.508927,53.201212,0
+            6.509009,53.201244,0
+            6.509099,53.201227,0
+            6.509287,53.201177,0
+            6.509501,53.201111,0
+            6.509733,53.201036,0
+            6.509932,53.200956,0
+            6.51007,53.200889,0
+            6.510283,53.20079,0
+            6.510425,53.200728,0
+            6.510586,53.200691,0
+            6.510714,53.20068,0
+            6.510816,53.200688,0
+            6.510888,53.200705,0
+            6.510934,53.200715,0
+            6.511005,53.200766,0
+            6.511092,53.200877,0
+            6.511207,53.20097,0
+            6.511288,53.201038,0
+            6.511465,53.201125,0
+            6.511642,53.201189,0
+            6.511791,53.201292,0
+            6.511812,53.20131,0
+            6.511842,53.201368,0
+            6.511812,53.201428,0
+            6.511565,53.201729,0
+            6.510871,53.202466,0
+            6.510511,53.20284,0
+            6.510179,53.203177,0
+            6.509926,53.20343,0
+            6.509806,53.203566,0
+            6.509629,53.203782,0
+            6.509363,53.204049,0
+            6.509194,53.204204,0
+            6.508972,53.204466,0
+            6.508624,53.20488,0
+            6.508454,53.205091,0
+            6.508426,53.205155,0
+            6.508423,53.20521,0
+            6.508412,53.205265,0
+            6.508399,53.205303,0
+            6.507978,53.205969,0
+            6.507699,53.20647,0
+            6.507514,53.206814,0
+            6.507179,53.207407,0
+            6.506953,53.207741,0
+            6.506878,53.207846,0
+            6.506868,53.207934,0
+            6.506943,53.207984,0
+            6.50709,53.208007,0
+            6.507283,53.208018,0
+            6.507821,53.20799,0
+            6.508697,53.207944,0
+            6.508941,53.20797,0
+            6.509589,53.207933,0
+            6.509763,53.207933,0
+            6.509947,53.207932,0
+            6.513224,53.207762,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fietsparcours</name>
+        <description><![CDATA[beschrijving: name: Fietsparcours<br>description: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>name: Fietsparcours<br>description: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: Fietsparcours
+description: 10.6 km per ronde
+
+achtste/sprint: 2 ronden
+kwart/standaard: 4 ronden</value>
+          </Data>
+          <Data name="name">
+            <value>Fietsparcours</value>
+          </Data>
+          <Data name="description">
+            <value>10.6 km per ronde
+
+achtste/sprint: 2 ronden
+kwart/standaard: 4 ronden</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.505001,53.202187,0
+            6.504429,53.202362,0
+            6.503627,53.202614,0
+            6.503221,53.202737,0
+            6.502818,53.20286,0
+            6.50258,53.202925,0
+            6.502291,53.203011,0
+            6.501727,53.203178,0
+            6.501276,53.203305,0
+            6.500652,53.203458,0
+            6.500341,53.203526,0
+            6.499634,53.203668,0
+            6.498761,53.203816,0
+            6.498017,53.203901,0
+            6.496788,53.204,0
+            6.495294,53.204075,0
+            6.493755,53.204136,0
+            6.493312,53.204146,0
+            6.492655,53.204179,0
+            6.492474,53.204186,0
+            6.491587,53.20424,0
+            6.491452,53.204252,0
+            6.491334,53.204277,0
+            6.491251,53.204319,0
+            6.491202,53.204369,0
+            6.491189,53.204456,0
+            6.491208,53.20457,0
+            6.491256,53.205042,0
+            6.491224,53.205346,0
+            6.49109,53.205665,0
+            6.490674,53.206428,0
+            6.488856,53.209512,0
+            6.48879,53.209523,0
+            6.488711,53.209519,0
+            6.488622,53.209506,0
+            6.486558,53.20911,0
+            6.486373,53.209044,0
+            6.486279,53.208986,0
+            6.486185,53.20893,0
+            6.486006,53.208869,0
+            6.484276,53.208541,0
+            6.480679,53.207856,0
+            6.480593,53.207882,0
+            6.48054,53.20794,0
+            6.479617,53.209703,0
+            6.479499,53.209758,0
+            6.479349,53.209764,0
+            6.479215,53.209732,0
+            6.471506,53.208142,0
+            6.471391,53.208095,0
+            6.471369,53.208074,0
+            6.47134,53.208033,0
+            6.471342,53.20798,0
+            6.471967,53.206778,0
+            6.472986,53.205689,0
+            6.472986,53.205623,0
+            6.472952,53.20557,0
+            6.472901,53.205531,0
+            6.472732,53.20549,0
+            6.472598,53.205483,0
+            6.47249,53.205494,0
+            6.472367,53.20552,0
+            6.472236,53.205507,0
+            6.472168,53.205472,0
+            6.472107,53.205422,0
+            6.472056,53.20538,0
+            6.471924,53.20534,0
+            6.471761,53.205308,0
+            6.471645,53.205295,0
+            6.471637,53.205229,0
+            6.47168,53.205078,0
+            6.472399,53.20344,0
+            6.472415,53.203343,0
+            6.472375,53.203277,0
+            6.472252,53.203186,0
+            6.472083,53.20312,0
+            6.471136,53.202694,0
+            6.470978,53.20264,0
+            6.470758,53.202577,0
+            6.470138,53.202456,0
+            6.470055,53.202428,0
+            6.470039,53.202402,0
+            6.470023,53.20237,0
+            6.470042,53.202326,0
+            6.470087,53.202194,0
+            6.470074,53.202172,0
+            6.470052,53.202132,0
+            6.46998,53.202084,0
+            6.469819,53.202055,0
+            6.467174,53.201563,0
+            6.466032,53.201314,0
+            6.46406,53.200877,0
+            6.463475,53.200744,0
+            6.461367,53.200268,0
+            6.461182,53.200202,0
+            6.460984,53.200127,0
+            6.460809,53.200046,0
+            6.460638,53.19999,0
+            6.459597,53.199754,0
+            6.455689,53.198882,0
+            6.45193,53.19806,0
+            6.451333,53.197957,0
+            6.449957,53.197718,0
+            6.449,53.197578,0
+            6.448632,53.197533,0
+            6.448503,53.1975,0
+            6.448431,53.197459,0
+            6.448388,53.197414,0
+            6.448345,53.197372,0
+            6.448096,53.196747,0
+            6.448125,53.196697,0
+            6.448176,53.196646,0
+            6.448262,53.196609,0
+            6.448353,53.196594,0
+            6.448479,53.196591,0
+            6.448605,53.196598,0
+            6.449093,53.196659,0
+            6.449952,53.196786,0
+            6.45026,53.196838,0
+            6.451671,53.197179,0
+            6.453557,53.19764,0
+            6.456545,53.19836,0
+            6.45917,53.198992,0
+            6.460925,53.199414,0
+            6.461037,53.199424,0
+            6.461136,53.199421,0
+            6.461204,53.199408,0
+            6.461279,53.199384,0
+            6.461338,53.199355,0
+            6.461389,53.199353,0
+            6.461453,53.199369,0
+            6.461689,53.199503,0
+            6.461842,53.199581,0
+            6.461955,53.199623,0
+            6.462195,53.199682,0
+            6.464878,53.200304,0
+            6.465401,53.200424,0
+            6.466101,53.200559,0
+            6.467228,53.200755,0
+            6.469502,53.201157,0
+            6.471354,53.201476,0
+            6.471824,53.201514,0
+            6.472907,53.201583,0
+            6.473161,53.201609,0
+            6.473448,53.201656,0
+            6.474011,53.201762,0
+            6.474321,53.201829,0
+            6.474696,53.201913,0
+            6.475159,53.202028,0
+            6.475961,53.20225,0
+            6.476846,53.202524,0
+            6.477316,53.202668,0
+            6.477957,53.202808,0
+            6.478761,53.20297,0
+            6.479909,53.203194,0
+            6.481186,53.203419,0
+            6.482695,53.203658,0
+            6.483078,53.203681,0
+            6.483851,53.203717,0
+            6.484351,53.203718,0
+            6.484879,53.203705,0
+            6.48607,53.203638,0
+            6.487312,53.203561,0
+            6.489823,53.203402,0
+            6.490064,53.203389,0
+            6.490209,53.203413,0
+            6.490281,53.203445,0
+            6.490335,53.203495,0
+            6.490373,53.203561,0
+            6.490448,53.204051,0
+            6.490516,53.20478,0
+            6.490475,53.205091,0
+            6.49034,53.205504,0
+            6.490154,53.205963,0
+            6.490062,53.206196,0
+            6.490014,53.206387,0
+            6.490023,53.206474,0
+            6.490063,53.206532,0
+            6.490114,53.206561,0
+            6.490224,53.206586,0
+            6.490315,53.206604,0
+            6.49043,53.206598,0
+            6.490511,53.206572,0
+            6.490588,53.206484,0
+            6.491007,53.205719,0
+            6.491176,53.205351,0
+            6.491197,53.205235,0
+            6.491192,53.204933,0
+            6.491128,53.204411,0
+            6.491144,53.20435,0
+            6.491176,53.204315,0
+            6.491214,53.204284,0
+            6.491264,53.204252,0
+            6.491323,53.204231,0
+            6.49139,53.204218,0
+            6.491468,53.204206,0
+            6.492034,53.204182,0
+            6.49308,53.204127,0
+            6.493957,53.204096,0
+            6.496001,53.204006,0
+            6.496763,53.203968,0
+            6.49779,53.203891,0
+            6.498362,53.203836,0
+            6.498917,53.203768,0
+            6.499382,53.203683,0
+            6.500253,53.203517,0
+            6.500662,53.203432,0
+            6.501221,53.203293,0
+            6.50229,53.202989,0
+            6.503361,53.202673,0
+            6.505646,53.201958,0
+            6.506288,53.201757,0
+            6.50676,53.201637,0
+            6.50721,53.201553,0
+            6.5078,53.201479,0
+            6.508653,53.201291,0
+            6.508849,53.201216,0
+            6.508927,53.201212,0
+            6.508933,53.201244,0
+            6.508916,53.201272,0
+            6.508862,53.201299,0
+            6.508764,53.201324,0
+            6.508248,53.201438,0
+            6.507878,53.201504,0
+            6.507578,53.201538,0
+            6.507288,53.201567,0
+            6.506835,53.201655,0
+            6.506548,53.201726,0
+            6.506062,53.201862,0
+            6.505325,53.202084,0
+            6.505001,53.202187,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Keerpunt</name>
+        <description><![CDATA[beschrijving: name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!<br>name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: fa-arrow-circle-left
+description: Keerpunt volgende ronde fietsen, op weg blijven!</value>
+          </Data>
+          <Data name="name">
+            <value>fa-arrow-circle-left</value>
+          </Data>
+          <Data name="description">
+            <value>Keerpunt volgende ronde fietsen, op weg blijven!</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.50889,53.201241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Markering/waarschuwingen</name>
+      <Placemark>
+        <name>Pionnen</name>
+        <description><![CDATA[beschrijving: name: fa-warning<br>description: Overgang vanaf weg naar fietspad<br>name: fa-warning<br>description: Overgang vanaf weg naar fietspad]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: fa-warning
+description: Overgang vanaf weg naar fietspad</value>
+          </Data>
+          <Data name="name">
+            <value>fa-warning</value>
+          </Data>
+          <Data name="description">
+            <value>Overgang vanaf weg naar fietspad</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.508714,53.207946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samenvoegen ronde</name>
+        <description><![CDATA[beschrijving: name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<br>name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: fa-warning
+description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg</value>
+          </Data>
+          <Data name="name">
+            <value>fa-warning</value>
+          </Data>
+          <Data name="description">
+            <value>Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.492328,53.2042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oversteken</name>
+        <description><![CDATA[beschrijving: name: fa-warning<br>description: Heen: naar fietspad, terug: naar rechterzijde weg<br>name: fa-warning<br>description: Heen: naar fietspad, terug: naar rechterzijde weg]]></description>
+        <styleUrl>#icon-1499-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: fa-warning
+description: Heen: naar fietspad, terug: naar rechterzijde weg</value>
+          </Data>
+          <Data name="name">
+            <value>fa-warning</value>
+          </Data>
+          <Data name="description">
+            <value>Heen: naar fietspad, terug: naar rechterzijde weg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.508361,53.205224,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
   </Document>
