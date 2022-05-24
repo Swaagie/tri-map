@@ -1871,12 +1871,11 @@ kwart/standaard: 4 ronden</value>
       </Placemark>
       <Placemark>
         <name>Keerpunt</name>
-        <description><![CDATA[beschrijving: name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!<br>name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!]]></description>
         <styleUrl>#icon-1899-A52714</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-arrow-circle-left
-description: Keerpunt volgende ronde fietsen, op weg blijven!</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-arrow-circle-left</value>
