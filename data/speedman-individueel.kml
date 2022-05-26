@@ -377,6 +377,40 @@
         <styleUrl>#icon-1769-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1857-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1857-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1857-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1857-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1857-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1899-424242-normal">
       <IconStyle>
         <color>ff424242</color>
@@ -1427,6 +1461,48 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
         <Point>
           <coordinates>
             6.509996,53.203366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Start afval zone</name>
+        <description><![CDATA[beschrijving: <br>name: fa-trash<br>description: Start afval zone 200m]]></description>
+        <styleUrl>#icon-1857-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-trash</value>
+          </Data>
+          <Data name="description">
+            <value>Start afval zone 200m</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5022811,53.2029926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Einde afval zone</name>
+        <description><![CDATA[beschrijving: <br>name: fa-trash<br>description: Einde afval zone]]></description>
+        <styleUrl>#icon-1857-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-trash</value>
+          </Data>
+          <Data name="description">
+            <value>Einde afval zone</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5049844,53.202164,0
           </coordinates>
         </Point>
       </Placemark>

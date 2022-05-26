@@ -1437,6 +1437,50 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5022811,
+          53.2029926,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-trash",
+        "styleUrl": "#icon-1857-E65100",
+        "styleHash": "62de0c1",
+        "styleMapHash": {
+          "normal": "#icon-1857-E65100-normal",
+          "highlight": "#icon-1857-E65100-highlight"
+        },
+        "description": "Start afval zone 200m",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5049844,
+          53.202164,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-trash",
+        "styleUrl": "#icon-1857-E65100",
+        "styleHash": "62de0c1",
+        "styleMapHash": {
+          "normal": "#icon-1857-E65100-normal",
+          "highlight": "#icon-1857-E65100-highlight"
+        },
+        "description": "Einde afval zone",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
