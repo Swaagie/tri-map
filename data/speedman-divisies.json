@@ -3312,7 +3312,7 @@
           "highlight": "#icon-1499-FF5252-highlight"
         },
         "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg",
-        "beschrijving": "name: fa-warning\ndescription: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg"
+        "beschrijving": ""
       }
     },
     {
@@ -3378,6 +3378,28 @@
           "highlight": "#icon-1857-E65100-highlight"
         },
         "description": "Einde afval zone",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.480679,
+          53.207856,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "Overgang asfalt voorzien van rubberen matten voor veiligheid",
         "beschrijving": ""
       }
     }

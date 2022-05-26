@@ -1371,116 +1371,6 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.508714,
-          53.207946,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-warning",
-        "styleUrl": "#icon-1499-FF5252",
-        "styleHash": "528e3e01",
-        "styleMapHash": {
-          "normal": "#icon-1499-FF5252-normal",
-          "highlight": "#icon-1499-FF5252-highlight"
-        },
-        "description": "Overgang vanaf weg naar fietspad",
-        "beschrijving": "name: fa-warning\ndescription: Overgang vanaf weg naar fietspad"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.492328,
-          53.2042,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-warning",
-        "styleUrl": "#icon-1499-FF5252",
-        "styleHash": "528e3e01",
-        "styleMapHash": {
-          "normal": "#icon-1499-FF5252-normal",
-          "highlight": "#icon-1499-FF5252-highlight"
-        },
-        "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg",
-        "beschrijving": "name: fa-warning\ndescription: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.509996,
-          53.203366,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-warning",
-        "styleUrl": "#icon-1499-FF5252",
-        "styleHash": "528e3e01",
-        "styleMapHash": {
-          "normal": "#icon-1499-FF5252-normal",
-          "highlight": "#icon-1499-FF5252-highlight"
-        },
-        "description": "Heen: naar fietspad, terug: naar rechterzijde weg",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5022811,
-          53.2029926,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-trash",
-        "styleUrl": "#icon-1857-E65100",
-        "styleHash": "62de0c1",
-        "styleMapHash": {
-          "normal": "#icon-1857-E65100-normal",
-          "highlight": "#icon-1857-E65100-highlight"
-        },
-        "description": "Start afval zone 200m",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5049844,
-          53.202164,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-trash",
-        "styleUrl": "#icon-1857-E65100",
-        "styleHash": "62de0c1",
-        "styleMapHash": {
-          "normal": "#icon-1857-E65100-normal",
-          "highlight": "#icon-1857-E65100-highlight"
-        },
-        "description": "Einde afval zone",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -3383,6 +3273,138 @@
           "highlight": "#icon-1899-A52714-highlight"
         },
         "description": "Keerpunt volgende ronde fietsen, op weg blijven!",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.508714,
+          53.207946,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-FF5252",
+        "styleHash": "528e3e01",
+        "styleMapHash": {
+          "normal": "#icon-1499-FF5252-normal",
+          "highlight": "#icon-1499-FF5252-highlight"
+        },
+        "description": "Overgang vanaf weg naar fietspad",
+        "beschrijving": "name: fa-warning\ndescription: Overgang vanaf weg naar fietspad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.492328,
+          53.2042,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-FF5252",
+        "styleHash": "528e3e01",
+        "styleMapHash": {
+          "normal": "#icon-1499-FF5252-normal",
+          "highlight": "#icon-1499-FF5252-highlight"
+        },
+        "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.509996,
+          53.203366,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-FF5252",
+        "styleHash": "528e3e01",
+        "styleMapHash": {
+          "normal": "#icon-1499-FF5252-normal",
+          "highlight": "#icon-1499-FF5252-highlight"
+        },
+        "description": "Heen: naar fietspad, terug: naar rechterzijde weg",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.502281,
+          53.202993,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-trash",
+        "styleUrl": "#icon-1857-E65100",
+        "styleHash": "62de0c1",
+        "styleMapHash": {
+          "normal": "#icon-1857-E65100-normal",
+          "highlight": "#icon-1857-E65100-highlight"
+        },
+        "description": "Start afval zone 200m",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.504984,
+          53.202164,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-trash",
+        "styleUrl": "#icon-1857-E65100",
+        "styleHash": "62de0c1",
+        "styleMapHash": {
+          "normal": "#icon-1857-E65100-normal",
+          "highlight": "#icon-1857-E65100-highlight"
+        },
+        "description": "Einde afval zone",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.480679,
+          53.207856,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "Overgang asfalt voorzien van rubberen matten voor veiligheid",
         "beschrijving": ""
       }
     }
