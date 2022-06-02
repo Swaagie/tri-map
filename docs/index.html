@@ -318,7 +318,11 @@
         function point({ properties, geometry }, n) {
           // Create a DOM element for each marker.
           const el = document.createElement('span');
-          el.className = `marker fa-solid ${properties.name}`;
+          el.className = `marker fa-solid ${
+            properties.name && properties.name.includes('fa-')
+              ? properties.name
+              : 'fa-person'
+          }`;
           el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
 
           // Add markers with popups to the map.
