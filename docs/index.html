@@ -18,6 +18,11 @@
         margin: 0;
       }
 
+      .fa-solid.fa-person small {
+        font-size: 10px;
+        text-align: center;
+      }
+
       .grid-container {
         display: grid;
         column-gap: 0em;
@@ -315,15 +320,13 @@
           return bounds;
         }
 
-        function point({ properties, geometry }, n) {
+        function point({ properties, geometry }, n, innerHTML) {
           // Create a DOM element for each marker.
           const el = document.createElement('span');
-          el.className = `marker fa-solid ${
-            properties.name && properties.name.includes('fa-')
-              ? properties.name
-              : 'fa-person'
-          }`;
+
+          el.className = `marker fa-solid ${properties.name}`;
           el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
+          el.innerHTML = innerHTML;
 
           // Add markers with popups to the map.
           if (properties.beschrijving || properties.description) {
@@ -443,7 +446,13 @@
 
         map.once('load', render);
 
+        function isVolunteer({ properties, geometry }) {
+          return geometry.type === 'Point' && properties.name === 'fa-person';
+        }
+
         function render() {
+          let k = 1;
+
           // Loop over all features
           data.features.forEach((feature, n) => {
             // Add all data
@@ -452,7 +461,11 @@
               data: feature,
             });
 
-            renderers[feature.geometry.type](feature, n);
+            renderers[feature.geometry.type](
+              feature,
+              n,
+              isVolunteer(feature) ? ` <small>${k++}</small>` : ''
+            );
           });
         }
 
