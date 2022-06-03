@@ -4313,7 +4313,7 @@
           "highlight": "#icon-1499-FF5252-highlight"
         },
         "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg",
-        "beschrijving": "name: fa-warning\ndescription: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg"
+        "beschrijving": ""
       }
     },
     {
@@ -4416,8 +4416,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-673AB7-labelson",
-        "styleHash": "-5bd9c74e",
+        "styleUrl": "#icon-1628-9C27B0-labelson",
+        "styleHash": "1b039d00",
         "description": "NTB check in/out",
         "beschrijving": ""
       }
@@ -4434,8 +4434,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-673AB7-labelson",
-        "styleHash": "-5bd9c74e",
+        "styleUrl": "#icon-1628-9C27B0-labelson",
+        "styleHash": "1b039d00",
         "description": "NTB check-in/out",
         "beschrijving": ""
       }
@@ -4524,8 +4524,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-673AB7-labelson",
-        "styleHash": "-5bd9c74e",
+        "styleUrl": "#icon-1628-9C27B0-labelson",
+        "styleHash": "1b039d00",
         "description": "NTB strafbox",
         "beschrijving": ""
       }
@@ -4578,8 +4578,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4596,8 +4596,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-0F9D58-labelson",
-        "styleHash": "-a17c88e",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4686,8 +4686,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4722,8 +4722,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-0F9D58-labelson",
-        "styleHash": "-a17c88e",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4740,8 +4740,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4814,7 +4814,7 @@
         "name": "fa-person",
         "styleUrl": "#icon-1592-0288D1-labelson",
         "styleHash": "308e548e",
-        "description": "Vrijwilliger loopparcours + kinderen",
+        "description": "Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom",
         "beschrijving": ""
       }
     },
@@ -4830,8 +4830,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-0F9D58-labelson",
-        "styleHash": "-a17c88e",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4848,8 +4848,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4866,8 +4866,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4902,8 +4902,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -4938,8 +4938,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -5064,8 +5064,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -5082,8 +5082,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1628-0F9D58-labelson",
-        "styleHash": "-a17c88e",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -5118,8 +5118,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }
@@ -5262,8 +5262,8 @@
       },
       "properties": {
         "name": "fa-person",
-        "styleUrl": "#icon-1657-0F9D58-labelson",
-        "styleHash": "-66135132",
+        "styleUrl": "#icon-1657-F57C00-labelson",
+        "styleHash": "853b6e0",
         "description": "StEB",
         "beschrijving": ""
       }

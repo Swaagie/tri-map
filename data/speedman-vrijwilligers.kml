@@ -284,27 +284,18 @@
         <styleUrl>#icon-1625-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1628-0F9D58-labelson">
+    <Style id="icon-1628-9C27B0-labelson">
       <IconStyle>
-        <color>ff589d0f</color>
+        <color>ffb0279c</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="icon-1628-673AB7-labelson">
+    <Style id="icon-1657-F57C00-labelson">
       <IconStyle>
-        <color>ffb73a67</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="icon-1657-0F9D58-labelson">
-      <IconStyle>
-        <color>ff589d0f</color>
+        <color>ff007cf5</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -2561,12 +2552,11 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Samenvoegen ronde</name>
-        <description><![CDATA[beschrijving: name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<br>name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-warning
-description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
@@ -2671,7 +2661,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>NTB check in/out</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB check in/out]]></description>
-        <styleUrl>#icon-1628-673AB7-labelson</styleUrl>
+        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -2692,7 +2682,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>NTB check-in/out</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB check-in/out]]></description>
-        <styleUrl>#icon-1628-673AB7-labelson</styleUrl>
+        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -2797,7 +2787,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>NTB strafbox</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB strafbox]]></description>
-        <styleUrl>#icon-1628-673AB7-labelson</styleUrl>
+        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -2860,7 +2850,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -2881,7 +2871,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1628-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -2986,7 +2976,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3028,7 +3018,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1628-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3049,7 +3039,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3132,7 +3122,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       </Placemark>
       <Placemark>
         <name>vrijwilliger loopparcours + kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom]]></description>
         <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
@@ -3142,7 +3132,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours + kinderen</value>
+            <value>Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -3154,7 +3144,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1628-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3175,7 +3165,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3196,7 +3186,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3238,7 +3228,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>Steb</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3280,7 +3270,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3427,7 +3417,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3448,7 +3438,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1628-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3490,7 +3480,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -3658,7 +3648,7 @@ description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg<
       <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-0F9D58-labelson</styleUrl>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
