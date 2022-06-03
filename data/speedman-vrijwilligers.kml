@@ -2701,6 +2701,111 @@ description: Overgang vanaf weg naar fietspad</value>
         </Point>
       </Placemark>
       <Placemark>
+        <name>NTB strafbox</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB strafbox]]></description>
+        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>NTB strafbox</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5136384,53.2075636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger wisselzone</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Helpen in wisselzone]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Helpen in wisselzone</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513993,53.207322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Vrijwilligers kano's 2x]]></name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilligers kano's 2x]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[Vrijwilligers kano's 2x]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5114149,53.2073627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger inschrijving 5x</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger inschrijving 5x]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger inschrijving 5x</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5129625,53.2079392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger tijdwaarneming 3x </name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger tijdwaarneming 3x ]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger tijdwaarneming 3x </value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5144168,53.2072469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Vrijwilliger verzorging finish</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger verzorging finish]]></description>
         <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
@@ -2739,216 +2844,6 @@ description: Overgang vanaf weg naar fietspad</value>
         <Point>
           <coordinates>
             6.5142043,53.2077586,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger inschrijving 5x</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger inschrijving 5x]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger inschrijving 5x</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5129625,53.2079392,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger oversteek naar voetbal (lage prio)</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger oversteek naar voetbal (lage prio)]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger oversteek naar voetbal (lage prio)</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5098404,53.2079374,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>NTB strafbox</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB strafbox]]></description>
-        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>NTB strafbox</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5136384,53.2075636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name><![CDATA[Vrijwilligers kano's 2x]]></name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilligers kano's 2x]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value><![CDATA[Vrijwilligers kano's 2x]]></value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5114149,53.2073627,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger opgang fietspad</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: vrijwilliger opgang fietspad]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>vrijwilliger opgang fietspad</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5086144,53.2079578,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>StEB</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5066617,53.2080654,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>StEB</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5100232,53.203331,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5051418,53.2021088,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger loopparcours + kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger loopparcours + kinderen</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5147638,53.203688,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger loopparcours</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5134029,53.2032946,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3121,6 +3016,27 @@ description: Overgang vanaf weg naar fietspad</value>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Vrijwilliger loopparcours</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger loopparcours</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5134029,53.2032946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>vrijwilliger loopparcours + kinderen</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom]]></description>
         <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
@@ -3142,6 +3058,195 @@ description: Overgang vanaf weg naar fietspad</value>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Vrijwilliger loopparcours + kinderen</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger loopparcours + kinderen</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5147638,53.203688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger oversteek naar voetbal (lage prio)</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger oversteek naar voetbal (lage prio)]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger oversteek naar voetbal (lage prio)</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5098404,53.2079374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger opgang fietspad</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: vrijwilliger opgang fietspad]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>vrijwilliger opgang fietspad</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5086144,53.2079578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>StEB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5066617,53.2080654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>StEB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5073178,53.2070091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>StEB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5076781,53.2063562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>StEB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.508312,53.2052456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>StEB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5100232,53.203331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.510868,53.2023998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
         <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
@@ -3159,6 +3264,27 @@ description: Overgang vanaf weg naar fietspad</value>
         <Point>
           <coordinates>
             6.5118416,53.2013681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
+        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>StEB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5114198,53.2011088,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3201,6 +3327,27 @@ description: Overgang vanaf weg naar fietspad</value>
         <Point>
           <coordinates>
             6.5090088,53.2011798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5051418,53.2021088,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3268,6 +3415,48 @@ description: Overgang vanaf weg naar fietspad</value>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4764255,53.2091073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4739288,53.2086006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>StEB</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
         <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
@@ -3305,7 +3494,7 @@ description: Overgang vanaf weg naar fietspad</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4613377,53.1993547,0
+            6.4718206,53.2053498,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3327,6 +3516,48 @@ description: Overgang vanaf weg naar fietspad</value>
         <Point>
           <coordinates>
             6.4507629,53.1970132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4507897,53.1969481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
+        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4613377,53.1993547,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3394,174 +3625,6 @@ description: Overgang vanaf weg naar fietspad</value>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger tijdwaarneming 3x </name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger tijdwaarneming 3x ]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger tijdwaarneming 3x </value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5144168,53.2072469,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>StEB</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5076781,53.2063562,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>StEB</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.508312,53.2052456,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.510868,53.2023998,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>StEB</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5114198,53.2011088,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.4764255,53.2091073,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.4739288,53.2086006,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.4718206,53.2053498,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Vrijwilliger fietsparcours kinderen</name>
         <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours kinderen]]></description>
         <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
@@ -3600,69 +3663,6 @@ description: Overgang vanaf weg naar fietspad</value>
         <Point>
           <coordinates>
             6.511514,53.2051791,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.4507897,53.1969481,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger wisselzone</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Helpen in wisselzone]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Helpen in wisselzone</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.513993,53.207322,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>StEB</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5073178,53.2070091,0
           </coordinates>
         </Point>
       </Placemark>
