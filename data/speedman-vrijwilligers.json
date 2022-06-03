@@ -3725,8 +3725,12 @@
       },
       "properties": {
         "name": "fa-arrow-circle-left",
-        "styleUrl": "#icon-1899-A52714-labelson",
-        "styleHash": "599868dc",
+        "styleUrl": "#icon-1899-A52714",
+        "styleHash": "48ef713f",
+        "styleMapHash": {
+          "normal": "#icon-1899-A52714-normal",
+          "highlight": "#icon-1899-A52714-highlight"
+        },
         "description": "Keerpunt volgende ronde fietsen, op weg blijven!"
       }
     },
@@ -4411,9 +4415,11 @@
         ]
       },
       "properties": {
-        "name": "Vrijwilliger check in/out",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-673AB7-labelson",
+        "styleHash": "-5bd9c74e",
+        "description": "NTB check in/out",
+        "beschrijving": ""
       }
     },
     {
@@ -4421,15 +4427,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5138885,
-          53.2076052,
+          6.513918,
+          53.2076197,
           0
         ]
       },
       "properties": {
-        "name": "Punt 2",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-673AB7-labelson",
+        "styleHash": "-5bd9c74e",
+        "description": "NTB check-in/out",
+        "beschrijving": ""
       }
     },
     {
@@ -4443,9 +4451,11 @@
         ]
       },
       "properties": {
-        "name": "Vrijwilliger verzorging finish",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger verzorging finish",
+        "beschrijving": ""
       }
     },
     {
@@ -4459,9 +4469,11 @@
         ]
       },
       "properties": {
-        "name": "Vrijwilliger verzorging loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger verzorging loopparcours 2x",
+        "beschrijving": ""
       }
     },
     {
@@ -4475,41 +4487,11 @@
         ]
       },
       "properties": {
-        "name": "Vrijwilliger inschrijving",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5127103,
-          53.20823,
-          0
-        ]
-      },
-      "properties": {
-        "name": "Vrijwilliger drop-off teamtenten",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5126782,
-          53.2078956,
-          0
-        ]
-      },
-      "properties": {
-        "name": "Vrijwilliger toezicht wc/kleedkamers",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger inschrijving 5x",
+        "beschrijving": ""
       }
     },
     {
@@ -4523,9 +4505,11 @@
         ]
       },
       "properties": {
-        "name": "Vrijwilliger oversteek naar voetbal",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger oversteek naar voetbal (lage prio)",
+        "beschrijving": ""
       }
     },
     {
@@ -4533,15 +4517,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5135633,
-          53.2076214,
+          6.5136384,
+          53.2075636,
           0
         ]
       },
       "properties": {
-        "name": "Vrijwilliger strafbox",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-673AB7-labelson",
+        "styleHash": "-5bd9c74e",
+        "description": "NTB strafbox",
+        "beschrijving": ""
       }
     },
     {
@@ -4549,15 +4535,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5124234,
-          53.2072599,
+          6.5114149,
+          53.2073627,
           0
         ]
       },
       "properties": {
-        "name": "vrijwilliger (2x) kano",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilligers kano's 2x",
+        "beschrijving": ""
       }
     },
     {
@@ -4571,9 +4559,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger overgang fietspad",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "vrijwilliger opgang fietspad",
+        "beschrijving": ""
       }
     },
     {
@@ -4587,9 +4577,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger oversteek",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4603,9 +4595,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger (2x) opgang weg",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-0F9D58-labelson",
+        "styleHash": "-a17c88e",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4613,47 +4607,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5073178,
-          53.2070091,
+          6.5051418,
+          53.2021088,
           0
         ]
       },
       "properties": {
-        "name": "vrijwilliger oversteek parkeerplaats",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5036934,
-          53.2025586,
-          0
-        ]
-      },
-      "properties": {
-        "name": "vrijwilliger schoonmaken afvalzone",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5152152,
-          53.203797,
-          0
-        ]
-      },
-      "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt",
+        "beschrijving": ""
       }
     },
     {
@@ -4667,9 +4631,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours + kinderen",
+        "beschrijving": ""
       }
     },
     {
@@ -4683,9 +4649,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4699,9 +4667,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours + kinderen",
+        "beschrijving": ""
       }
     },
     {
@@ -4715,9 +4685,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4731,9 +4703,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4747,9 +4721,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-0F9D58-labelson",
+        "styleHash": "-a17c88e",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4757,31 +4733,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5101442,
-          53.20339,
+          6.5101496,
+          53.2033836,
           0
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5096165,
-          53.2043383,
-          0
-        ]
-      },
-      "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4795,9 +4757,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4811,9 +4775,11 @@
         ]
       },
       "properties": {
-        "name": "Punt 26",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4827,9 +4793,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4843,25 +4811,11 @@
         ]
       },
       "properties": {
-        "name": "vrijwilliger loopparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5068681,
-          53.207934,
-          0
-        ]
-      },
-      "properties": {
-        "name": "Vrijwilliger fietsparcours",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger loopparcours + kinderen",
+        "beschrijving": ""
       }
     },
     {
@@ -4875,9 +4829,11 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-0F9D58-labelson",
+        "styleHash": "-a17c88e",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4891,9 +4847,11 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4901,15 +4859,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.508982,
-          53.2011477,
+          6.5090088,
+          53.2011798,
           0
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4923,9 +4883,11 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4939,9 +4901,11 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4950,14 +4914,16 @@
         "type": "Point",
         "coordinates": [
           6.4806791,
-          53.2078559,
+          53.207843,
           0
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4971,9 +4937,11 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     },
     {
@@ -4987,9 +4955,11 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -4997,15 +4967,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.450775,
-          53.1969835,
+          6.4507629,
+          53.1970132,
           0
         ]
       },
       "properties": {
-        "name": "Professionele (2x) verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
       }
     },
     {
@@ -5019,9 +4991,281 @@
         ]
       },
       "properties": {
-        "name": "Professionele verkeersregelaar",
-        "styleUrl": "#icon-1592-673AB7-labelson-nodesc",
-        "styleHash": "7049c627"
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4965624,
+          53.2040569,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5050435,
+          53.202219,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5144168,
+          53.2072469,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger tijdwaarneming 3x ",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5076781,
+          53.2063562,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.508312,
+          53.2052456,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1628-0F9D58-labelson",
+        "styleHash": "-a17c88e",
+        "description": "StEB",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.510868,
+          53.2023998,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5114198,
+          53.2011088,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4764255,
+          53.2091073,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4739288,
+          53.2086006,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4718206,
+          53.2053498,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5084781,
+          53.2052705,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours kinderen",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511514,
+          53.2051791,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours kinderen",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4507897,
+          53.1969481,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Vrijwilliger fietsparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513993,
+          53.207322,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1-labelson",
+        "styleHash": "308e548e",
+        "description": "Helpen in wisselzone",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5073178,
+          53.2070091,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-0F9D58-labelson",
+        "styleHash": "-66135132",
+        "description": "StEB",
+        "beschrijving": ""
       }
     }
   ]
