@@ -6,7 +6,7 @@
   "scripts": {
     "convert:gpx": "node ./bin/convert-gpx-to-geojson.mjs ./data",
     "convert:kml": "node ./bin/convert-kml-to-geojson.mjs ./data",
-    "start": "npx http-server ./demo"
+    "start": "npx http-server ./docs"
   },
   "repository": {
     "type": "git",

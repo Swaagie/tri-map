@@ -37,6 +37,40 @@
         <styleUrl>#icon-1522-A52714-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1661-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1661-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1661-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1661-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1661-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1680-097138-normal">
       <IconStyle>
         <color>ff387109</color>
@@ -103,6 +137,42 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1769-424242-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-097138-normal">
@@ -249,38 +319,6 @@
         <styleUrl>#poly-000000-1501-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-0288D1-1200-77-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4dd18802</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-0288D1-1200-77-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>1.8</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4dd18802</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-0288D1-1200-77">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-0288D1-1200-77-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-0288D1-1200-77-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Folder>
       <name>Wisselzone</name>
       <Placemark>
@@ -310,57 +348,6 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Teamtenten</name>
-        <description><![CDATA[beschrijving: Teamtenten<br>name: ]]></description>
-        <styleUrl>#poly-0288D1-1200-77</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Teamtenten</value>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                6.5140279,53.2069347,0
-                6.51417,53.2068721,0
-                6.5143471,53.206848,0
-                6.514449,53.2068223,0
-                6.5145268,53.206766,0
-                6.5145938,53.2066552,0
-                6.5148486,53.2067419,0
-                6.5147333,53.2069443,0
-                6.5146019,53.2070504,0
-                6.5140279,53.2069347,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Check in/uit</name>
-        <description><![CDATA[beschrijving: Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone<br><br>name: fa-check-circle]]></description>
-        <styleUrl>#icon-1769-424242</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone
-</value>
-          </Data>
-          <Data name="name">
-            <value>fa-check-circle</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5143056,53.2071017,0
-          </coordinates>
-        </Point>
       </Placemark>
       <Placemark>
         <name>Check in/uit</name>
@@ -511,6 +498,44 @@
           </coordinates>
         </LineString>
       </Placemark>
+      <Placemark>
+        <name>Finish</name>
+        <description><![CDATA[name: fa-flag-checkered<br>description: Finish, bocht linksom voor het ingaan van volgende loopronde<br>]]></description>
+        <styleUrl>#icon-1661-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="name">
+            <value>fa-flag-checkered</value>
+          </Data>
+          <Data name="description">
+            <value>Finish, bocht linksom voor het ingaan van volgende loopronde
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5143706,53.2074915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Start</name>
+        <description><![CDATA[name: fa-person-swimming<br><br>description: zwemmen]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="name">
+            <value>fa-person-swimming
+</value>
+          </Data>
+          <Data name="description">
+            <value>zwemmen</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5134855,53.2070835,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Fietsparcours kinderen</name>
@@ -562,21 +587,22 @@
             6.5074437,53.2070412,0
             6.5076636,53.2066509,0
             6.5084781,53.2052705,0
-            6.5091378,53.2053074,0
-            6.5097762,53.2053187,0
-            6.5104703,53.2052863,0
-            6.5111054,53.2052218,0
-            6.5116498,53.2051517,0
-            6.5124384,53.2050248,0
-            6.5131519,53.2049155,0
-            6.5139753,53.2048031,0
-            6.5141602,53.2047616,0
-            6.5141763,53.2046974,0
-            6.514199,53.2043054,0
-            6.5142634,53.2042459,0
-            6.5144743,53.2041067,0
-            6.5147801,53.2036569,0
-            6.5153594,53.2027701,0
+            6.5088106,53.204864,0
+            6.5093256,53.2043066,0
+            6.5097944,53.2037505,0
+            6.5103383,53.2031847,0
+            6.5106359,53.202864,0
+            6.5109417,53.2025507,0
+            6.511505,53.2019723,0
+            6.5117746,53.2016911,0
+            6.5119261,53.2015771,0
+            6.5120627,53.2014809,0
+            6.5121861,53.201436,0
+            6.5123644,53.2014199,0
+            6.5126487,53.2014858,0
+            6.5128811,53.2015361,0
+            6.5134497,53.2016936,0
+            6.5152736,53.2021917,0
             6.5156706,53.2023009,0
             6.5161534,53.2024423,0
             6.5164014,53.2025229,0

@@ -60,104 +60,6 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              6.5140279,
-              53.2069347,
-              0
-            ],
-            [
-              6.51417,
-              53.2068721,
-              0
-            ],
-            [
-              6.5143471,
-              53.206848,
-              0
-            ],
-            [
-              6.514449,
-              53.2068223,
-              0
-            ],
-            [
-              6.5145268,
-              53.206766,
-              0
-            ],
-            [
-              6.5145938,
-              53.2066552,
-              0
-            ],
-            [
-              6.5148486,
-              53.2067419,
-              0
-            ],
-            [
-              6.5147333,
-              53.2069443,
-              0
-            ],
-            [
-              6.5146019,
-              53.2070504,
-              0
-            ],
-            [
-              6.5140279,
-              53.2069347,
-              0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#poly-0288D1-1200-77",
-        "styleHash": "269d748e",
-        "styleMapHash": {
-          "normal": "#poly-0288D1-1200-77-normal",
-          "highlight": "#poly-0288D1-1200-77-highlight"
-        },
-        "description": "beschrijving: Teamtenten<br>name: ",
-        "stroke": "#0288d1",
-        "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#0288d1",
-        "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Teamtenten"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5143056,
-          53.2071017,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-check-circle",
-        "styleUrl": "#icon-1769-424242",
-        "styleHash": "-66799319",
-        "styleMapHash": {
-          "normal": "#icon-1769-424242-normal",
-          "highlight": "#icon-1769-424242-highlight"
-        },
-        "description": "beschrijving: Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone<br><br>name: fa-check-circle",
-        "beschrijving": "Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone\n"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
         "type": "Point",
         "coordinates": [
           6.5139519,
@@ -531,6 +433,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.5143706,
+          53.2074915,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-0288D1",
+        "styleHash": "21967554",
+        "styleMapHash": {
+          "normal": "#icon-1661-0288D1-normal",
+          "highlight": "#icon-1661-0288D1-highlight"
+        },
+        "description": "Finish, bocht linksom voor het ingaan van volgende loopronde\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5134855,
+          53.2070835,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person-swimming\n",
+        "styleUrl": "#icon-1899-0288D1",
+        "styleHash": "-13b7f8a7",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-normal",
+          "highlight": "#icon-1899-0288D1-highlight"
+        },
+        "description": "zwemmen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.5139717,
           53.2077323,
           0
@@ -628,78 +572,83 @@
             0
           ],
           [
-            6.5091378,
-            53.2053074,
+            6.5088106,
+            53.204864,
             0
           ],
           [
-            6.5097762,
-            53.2053187,
+            6.5093256,
+            53.2043066,
             0
           ],
           [
-            6.5104703,
-            53.2052863,
+            6.5097944,
+            53.2037505,
             0
           ],
           [
-            6.5111054,
-            53.2052218,
+            6.5103383,
+            53.2031847,
             0
           ],
           [
-            6.5116498,
-            53.2051517,
+            6.5106359,
+            53.202864,
             0
           ],
           [
-            6.5124384,
-            53.2050248,
+            6.5109417,
+            53.2025507,
             0
           ],
           [
-            6.5131519,
-            53.2049155,
+            6.511505,
+            53.2019723,
             0
           ],
           [
-            6.5139753,
-            53.2048031,
+            6.5117746,
+            53.2016911,
             0
           ],
           [
-            6.5141602,
-            53.2047616,
+            6.5119261,
+            53.2015771,
             0
           ],
           [
-            6.5141763,
-            53.2046974,
+            6.5120627,
+            53.2014809,
             0
           ],
           [
-            6.514199,
-            53.2043054,
+            6.5121861,
+            53.201436,
             0
           ],
           [
-            6.5142634,
-            53.2042459,
+            6.5123644,
+            53.2014199,
             0
           ],
           [
-            6.5144743,
-            53.2041067,
+            6.5126487,
+            53.2014858,
             0
           ],
           [
-            6.5147801,
-            53.2036569,
+            6.5128811,
+            53.2015361,
             0
           ],
           [
-            6.5153594,
-            53.2027701,
+            6.5134497,
+            53.2016936,
+            0
+          ],
+          [
+            6.5152736,
+            53.2021917,
             0
           ],
           [
