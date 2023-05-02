@@ -4,1141 +4,6 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514018,
-          53.207054,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-stopwatch",
-        "styleUrl": "#icon-1899-424242",
-        "styleHash": "-5c674dd",
-        "styleMapHash": {
-          "normal": "#icon-1899-424242-normal",
-          "highlight": "#icon-1899-424242-highlight"
-        },
-        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
-        "beschrijving": "Tijdbalk transitie 1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.513366,
-            53.207132,
-            0
-          ],
-          [
-            6.513872,
-            53.207006,
-            0
-          ],
-          [
-            6.51403,
-            53.207034,
-            0
-          ],
-          [
-            6.514018,
-            53.207054,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#line-424242-3000",
-        "styleHash": "-1f0a0da4",
-        "styleMapHash": {
-          "normal": "#line-424242-3000-normal",
-          "highlight": "#line-424242-3000-highlight"
-        },
-        "description": "beschrijving: <br>name: ",
-        "stroke": "#424242",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.513868,
-            53.207585,
-            0
-          ],
-          [
-            6.513764,
-            53.20775,
-            0
-          ],
-          [
-            6.513222,
-            53.207776,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#line-424242-3000",
-        "styleHash": "-1f0a0da4",
-        "styleMapHash": {
-          "normal": "#line-424242-3000-normal",
-          "highlight": "#line-424242-3000-highlight"
-        },
-        "description": "beschrijving: <br>name: ",
-        "stroke": "#424242",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.513224,
-            53.207762,
-            0
-          ],
-          [
-            6.513334,
-            53.207753,
-            0
-          ],
-          [
-            6.513442,
-            53.2077,
-            0
-          ],
-          [
-            6.513512,
-            53.207646,
-            0
-          ],
-          [
-            6.513611,
-            53.207508,
-            0
-          ],
-          [
-            6.51367,
-            53.207421,
-            0
-          ],
-          [
-            6.513739,
-            53.20729,
-            0
-          ],
-          [
-            6.513808,
-            53.207159,
-            0
-          ],
-          [
-            6.513854,
-            53.20706,
-            0
-          ],
-          [
-            6.513883,
-            53.207061,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#line-424242-3000",
-        "styleHash": "-1f0a0da4",
-        "styleMapHash": {
-          "normal": "#line-424242-3000-normal",
-          "highlight": "#line-424242-3000-highlight"
-        },
-        "description": "beschrijving: <br>name: ",
-        "stroke": "#424242",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513224,
-          53.207767,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-stopwatch",
-        "styleUrl": "#icon-1899-424242",
-        "styleHash": "-5c674dd",
-        "styleMapHash": {
-          "normal": "#icon-1899-424242-normal",
-          "highlight": "#icon-1899-424242-highlight"
-        },
-        "description": "beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch",
-        "beschrijving": "Balk transitie 1 en start transitie 2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.514082,
-            53.207582,
-            0
-          ],
-          [
-            6.514128,
-            53.207608,
-            0
-          ],
-          [
-            6.514148,
-            53.207675,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#line-424242-3000",
-        "styleHash": "-1f0a0da4",
-        "styleMapHash": {
-          "normal": "#line-424242-3000-normal",
-          "highlight": "#line-424242-3000-highlight"
-        },
-        "description": "beschrijving: <br>name: ",
-        "stroke": "#424242",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514148,
-          53.207675,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-stopwatch",
-        "styleUrl": "#icon-1899-424242",
-        "styleHash": "-5c674dd",
-        "styleMapHash": {
-          "normal": "#icon-1899-424242-normal",
-          "highlight": "#icon-1899-424242-highlight"
-        },
-        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
-        "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513792,
-          53.207301,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-424242",
-        "styleHash": "-4282f8ff",
-        "styleMapHash": {
-          "normal": "#icon-1499-424242-normal",
-          "highlight": "#icon-1499-424242-highlight"
-        },
-        "description": "beschrijving: Wisselen van onderdelen voor estafette deelnemers<br>name: fa-circle",
-        "beschrijving": "Wisselen van onderdelen voor estafette deelnemers"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513603,
-          53.207565,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-hourglass-half",
-        "styleUrl": "#icon-1499-FF5252",
-        "styleHash": "528e3e01",
-        "styleMapHash": {
-          "normal": "#icon-1499-FF5252-normal",
-          "highlight": "#icon-1499-FF5252-highlight"
-        },
-        "description": "beschrijving: Strafbox<br>name: fa-hourglass-half",
-        "beschrijving": "Strafbox"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.51269,
-          53.208286,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-suitcase",
-        "styleUrl": "#icon-1699-424242",
-        "styleHash": "-720ab87d",
-        "styleMapHash": {
-          "normal": "#icon-1699-424242-normal",
-          "highlight": "#icon-1699-424242-highlight"
-        },
-        "description": "beschrijving: Ophalen en afzetten teamtenten, geen parkeergelegenheid! Volg de aanwijzingen van de vrijwilligers.<br>name: fa-suitcase",
-        "beschrijving": "Ophalen en afzetten teamtenten, geen parkeergelegenheid! Volg de aanwijzingen van de vrijwilligers."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514214,
-          53.20669,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-microphone",
-        "styleUrl": "#icon-1625-424242",
-        "styleHash": "-1b53f3da",
-        "styleMapHash": {
-          "normal": "#icon-1625-424242-normal",
-          "highlight": "#icon-1625-424242-highlight"
-        },
-        "description": "beschrijving: Verzamelen nabij speeltoestel<br>name: fa-microphone",
-        "beschrijving": "Verzamelen nabij speeltoestel"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5131409,
-          53.2065071,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5150993,
-          53.205651,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5144932,
-          53.20532,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5126044,
-          53.2071709,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": "Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.5131409,
-            53.2065071,
-            0
-          ],
-          [
-            6.5150993,
-            53.205651,
-            0
-          ],
-          [
-            6.5144932,
-            53.20532,
-            0
-          ],
-          [
-            6.5115526,
-            53.2059426,
-            0
-          ],
-          [
-            6.5104272,
-            53.206825,
-            0
-          ],
-          [
-            6.5126044,
-            53.2071709,
-            0
-          ],
-          [
-            6.5131409,
-            53.2065071,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Zwemparcours divisie",
-        "styleUrl": "#line-0288D1-2356",
-        "styleHash": "7804969c",
-        "styleMapHash": {
-          "normal": "#line-0288D1-2356-normal",
-          "highlight": "#line-0288D1-2356-highlight"
-        },
-        "description": "750m per ronde\n\nsprint: 1 ronde\nstandaard: 2 ronde",
-        "stroke": "#0288d1",
-        "stroke-opacity": 1,
-        "stroke-width": 2.356
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5115526,
-          53.2059426,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.5126044,
-            53.2071709,
-            0
-          ],
-          [
-            6.5133661,
-            53.2071319,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#line-0288D1-2356",
-        "styleHash": "7804969c",
-        "styleMapHash": {
-          "normal": "#line-0288D1-2356-normal",
-          "highlight": "#line-0288D1-2356-highlight"
-        },
-        "description": "",
-        "stroke": "#0288d1",
-        "stroke-opacity": 1,
-        "stroke-width": 2.356
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5133661,
-          53.2071319,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-flag-checkered",
-        "styleUrl": "#icon-1661-0288D1",
-        "styleHash": "21967554",
-        "styleMapHash": {
-          "normal": "#icon-1661-0288D1-normal",
-          "highlight": "#icon-1661-0288D1-highlight"
-        },
-        "description": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513402,
-          53.2066355,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-person-swimming",
-        "styleUrl": "#icon-1701-0288D1",
-        "styleHash": "507c9fdb",
-        "styleMapHash": {
-          "normal": "#icon-1701-0288D1-normal",
-          "highlight": "#icon-1701-0288D1-highlight"
-        },
-        "description": "Waterstart. Opstellen tussen boei en afrastering"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5104272,
-          53.206825,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "description": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.5141586,
-            53.2077113,
-            0
-          ],
-          [
-            6.5143403,
-            53.207704,
-            0
-          ],
-          [
-            6.5144769,
-            53.2076293,
-            0
-          ],
-          [
-            6.5145996,
-            53.2075534,
-            0
-          ],
-          [
-            6.5147195,
-            53.2074727,
-            0
-          ],
-          [
-            6.5148644,
-            53.2073587,
-            0
-          ],
-          [
-            6.5150053,
-            53.2072273,
-            0
-          ],
-          [
-            6.5150991,
-            53.2071233,
-            0
-          ],
-          [
-            6.5151736,
-            53.2070345,
-            0
-          ],
-          [
-            6.5152604,
-            53.2069147,
-            0
-          ],
-          [
-            6.5153717,
-            53.2067139,
-            0
-          ],
-          [
-            6.5154723,
-            53.2065283,
-            0
-          ],
-          [
-            6.5155755,
-            53.2063581,
-            0
-          ],
-          [
-            6.5156654,
-            53.2062528,
-            0
-          ],
-          [
-            6.5157472,
-            53.2061781,
-            0
-          ],
-          [
-            6.5158652,
-            53.2060954,
-            0
-          ],
-          [
-            6.5159957,
-            53.2060137,
-            0
-          ],
-          [
-            6.5161593,
-            53.2059398,
-            0
-          ],
-          [
-            6.5164168,
-            53.2058547,
-            0
-          ],
-          [
-            6.5165984,
-            53.2058144,
-            0
-          ],
-          [
-            6.5167701,
-            53.2057823,
-            0
-          ],
-          [
-            6.5168516,
-            53.2057898,
-            0
-          ],
-          [
-            6.5168932,
-            53.2057689,
-            0
-          ],
-          [
-            6.5169908,
-            53.2056699,
-            0
-          ],
-          [
-            6.5173106,
-            53.2052921,
-            0
-          ],
-          [
-            6.5176614,
-            53.2048589,
-            0
-          ],
-          [
-            6.5179961,
-            53.2044225,
-            0
-          ],
-          [
-            6.5182165,
-            53.2040562,
-            0
-          ],
-          [
-            6.5184209,
-            53.2036866,
-            0
-          ],
-          [
-            6.5185704,
-            53.2034067,
-            0
-          ],
-          [
-            6.5185806,
-            53.2033432,
-            0
-          ],
-          [
-            6.5185752,
-            53.203283,
-            0
-          ],
-          [
-            6.5185504,
-            53.2032199,
-            0
-          ],
-          [
-            6.5185075,
-            53.2031625,
-            0
-          ],
-          [
-            6.5184512,
-            53.2031187,
-            0
-          ],
-          [
-            6.5183975,
-            53.2030876,
-            0
-          ],
-          [
-            6.518256,
-            53.2030366,
-            0
-          ],
-          [
-            6.5180541,
-            53.2029804,
-            0
-          ],
-          [
-            6.5178617,
-            53.2029282,
-            0
-          ],
-          [
-            6.5170312,
-            53.2026966,
-            0
-          ],
-          [
-            6.5166182,
-            53.2025817,
-            0
-          ],
-          [
-            6.5165057,
-            53.2025565,
-            0
-          ],
-          [
-            6.5163139,
-            53.2024898,
-            0
-          ],
-          [
-            6.5157131,
-            53.2023179,
-            0
-          ],
-          [
-            6.5133777,
-            53.2016598,
-            0
-          ],
-          [
-            6.512809,
-            53.201504,
-            0
-          ],
-          [
-            6.5125494,
-            53.2014572,
-            0
-          ],
-          [
-            6.5122973,
-            53.2014243,
-            0
-          ],
-          [
-            6.5122421,
-            53.2014202,
-            0
-          ],
-          [
-            6.5121268,
-            53.2014299,
-            0
-          ],
-          [
-            6.5120302,
-            53.2014668,
-            0
-          ],
-          [
-            6.5119229,
-            53.2015471,
-            0
-          ],
-          [
-            6.511714,
-            53.201728,
-            0
-          ],
-          [
-            6.5110741,
-            53.2024109,
-            0
-          ],
-          [
-            6.5106852,
-            53.2028382,
-            0
-          ],
-          [
-            6.5100596,
-            53.2034851,
-            0
-          ],
-          [
-            6.5093464,
-            53.2042486,
-            0
-          ],
-          [
-            6.5097056,
-            53.2043575,
-            0
-          ],
-          [
-            6.5101562,
-            53.204478,
-            0
-          ],
-          [
-            6.5111728,
-            53.2047672,
-            0
-          ],
-          [
-            6.5113813,
-            53.2048184,
-            0
-          ],
-          [
-            6.5113759,
-            53.204571,
-            0
-          ],
-          [
-            6.5125346,
-            53.2046352,
-            0
-          ],
-          [
-            6.5125507,
-            53.2045228,
-            0
-          ],
-          [
-            6.5126044,
-            53.2043718,
-            0
-          ],
-          [
-            6.5126902,
-            53.2042368,
-            0
-          ],
-          [
-            6.5128243,
-            53.2040505,
-            0
-          ],
-          [
-            6.5134029,
-            53.2032946,
-            0
-          ],
-          [
-            6.5155212,
-            53.2038799,
-            0
-          ],
-          [
-            6.5168319,
-            53.2045777,
-            0
-          ],
-          [
-            6.5175158,
-            53.2049552,
-            0
-          ],
-          [
-            6.5175051,
-            53.2049777,
-            0
-          ],
-          [
-            6.5169257,
-            53.2056588,
-            0
-          ],
-          [
-            6.5166951,
-            53.2056878,
-            0
-          ],
-          [
-            6.5164402,
-            53.2057327,
-            0
-          ],
-          [
-            6.5162337,
-            53.2057809,
-            0
-          ],
-          [
-            6.5160474,
-            53.2058396,
-            0
-          ],
-          [
-            6.5158865,
-            53.2058974,
-            0
-          ],
-          [
-            6.5157202,
-            53.2059794,
-            0
-          ],
-          [
-            6.5153898,
-            53.2062813,
-            0
-          ],
-          [
-            6.5151859,
-            53.2065705,
-            0
-          ],
-          [
-            6.5150675,
-            53.2068156,
-            0
-          ],
-          [
-            6.5149816,
-            53.2069554,
-            0
-          ],
-          [
-            6.5148287,
-            53.2071353,
-            0
-          ],
-          [
-            6.5145384,
-            53.2073642,
-            0
-          ],
-          [
-            6.5143238,
-            53.2075136,
-            0
-          ],
-          [
-            6.5142004,
-            53.2076148,
-            0
-          ],
-          [
-            6.5141478,
-            53.2076747,
-            0
-          ],
-          [
-            6.5141586,
-            53.2077113,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Loopparcours",
-        "styleUrl": "#line-097138-2356",
-        "styleHash": "-4226b1e4",
-        "styleMapHash": {
-          "normal": "#line-097138-2356-normal",
-          "highlight": "#line-097138-2356-highlight"
-        },
-        "description": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden\n",
-        "stroke": "#097138",
-        "stroke-opacity": 1,
-        "stroke-width": 2.356
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5142872,
-          53.2073597,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-flag-checkered",
-        "styleUrl": "#icon-1661-097138",
-        "styleHash": "14b7d402",
-        "styleMapHash": {
-          "normal": "#icon-1661-097138-normal",
-          "highlight": "#icon-1661-097138-highlight"
-        },
-        "description": "Finish, bocht linksom voor het ingaan van volgende loopronde"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.5146636,
-            53.2072635,
-            0
-          ],
-          [
-            6.5143793,
-            53.2074226,
-            0
-          ],
-          [
-            6.5142801,
-            53.2074643,
-            0
-          ],
-          [
-            6.5142264,
-            53.2074531,
-            0
-          ],
-          [
-            6.5142479,
-            53.2074177,
-            0
-          ],
-          [
-            6.5142872,
-            53.2073597,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Finish",
-        "styleUrl": "#line-097138-2356",
-        "styleHash": "-4226b1e4",
-        "styleMapHash": {
-          "normal": "#line-097138-2356-normal",
-          "highlight": "#line-097138-2356-highlight"
-        },
-        "description": "fa-flag-checkered",
-        "stroke": "#097138",
-        "stroke-opacity": 1,
-        "stroke-width": 2.356
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -1273,28 +138,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.514306,
-          53.207102,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-check-circle",
-        "styleUrl": "#icon-1769-424242",
-        "styleHash": "-66799319",
-        "styleMapHash": {
-          "normal": "#icon-1769-424242-normal",
-          "highlight": "#icon-1769-424242-highlight"
-        },
-        "description": "beschrijving: Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone<br>name: fa-check-circle",
-        "beschrijving": "Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.513952,
           53.207599,
           0
@@ -1366,398 +209,94 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Polygon",
         "coordinates": [
           [
-            6.513222,
-            53.207776,
-            0
-          ],
-          [
-            6.509938,
-            53.207948,
-            0
-          ],
-          [
-            6.509624,
-            53.207948,
-            0
-          ],
-          [
-            6.508396,
-            53.208012,
-            0
-          ],
-          [
-            6.507205,
-            53.208074,
-            0
-          ],
-          [
-            6.506846,
-            53.20809,
-            0
-          ],
-          [
-            6.506782,
-            53.208082,
-            0
-          ],
-          [
-            6.506709,
-            53.208062,
-            0
-          ],
-          [
-            6.506652,
-            53.20803,
-            0
-          ],
-          [
-            6.506674,
-            53.207982,
-            0
-          ],
-          [
-            6.506714,
-            53.207927,
-            0
-          ],
-          [
-            6.506797,
-            53.207826,
-            0
-          ],
-          [
-            6.506894,
-            53.207694,
-            0
-          ],
-          [
-            6.507001,
-            53.207537,
-            0
-          ],
-          [
-            6.507318,
-            53.207009,
-            0
-          ],
-          [
-            6.507722,
-            53.20633,
-            0
-          ],
-          [
-            6.508092,
-            53.205676,
-            0
-          ],
-          [
-            6.508321,
-            53.205296,
-            0
-          ],
-          [
-            6.508387,
-            53.20518,
-            0
-          ],
-          [
-            6.50849,
-            53.20503,
-            0
-          ],
-          [
-            6.508842,
-            53.204621,
-            0
-          ],
-          [
-            6.509162,
-            53.204244,
-            0
-          ],
-          [
-            6.509745,
-            53.203639,
-            0
-          ],
-          [
-            6.509939,
-            53.203414,
-            0
-          ],
-          [
-            6.509964,
-            53.203385,
-            0
-          ],
-          [
-            6.509989,
-            53.203347,
-            0
-          ],
-          [
-            6.509998,
-            53.203318,
-            0
-          ],
-          [
-            6.510018,
-            53.203277,
-            0
-          ],
-          [
-            6.510187,
-            53.203085,
-            0
-          ],
-          [
-            6.511327,
-            53.201891,
-            0
-          ],
-          [
-            6.51156,
-            53.20165,
-            0
-          ],
-          [
-            6.511724,
-            53.201425,
-            0
-          ],
-          [
-            6.511716,
-            53.201372,
-            0
-          ],
-          [
-            6.511689,
-            53.201313,
-            0
-          ],
-          [
-            6.511632,
-            53.20127,
-            0
-          ],
-          [
-            6.511552,
-            53.201229,
-            0
-          ],
-          [
-            6.511428,
-            53.201189,
-            0
-          ],
-          [
-            6.511337,
-            53.201146,
-            0
-          ],
-          [
-            6.511225,
-            53.20109,
-            0
-          ],
-          [
-            6.511139,
-            53.201017,
-            0
-          ],
-          [
-            6.511066,
-            53.200964,
-            0
-          ],
-          [
-            6.510959,
-            53.200873,
-            0
-          ],
-          [
-            6.510876,
-            53.200848,
-            0
-          ],
-          [
-            6.51079,
-            53.200832,
-            0
-          ],
-          [
-            6.510702,
-            53.200837,
-            0
-          ],
-          [
-            6.510498,
-            53.200879,
-            0
-          ],
-          [
-            6.510264,
-            53.200946,
-            0
-          ],
-          [
-            6.509811,
-            53.201088,
-            0
-          ],
-          [
-            6.509017,
-            53.201322,
-            0
-          ],
-          [
-            6.508698,
-            53.201403,
-            0
-          ],
-          [
-            6.508341,
-            53.201483,
-            0
-          ],
-          [
-            6.50774,
-            53.201564,
-            0
-          ],
-          [
-            6.507491,
-            53.201583,
-            0
-          ],
-          [
-            6.507091,
-            53.201641,
-            0
-          ],
-          [
-            6.506697,
-            53.201723,
-            0
-          ],
-          [
-            6.506244,
-            53.201843,
-            0
-          ],
-          [
-            6.505182,
-            53.202167,
-            0
-          ],
-          [
-            6.504974,
-            53.202233,
-            0
-          ],
-          [
-            6.503951,
-            53.202544,
-            0
-          ],
-          [
-            6.501639,
-            53.203238,
-            0
-          ],
-          [
-            6.500845,
-            53.203446,
-            0
-          ],
-          [
-            6.500062,
-            53.20361,
-            0
-          ],
-          [
-            6.499472,
-            53.203729,
-            0
-          ],
-          [
-            6.498989,
-            53.20381,
-            0
-          ],
-          [
-            6.498345,
-            53.203896,
-            0
-          ],
-          [
-            6.497666,
-            53.203971,
-            0
-          ],
-          [
-            6.497008,
-            53.204027,
-            0
-          ],
-          [
-            6.496629,
-            53.204051,
-            0
-          ],
-          [
-            6.49591,
-            53.20408,
-            0
-          ],
-          [
-            6.495549,
-            53.204096,
-            0
-          ],
-          [
-            6.494127,
-            53.204158,
-            0
-          ],
-          [
-            6.49307,
-            53.204192,
-            0
-          ],
-          [
-            6.492548,
-            53.20421,
-            0
-          ],
-          [
-            6.492454,
-            53.204197,
-            0
-          ],
-          [
-            6.492302,
-            53.204197,
-            0
+            [
+              6.5129558,
+              53.2075848,
+              0
+            ],
+            [
+              6.5130523,
+              53.2075141,
+              0
+            ],
+            [
+              6.5132186,
+              53.2074081,
+              0
+            ],
+            [
+              6.5134493,
+              53.207196,
+              0
+            ],
+            [
+              6.5137443,
+              53.207135,
+              0
+            ],
+            [
+              6.5136853,
+              53.207257,
+              0
+            ],
+            [
+              6.5135941,
+              53.2074402,
+              0
+            ],
+            [
+              6.5134761,
+              53.207604,
+              0
+            ],
+            [
+              6.5129558,
+              53.2075848,
+              0
+            ]
           ]
         ]
       },
       "properties": {
-        "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-A52714-3000",
-        "styleHash": "-60c775c4",
+        "name": "",
+        "styleUrl": "#poly-FBC02D-1200-77",
+        "styleHash": "2e2ab9d2",
         "styleMapHash": {
-          "normal": "#line-A52714-3000-normal",
-          "highlight": "#line-A52714-3000-highlight"
+          "normal": "#poly-FBC02D-1200-77-normal",
+          "highlight": "#poly-FBC02D-1200-77-highlight"
         },
-        "description": "",
-        "stroke": "#a52714",
+        "description": "beschrijving: Mixed zone<br>name: ",
+        "stroke": "#fbc02d",
         "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": "name: Aanloopstrook fietsen\ndescription:"
+        "stroke-width": 1.2,
+        "fill": "#fbc02d",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Mixed zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5143157,
+          53.2071046,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
+        "beschrijving": "Tijdbalk transitie 1"
       }
     },
     {
@@ -1766,293 +305,991 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.508927,
-            53.201212,
+            6.513366,
+            53.207132,
             0
           ],
           [
-            6.509009,
-            53.201244,
+            6.513872,
+            53.207006,
             0
           ],
           [
-            6.509099,
-            53.201227,
+            6.5143237,
+            53.207087,
             0
           ],
           [
-            6.509287,
-            53.201177,
+            6.5143157,
+            53.2071046,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
+        "styleMapHash": {
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5138237,
+            53.2075786,
             0
           ],
           [
-            6.509501,
-            53.201111,
+            6.5138162,
+            53.2076596,
             0
           ],
           [
-            6.509733,
-            53.201036,
+            6.5138019,
+            53.2077165,
             0
           ],
           [
-            6.509932,
-            53.200956,
+            6.5137466,
+            53.2077468,
             0
           ],
           [
-            6.51007,
-            53.200889,
+            6.5135239,
+            53.2077597,
             0
           ],
           [
-            6.510283,
-            53.20079,
+            6.5133723,
+            53.2077694,
             0
           ],
           [
-            6.510425,
-            53.200728,
+            6.513222,
+            53.207776,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
+        "styleMapHash": {
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5137631,
+            53.2072993,
             0
           ],
           [
-            6.510586,
-            53.200691,
+            6.5137424,
+            53.2073097,
             0
           ],
           [
-            6.510714,
-            53.20068,
+            6.5137055,
+            53.2073667,
             0
           ],
           [
-            6.510816,
-            53.200688,
+            6.5136834,
+            53.2074052,
             0
           ],
           [
-            6.510888,
-            53.200705,
+            6.5136381,
+            53.2074821,
             0
           ],
           [
-            6.510934,
-            53.200715,
+            6.5135775,
+            53.2075763,
             0
           ],
           [
-            6.511005,
-            53.200766,
+            6.513505,
+            53.2076555,
             0
           ],
           [
-            6.511092,
-            53.200877,
+            6.5134507,
+            53.2077037,
             0
           ],
           [
-            6.511207,
-            53.20097,
+            6.5133923,
+            53.2077325,
             0
           ],
           [
-            6.511288,
-            53.201038,
-            0
-          ],
-          [
-            6.511465,
-            53.201125,
-            0
-          ],
-          [
-            6.511642,
-            53.201189,
-            0
-          ],
-          [
-            6.511791,
-            53.201292,
-            0
-          ],
-          [
-            6.511812,
-            53.20131,
-            0
-          ],
-          [
-            6.511842,
-            53.201368,
-            0
-          ],
-          [
-            6.511812,
-            53.201428,
-            0
-          ],
-          [
-            6.511565,
-            53.201729,
-            0
-          ],
-          [
-            6.510871,
-            53.202466,
-            0
-          ],
-          [
-            6.510511,
-            53.20284,
-            0
-          ],
-          [
-            6.510179,
-            53.203177,
-            0
-          ],
-          [
-            6.510082,
-            53.203277,
-            0
-          ],
-          [
-            6.510044,
-            53.203341,
-            0
-          ],
-          [
-            6.510046,
-            53.203375,
-            0
-          ],
-          [
-            6.51004,
-            53.20342,
-            0
-          ],
-          [
-            6.50998,
-            53.203496,
-            0
-          ],
-          [
-            6.509729,
-            53.203737,
-            0
-          ],
-          [
-            6.50953,
-            53.203941,
-            0
-          ],
-          [
-            6.50924,
-            53.204273,
-            0
-          ],
-          [
-            6.509001,
-            53.204532,
-            0
-          ],
-          [
-            6.508635,
-            53.204952,
-            0
-          ],
-          [
-            6.508504,
-            53.205134,
-            0
-          ],
-          [
-            6.508399,
-            53.205303,
-            0
-          ],
-          [
-            6.507978,
-            53.205969,
-            0
-          ],
-          [
-            6.507699,
-            53.20647,
-            0
-          ],
-          [
-            6.507514,
-            53.206814,
-            0
-          ],
-          [
-            6.507179,
-            53.207407,
-            0
-          ],
-          [
-            6.506953,
-            53.207741,
-            0
-          ],
-          [
-            6.506878,
-            53.207846,
-            0
-          ],
-          [
-            6.506868,
-            53.207934,
-            0
-          ],
-          [
-            6.506943,
-            53.207984,
-            0
-          ],
-          [
-            6.50709,
-            53.208007,
-            0
-          ],
-          [
-            6.507283,
-            53.208018,
-            0
-          ],
-          [
-            6.507821,
-            53.20799,
-            0
-          ],
-          [
-            6.508697,
-            53.207944,
-            0
-          ],
-          [
-            6.508941,
-            53.20797,
-            0
-          ],
-          [
-            6.509589,
-            53.207933,
-            0
-          ],
-          [
-            6.509763,
-            53.207933,
-            0
-          ],
-          [
-            6.509947,
-            53.207932,
+            6.5133055,
+            53.2077524,
             0
           ],
           [
             6.513224,
             53.207762,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
+        "styleMapHash": {
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5131777,
+          53.207769,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "description": "beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch",
+        "beschrijving": "Balk transitie 1 en start transitie 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.514082,
+            53.207582,
+            0
+          ],
+          [
+            6.514128,
+            53.207608,
+            0
+          ],
+          [
+            6.514148,
+            53.207675,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
+        "styleMapHash": {
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514148,
+          53.207675,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
+        "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513603,
+          53.207565,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-hourglass-half",
+        "styleUrl": "#icon-1499-FF5252",
+        "styleHash": "528e3e01",
+        "styleMapHash": {
+          "normal": "#icon-1499-FF5252-normal",
+          "highlight": "#icon-1499-FF5252-highlight"
+        },
+        "description": "beschrijving: Strafbox<br>name: fa-hourglass-half",
+        "beschrijving": "Strafbox"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51269,
+          53.208286,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-suitcase",
+        "styleUrl": "#icon-1699-424242",
+        "styleHash": "-720ab87d",
+        "styleMapHash": {
+          "normal": "#icon-1699-424242-normal",
+          "highlight": "#icon-1699-424242-highlight"
+        },
+        "description": "beschrijving: Ophalen en afzetten teamtenten, geen parkeergelegenheid! Volg de aanwijzingen van de vrijwilligers.<br>name: fa-suitcase",
+        "beschrijving": "Ophalen en afzetten teamtenten, geen parkeergelegenheid! Volg de aanwijzingen van de vrijwilligers."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514214,
+          53.20669,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-microphone",
+        "styleUrl": "#icon-1625-424242",
+        "styleHash": "-1b53f3da",
+        "styleMapHash": {
+          "normal": "#icon-1625-424242-normal",
+          "highlight": "#icon-1625-424242-highlight"
+        },
+        "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
+        "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513141,
+          53.206507,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": "",
+        "beschrijving": "name: fa-circle\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.515099,
+          53.205651,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": "",
+        "beschrijving": "name: fa-circle\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514493,
+          53.20532,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": "",
+        "beschrijving": "name: fa-circle\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.512604,
+          53.207171,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": "Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish",
+        "beschrijving": "name: fa-circle\ndescription: Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.513141,
+            53.206507,
+            0
+          ],
+          [
+            6.515099,
+            53.205651,
+            0
+          ],
+          [
+            6.514493,
+            53.20532,
+            0
+          ],
+          [
+            6.511553,
+            53.205943,
+            0
+          ],
+          [
+            6.510427,
+            53.206825,
+            0
+          ],
+          [
+            6.512604,
+            53.207171,
+            0
+          ],
+          [
+            6.513141,
+            53.206507,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Zwemparcours divisie",
+        "styleUrl": "#line-0288D1-3000",
+        "styleHash": "761a8a9c",
+        "styleMapHash": {
+          "normal": "#line-0288D1-3000-normal",
+          "highlight": "#line-0288D1-3000-highlight"
+        },
+        "description": "750m per ronde\n\nsprint: 1 ronde\nstandaard: 2 ronde",
+        "stroke": "#0288d1",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "name: Zwemparcours divisie\ndescription: 750m per ronde\n\nsprint: 1 ronde\nstandaard: 2 ronde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511553,
+          53.205943,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": "",
+        "beschrijving": "name: fa-circle\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.512604,
+            53.207171,
+            0
+          ],
+          [
+            6.513366,
+            53.207132,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-0288D1-3000",
+        "styleHash": "761a8a9c",
+        "styleMapHash": {
+          "normal": "#line-0288D1-3000-normal",
+          "highlight": "#line-0288D1-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#0288d1",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "name: \ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513366,
+          53.207132,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-0288D1",
+        "styleHash": "21967554",
+        "styleMapHash": {
+          "normal": "#icon-1661-0288D1-normal",
+          "highlight": "#icon-1661-0288D1-highlight"
+        },
+        "description": "",
+        "beschrijving": "name: fa-flag-checkered\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5129219,
+          53.2064689,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person-swimming",
+        "styleUrl": "#icon-1701-0288D1",
+        "styleHash": "507c9fdb",
+        "styleMapHash": {
+          "normal": "#icon-1701-0288D1-normal",
+          "highlight": "#icon-1701-0288D1-highlight"
+        },
+        "description": "Waterstart. Opstellen voorbij de boei",
+        "beschrijving": "name: fa-person-swimming\ndescription: Waterstart. Opstellen voorbij de boei"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.510427,
+          53.206825,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "description": "",
+        "beschrijving": "name: fa-circle\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.492302,
+            53.204197,
+            0
+          ],
+          [
+            6.492454,
+            53.204197,
+            0
+          ],
+          [
+            6.492548,
+            53.20421,
+            0
+          ],
+          [
+            6.49307,
+            53.204192,
+            0
+          ],
+          [
+            6.494127,
+            53.204158,
+            0
+          ],
+          [
+            6.495549,
+            53.204096,
+            0
+          ],
+          [
+            6.49591,
+            53.20408,
+            0
+          ],
+          [
+            6.496629,
+            53.204051,
+            0
+          ],
+          [
+            6.497008,
+            53.204027,
+            0
+          ],
+          [
+            6.497666,
+            53.203971,
+            0
+          ],
+          [
+            6.498345,
+            53.203896,
+            0
+          ],
+          [
+            6.498989,
+            53.20381,
+            0
+          ],
+          [
+            6.499472,
+            53.203729,
+            0
+          ],
+          [
+            6.500062,
+            53.20361,
+            0
+          ],
+          [
+            6.500845,
+            53.203446,
+            0
+          ],
+          [
+            6.501639,
+            53.203238,
+            0
+          ],
+          [
+            6.503951,
+            53.202544,
+            0
+          ],
+          [
+            6.504974,
+            53.202233,
+            0
+          ],
+          [
+            6.505182,
+            53.202167,
+            0
+          ],
+          [
+            6.506244,
+            53.201843,
+            0
+          ],
+          [
+            6.506697,
+            53.201723,
+            0
+          ],
+          [
+            6.507091,
+            53.201641,
+            0
+          ],
+          [
+            6.507491,
+            53.201583,
+            0
+          ],
+          [
+            6.50774,
+            53.201564,
+            0
+          ],
+          [
+            6.508341,
+            53.201483,
+            0
+          ],
+          [
+            6.508698,
+            53.201403,
+            0
+          ],
+          [
+            6.509017,
+            53.201322,
+            0
+          ],
+          [
+            6.509811,
+            53.201088,
+            0
+          ],
+          [
+            6.510264,
+            53.200946,
+            0
+          ],
+          [
+            6.510498,
+            53.200879,
+            0
+          ],
+          [
+            6.510702,
+            53.200837,
+            0
+          ],
+          [
+            6.51079,
+            53.200832,
+            0
+          ],
+          [
+            6.510876,
+            53.200848,
+            0
+          ],
+          [
+            6.510959,
+            53.200873,
+            0
+          ],
+          [
+            6.511066,
+            53.200964,
+            0
+          ],
+          [
+            6.511139,
+            53.201017,
+            0
+          ],
+          [
+            6.511225,
+            53.20109,
+            0
+          ],
+          [
+            6.511337,
+            53.201146,
+            0
+          ],
+          [
+            6.511428,
+            53.201189,
+            0
+          ],
+          [
+            6.511552,
+            53.201229,
+            0
+          ],
+          [
+            6.511632,
+            53.20127,
+            0
+          ],
+          [
+            6.511689,
+            53.201313,
+            0
+          ],
+          [
+            6.511716,
+            53.201372,
+            0
+          ],
+          [
+            6.511724,
+            53.201425,
+            0
+          ],
+          [
+            6.51156,
+            53.20165,
+            0
+          ],
+          [
+            6.511327,
+            53.201891,
+            0
+          ],
+          [
+            6.510187,
+            53.203085,
+            0
+          ],
+          [
+            6.510018,
+            53.203277,
+            0
+          ],
+          [
+            6.509998,
+            53.203318,
+            0
+          ],
+          [
+            6.509989,
+            53.203347,
+            0
+          ],
+          [
+            6.509964,
+            53.203385,
+            0
+          ],
+          [
+            6.5099658,
+            53.203414,
+            0
+          ],
+          [
+            6.5097879,
+            53.2036358,
+            0
+          ],
+          [
+            6.509475,
+            53.2039511,
+            0
+          ],
+          [
+            6.509162,
+            53.204244,
+            0
+          ],
+          [
+            6.508842,
+            53.204621,
+            0
+          ],
+          [
+            6.5085195,
+            53.20503,
+            0
+          ],
+          [
+            6.5084004,
+            53.205172,
+            0
+          ],
+          [
+            6.5083156,
+            53.2053072,
+            0
+          ],
+          [
+            6.508092,
+            53.205676,
+            0
+          ],
+          [
+            6.507722,
+            53.20633,
+            0
+          ],
+          [
+            6.507318,
+            53.207009,
+            0
+          ],
+          [
+            6.507001,
+            53.207537,
+            0
+          ],
+          [
+            6.506894,
+            53.207694,
+            0
+          ],
+          [
+            6.5068118,
+            53.2078284,
+            0
+          ],
+          [
+            6.5067918,
+            53.2079125,
+            0
+          ],
+          [
+            6.5068269,
+            53.2079539,
+            0
+          ],
+          [
+            6.5068961,
+            53.207985,
+            0
+          ],
+          [
+            6.5069745,
+            53.2080026,
+            0
+          ],
+          [
+            6.5070784,
+            53.2080169,
+            0
+          ],
+          [
+            6.5072054,
+            53.2080306,
+            0
+          ],
+          [
+            6.5073498,
+            53.2080314,
+            0
+          ],
+          [
+            6.5078206,
+            53.2080065,
+            0
+          ],
+          [
+            6.5084416,
+            53.2079735,
+            0
+          ],
+          [
+            6.5085851,
+            53.2079703,
+            0
+          ],
+          [
+            6.5086816,
+            53.2079843,
+            0
+          ],
+          [
+            6.5087487,
+            53.2079855,
+            0
+          ],
+          [
+            6.509624,
+            53.207948,
+            0
+          ],
+          [
+            6.509938,
+            53.207948,
+            0
+          ],
+          [
+            6.513222,
+            53.207776,
             0
           ]
         ]
@@ -2078,1143 +1315,365 @@
         "type": "LineString",
         "coordinates": [
           [
+            6.513224,
+            53.207762,
+            0
+          ],
+          [
+            6.509947,
+            53.207932,
+            0
+          ],
+          [
+            6.509763,
+            53.207933,
+            0
+          ],
+          [
+            6.509589,
+            53.207933,
+            0
+          ],
+          [
+            6.5091363,
+            53.2079579,
+            0
+          ],
+          [
+            6.5089893,
+            53.2079467,
+            0
+          ],
+          [
+            6.5088579,
+            53.2079373,
+            0
+          ],
+          [
+            6.508697,
+            53.2079368,
+            0
+          ],
+          [
+            6.5078223,
+            53.2079844,
+            0
+          ],
+          [
+            6.507279,
+            53.2080092,
+            0
+          ],
+          [
+            6.5070927,
+            53.2079966,
+            0
+          ],
+          [
+            6.5069457,
+            53.2079639,
+            0
+          ],
+          [
+            6.5068962,
+            53.2079364,
+            0
+          ],
+          [
+            6.5068811,
+            53.2078976,
+            0
+          ],
+          [
+            6.5068968,
+            53.2078468,
+            0
+          ],
+          [
+            6.506961,
+            53.207741,
+            0
+          ],
+          [
+            6.507179,
+            53.207407,
+            0
+          ],
+          [
+            6.5075274,
+            53.206814,
+            0
+          ],
+          [
+            6.5076266,
+            53.206642,
+            0
+          ],
+          [
+            6.5077741,
+            53.2063752,
+            0
+          ],
+          [
+            6.5080021,
+            53.2059626,
+            0
+          ],
+          [
+            6.508399,
+            53.205303,
+            0
+          ],
+          [
+            6.508504,
+            53.205134,
+            0
+          ],
+          [
+            6.508635,
+            53.204952,
+            0
+          ],
+          [
+            6.509001,
+            53.204532,
+            0
+          ],
+          [
+            6.50924,
+            53.204273,
+            0
+          ],
+          [
+            6.50953,
+            53.203941,
+            0
+          ],
+          [
+            6.509729,
+            53.203737,
+            0
+          ],
+          [
+            6.50998,
+            53.203496,
+            0
+          ],
+          [
+            6.5100521,
+            53.2034112,
+            0
+          ],
+          [
+            6.5100648,
+            53.2033638,
+            0
+          ],
+          [
+            6.5100762,
+            53.2033241,
+            0
+          ],
+          [
+            6.5100968,
+            53.2032754,
+            0
+          ],
+          [
+            6.510179,
+            53.203177,
+            0
+          ],
+          [
+            6.510511,
+            53.20284,
+            0
+          ],
+          [
+            6.510871,
+            53.202466,
+            0
+          ],
+          [
+            6.511565,
+            53.201729,
+            0
+          ],
+          [
+            6.511812,
+            53.201428,
+            0
+          ],
+          [
+            6.511842,
+            53.201368,
+            0
+          ],
+          [
+            6.511812,
+            53.20131,
+            0
+          ],
+          [
+            6.511791,
+            53.201292,
+            0
+          ],
+          [
+            6.511642,
+            53.201189,
+            0
+          ],
+          [
+            6.511465,
+            53.201125,
+            0
+          ],
+          [
+            6.511288,
+            53.201038,
+            0
+          ],
+          [
+            6.511207,
+            53.20097,
+            0
+          ],
+          [
+            6.511092,
+            53.200877,
+            0
+          ],
+          [
+            6.511005,
+            53.200766,
+            0
+          ],
+          [
+            6.510934,
+            53.200715,
+            0
+          ],
+          [
+            6.510888,
+            53.200705,
+            0
+          ],
+          [
+            6.510816,
+            53.200688,
+            0
+          ],
+          [
+            6.510714,
+            53.20068,
+            0
+          ],
+          [
+            6.510586,
+            53.200691,
+            0
+          ],
+          [
+            6.510425,
+            53.200728,
+            0
+          ],
+          [
+            6.510283,
+            53.20079,
+            0
+          ],
+          [
+            6.5101156,
+            53.200885,
+            0
+          ],
+          [
+            6.5099709,
+            53.2009544,
+            0
+          ],
+          [
+            6.5097545,
+            53.201036,
+            0
+          ],
+          [
+            6.5095359,
+            53.2011094,
+            0
+          ],
+          [
+            6.5093152,
+            53.2011778,
+            0
+          ],
+          [
+            6.5091593,
+            53.2012182,
+            0
+          ],
+          [
+            6.509013,
+            53.2012569,
+            0
+          ],
+          [
+            6.5088135,
+            53.2013128,
+            0
+          ],
+          [
+            6.5085482,
+            53.2013785,
+            0
+          ],
+          [
+            6.5083475,
+            53.2013972,
+            0
+          ],
+          [
+            6.5082468,
+            53.2014004,
+            0
+          ],
+          [
+            6.5081474,
+            53.2014155,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Aanloopstrook fietsen",
+        "styleUrl": "#line-A52714-3000",
+        "styleHash": "-60c775c4",
+        "styleMapHash": {
+          "normal": "#line-A52714-3000-normal",
+          "highlight": "#line-A52714-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#a52714",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "name: Aanloopstrook fietsen\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             6.505001,
             53.202187,
             0
           ],
           [
-            6.504429,
-            53.202362,
-            0
-          ],
-          [
-            6.503627,
-            53.202614,
-            0
-          ],
-          [
-            6.503221,
-            53.202737,
-            0
-          ],
-          [
-            6.502818,
-            53.20286,
-            0
-          ],
-          [
-            6.50258,
-            53.202925,
-            0
-          ],
-          [
-            6.502291,
-            53.203011,
-            0
-          ],
-          [
-            6.501727,
-            53.203178,
-            0
-          ],
-          [
-            6.501276,
-            53.203305,
-            0
-          ],
-          [
-            6.500652,
-            53.203458,
-            0
-          ],
-          [
-            6.500341,
-            53.203526,
-            0
-          ],
-          [
-            6.499634,
-            53.203668,
-            0
-          ],
-          [
-            6.498761,
-            53.203816,
-            0
-          ],
-          [
-            6.498017,
-            53.203901,
-            0
-          ],
-          [
-            6.496788,
-            53.204,
-            0
-          ],
-          [
-            6.495294,
-            53.204075,
-            0
-          ],
-          [
-            6.493755,
-            53.204136,
-            0
-          ],
-          [
-            6.493312,
-            53.204146,
-            0
-          ],
-          [
-            6.492655,
-            53.204179,
-            0
-          ],
-          [
-            6.492474,
-            53.204186,
-            0
-          ],
-          [
-            6.491587,
-            53.20424,
-            0
-          ],
-          [
-            6.491452,
-            53.204252,
-            0
-          ],
-          [
-            6.491334,
-            53.204277,
-            0
-          ],
-          [
-            6.491251,
-            53.204319,
-            0
-          ],
-          [
-            6.491202,
-            53.204369,
-            0
-          ],
-          [
-            6.491189,
-            53.204456,
-            0
-          ],
-          [
-            6.491208,
-            53.20457,
-            0
-          ],
-          [
-            6.491256,
-            53.205042,
-            0
-          ],
-          [
-            6.491224,
-            53.205346,
-            0
-          ],
-          [
-            6.49109,
-            53.205665,
-            0
-          ],
-          [
-            6.490674,
-            53.206428,
-            0
-          ],
-          [
-            6.488856,
-            53.209512,
-            0
-          ],
-          [
-            6.48879,
-            53.209523,
-            0
-          ],
-          [
-            6.488711,
-            53.209519,
-            0
-          ],
-          [
-            6.488622,
-            53.209506,
-            0
-          ],
-          [
-            6.486558,
-            53.20911,
-            0
-          ],
-          [
-            6.486373,
-            53.209044,
-            0
-          ],
-          [
-            6.486279,
-            53.208986,
-            0
-          ],
-          [
-            6.486185,
-            53.20893,
-            0
-          ],
-          [
-            6.486006,
-            53.208869,
-            0
-          ],
-          [
-            6.484276,
-            53.208541,
-            0
-          ],
-          [
-            6.480679,
-            53.207856,
-            0
-          ],
-          [
-            6.480593,
-            53.207882,
-            0
-          ],
-          [
-            6.48054,
-            53.20794,
-            0
-          ],
-          [
-            6.479617,
-            53.209703,
-            0
-          ],
-          [
-            6.479499,
-            53.209758,
-            0
-          ],
-          [
-            6.479349,
-            53.209764,
-            0
-          ],
-          [
-            6.479215,
-            53.209732,
-            0
-          ],
-          [
-            6.471506,
-            53.208142,
-            0
-          ],
-          [
-            6.471391,
-            53.208095,
-            0
-          ],
-          [
-            6.471369,
-            53.208074,
-            0
-          ],
-          [
-            6.47134,
-            53.208033,
-            0
-          ],
-          [
-            6.471342,
-            53.20798,
-            0
-          ],
-          [
-            6.471967,
-            53.206778,
-            0
-          ],
-          [
-            6.472986,
-            53.205689,
-            0
-          ],
-          [
-            6.472986,
-            53.205623,
-            0
-          ],
-          [
-            6.472952,
-            53.20557,
-            0
-          ],
-          [
-            6.472901,
-            53.205531,
-            0
-          ],
-          [
-            6.472732,
-            53.20549,
-            0
-          ],
-          [
-            6.472598,
-            53.205483,
-            0
-          ],
-          [
-            6.47249,
-            53.205494,
-            0
-          ],
-          [
-            6.472367,
-            53.20552,
-            0
-          ],
-          [
-            6.472236,
-            53.205507,
-            0
-          ],
-          [
-            6.472168,
-            53.205472,
-            0
-          ],
-          [
-            6.472107,
-            53.205422,
-            0
-          ],
-          [
-            6.472056,
-            53.20538,
-            0
-          ],
-          [
-            6.471924,
-            53.20534,
-            0
-          ],
-          [
-            6.471761,
-            53.205308,
-            0
-          ],
-          [
-            6.471645,
-            53.205295,
-            0
-          ],
-          [
-            6.471637,
-            53.205229,
-            0
-          ],
-          [
-            6.47168,
-            53.205078,
-            0
-          ],
-          [
-            6.472399,
-            53.20344,
-            0
-          ],
-          [
-            6.472415,
-            53.203343,
-            0
-          ],
-          [
-            6.472375,
-            53.203277,
-            0
-          ],
-          [
-            6.472252,
-            53.203186,
-            0
-          ],
-          [
-            6.472083,
-            53.20312,
-            0
-          ],
-          [
-            6.471136,
-            53.202694,
-            0
-          ],
-          [
-            6.470978,
-            53.20264,
-            0
-          ],
-          [
-            6.470758,
-            53.202577,
-            0
-          ],
-          [
-            6.470138,
-            53.202456,
-            0
-          ],
-          [
-            6.470055,
-            53.202428,
-            0
-          ],
-          [
-            6.470039,
-            53.202402,
-            0
-          ],
-          [
-            6.470023,
-            53.20237,
-            0
-          ],
-          [
-            6.470042,
-            53.202326,
-            0
-          ],
-          [
-            6.470087,
-            53.202194,
-            0
-          ],
-          [
-            6.470074,
-            53.202172,
-            0
-          ],
-          [
-            6.470052,
-            53.202132,
-            0
-          ],
-          [
-            6.46998,
+            6.505325,
             53.202084,
-            0
-          ],
-          [
-            6.469819,
-            53.202055,
-            0
-          ],
-          [
-            6.467174,
-            53.201563,
-            0
-          ],
-          [
-            6.466032,
-            53.201314,
-            0
-          ],
-          [
-            6.46406,
-            53.200877,
-            0
-          ],
-          [
-            6.463475,
-            53.200744,
-            0
-          ],
-          [
-            6.461367,
-            53.200268,
-            0
-          ],
-          [
-            6.461182,
-            53.200202,
-            0
-          ],
-          [
-            6.460984,
-            53.200127,
-            0
-          ],
-          [
-            6.460809,
-            53.200046,
-            0
-          ],
-          [
-            6.460638,
-            53.19999,
-            0
-          ],
-          [
-            6.459597,
-            53.199754,
-            0
-          ],
-          [
-            6.455689,
-            53.198882,
-            0
-          ],
-          [
-            6.45193,
-            53.19806,
-            0
-          ],
-          [
-            6.451333,
-            53.197957,
-            0
-          ],
-          [
-            6.449957,
-            53.197718,
-            0
-          ],
-          [
-            6.449,
-            53.197578,
-            0
-          ],
-          [
-            6.448632,
-            53.197533,
-            0
-          ],
-          [
-            6.448503,
-            53.1975,
-            0
-          ],
-          [
-            6.448431,
-            53.197459,
-            0
-          ],
-          [
-            6.448388,
-            53.197414,
-            0
-          ],
-          [
-            6.448345,
-            53.197372,
-            0
-          ],
-          [
-            6.448096,
-            53.196747,
-            0
-          ],
-          [
-            6.448125,
-            53.196697,
-            0
-          ],
-          [
-            6.448176,
-            53.196646,
-            0
-          ],
-          [
-            6.448262,
-            53.196609,
-            0
-          ],
-          [
-            6.448353,
-            53.196594,
-            0
-          ],
-          [
-            6.448479,
-            53.196591,
-            0
-          ],
-          [
-            6.448605,
-            53.196598,
-            0
-          ],
-          [
-            6.449093,
-            53.196659,
-            0
-          ],
-          [
-            6.449952,
-            53.196786,
-            0
-          ],
-          [
-            6.45026,
-            53.196838,
-            0
-          ],
-          [
-            6.451671,
-            53.197179,
-            0
-          ],
-          [
-            6.453557,
-            53.19764,
-            0
-          ],
-          [
-            6.456545,
-            53.19836,
-            0
-          ],
-          [
-            6.45917,
-            53.198992,
-            0
-          ],
-          [
-            6.460925,
-            53.199414,
-            0
-          ],
-          [
-            6.461037,
-            53.199424,
-            0
-          ],
-          [
-            6.461136,
-            53.199421,
-            0
-          ],
-          [
-            6.461204,
-            53.199408,
-            0
-          ],
-          [
-            6.461279,
-            53.199384,
-            0
-          ],
-          [
-            6.461338,
-            53.199355,
-            0
-          ],
-          [
-            6.461389,
-            53.199353,
-            0
-          ],
-          [
-            6.461453,
-            53.199369,
-            0
-          ],
-          [
-            6.461689,
-            53.199503,
-            0
-          ],
-          [
-            6.461842,
-            53.199581,
-            0
-          ],
-          [
-            6.461955,
-            53.199623,
-            0
-          ],
-          [
-            6.462195,
-            53.199682,
-            0
-          ],
-          [
-            6.464878,
-            53.200304,
-            0
-          ],
-          [
-            6.465401,
-            53.200424,
-            0
-          ],
-          [
-            6.466101,
-            53.200559,
-            0
-          ],
-          [
-            6.467228,
-            53.200755,
-            0
-          ],
-          [
-            6.469502,
-            53.201157,
-            0
-          ],
-          [
-            6.471354,
-            53.201476,
-            0
-          ],
-          [
-            6.471824,
-            53.201514,
-            0
-          ],
-          [
-            6.472907,
-            53.201583,
-            0
-          ],
-          [
-            6.473161,
-            53.201609,
-            0
-          ],
-          [
-            6.473448,
-            53.201656,
-            0
-          ],
-          [
-            6.474011,
-            53.201762,
-            0
-          ],
-          [
-            6.474321,
-            53.201829,
-            0
-          ],
-          [
-            6.474696,
-            53.201913,
-            0
-          ],
-          [
-            6.475159,
-            53.202028,
-            0
-          ],
-          [
-            6.475961,
-            53.20225,
-            0
-          ],
-          [
-            6.476846,
-            53.202524,
-            0
-          ],
-          [
-            6.477316,
-            53.202668,
-            0
-          ],
-          [
-            6.477957,
-            53.202808,
-            0
-          ],
-          [
-            6.478761,
-            53.20297,
-            0
-          ],
-          [
-            6.479909,
-            53.203194,
-            0
-          ],
-          [
-            6.481186,
-            53.203419,
-            0
-          ],
-          [
-            6.482695,
-            53.203658,
-            0
-          ],
-          [
-            6.483078,
-            53.203681,
-            0
-          ],
-          [
-            6.483851,
-            53.203717,
-            0
-          ],
-          [
-            6.484351,
-            53.203718,
-            0
-          ],
-          [
-            6.484879,
-            53.203705,
-            0
-          ],
-          [
-            6.48607,
-            53.203638,
-            0
-          ],
-          [
-            6.487312,
-            53.203561,
-            0
-          ],
-          [
-            6.489823,
-            53.203402,
-            0
-          ],
-          [
-            6.490064,
-            53.203389,
-            0
-          ],
-          [
-            6.490209,
-            53.203413,
-            0
-          ],
-          [
-            6.490281,
-            53.203445,
-            0
-          ],
-          [
-            6.490335,
-            53.203495,
-            0
-          ],
-          [
-            6.490373,
-            53.203561,
-            0
-          ],
-          [
-            6.490448,
-            53.204051,
-            0
-          ],
-          [
-            6.490516,
-            53.20478,
-            0
-          ],
-          [
-            6.490475,
-            53.205091,
-            0
-          ],
-          [
-            6.49034,
-            53.205504,
-            0
-          ],
-          [
-            6.490154,
-            53.205963,
-            0
-          ],
-          [
-            6.490062,
-            53.206196,
-            0
-          ],
-          [
-            6.490014,
-            53.206387,
-            0
-          ],
-          [
-            6.490023,
-            53.206474,
-            0
-          ],
-          [
-            6.490063,
-            53.206532,
-            0
-          ],
-          [
-            6.490114,
-            53.206561,
-            0
-          ],
-          [
-            6.490224,
-            53.206586,
-            0
-          ],
-          [
-            6.490315,
-            53.206604,
-            0
-          ],
-          [
-            6.49043,
-            53.206598,
-            0
-          ],
-          [
-            6.490511,
-            53.206572,
-            0
-          ],
-          [
-            6.490588,
-            53.206484,
-            0
-          ],
-          [
-            6.491007,
-            53.205719,
-            0
-          ],
-          [
-            6.491176,
-            53.205351,
-            0
-          ],
-          [
-            6.491197,
-            53.205235,
-            0
-          ],
-          [
-            6.491192,
-            53.204933,
-            0
-          ],
-          [
-            6.491128,
-            53.204411,
-            0
-          ],
-          [
-            6.491144,
-            53.20435,
-            0
-          ],
-          [
-            6.491176,
-            53.204315,
-            0
-          ],
-          [
-            6.491214,
-            53.204284,
-            0
-          ],
-          [
-            6.491264,
-            53.204252,
-            0
-          ],
-          [
-            6.491323,
-            53.204231,
-            0
-          ],
-          [
-            6.49139,
-            53.204218,
-            0
-          ],
-          [
-            6.491468,
-            53.204206,
-            0
-          ],
-          [
-            6.492034,
-            53.204182,
-            0
-          ],
-          [
-            6.49308,
-            53.204127,
-            0
-          ],
-          [
-            6.493957,
-            53.204096,
-            0
-          ],
-          [
-            6.496001,
-            53.204006,
-            0
-          ],
-          [
-            6.496763,
-            53.203968,
-            0
-          ],
-          [
-            6.49779,
-            53.203891,
-            0
-          ],
-          [
-            6.498362,
-            53.203836,
-            0
-          ],
-          [
-            6.498917,
-            53.203768,
-            0
-          ],
-          [
-            6.499382,
-            53.203683,
-            0
-          ],
-          [
-            6.500253,
-            53.203517,
-            0
-          ],
-          [
-            6.500662,
-            53.203432,
-            0
-          ],
-          [
-            6.501221,
-            53.203293,
-            0
-          ],
-          [
-            6.50229,
-            53.202989,
-            0
-          ],
-          [
-            6.503361,
-            53.202673,
-            0
-          ],
-          [
-            6.505646,
-            53.201958,
-            0
-          ],
-          [
-            6.506288,
-            53.201757,
-            0
-          ],
-          [
-            6.50676,
-            53.201637,
-            0
-          ],
-          [
-            6.50721,
-            53.201553,
-            0
-          ],
-          [
-            6.5078,
-            53.201479,
-            0
-          ],
-          [
-            6.508653,
-            53.201291,
-            0
-          ],
-          [
-            6.508849,
-            53.201216,
-            0
-          ],
-          [
-            6.508927,
-            53.201212,
-            0
-          ],
-          [
-            6.508933,
-            53.201244,
-            0
-          ],
-          [
-            6.508916,
-            53.201272,
-            0
-          ],
-          [
-            6.508862,
-            53.201299,
-            0
-          ],
-          [
-            6.508764,
-            53.201324,
-            0
-          ],
-          [
-            6.508248,
-            53.201438,
-            0
-          ],
-          [
-            6.507878,
-            53.201504,
-            0
-          ],
-          [
-            6.507578,
-            53.201538,
-            0
-          ],
-          [
-            6.507288,
-            53.201567,
-            0
-          ],
-          [
-            6.506835,
-            53.201655,
-            0
-          ],
-          [
-            6.506548,
-            53.201726,
             0
           ],
           [
@@ -3223,8 +1682,1158 @@
             0
           ],
           [
-            6.505325,
+            6.506548,
+            53.201726,
+            0
+          ],
+          [
+            6.506835,
+            53.201655,
+            0
+          ],
+          [
+            6.507288,
+            53.201567,
+            0
+          ],
+          [
+            6.507578,
+            53.201538,
+            0
+          ],
+          [
+            6.507878,
+            53.201504,
+            0
+          ],
+          [
+            6.5079804,
+            53.2014926,
+            0
+          ],
+          [
+            6.5081089,
+            53.2014726,
+            0
+          ],
+          [
+            6.5081599,
+            53.2014613,
+            0
+          ],
+          [
+            6.5081952,
+            53.2014527,
+            0
+          ],
+          [
+            6.5082182,
+            53.2014384,
+            0
+          ],
+          [
+            6.5082162,
+            53.2014233,
+            0
+          ],
+          [
+            6.5081898,
+            53.2014124,
+            0
+          ],
+          [
+            6.5081474,
+            53.2014155,
+            0
+          ],
+          [
+            6.5080562,
+            53.2014344,
+            0
+          ],
+          [
+            6.5079559,
+            53.2014541,
+            0
+          ],
+          [
+            6.5078,
+            53.201479,
+            0
+          ],
+          [
+            6.50721,
+            53.201553,
+            0
+          ],
+          [
+            6.50676,
+            53.201637,
+            0
+          ],
+          [
+            6.506288,
+            53.201757,
+            0
+          ],
+          [
+            6.505646,
+            53.201958,
+            0
+          ],
+          [
+            6.503361,
+            53.202673,
+            0
+          ],
+          [
+            6.50229,
+            53.202989,
+            0
+          ],
+          [
+            6.501221,
+            53.203293,
+            0
+          ],
+          [
+            6.500662,
+            53.203432,
+            0
+          ],
+          [
+            6.500253,
+            53.203517,
+            0
+          ],
+          [
+            6.499382,
+            53.203683,
+            0
+          ],
+          [
+            6.498917,
+            53.203768,
+            0
+          ],
+          [
+            6.498362,
+            53.203836,
+            0
+          ],
+          [
+            6.49779,
+            53.203891,
+            0
+          ],
+          [
+            6.496763,
+            53.203968,
+            0
+          ],
+          [
+            6.496001,
+            53.204006,
+            0
+          ],
+          [
+            6.493957,
+            53.204096,
+            0
+          ],
+          [
+            6.49308,
+            53.204127,
+            0
+          ],
+          [
+            6.492034,
+            53.204182,
+            0
+          ],
+          [
+            6.491468,
+            53.204206,
+            0
+          ],
+          [
+            6.49139,
+            53.204218,
+            0
+          ],
+          [
+            6.491323,
+            53.204231,
+            0
+          ],
+          [
+            6.491264,
+            53.204252,
+            0
+          ],
+          [
+            6.491214,
+            53.204284,
+            0
+          ],
+          [
+            6.491176,
+            53.204315,
+            0
+          ],
+          [
+            6.491144,
+            53.20435,
+            0
+          ],
+          [
+            6.491128,
+            53.204411,
+            0
+          ],
+          [
+            6.491192,
+            53.204933,
+            0
+          ],
+          [
+            6.491197,
+            53.205235,
+            0
+          ],
+          [
+            6.491176,
+            53.205351,
+            0
+          ],
+          [
+            6.491007,
+            53.205719,
+            0
+          ],
+          [
+            6.490588,
+            53.206484,
+            0
+          ],
+          [
+            6.490511,
+            53.206572,
+            0
+          ],
+          [
+            6.49043,
+            53.206598,
+            0
+          ],
+          [
+            6.490315,
+            53.206604,
+            0
+          ],
+          [
+            6.490224,
+            53.206586,
+            0
+          ],
+          [
+            6.490114,
+            53.206561,
+            0
+          ],
+          [
+            6.490063,
+            53.206532,
+            0
+          ],
+          [
+            6.490023,
+            53.206474,
+            0
+          ],
+          [
+            6.490014,
+            53.206387,
+            0
+          ],
+          [
+            6.490062,
+            53.206196,
+            0
+          ],
+          [
+            6.490154,
+            53.205963,
+            0
+          ],
+          [
+            6.49034,
+            53.205504,
+            0
+          ],
+          [
+            6.490475,
+            53.205091,
+            0
+          ],
+          [
+            6.4904811,
+            53.2047832,
+            0
+          ],
+          [
+            6.4903944,
+            53.2040831,
+            0
+          ],
+          [
+            6.4903247,
+            53.2036012,
+            0
+          ],
+          [
+            6.4903055,
+            53.2035111,
+            0
+          ],
+          [
+            6.4902676,
+            53.2034627,
+            0
+          ],
+          [
+            6.4901983,
+            53.2034307,
+            0
+          ],
+          [
+            6.4900667,
+            53.2034051,
+            0
+          ],
+          [
+            6.489823,
+            53.2034165,
+            0
+          ],
+          [
+            6.4874568,
+            53.2035674,
+            0
+          ],
+          [
+            6.486078,
+            53.2036589,
+            0
+          ],
+          [
+            6.4848629,
+            53.2037227,
+            0
+          ],
+          [
+            6.4843376,
+            53.2037453,
+            0
+          ],
+          [
+            6.4837598,
+            53.2037331,
+            0
+          ],
+          [
+            6.483078,
+            53.2037035,
+            0
+          ],
+          [
+            6.4824938,
+            53.2036451,
+            0
+          ],
+          [
+            6.4812075,
+            53.2034447,
+            0
+          ],
+          [
+            6.4798393,
+            53.2032069,
+            0
+          ],
+          [
+            6.4787315,
+            53.2029877,
+            0
+          ],
+          [
+            6.477906,
+            53.2028225,
+            0
+          ],
+          [
+            6.4772489,
+            53.2026664,
+            0
+          ],
+          [
+            6.4766448,
+            53.2024854,
+            0
+          ],
+          [
+            6.4758939,
+            53.2022596,
+            0
+          ],
+          [
+            6.4751214,
+            53.2020425,
+            0
+          ],
+          [
+            6.4746584,
+            53.2019323,
+            0
+          ],
+          [
+            6.4742325,
+            53.2018322,
+            0
+          ],
+          [
+            6.4739574,
+            53.2017716,
+            0
+          ],
+          [
+            6.4733944,
+            53.2016737,
+            0
+          ],
+          [
+            6.4731422,
+            53.2016299,
+            0
+          ],
+          [
+            6.472797,
+            53.2016039,
+            0
+          ],
+          [
+            6.4718106,
+            53.2015333,
+            0
+          ],
+          [
+            6.4712574,
+            53.2014889,
+            0
+          ],
+          [
+            6.4694698,
+            53.2011795,
+            0
+          ],
+          [
+            6.4671824,
+            53.2007743,
+            0
+          ],
+          [
+            6.4660366,
+            53.2005751,
+            0
+          ],
+          [
+            6.4652776,
+            53.200432,
+            0
+          ],
+          [
+            6.4647814,
+            53.2003072,
+            0
+          ],
+          [
+            6.4621628,
+            53.1996916,
+            0
+          ],
+          [
+            6.4618987,
+            53.1996342,
+            0
+          ],
+          [
+            6.4617857,
+            53.1995826,
+            0
+          ],
+          [
+            6.4616568,
+            53.1995062,
+            0
+          ],
+          [
+            6.461453,
+            53.1993947,
+            0
+          ],
+          [
+            6.4613783,
+            53.1993867,
+            0
+          ],
+          [
+            6.46133,
+            53.1993903,
+            0
+          ],
+          [
+            6.4612683,
+            53.1994065,
+            0
+          ],
+          [
+            6.4611933,
+            53.1994289,
+            0
+          ],
+          [
+            6.4611038,
+            53.1994355,
+            0
+          ],
+          [
+            6.4610021,
+            53.1994385,
+            0
+          ],
+          [
+            6.4608472,
+            53.199406,
+            0
+          ],
+          [
+            6.4591807,
+            53.1990081,
+            0
+          ],
+          [
+            6.4565182,
+            53.1983696,
+            0
+          ],
+          [
+            6.453557,
+            53.19764,
+            0
+          ],
+          [
+            6.4516898,
+            53.1971935,
+            0
+          ],
+          [
+            6.4502573,
+            53.1968476,
+            0
+          ],
+          [
+            6.4499118,
+            53.1967876,
+            0
+          ],
+          [
+            6.4490715,
+            53.1966783,
+            0
+          ],
+          [
+            6.4485943,
+            53.1966157,
+            0
+          ],
+          [
+            6.4484441,
+            53.1966055,
+            0
+          ],
+          [
+            6.4483342,
+            53.1966117,
+            0
+          ],
+          [
+            6.448262,
+            53.1966347,
+            0
+          ],
+          [
+            6.4481867,
+            53.1966669,
+            0
+          ],
+          [
+            6.4481357,
+            53.1967131,
+            0
+          ],
+          [
+            6.448155,
+            53.1967711,
+            0
+          ],
+          [
+            6.4483665,
+            53.1973624,
+            0
+          ],
+          [
+            6.4484148,
+            53.1974124,
+            0
+          ],
+          [
+            6.4484632,
+            53.1974494,
+            0
+          ],
+          [
+            6.4485245,
+            53.1974855,
+            0
+          ],
+          [
+            6.4486374,
+            53.1975218,
+            0
+          ],
+          [
+            6.4490054,
+            53.1975651,
+            0
+          ],
+          [
+            6.449957,
+            53.197718,
+            0
+          ],
+          [
+            6.451341,
+            53.1979377,
+            0
+          ],
+          [
+            6.451938,
+            53.1980455,
+            0
+          ],
+          [
+            6.4556863,
+            53.1988659,
+            0
+          ],
+          [
+            6.4595782,
+            53.1997395,
+            0
+          ],
+          [
+            6.4606246,
+            53.1999707,
+            0
+          ],
+          [
+            6.4608331,
+            53.2000396,
+            0
+          ],
+          [
+            6.4610135,
+            53.2001222,
+            0
+          ],
+          [
+            6.461182,
+            53.200202,
+            0
+          ],
+          [
+            6.4613777,
+            53.2002584,
+            0
+          ],
+          [
+            6.463467,
+            53.2007247,
+            0
+          ],
+          [
+            6.4641753,
+            53.2008899,
+            0
+          ],
+          [
+            6.4660749,
+            53.2013028,
+            0
+          ],
+          [
+            6.4672089,
+            53.2015341,
+            0
+          ],
+          [
+            6.4698512,
+            53.2020454,
+            0
+          ],
+          [
+            6.4700283,
             53.202084,
+            0
+          ],
+          [
+            6.4700922,
+            53.2021175,
+            0
+          ],
+          [
+            6.4701276,
+            53.2021688,
+            0
+          ],
+          [
+            6.4701272,
+            53.2022085,
+            0
+          ],
+          [
+            6.4700903,
+            53.2023324,
+            0
+          ],
+          [
+            6.4701061,
+            53.2023796,
+            0
+          ],
+          [
+            6.4701275,
+            53.2024004,
+            0
+          ],
+          [
+            6.4701542,
+            53.2024248,
+            0
+          ],
+          [
+            6.4702158,
+            53.2024448,
+            0
+          ],
+          [
+            6.4707634,
+            53.2025561,
+            0
+          ],
+          [
+            6.4709941,
+            53.2026175,
+            0
+          ],
+          [
+            6.4712057,
+            53.2026892,
+            0
+          ],
+          [
+            6.4721206,
+            53.2030991,
+            0
+          ],
+          [
+            6.4723271,
+            53.2031972,
+            0
+          ],
+          [
+            6.4724313,
+            53.2032834,
+            0
+          ],
+          [
+            6.4724579,
+            53.2033559,
+            0
+          ],
+          [
+            6.4724419,
+            53.2034673,
+            0
+          ],
+          [
+            6.4717202,
+            53.2050796,
+            0
+          ],
+          [
+            6.4717134,
+            53.2051752,
+            0
+          ],
+          [
+            6.4717496,
+            53.2052211,
+            0
+          ],
+          [
+            6.4718066,
+            53.205255,
+            0
+          ],
+          [
+            6.4719481,
+            53.2052838,
+            0
+          ],
+          [
+            6.4720775,
+            53.2053029,
+            0
+          ],
+          [
+            6.4721955,
+            53.2052838,
+            0
+          ],
+          [
+            6.4722592,
+            53.2052648,
+            0
+          ],
+          [
+            6.4723594,
+            53.2052564,
+            0
+          ],
+          [
+            6.4724501,
+            53.205271,
+            0
+          ],
+          [
+            6.4725141,
+            53.2053012,
+            0
+          ],
+          [
+            6.4725819,
+            53.2053625,
+            0
+          ],
+          [
+            6.4726757,
+            53.2054129,
+            0
+          ],
+          [
+            6.4728447,
+            53.2054523,
+            0
+          ],
+          [
+            6.4729734,
+            53.2054766,
+            0
+          ],
+          [
+            6.4730486,
+            53.2055395,
+            0
+          ],
+          [
+            6.473045,
+            53.2056214,
+            0
+          ],
+          [
+            6.4729914,
+            53.2057581,
+            0
+          ],
+          [
+            6.4720421,
+            53.2067941,
+            0
+          ],
+          [
+            6.4714225,
+            53.207972,
+            0
+          ],
+          [
+            6.4714258,
+            53.208033,
+            0
+          ],
+          [
+            6.4714521,
+            53.2080611,
+            0
+          ],
+          [
+            6.4714876,
+            53.208087,
+            0
+          ],
+          [
+            6.4715462,
+            53.2081179,
+            0
+          ],
+          [
+            6.479215,
+            53.2097031,
+            0
+          ],
+          [
+            6.479349,
+            53.2097367,
+            0
+          ],
+          [
+            6.4794856,
+            53.2097307,
+            0
+          ],
+          [
+            6.4795821,
+            53.2096789,
+            0
+          ],
+          [
+            6.4805212,
+            53.2079255,
+            0
+          ],
+          [
+            6.4805769,
+            53.2078756,
+            0
+          ],
+          [
+            6.480628,
+            53.2078497,
+            0
+          ],
+          [
+            6.4807621,
+            53.2078512,
+            0
+          ],
+          [
+            6.4842894,
+            53.2085137,
+            0
+          ],
+          [
+            6.4860248,
+            53.2088433,
+            0
+          ],
+          [
+            6.4861904,
+            53.2089011,
+            0
+          ],
+          [
+            6.4863005,
+            53.2089667,
+            0
+          ],
+          [
+            6.4863971,
+            53.2090231,
+            0
+          ],
+          [
+            6.4865795,
+            53.2090827,
+            0
+          ],
+          [
+            6.4886247,
+            53.2094803,
+            0
+          ],
+          [
+            6.4887217,
+            53.2094949,
+            0
+          ],
+          [
+            6.4888007,
+            53.2094844,
+            0
+          ],
+          [
+            6.488848,
+            53.209459,
+            0
+          ],
+          [
+            6.490674,
+            53.206428,
+            0
+          ],
+          [
+            6.49109,
+            53.205665,
+            0
+          ],
+          [
+            6.491224,
+            53.205346,
+            0
+          ],
+          [
+            6.491256,
+            53.205042,
+            0
+          ],
+          [
+            6.491208,
+            53.20457,
+            0
+          ],
+          [
+            6.491189,
+            53.204456,
+            0
+          ],
+          [
+            6.491202,
+            53.204369,
+            0
+          ],
+          [
+            6.491251,
+            53.204319,
+            0
+          ],
+          [
+            6.491334,
+            53.204277,
+            0
+          ],
+          [
+            6.491452,
+            53.204252,
+            0
+          ],
+          [
+            6.491587,
+            53.20424,
+            0
+          ],
+          [
+            6.492474,
+            53.204186,
+            0
+          ],
+          [
+            6.492655,
+            53.204179,
+            0
+          ],
+          [
+            6.493312,
+            53.204146,
+            0
+          ],
+          [
+            6.493755,
+            53.204136,
+            0
+          ],
+          [
+            6.495294,
+            53.204075,
+            0
+          ],
+          [
+            6.496788,
+            53.204,
+            0
+          ],
+          [
+            6.498017,
+            53.203901,
+            0
+          ],
+          [
+            6.498761,
+            53.203816,
+            0
+          ],
+          [
+            6.499634,
+            53.203668,
+            0
+          ],
+          [
+            6.500341,
+            53.203526,
+            0
+          ],
+          [
+            6.500652,
+            53.203458,
+            0
+          ],
+          [
+            6.501276,
+            53.203305,
+            0
+          ],
+          [
+            6.501727,
+            53.203178,
+            0
+          ],
+          [
+            6.502291,
+            53.203011,
+            0
+          ],
+          [
+            6.50258,
+            53.202925,
+            0
+          ],
+          [
+            6.502818,
+            53.20286,
+            0
+          ],
+          [
+            6.503221,
+            53.202737,
+            0
+          ],
+          [
+            6.503627,
+            53.202614,
+            0
+          ],
+          [
+            6.504429,
+            53.202362,
             0
           ],
           [
@@ -3254,8 +2863,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.50889,
-          53.201241,
+          6.5081604,
+          53.2014322,
           0
         ]
       },
@@ -3268,7 +2877,548 @@
           "highlight": "#icon-1899-A52714-highlight"
         },
         "description": "Keerpunt volgende ronde fietsen, op weg blijven!",
-        "beschrijving": ""
+        "beschrijving": "name: fa-arrow-circle-left\ndescription: Keerpunt volgende ronde fietsen, op weg blijven!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.514159,
+            53.207711,
+            0
+          ],
+          [
+            6.51434,
+            53.207704,
+            0
+          ],
+          [
+            6.514477,
+            53.207629,
+            0
+          ],
+          [
+            6.5146,
+            53.207553,
+            0
+          ],
+          [
+            6.51472,
+            53.207473,
+            0
+          ],
+          [
+            6.514864,
+            53.207359,
+            0
+          ],
+          [
+            6.515005,
+            53.207227,
+            0
+          ],
+          [
+            6.515099,
+            53.207123,
+            0
+          ],
+          [
+            6.515174,
+            53.207034,
+            0
+          ],
+          [
+            6.51526,
+            53.206915,
+            0
+          ],
+          [
+            6.515372,
+            53.206714,
+            0
+          ],
+          [
+            6.515472,
+            53.206528,
+            0
+          ],
+          [
+            6.515576,
+            53.206358,
+            0
+          ],
+          [
+            6.515665,
+            53.206253,
+            0
+          ],
+          [
+            6.515747,
+            53.206178,
+            0
+          ],
+          [
+            6.515865,
+            53.206095,
+            0
+          ],
+          [
+            6.515996,
+            53.206014,
+            0
+          ],
+          [
+            6.516159,
+            53.20594,
+            0
+          ],
+          [
+            6.516417,
+            53.205855,
+            0
+          ],
+          [
+            6.516598,
+            53.205814,
+            0
+          ],
+          [
+            6.51677,
+            53.205782,
+            0
+          ],
+          [
+            6.516852,
+            53.20579,
+            0
+          ],
+          [
+            6.516893,
+            53.205769,
+            0
+          ],
+          [
+            6.516991,
+            53.20567,
+            0
+          ],
+          [
+            6.517311,
+            53.205292,
+            0
+          ],
+          [
+            6.517661,
+            53.204859,
+            0
+          ],
+          [
+            6.517996,
+            53.204422,
+            0
+          ],
+          [
+            6.518216,
+            53.204056,
+            0
+          ],
+          [
+            6.518421,
+            53.203687,
+            0
+          ],
+          [
+            6.51857,
+            53.203407,
+            0
+          ],
+          [
+            6.518581,
+            53.203343,
+            0
+          ],
+          [
+            6.518575,
+            53.203283,
+            0
+          ],
+          [
+            6.51855,
+            53.20322,
+            0
+          ],
+          [
+            6.518508,
+            53.203162,
+            0
+          ],
+          [
+            6.518451,
+            53.203119,
+            0
+          ],
+          [
+            6.518398,
+            53.203088,
+            0
+          ],
+          [
+            6.518256,
+            53.203037,
+            0
+          ],
+          [
+            6.518054,
+            53.20298,
+            0
+          ],
+          [
+            6.517862,
+            53.202928,
+            0
+          ],
+          [
+            6.517031,
+            53.202697,
+            0
+          ],
+          [
+            6.516618,
+            53.202582,
+            0
+          ],
+          [
+            6.516506,
+            53.202556,
+            0
+          ],
+          [
+            6.516314,
+            53.20249,
+            0
+          ],
+          [
+            6.515713,
+            53.202318,
+            0
+          ],
+          [
+            6.513378,
+            53.20166,
+            0
+          ],
+          [
+            6.512809,
+            53.201504,
+            0
+          ],
+          [
+            6.512549,
+            53.201457,
+            0
+          ],
+          [
+            6.512297,
+            53.201424,
+            0
+          ],
+          [
+            6.512242,
+            53.20142,
+            0
+          ],
+          [
+            6.512127,
+            53.20143,
+            0
+          ],
+          [
+            6.51203,
+            53.201467,
+            0
+          ],
+          [
+            6.511923,
+            53.201547,
+            0
+          ],
+          [
+            6.511714,
+            53.201728,
+            0
+          ],
+          [
+            6.511074,
+            53.202411,
+            0
+          ],
+          [
+            6.510685,
+            53.202838,
+            0
+          ],
+          [
+            6.51006,
+            53.203485,
+            0
+          ],
+          [
+            6.509346,
+            53.204249,
+            0
+          ],
+          [
+            6.509706,
+            53.204358,
+            0
+          ],
+          [
+            6.510156,
+            53.204478,
+            0
+          ],
+          [
+            6.511173,
+            53.204767,
+            0
+          ],
+          [
+            6.511381,
+            53.204818,
+            0
+          ],
+          [
+            6.511376,
+            53.204571,
+            0
+          ],
+          [
+            6.512535,
+            53.204635,
+            0
+          ],
+          [
+            6.512551,
+            53.204523,
+            0
+          ],
+          [
+            6.512604,
+            53.204372,
+            0
+          ],
+          [
+            6.51269,
+            53.204237,
+            0
+          ],
+          [
+            6.512824,
+            53.20405,
+            0
+          ],
+          [
+            6.513403,
+            53.203295,
+            0
+          ],
+          [
+            6.515521,
+            53.20388,
+            0
+          ],
+          [
+            6.516832,
+            53.204578,
+            0
+          ],
+          [
+            6.517516,
+            53.204955,
+            0
+          ],
+          [
+            6.517505,
+            53.204978,
+            0
+          ],
+          [
+            6.516926,
+            53.205659,
+            0
+          ],
+          [
+            6.516695,
+            53.205688,
+            0
+          ],
+          [
+            6.51644,
+            53.205733,
+            0
+          ],
+          [
+            6.516234,
+            53.205781,
+            0
+          ],
+          [
+            6.516047,
+            53.20584,
+            0
+          ],
+          [
+            6.515886,
+            53.205897,
+            0
+          ],
+          [
+            6.51572,
+            53.205979,
+            0
+          ],
+          [
+            6.51539,
+            53.206281,
+            0
+          ],
+          [
+            6.515186,
+            53.20657,
+            0
+          ],
+          [
+            6.515068,
+            53.206816,
+            0
+          ],
+          [
+            6.514982,
+            53.206955,
+            0
+          ],
+          [
+            6.514829,
+            53.207135,
+            0
+          ],
+          [
+            6.514538,
+            53.207364,
+            0
+          ],
+          [
+            6.514324,
+            53.207514,
+            0
+          ],
+          [
+            6.5142,
+            53.207615,
+            0
+          ],
+          [
+            6.514148,
+            53.207675,
+            0
+          ],
+          [
+            6.514159,
+            53.207711,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Loopparcours",
+        "styleUrl": "#line-097138-3000",
+        "styleHash": "75f7021c",
+        "styleMapHash": {
+          "normal": "#line-097138-3000-normal",
+          "highlight": "#line-097138-3000-highlight"
+        },
+        "description": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden",
+        "stroke": "#097138",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "name: Loopparcours\ndescription: 2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514287,
+          53.20736,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-097138",
+        "styleHash": "14b7d402",
+        "styleMapHash": {
+          "normal": "#icon-1661-097138-normal",
+          "highlight": "#icon-1661-097138-highlight"
+        },
+        "description": "Finish, bocht rechtsom voor het ingaan van volgende loopronde",
+        "beschrijving": "name: fa-flag-checkered\ndescription: Finish, bocht rechtsom voor het ingaan van volgende loopronde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.514664,
+            53.207264,
+            0
+          ],
+          [
+            6.514379,
+            53.207423,
+            0
+          ],
+          [
+            6.51428,
+            53.207464,
+            0
+          ],
+          [
+            6.514226,
+            53.207453,
+            0
+          ],
+          [
+            6.514248,
+            53.207418,
+            0
+          ],
+          [
+            6.514287,
+            53.20736,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Finish",
+        "styleUrl": "#line-097138-3000",
+        "styleHash": "75f7021c",
+        "styleMapHash": {
+          "normal": "#line-097138-3000-normal",
+          "highlight": "#line-097138-3000-highlight"
+        },
+        "description": "fa-flag-checkered",
+        "stroke": "#097138",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "name: Finish\ndescription: fa-flag-checkered"
       }
     },
     {
@@ -3311,7 +3461,7 @@
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg",
+        "description": "Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone",
         "beschrijving": ""
       }
     },
@@ -3333,7 +3483,7 @@
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Heen: naar fietspad, terug: naar rechterzijde weg",
+        "description": "Heen: naar rechterzijde weg, terug: van fietspad naar weg",
         "beschrijving": ""
       }
     },
@@ -3400,6 +3550,138 @@
           "highlight": "#icon-1499-E65100-highlight"
         },
         "description": "Overgang asfalt voorzien van rubberen matten voor veiligheid",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5132199,
+          53.207772,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrows-v",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "Oversteekplaats",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5083819,
+          53.201394,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "Samenvoegen fietsers ronde",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513872,
+          53.207006,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrows-v",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "Oversteekplaats",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5142478,
+          53.2077223,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-tint",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "Verzorging loopparcours",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5135798,
+          53.2078357,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-user-circle",
+        "styleUrl": "#icon-1733-E65100",
+        "styleHash": "-1b8fd8c2",
+        "styleMapHash": {
+          "normal": "#icon-1733-E65100-normal",
+          "highlight": "#icon-1733-E65100-highlight"
+        },
+        "description": "Plaszuilen en dixies",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5126582,
+          53.2078952,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-user-circle",
+        "styleUrl": "#icon-1733-E65100",
+        "styleHash": "-1b8fd8c2",
+        "styleMapHash": {
+          "normal": "#icon-1733-E65100-normal",
+          "highlight": "#icon-1733-E65100-highlight"
+        },
+        "description": "Kleedkamer en wc's",
         "beschrijving": ""
       }
     }

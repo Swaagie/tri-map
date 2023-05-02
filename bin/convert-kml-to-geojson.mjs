@@ -19,9 +19,15 @@ await Promise.all(
       const data = await fs.readFile(path.join(source, file), 'utf-8');
       const xml = new DOMParser().parseFromString(data);
 
-      await fs.writeFile(
-        path.join(source, path.basename(file, '.kml') + '.json'),
-        JSON.stringify(tj.kml(xml), null, 2)
-      );
+      console.log('Converting ' + file + ' to GeoJSON');
+
+      try {
+        await fs.writeFile(
+          path.join(source, path.basename(file, '.kml') + '.json'),
+          JSON.stringify(tj.kml(xml), null, 2)
+        );
+      } catch (err) {
+        console.log(err);
+      }
     })
 );
