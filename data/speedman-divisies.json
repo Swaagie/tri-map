@@ -3631,11 +3631,11 @@
       },
       "properties": {
         "name": "fa-tint",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
+        "styleUrl": "#icon-1577-0288D1",
+        "styleHash": "-37fec48",
         "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
+          "normal": "#icon-1577-0288D1-normal",
+          "highlight": "#icon-1577-0288D1-highlight"
         },
         "description": "Verzorging loopparcours",
         "beschrijving": ""
@@ -3653,11 +3653,11 @@
       },
       "properties": {
         "name": "fa-user-circle",
-        "styleUrl": "#icon-1733-E65100",
-        "styleHash": "-1b8fd8c2",
+        "styleUrl": "#icon-1733-097138",
+        "styleHash": "-c848d98",
         "styleMapHash": {
-          "normal": "#icon-1733-E65100-normal",
-          "highlight": "#icon-1733-E65100-highlight"
+          "normal": "#icon-1733-097138-normal",
+          "highlight": "#icon-1733-097138-highlight"
         },
         "description": "Plaszuilen en dixies",
         "beschrijving": ""
@@ -3675,11 +3675,11 @@
       },
       "properties": {
         "name": "fa-user-circle",
-        "styleUrl": "#icon-1733-E65100",
-        "styleHash": "-1b8fd8c2",
+        "styleUrl": "#icon-1733-097138",
+        "styleHash": "-c848d98",
         "styleMapHash": {
-          "normal": "#icon-1733-E65100-normal",
-          "highlight": "#icon-1733-E65100-highlight"
+          "normal": "#icon-1733-097138-normal",
+          "highlight": "#icon-1733-097138-highlight"
         },
         "description": "Kleedkamer en wc's",
         "beschrijving": ""
