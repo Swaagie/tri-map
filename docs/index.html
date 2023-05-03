@@ -6,7 +6,7 @@
     <link href="assets/css/solid.css" rel="stylesheet" />
     <link href="assets/css/fontawesome.css" rel="stylesheet" />
     <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
+      href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
       rel="stylesheet"
     />
     <link
@@ -41,13 +41,13 @@
 
       .legend {
         background-color: whitesmoke;
-        border-radius: 3px;
-        top: 2em;
+        border-radius: 5px;
+        bottom: 1em;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        padding: 2em;
+        padding: 1em;
         position: absolute;
-        left: 2em;
+        right: 1em;
         z-index: 1;
       }
 
@@ -87,6 +87,14 @@
         <div id="map-all"></div>
         <div class="legend">
           <h1>Legenda 050media speedman triatlon</h1>
+          <p style="color: red">
+            <i class="fa-solid fa-warning"></i>
+            <b>
+              Fietsen: Op de aanloopstroken naar de ronde en terug richting<br />
+              wisselzone wordt links gereden. Op de Roderwolderdijk<br />
+              wordt na het keerpunt ook tot de viaduct links gereden.
+            </b>
+          </p>
           <details>
             <summary><b>Wisselzone</b></summary>
             <div>
@@ -257,7 +265,7 @@
       </div>
     </div>
     <!-- Add mapbox -->
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
     <script>
       // Enable use of style switcher without needing bundler (barf)
@@ -271,7 +279,7 @@
 
         const map = new mapboxgl.Map({
           container: 'map-all', // container ID
-          style: 'mapbox://styles/mapbox/outdoors-v11', // style URL
+          style: 'mapbox://styles/mapbox/light-v11', // style URL
           center: [6.51314, 53.2065], // starting position [lng, lat] = Groningen
           zoom: 12, // starting zoom
         });
@@ -282,6 +290,9 @@
         );
 
         const MapboxStyleSwitcherControl = exports.MapboxStyleSwitcherControl;
+
+        // Fullscreen control
+        map.addControl(new mapboxgl.FullscreenControl());
 
         // Use style control
         map.addControl(
@@ -295,7 +306,7 @@
           })
         );
 
-        // Navigation controls
+        // Navigation control
         map.addControl(new mapboxgl.NavigationControl());
 
         async function fetchSourceFromGithub(url) {
