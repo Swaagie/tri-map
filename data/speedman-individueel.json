@@ -662,8 +662,8 @@
           "normal": "#icon-1701-0288D1-normal",
           "highlight": "#icon-1701-0288D1-highlight"
         },
-        "description": "Start vanaf strand. Opstellen tussen afrastering",
-        "beschrijving": "name: fa-person-swimming\ndescription: Start vanaf strand. Opstellen tussen afrastering"
+        "description": "",
+        "beschrijving": "Start vanaf strand. Opstellen tussen afrastering"
       }
     },
     {
@@ -711,11 +711,11 @@
           "normal": "#line-0288D1-3000-normal",
           "highlight": "#line-0288D1-3000-highlight"
         },
-        "description": "500m per ronde\n\nachtste: 1 ronde\nkwart: 2 ronden",
+        "description": "",
         "stroke": "#0288d1",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: Zwemparcours individueel\ndescription: 500m per ronde\n\nachtste: 1 ronde\nkwart: 2 ronden"
+        "beschrijving": "500m per ronde\n\nachtste: 1 ronde\nkwart: 2 ronden"
       }
     },
     {
@@ -737,7 +737,7 @@
           "highlight": "#icon-1499-FFD600-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-circle\ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -759,7 +759,7 @@
           "highlight": "#icon-1499-FFD600-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-circle\ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -781,7 +781,7 @@
           "highlight": "#icon-1499-FFD600-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-circle\ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -813,7 +813,7 @@
         "stroke": "#0288d1",
         "stroke-opacity": 1,
         "stroke-width": 2,
-        "beschrijving": "name: \ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -835,7 +835,7 @@
           "highlight": "#icon-1499-FFD600-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-circle\ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -856,8 +856,8 @@
           "normal": "#icon-1499-A52714-normal",
           "highlight": "#icon-1499-A52714-highlight"
         },
-        "description": "Boei 750m divisies",
-        "beschrijving": "name: fa-circle\ndescription: Boei 750m divisies"
+        "description": "",
+        "beschrijving": "Boei 750m divisies"
       }
     },
     {
@@ -878,8 +878,8 @@
           "normal": "#icon-1499-C2185B-normal",
           "highlight": "#icon-1499-C2185B-highlight"
         },
-        "description": "Boei 750m divisies",
-        "beschrijving": "name: fa-circle\ndescription: Boei 750m divisies"
+        "description": "",
+        "beschrijving": "Boei 750m divisies"
       }
     },
     {
@@ -1301,7 +1301,7 @@
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: Terugkomstrook fietsen\ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -1653,7 +1653,7 @@
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: Aanloopstrook fietsen\ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -2846,11 +2846,11 @@
           "normal": "#line-A52714-3000-normal",
           "highlight": "#line-A52714-3000-highlight"
         },
-        "description": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden",
+        "description": "",
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: Fietsparcours\ndescription: 10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
+        "beschrijving": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
       }
     },
     {
@@ -2871,8 +2871,8 @@
           "normal": "#icon-1899-A52714-normal",
           "highlight": "#icon-1899-A52714-highlight"
         },
-        "description": "Keerpunt volgende ronde fietsen, op weg blijven!",
-        "beschrijving": "name: fa-arrow-circle-left\ndescription: Keerpunt volgende ronde fietsen, op weg blijven!"
+        "description": "",
+        "beschrijving": "Keerpunt volgende ronde fietsen, op weg blijven!"
       }
     },
     {
@@ -3335,33 +3335,11 @@
           "normal": "#line-097138-3000-normal",
           "highlight": "#line-097138-3000-highlight"
         },
-        "description": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden",
+        "description": "",
         "stroke": "#097138",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: Loopparcours\ndescription: 2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden\n"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514287,
-          53.20736,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-flag-checkered",
-        "styleUrl": "#icon-1661-097138",
-        "styleHash": "14b7d402",
-        "styleMapHash": {
-          "normal": "#icon-1661-097138-normal",
-          "highlight": "#icon-1661-097138-highlight"
-        },
-        "description": "Finish, bocht rechtsom voor het ingaan van volgende loopronde",
-        "beschrijving": "name: fa-flag-checkered\ndescription: Finish, bocht rechtsom voor het ingaan van volgende loopronde"
+        "beschrijving": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden\n"
       }
     },
     {
@@ -3409,11 +3387,33 @@
           "normal": "#line-097138-3000-normal",
           "highlight": "#line-097138-3000-highlight"
         },
-        "description": "fa-flag-checkered",
+        "description": "",
         "stroke": "#097138",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: Finish\ndescription: fa-flag-checkered"
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514287,
+          53.20736,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-097138",
+        "styleHash": "14b7d402",
+        "styleMapHash": {
+          "normal": "#icon-1661-097138-normal",
+          "highlight": "#icon-1661-097138-highlight"
+        },
+        "description": "",
+        "beschrijving": "Finish, bocht rechtsom voor het ingaan van volgende loopronde"
       }
     },
     {
@@ -3434,8 +3434,8 @@
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Overgang vanaf weg naar fietspad",
-        "beschrijving": "name: fa-warning\ndescription: Overgang vanaf weg naar fietspad"
+        "description": "",
+        "beschrijving": "Overgang vanaf weg naar fietspad"
       }
     },
     {
@@ -3456,8 +3456,8 @@
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone"
       }
     },
     {
@@ -3478,8 +3478,8 @@
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
-        "description": "Heen: naar rechterzijde weg, terug: van fietspad naar weg",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Heen: naar rechterzijde weg, terug: van fietspad naar weg"
       }
     },
     {
@@ -3500,8 +3500,8 @@
           "normal": "#icon-1857-E65100-normal",
           "highlight": "#icon-1857-E65100-highlight"
         },
-        "description": "Start afval zone 200m",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Start afval zone 200m"
       }
     },
     {
@@ -3522,8 +3522,8 @@
           "normal": "#icon-1857-E65100-normal",
           "highlight": "#icon-1857-E65100-highlight"
         },
-        "description": "Einde afval zone",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Einde afval zone"
       }
     },
     {
@@ -3544,8 +3544,8 @@
           "normal": "#icon-1499-E65100-normal",
           "highlight": "#icon-1499-E65100-highlight"
         },
-        "description": "Overgang asfalt voorzien van rubberen matten voor veiligheid",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Overgang asfalt voorzien van rubberen matten voor veiligheid"
       }
     },
     {
@@ -3566,8 +3566,8 @@
           "normal": "#icon-1499-E65100-normal",
           "highlight": "#icon-1499-E65100-highlight"
         },
-        "description": "Oversteekplaats",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Oversteekplaats"
       }
     },
     {
@@ -3588,8 +3588,8 @@
           "normal": "#icon-1499-E65100-normal",
           "highlight": "#icon-1499-E65100-highlight"
         },
-        "description": "Samenvoegen fietsers ronde",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Samenvoegen fietsers ronde"
       }
     },
     {
@@ -3610,8 +3610,8 @@
           "normal": "#icon-1499-E65100-normal",
           "highlight": "#icon-1499-E65100-highlight"
         },
-        "description": "Oversteekplaats",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Oversteekplaats"
       }
     },
     {
@@ -3632,8 +3632,8 @@
           "normal": "#icon-1577-0288D1-normal",
           "highlight": "#icon-1577-0288D1-highlight"
         },
-        "description": "Verzorging loopparcours",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Verzorging loopparcours"
       }
     },
     {
@@ -3648,14 +3648,14 @@
       },
       "properties": {
         "name": "fa-user-circle",
-        "styleUrl": "#icon-1733-097138",
-        "styleHash": "-c848d98",
+        "styleUrl": "#icon-1733-006064",
+        "styleHash": "-599e35f8",
         "styleMapHash": {
-          "normal": "#icon-1733-097138-normal",
-          "highlight": "#icon-1733-097138-highlight"
+          "normal": "#icon-1733-006064-normal",
+          "highlight": "#icon-1733-006064-highlight"
         },
-        "description": "Plaszuilen en dixies",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Plaszuilen en dixies"
       }
     },
     {
@@ -3670,14 +3670,14 @@
       },
       "properties": {
         "name": "fa-user-circle",
-        "styleUrl": "#icon-1733-097138",
-        "styleHash": "-c848d98",
+        "styleUrl": "#icon-1733-006064",
+        "styleHash": "-599e35f8",
         "styleMapHash": {
-          "normal": "#icon-1733-097138-normal",
-          "highlight": "#icon-1733-097138-highlight"
+          "normal": "#icon-1733-006064-normal",
+          "highlight": "#icon-1733-006064-highlight"
         },
-        "description": "Kleedkamer en wc's",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Kleedkamer en wc's"
       }
     }
   ]

@@ -377,9 +377,9 @@
         <styleUrl>#icon-1701-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1733-097138-normal">
+    <Style id="icon-1733-006064-normal">
       <IconStyle>
-        <color>ff387109</color>
+        <color>ff646000</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -389,9 +389,9 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1733-097138-highlight">
+    <Style id="icon-1733-006064-highlight">
       <IconStyle>
-        <color>ff387109</color>
+        <color>ff646000</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -401,14 +401,14 @@
         <scale>1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1733-097138">
+    <StyleMap id="icon-1733-006064">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1733-097138-normal</styleUrl>
+        <styleUrl>#icon-1733-006064-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1733-097138-highlight</styleUrl>
+        <styleUrl>#icon-1733-006064-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1769-424242-normal">
@@ -1130,18 +1130,17 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Start individueel/recreatief</name>
-        <description><![CDATA[beschrijving: name: fa-person-swimming<br>description: Start vanaf strand. Opstellen tussen afrastering<br>name: fa-person-swimming<br>description: Start vanaf strand. Opstellen tussen afrastering]]></description>
+        <description><![CDATA[beschrijving: Start vanaf strand. Opstellen tussen afrastering<br>name: fa-person-swimming<br>description: ]]></description>
         <styleUrl>#icon-1701-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-person-swimming
-description: Start vanaf strand. Opstellen tussen afrastering</value>
+            <value>Start vanaf strand. Opstellen tussen afrastering</value>
           </Data>
           <Data name="name">
             <value>fa-person-swimming</value>
           </Data>
           <Data name="description">
-            <value>Start vanaf strand. Opstellen tussen afrastering</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -1152,12 +1151,11 @@ description: Start vanaf strand. Opstellen tussen afrastering</value>
       </Placemark>
       <Placemark>
         <name>Zwemparcours</name>
-        <description><![CDATA[beschrijving: name: Zwemparcours individueel<br>description: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden<br>name: Zwemparcours individueel<br>description: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden]]></description>
+        <description><![CDATA[beschrijving: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden<br>name: Zwemparcours individueel<br>description: ]]></description>
         <styleUrl>#line-0288D1-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: Zwemparcours individueel
-description: 500m per ronde
+            <value>500m per ronde
 
 achtste: 1 ronde
 kwart: 2 ronden</value>
@@ -1166,10 +1164,7 @@ kwart: 2 ronden</value>
             <value>Zwemparcours individueel</value>
           </Data>
           <Data name="description">
-            <value>500m per ronde
-
-achtste: 1 ronde
-kwart: 2 ronden</value>
+            <value/>
           </Data>
         </ExtendedData>
         <LineString>
@@ -1186,12 +1181,11 @@ kwart: 2 ronden</value>
       </Placemark>
       <Placemark>
         <name>Boei A</name>
-        <description><![CDATA[beschrijving: name: fa-circle<br>description:<br>name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-circle
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-circle</value>
@@ -1208,12 +1202,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Boei D</name>
-        <description><![CDATA[beschrijving: name: fa-circle<br>description:<br>name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-circle
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-circle</value>
@@ -1230,12 +1223,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Boei F</name>
-        <description><![CDATA[beschrijving: name: fa-circle<br>description:<br>name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-circle
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-circle</value>
@@ -1252,12 +1244,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Zwemmen naar finish</name>
-        <description><![CDATA[beschrijving: name: <br>description:<br>name: <br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: <br>description: ]]></description>
         <styleUrl>#line-0288D1-2000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: 
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value/>
@@ -1276,12 +1267,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Boei E</name>
-        <description><![CDATA[beschrijving: name: fa-circle<br>description:<br>name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-circle
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>fa-circle</value>
@@ -1298,18 +1288,17 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Boei B 750m</name>
-        <description><![CDATA[beschrijving: name: fa-circle<br>description: Boei 750m divisies<br>name: fa-circle<br>description: Boei 750m divisies]]></description>
+        <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-A52714</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-circle
-description: Boei 750m divisies</value>
+            <value>Boei 750m divisies</value>
           </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
           <Data name="description">
-            <value>Boei 750m divisies</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -1320,18 +1309,17 @@ description: Boei 750m divisies</value>
       </Placemark>
       <Placemark>
         <name>Boei C 750m</name>
-        <description><![CDATA[beschrijving: name: fa-circle<br>description: Boei 750m divisies<br>name: fa-circle<br>description: Boei 750m divisies]]></description>
+        <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-C2185B</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-circle
-description: Boei 750m divisies</value>
+            <value>Boei 750m divisies</value>
           </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
           <Data name="description">
-            <value>Boei 750m divisies</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -1345,12 +1333,11 @@ description: Boei 750m divisies</value>
       <name>Fietsparcours</name>
       <Placemark>
         <name>Terugkomstrook fietsen</name>
-        <description><![CDATA[beschrijving: name: Terugkomstrook fietsen<br>description:<br>name: Terugkomstrook fietsen<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: Terugkomstrook fietsen<br>description: ]]></description>
         <styleUrl>#line-A52714-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: Terugkomstrook fietsen
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>Terugkomstrook fietsen</value>
@@ -1447,12 +1434,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Aanloopstrook fietsen</name>
-        <description><![CDATA[beschrijving: name: Aanloopstrook fietsen<br>description:<br>name: Aanloopstrook fietsen<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: Aanloopstrook fietsen<br>description: ]]></description>
         <styleUrl>#line-A52714-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: Aanloopstrook fietsen
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>Aanloopstrook fietsen</value>
@@ -1535,12 +1521,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Fietsparcours</name>
-        <description><![CDATA[beschrijving: name: Fietsparcours<br>description: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>name: Fietsparcours<br>description: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden]]></description>
+        <description><![CDATA[beschrijving: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>name: Fietsparcours<br>description: ]]></description>
         <styleUrl>#line-A52714-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: Fietsparcours
-description: 10.6 km per ronde
+            <value>10.6 km per ronde
 
 achtste/sprint: 2 ronden
 kwart/standaard: 4 ronden</value>
@@ -1549,10 +1534,7 @@ kwart/standaard: 4 ronden</value>
             <value>Fietsparcours</value>
           </Data>
           <Data name="description">
-            <value>10.6 km per ronde
-
-achtste/sprint: 2 ronden
-kwart/standaard: 4 ronden</value>
+            <value/>
           </Data>
         </ExtendedData>
         <LineString>
@@ -1798,18 +1780,17 @@ kwart/standaard: 4 ronden</value>
       </Placemark>
       <Placemark>
         <name>Keerpunt</name>
-        <description><![CDATA[beschrijving: name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!<br>name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!]]></description>
+        <description><![CDATA[beschrijving: Keerpunt volgende ronde fietsen, op weg blijven!<br>name: fa-arrow-circle-left<br>description: ]]></description>
         <styleUrl>#icon-1899-A52714</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-arrow-circle-left
-description: Keerpunt volgende ronde fietsen, op weg blijven!</value>
+            <value>Keerpunt volgende ronde fietsen, op weg blijven!</value>
           </Data>
           <Data name="name">
             <value>fa-arrow-circle-left</value>
           </Data>
           <Data name="description">
-            <value>Keerpunt volgende ronde fietsen, op weg blijven!</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -1823,12 +1804,11 @@ description: Keerpunt volgende ronde fietsen, op weg blijven!</value>
       <name>Loopparcours</name>
       <Placemark>
         <name>Loopparcours</name>
-        <description><![CDATA[beschrijving: name: Loopparcours<br>description: 2.5 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br><br>name: Loopparcours<br>description: 2.5 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden]]></description>
+        <description><![CDATA[beschrijving: 2.5 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br><br>name: Loopparcours<br>description: ]]></description>
         <styleUrl>#line-097138-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: Loopparcours
-description: 2.5 km per ronde
+            <value>2.5 km per ronde
 
 achtste/sprint: 2 ronden
 kwart/standaard: 4 ronden
@@ -1838,10 +1818,7 @@ kwart/standaard: 4 ronden
             <value>Loopparcours</value>
           </Data>
           <Data name="description">
-            <value>2.5 km per ronde
-
-achtste/sprint: 2 ronden
-kwart/standaard: 4 ronden</value>
+            <value/>
           </Data>
         </ExtendedData>
         <LineString>
@@ -1941,40 +1918,17 @@ kwart/standaard: 4 ronden</value>
       </Placemark>
       <Placemark>
         <name>Finish</name>
-        <description><![CDATA[beschrijving: name: fa-flag-checkered<br>description: Finish, bocht rechtsom voor het ingaan van volgende loopronde<br>name: fa-flag-checkered<br>description: Finish, bocht rechtsom voor het ingaan van volgende loopronde]]></description>
-        <styleUrl>#icon-1661-097138</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>name: fa-flag-checkered
-description: Finish, bocht rechtsom voor het ingaan van volgende loopronde</value>
-          </Data>
-          <Data name="name">
-            <value>fa-flag-checkered</value>
-          </Data>
-          <Data name="description">
-            <value>Finish, bocht rechtsom voor het ingaan van volgende loopronde</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.514287,53.20736,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Finish</name>
-        <description><![CDATA[beschrijving: name: Finish<br>description: fa-flag-checkered<br>name: Finish<br>description: fa-flag-checkered]]></description>
+        <description><![CDATA[beschrijving: <br>name: Finish<br>description: ]]></description>
         <styleUrl>#line-097138-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: Finish
-description: fa-flag-checkered</value>
+            <value/>
           </Data>
           <Data name="name">
             <value>Finish</value>
           </Data>
           <Data name="description">
-            <value>fa-flag-checkered</value>
+            <value/>
           </Data>
         </ExtendedData>
         <LineString>
@@ -1989,23 +1943,43 @@ description: fa-flag-checkered</value>
           </coordinates>
         </LineString>
       </Placemark>
+      <Placemark>
+        <name>Finish</name>
+        <description><![CDATA[beschrijving: Finish, bocht rechtsom voor het ingaan van volgende loopronde<br>name: fa-flag-checkered<br>description: ]]></description>
+        <styleUrl>#icon-1661-097138</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Finish, bocht rechtsom voor het ingaan van volgende loopronde</value>
+          </Data>
+          <Data name="name">
+            <value>fa-flag-checkered</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514287,53.20736,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Markering/waarschuwingen</name>
       <Placemark>
         <name>Pionnen</name>
-        <description><![CDATA[beschrijving: name: fa-warning<br>description: Overgang vanaf weg naar fietspad<br>name: fa-warning<br>description: Overgang vanaf weg naar fietspad]]></description>
+        <description><![CDATA[beschrijving: Overgang vanaf weg naar fietspad<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-warning
-description: Overgang vanaf weg naar fietspad</value>
+            <value>Overgang vanaf weg naar fietspad</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Overgang vanaf weg naar fietspad</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2016,17 +1990,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Splitsing finish is fietspad</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone]]></description>
+        <description><![CDATA[beschrijving: Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2037,17 +2011,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Oversteken</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Heen: naar rechterzijde weg, terug: van fietspad naar weg]]></description>
+        <description><![CDATA[beschrijving: Heen: naar rechterzijde weg, terug: van fietspad naar weg<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Heen: naar rechterzijde weg, terug: van fietspad naar weg</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Heen: naar rechterzijde weg, terug: van fietspad naar weg</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2058,17 +2032,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Start afval zone</name>
-        <description><![CDATA[beschrijving: <br>name: fa-trash<br>description: Start afval zone 200m]]></description>
+        <description><![CDATA[beschrijving: Start afval zone 200m<br>name: fa-trash<br>description: ]]></description>
         <styleUrl>#icon-1857-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Start afval zone 200m</value>
           </Data>
           <Data name="name">
             <value>fa-trash</value>
           </Data>
           <Data name="description">
-            <value>Start afval zone 200m</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2079,17 +2053,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Einde afval zone</name>
-        <description><![CDATA[beschrijving: <br>name: fa-trash<br>description: Einde afval zone]]></description>
+        <description><![CDATA[beschrijving: Einde afval zone<br>name: fa-trash<br>description: ]]></description>
         <styleUrl>#icon-1857-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Einde afval zone</value>
           </Data>
           <Data name="name">
             <value>fa-trash</value>
           </Data>
           <Data name="description">
-            <value>Einde afval zone</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2100,17 +2074,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Overgang asfalt</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Overgang asfalt voorzien van rubberen matten voor veiligheid]]></description>
+        <description><![CDATA[beschrijving: Overgang asfalt voorzien van rubberen matten voor veiligheid<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Overgang asfalt voorzien van rubberen matten voor veiligheid</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Overgang asfalt voorzien van rubberen matten voor veiligheid</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2121,17 +2095,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: <br>name: fa-arrows-v<br>description: Oversteekplaats]]></description>
+        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
         <styleUrl>#icon-1499-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Oversteekplaats</value>
           </Data>
           <Data name="name">
             <value>fa-arrows-v</value>
           </Data>
           <Data name="description">
-            <value>Oversteekplaats</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2142,17 +2116,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Samenvoegen fietsers ronde</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Samenvoegen fietsers ronde]]></description>
+        <description><![CDATA[beschrijving: Samenvoegen fietsers ronde<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Samenvoegen fietsers ronde</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Samenvoegen fietsers ronde</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2163,17 +2137,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: <br>name: fa-arrows-v<br>description: Oversteekplaats]]></description>
+        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
         <styleUrl>#icon-1499-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Oversteekplaats</value>
           </Data>
           <Data name="name">
             <value>fa-arrows-v</value>
           </Data>
           <Data name="description">
-            <value>Oversteekplaats</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2184,17 +2158,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Verzorging loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-tint<br>description: Verzorging loopparcours]]></description>
+        <description><![CDATA[beschrijving: Verzorging loopparcours<br>name: fa-tint<br>description: ]]></description>
         <styleUrl>#icon-1577-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Verzorging loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-tint</value>
           </Data>
           <Data name="description">
-            <value>Verzorging loopparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2205,17 +2179,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Plaszuilen en dixies</name>
-        <description><![CDATA[beschrijving: <br>name: fa-user-circle<br>description: Plaszuilen en dixies]]></description>
-        <styleUrl>#icon-1733-097138</styleUrl>
+        <description><![CDATA[beschrijving: Plaszuilen en dixies<br>name: fa-user-circle<br>description: ]]></description>
+        <styleUrl>#icon-1733-006064</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Plaszuilen en dixies</value>
           </Data>
           <Data name="name">
             <value>fa-user-circle</value>
           </Data>
           <Data name="description">
-            <value>Plaszuilen en dixies</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2226,17 +2200,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name><![CDATA[Kleedkamer en wc's]]></name>
-        <description><![CDATA[beschrijving: <br>name: fa-user-circle<br>description: Kleedkamer en wc's]]></description>
-        <styleUrl>#icon-1733-097138</styleUrl>
+        <description><![CDATA[beschrijving: Kleedkamer en wc's<br>name: fa-user-circle<br>description: ]]></description>
+        <styleUrl>#icon-1733-006064</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value><![CDATA[Kleedkamer en wc's]]></value>
           </Data>
           <Data name="name">
             <value>fa-user-circle</value>
           </Data>
           <Data name="description">
-            <value><![CDATA[Kleedkamer en wc's]]></value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>

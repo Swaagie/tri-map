@@ -344,16 +344,12 @@
           el.innerHTML = innerHTML;
 
           // Add markers with popups to the map.
-          if (properties.beschrijving || properties.description) {
+          if (properties.beschrijving) {
             new mapboxgl.Marker(el)
               .setLngLat(geometry.coordinates)
               .setPopup(
                 new mapboxgl.Popup({ offset: 25 }) // add popups
-                  .setHTML(
-                    `<span>${
-                      properties.beschrijving || properties.description
-                    }</span>`
-                  )
+                  .setHTML(`<span>${properties.beschrijving}</span>`)
               )
               .addTo(map);
           } else {

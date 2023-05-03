@@ -296,7 +296,7 @@
           "highlight": "#icon-1899-097138-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-arrow-circle-right\ndescription:"
+        "beschrijving": "Keerpunt"
       }
     },
     {
@@ -318,7 +318,7 @@
           "highlight": "#icon-1680-097138-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-person-running\ndescription:"
+        "beschrijving": "Start lopen en keerpunt tweede ronde"
       }
     },
     {
@@ -575,7 +575,7 @@
         "stroke": "#097138",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "name: \ndescription:"
+        "beschrijving": ""
       }
     },
     {
@@ -583,21 +583,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5126582,
-          53.2078952,
+          6.513813,
+          53.206743,
           0
         ]
       },
       "properties": {
-        "name": "fa-user-circle",
-        "styleUrl": "#icon-1733-097138",
-        "styleHash": "-c848d98",
+        "name": "fa-person-swimming",
+        "styleUrl": "#icon-1701-0288D1",
+        "styleHash": "507c9fdb",
         "styleMapHash": {
-          "normal": "#icon-1733-097138-normal",
-          "highlight": "#icon-1733-097138-highlight"
+          "normal": "#icon-1701-0288D1-normal",
+          "highlight": "#icon-1701-0288D1-highlight"
         },
-        "description": "Kleedkamer en wc's",
-        "beschrijving": ""
+        "description": "",
+        "beschrijving": "Start zwemmen"
       }
     },
     {
@@ -619,7 +619,7 @@
           "highlight": "#icon-1522-A52714-highlight"
         },
         "description": "",
-        "beschrijving": "name: fa-person-biking\ndescription:"
+        "beschrijving": "Start fietsen"
       }
     },
     {
@@ -1061,7 +1061,7 @@
         "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "name:\ndescription:"
+        "beschrijving": "Fietsparcours kinderen"
       }
     }
   ]

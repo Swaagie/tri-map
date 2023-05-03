@@ -71,9 +71,9 @@
         <styleUrl>#icon-1680-097138-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1733-097138-normal">
+    <Style id="icon-1701-0288D1-normal">
       <IconStyle>
-        <color>ff387109</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -83,9 +83,9 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1733-097138-highlight">
+    <Style id="icon-1701-0288D1-highlight">
       <IconStyle>
-        <color>ff387109</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -95,14 +95,14 @@
         <scale>1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1733-097138">
+    <StyleMap id="icon-1701-0288D1">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1733-097138-normal</styleUrl>
+        <styleUrl>#icon-1701-0288D1-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1733-097138-highlight</styleUrl>
+        <styleUrl>#icon-1701-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1769-424242-normal">
@@ -458,12 +458,11 @@
       <name>Loopparcours kinderen</name>
       <Placemark>
         <name>Keerpunt</name>
-        <description><![CDATA[beschrijving: name: fa-arrow-circle-right<br>description:<br>name: fa-arrow-circle-right<br>description: ]]></description>
+        <description><![CDATA[beschrijving: Keerpunt<br>name: fa-arrow-circle-right<br>description: ]]></description>
         <styleUrl>#icon-1899-097138</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-arrow-circle-right
-description:</value>
+            <value>Keerpunt</value>
           </Data>
           <Data name="name">
             <value>fa-arrow-circle-right</value>
@@ -480,12 +479,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Start</name>
-        <description><![CDATA[beschrijving: name: fa-person-running<br>description:<br>name: fa-person-running<br>description: ]]></description>
+        <description><![CDATA[beschrijving: Start lopen en keerpunt tweede ronde<br>name: fa-person-running<br>description: ]]></description>
         <styleUrl>#icon-1680-097138</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-person-running
-description:</value>
+            <value>Start lopen en keerpunt tweede ronde</value>
           </Data>
           <Data name="name">
             <value>fa-person-running</value>
@@ -502,12 +500,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Loopparcours</name>
-        <description><![CDATA[beschrijving: name: <br>description:<br>name: <br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: <br>description: ]]></description>
         <styleUrl>#line-097138-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: 
-description:</value>
+            <value/>
           </Data>
           <Data name="name">
             <value/>
@@ -571,25 +568,25 @@ description:</value>
       </Placemark>
     </Folder>
     <Folder>
-      <name>Markering/waarschuwingen</name>
+      <name>Zwemparcours individueel</name>
       <Placemark>
-        <name><![CDATA[Kleedkamer en wc's]]></name>
-        <description><![CDATA[beschrijving: <br>name: fa-user-circle<br>description: Kleedkamer en wc's]]></description>
-        <styleUrl>#icon-1733-097138</styleUrl>
+        <name>Start zwemmen</name>
+        <description><![CDATA[beschrijving: Start zwemmen<br>name: fa-person-swimming<br>description: ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Start zwemmen</value>
           </Data>
           <Data name="name">
-            <value>fa-user-circle</value>
+            <value>fa-person-swimming</value>
           </Data>
           <Data name="description">
-            <value><![CDATA[Kleedkamer en wc's]]></value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5126582,53.2078952,0
+            6.513813,53.206743,0
           </coordinates>
         </Point>
       </Placemark>
@@ -598,12 +595,11 @@ description:</value>
       <name>Fietsparcours kinderen</name>
       <Placemark>
         <name>Start</name>
-        <description><![CDATA[beschrijving: name: fa-person-biking<br>description:<br>name: fa-person-biking<br>description: ]]></description>
+        <description><![CDATA[beschrijving: Start fietsen<br>name: fa-person-biking<br>description: ]]></description>
         <styleUrl>#icon-1522-A52714</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-person-biking
-description:</value>
+            <value>Start fietsen</value>
           </Data>
           <Data name="name">
             <value>fa-person-biking</value>
@@ -620,12 +616,11 @@ description:</value>
       </Placemark>
       <Placemark>
         <name>Fietsparcours kinderen</name>
-        <description><![CDATA[beschrijving: name:<br>description:<br>name: <br>description: ]]></description>
+        <description><![CDATA[beschrijving: Fietsparcours kinderen<br>name: <br>description: ]]></description>
         <styleUrl>#line-A52714-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name:
-description:</value>
+            <value>Fietsparcours kinderen</value>
           </Data>
           <Data name="name">
             <value/>
