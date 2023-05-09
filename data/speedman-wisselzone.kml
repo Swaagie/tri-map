@@ -692,12 +692,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Registratie en inschrijving</name>
-        <description><![CDATA[beschrijving: Registratie en inschrijving<br>name: ]]></description>
+        <name>Inschrijving</name>
+        <description><![CDATA[beschrijving: Inschrijving<br>name: ]]></description>
         <styleUrl>#poly-000000-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Registratie en inschrijving</value>
+            <value>Inschrijving</value>
           </Data>
           <Data name="name">
             <value/>
@@ -1311,6 +1311,45 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Naamloze laag</name>
+      <Placemark>
+        <name>Huidige locatie</name>
+        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
+        <styleUrl>#icon-1898-880E4F</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Huidige locatie</value>
+          </Data>
+          <Data name="name">
+            <value>fa-star</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5167725,53.2058319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huidige locatie</name>
+        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
+        <styleUrl>#icon-1898-880E4F</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Huidige locatie</value>
+          </Data>
+          <Data name="name">
+            <value>fa-star</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
