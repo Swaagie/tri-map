@@ -1057,8 +1057,6 @@
             6.5167005,53.2057763,0
             6.5167744,53.205769,0
             6.5168375,53.2057827,0
-            6.5169062,53.205724,0
-            6.5170086,53.2056131,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1313,45 +1311,6 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Naamloze laag</name>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5167725,53.2058319,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
