@@ -615,11 +615,11 @@
       <name>Wisselzone</name>
       <Placemark>
         <name>Wisselzone</name>
-        <description><![CDATA[beschrijving: Wisselzone<br>name: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: ]]></description>
         <styleUrl>#poly-000000-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Wisselzone</value>
+            <value/>
           </Data>
           <Data name="name">
             <value/>

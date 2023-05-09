@@ -48,13 +48,13 @@
           "normal": "#poly-000000-2000-77-normal",
           "highlight": "#poly-000000-2000-77-highlight"
         },
-        "description": "beschrijving: Wisselzone<br>name: ",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#000000",
         "stroke-opacity": 1,
         "stroke-width": 2,
         "fill": "#000000",
         "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Wisselzone"
+        "beschrijving": ""
       }
     },
     {
