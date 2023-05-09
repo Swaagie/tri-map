@@ -1,0 +1,1631 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.513613,
+              53.2075454,
+              0
+            ],
+            [
+              6.513755,
+              53.2073154,
+              0
+            ],
+            [
+              6.513895,
+              53.2070314,
+              0
+            ],
+            [
+              6.514372,
+              53.2071104,
+              0
+            ],
+            [
+              6.514061,
+              53.2076134,
+              0
+            ],
+            [
+              6.513613,
+              53.2075454,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-000000-2000-77",
+        "styleHash": "-49a2dcd9",
+        "styleMapHash": {
+          "normal": "#poly-000000-2000-77-normal",
+          "highlight": "#poly-000000-2000-77-highlight"
+        },
+        "description": "beschrijving: Wisselzone<br>name: ",
+        "stroke": "#000000",
+        "stroke-opacity": 1,
+        "stroke-width": 2,
+        "fill": "#000000",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Wisselzone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.514028,
+              53.206935,
+              0
+            ],
+            [
+              6.51417,
+              53.206872,
+              0
+            ],
+            [
+              6.514347,
+              53.206848,
+              0
+            ],
+            [
+              6.514449,
+              53.206822,
+              0
+            ],
+            [
+              6.514527,
+              53.206766,
+              0
+            ],
+            [
+              6.514594,
+              53.206655,
+              0
+            ],
+            [
+              6.514849,
+              53.206742,
+              0
+            ],
+            [
+              6.514733,
+              53.206944,
+              0
+            ],
+            [
+              6.514602,
+              53.20705,
+              0
+            ],
+            [
+              6.514028,
+              53.206935,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-0288D1-2000-77",
+        "styleHash": "-748f9a8c",
+        "styleMapHash": {
+          "normal": "#poly-0288D1-2000-77-normal",
+          "highlight": "#poly-0288D1-2000-77-highlight"
+        },
+        "description": "beschrijving: Teamtenten<br>name: ",
+        "stroke": "#0288d1",
+        "stroke-opacity": 1,
+        "stroke-width": 2,
+        "fill": "#0288d1",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Teamtenten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513952,
+          53.207599,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-check-circle",
+        "styleUrl": "#icon-1769-424242",
+        "styleHash": "-66799319",
+        "styleMapHash": {
+          "normal": "#icon-1769-424242-normal",
+          "highlight": "#icon-1769-424242-highlight"
+        },
+        "description": "beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle",
+        "beschrijving": "Check in/out vanaf registratie via fietsenstalling"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5128487,
+              53.2079765,
+              0
+            ],
+            [
+              6.5128437,
+              53.2079105,
+              0
+            ],
+            [
+              6.5131897,
+              53.2078965,
+              0
+            ],
+            [
+              6.5131947,
+              53.2079605,
+              0
+            ],
+            [
+              6.5128487,
+              53.2079765,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-000000-2000-77",
+        "styleHash": "-49a2dcd9",
+        "styleMapHash": {
+          "normal": "#poly-000000-2000-77-normal",
+          "highlight": "#poly-000000-2000-77-highlight"
+        },
+        "description": "beschrijving: Registratie en inschrijving<br>name: ",
+        "stroke": "#000000",
+        "stroke-opacity": 1,
+        "stroke-width": 2,
+        "fill": "#000000",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Registratie en inschrijving"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5129558,
+              53.2075848,
+              0
+            ],
+            [
+              6.5130523,
+              53.2075141,
+              0
+            ],
+            [
+              6.5132186,
+              53.2074081,
+              0
+            ],
+            [
+              6.5134493,
+              53.207196,
+              0
+            ],
+            [
+              6.5137443,
+              53.207135,
+              0
+            ],
+            [
+              6.5136853,
+              53.207257,
+              0
+            ],
+            [
+              6.5135941,
+              53.2074402,
+              0
+            ],
+            [
+              6.5134761,
+              53.207604,
+              0
+            ],
+            [
+              6.5129558,
+              53.2075848,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-FBC02D-1200-77",
+        "styleHash": "2e2ab9d2",
+        "styleMapHash": {
+          "normal": "#poly-FBC02D-1200-77-normal",
+          "highlight": "#poly-FBC02D-1200-77-highlight"
+        },
+        "description": "beschrijving: Mixed zone<br>name: ",
+        "stroke": "#fbc02d",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#fbc02d",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Mixed zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5137333,
+            53.2075275,
+            0
+          ],
+          [
+            6.513984,
+            53.2070793,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-FFFFFF-2938",
+        "styleHash": "-57c52824",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-2938-normal",
+          "highlight": "#line-FFFFFF-2938-highlight"
+        },
+        "description": "beschrijving: Open series 1/4 + HIS<br>name: ",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 2.938,
+        "beschrijving": "Open series 1/4 + HIS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5170534,
+            53.2056396,
+            0
+          ],
+          [
+            6.5169596,
+            53.2057351,
+            0
+          ],
+          [
+            6.5168811,
+            53.2058078,
+            0
+          ],
+          [
+            6.5168536,
+            53.2058227,
+            0
+          ],
+          [
+            6.5168127,
+            53.2058034,
+            0
+          ],
+          [
+            6.5167413,
+            53.2058018,
+            0
+          ],
+          [
+            6.5165954,
+            53.2058334,
+            0
+          ],
+          [
+            6.5164629,
+            53.2058711,
+            0
+          ],
+          [
+            6.5163277,
+            53.2059142,
+            0
+          ],
+          [
+            6.516233,
+            53.2059486,
+            0
+          ],
+          [
+            6.5161154,
+            53.2059935,
+            0
+          ],
+          [
+            6.5160171,
+            53.206048,
+            0
+          ],
+          [
+            6.5159228,
+            53.2061025,
+            0
+          ],
+          [
+            6.5158512,
+            53.2061499,
+            0
+          ],
+          [
+            6.515791,
+            53.2061964,
+            0
+          ],
+          [
+            6.515686,
+            53.2063036,
+            0
+          ],
+          [
+            6.5155942,
+            53.2064211,
+            0
+          ],
+          [
+            6.5155178,
+            53.2065543,
+            0
+          ],
+          [
+            6.5154313,
+            53.2066989,
+            0
+          ],
+          [
+            6.5153455,
+            53.2068516,
+            0
+          ],
+          [
+            6.5150519,
+            53.2072329,
+            0
+          ],
+          [
+            6.5149473,
+            53.2073313,
+            0
+          ],
+          [
+            6.5148361,
+            53.2074297,
+            0
+          ],
+          [
+            6.5147301,
+            53.2075051,
+            0
+          ],
+          [
+            6.5146135,
+            53.2075822,
+            0
+          ],
+          [
+            6.5145384,
+            53.2076277,
+            0
+          ],
+          [
+            6.5144647,
+            53.2076665,
+            0
+          ],
+          [
+            6.5144171,
+            53.2076852,
+            0
+          ],
+          [
+            6.5143641,
+            53.207703,
+            0
+          ],
+          [
+            6.5143018,
+            53.2077099,
+            0
+          ],
+          [
+            6.5142408,
+            53.2077303,
+            0
+          ],
+          [
+            6.5142416,
+            53.2077725,
+            0
+          ],
+          [
+            6.514229,
+            53.2077912,
+            0
+          ],
+          [
+            6.5140614,
+            53.2078636,
+            0
+          ],
+          [
+            6.5139526,
+            53.2079033,
+            0
+          ],
+          [
+            6.5138445,
+            53.207945,
+            0
+          ],
+          [
+            6.513715,
+            53.2079855,
+            0
+          ],
+          [
+            6.5135728,
+            53.2080264,
+            0
+          ],
+          [
+            6.5134265,
+            53.2080641,
+            0
+          ],
+          [
+            6.5132394,
+            53.2081085,
+            0
+          ],
+          [
+            6.5130194,
+            53.2081475,
+            0
+          ],
+          [
+            6.5128498,
+            53.2081719,
+            0
+          ],
+          [
+            6.512742,
+            53.208186,
+            0
+          ],
+          [
+            6.5126737,
+            53.2081917,
+            0
+          ],
+          [
+            6.5126595,
+            53.2081815,
+            0
+          ],
+          [
+            6.512704,
+            53.2080933,
+            0
+          ],
+          [
+            6.5127339,
+            53.2080312,
+            0
+          ],
+          [
+            6.5127578,
+            53.2079787,
+            0
+          ],
+          [
+            6.5127707,
+            53.2079492,
+            0
+          ],
+          [
+            6.5127883,
+            53.2079206,
+            0
+          ],
+          [
+            6.512811,
+            53.2078959,
+            0
+          ],
+          [
+            6.5128948,
+            53.2078917,
+            0
+          ],
+          [
+            6.5129517,
+            53.2079155,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-9C27B0-3131",
+        "styleHash": "-6b991762",
+        "styleMapHash": {
+          "normal": "#line-9C27B0-3131-normal",
+          "highlight": "#line-9C27B0-3131-highlight"
+        },
+        "description": "beschrijving: Van/naar parkeerplaats A7 - richting inschrijving rechts houden<br>name: ",
+        "stroke": "#9c27b0",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Van/naar parkeerplaats A7 - richting inschrijving rechts houden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5131171,
+            53.2079163,
+            0
+          ],
+          [
+            6.5131412,
+            53.2078729,
+            0
+          ],
+          [
+            6.5131734,
+            53.2078296,
+            0
+          ],
+          [
+            6.5132324,
+            53.2078103,
+            0
+          ],
+          [
+            6.513278,
+            53.2078039,
+            0
+          ],
+          [
+            6.5134094,
+            53.2078007,
+            0
+          ],
+          [
+            6.5135328,
+            53.2077974,
+            0
+          ],
+          [
+            6.5136347,
+            53.2077974,
+            0
+          ],
+          [
+            6.5137313,
+            53.207783,
+            0
+          ],
+          [
+            6.5137903,
+            53.2077701,
+            0
+          ],
+          [
+            6.5138359,
+            53.2077476,
+            0
+          ],
+          [
+            6.5139003,
+            53.2076995,
+            0
+          ],
+          [
+            6.5139164,
+            53.2076673,
+            0
+          ],
+          [
+            6.5139325,
+            53.2076416,
+            0
+          ],
+          [
+            6.513952,
+            53.207599,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-9C27B0-3325",
+        "styleHash": "247978be",
+        "styleMapHash": {
+          "normal": "#line-9C27B0-3325-normal",
+          "highlight": "#line-9C27B0-3325-highlight"
+        },
+        "description": "beschrijving: Naar check-in<br>name: ",
+        "stroke": "#9c27b0",
+        "stroke-opacity": 1,
+        "stroke-width": 3.325,
+        "beschrijving": "Naar check-in"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5138201,
+            53.2075416,
+            0
+          ],
+          [
+            6.5140695,
+            53.2070942,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-FFFFFF-2550",
+        "styleHash": "31e23422",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-2550-normal",
+          "highlight": "#line-FFFFFF-2550-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 2.55,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5139082,
+            53.2075531,
+            0
+          ],
+          [
+            6.514159,
+            53.2071097,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-FFFFFF-2938",
+        "styleHash": "-57c52824",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-2938-normal",
+          "highlight": "#line-FFFFFF-2938-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 2.938,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5139979,
+            53.2075697,
+            0
+          ],
+          [
+            6.5142513,
+            53.2071271,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-FFFFFF-3131",
+        "styleHash": "6b4cd6fe",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-3131-normal",
+          "highlight": "#line-FFFFFF-3131-highlight"
+        },
+        "description": "beschrijving: Schuiteman 2e divisie<br>name: ",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Schuiteman 2e divisie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5141209,
+          53.2077868,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-star",
+        "styleUrl": "#icon-1898-880E4F",
+        "styleHash": "-51210896",
+        "styleMapHash": {
+          "normal": "#icon-1898-880E4F-normal",
+          "highlight": "#icon-1898-880E4F-highlight"
+        },
+        "description": "beschrijving: Huidige locatie<br>name: fa-star",
+        "beschrijving": "Huidige locatie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5167725,
+          53.2058319,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-star",
+        "styleUrl": "#icon-1898-880E4F",
+        "styleHash": "-51210896",
+        "styleMapHash": {
+          "normal": "#icon-1898-880E4F-normal",
+          "highlight": "#icon-1898-880E4F-highlight"
+        },
+        "description": "beschrijving: Huidige locatie<br>name: fa-star",
+        "beschrijving": "Huidige locatie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5133043,
+            53.2071384,
+            0
+          ],
+          [
+            6.513872,
+            53.207006,
+            0
+          ],
+          [
+            6.5143237,
+            53.207087,
+            0
+          ],
+          [
+            6.5143077,
+            53.2071271,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-0288D1-3000",
+        "styleHash": "761a8a9c",
+        "styleMapHash": {
+          "normal": "#line-0288D1-3000-normal",
+          "highlight": "#line-0288D1-3000-highlight"
+        },
+        "description": "beschrijving: zwemmen in<br>name: ",
+        "stroke": "#0288d1",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "zwemmen in"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5138344,
+            53.2075577,
+            0
+          ],
+          [
+            6.5138186,
+            53.2076046,
+            0
+          ],
+          [
+            6.5138162,
+            53.2076596,
+            0
+          ],
+          [
+            6.5138019,
+            53.2077165,
+            0
+          ],
+          [
+            6.5137466,
+            53.2077468,
+            0
+          ],
+          [
+            6.5135239,
+            53.2077597,
+            0
+          ],
+          [
+            6.5133723,
+            53.2077694,
+            0
+          ],
+          [
+            6.5131241,
+            53.2077776,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-A52714-3000",
+        "styleHash": "-60c775c4",
+        "styleMapHash": {
+          "normal": "#line-A52714-3000-normal",
+          "highlight": "#line-A52714-3000-highlight"
+        },
+        "description": "beschrijving: Fietsen in<br>name: ",
+        "stroke": "#a52714",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "Fietsen in"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5138047,
+            53.2072929,
+            0
+          ],
+          [
+            6.5137478,
+            53.2073001,
+            0
+          ],
+          [
+            6.513732,
+            53.207327,
+            0
+          ],
+          [
+            6.5137055,
+            53.2073667,
+            0
+          ],
+          [
+            6.5136834,
+            53.2074052,
+            0
+          ],
+          [
+            6.5136381,
+            53.2074821,
+            0
+          ],
+          [
+            6.5135775,
+            53.2075763,
+            0
+          ],
+          [
+            6.513505,
+            53.2076555,
+            0
+          ],
+          [
+            6.5134507,
+            53.2077037,
+            0
+          ],
+          [
+            6.5133923,
+            53.2077325,
+            0
+          ],
+          [
+            6.5133055,
+            53.2077524,
+            0
+          ],
+          [
+            6.5132299,
+            53.2077588,
+            0
+          ],
+          [
+            6.5131274,
+            53.2077636,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-E65100-3000",
+        "styleHash": "32c63c5c",
+        "styleMapHash": {
+          "normal": "#line-E65100-3000-normal",
+          "highlight": "#line-E65100-3000-highlight"
+        },
+        "description": "beschrijving: Fietsen uit<br>name: ",
+        "stroke": "#e65100",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "Fietsen uit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5140512,
+            53.2075643,
+            0
+          ],
+          [
+            6.5141012,
+            53.2076176,
+            0
+          ],
+          [
+            6.5141225,
+            53.2076622,
+            0
+          ],
+          [
+            6.5141786,
+            53.2076938,
+            0
+          ],
+          [
+            6.5142372,
+            53.2077009,
+            0
+          ],
+          [
+            6.5143344,
+            53.2076857,
+            0
+          ],
+          [
+            6.5144074,
+            53.207664,
+            0
+          ],
+          [
+            6.5144938,
+            53.2076255,
+            0
+          ],
+          [
+            6.5145668,
+            53.2075854,
+            0
+          ],
+          [
+            6.5147035,
+            53.2074926,
+            0
+          ],
+          [
+            6.5148161,
+            53.2074047,
+            0
+          ],
+          [
+            6.5149152,
+            53.2073208,
+            0
+          ],
+          [
+            6.515017,
+            53.207232,
+            0
+          ],
+          [
+            6.5151688,
+            53.2070505,
+            0
+          ],
+          [
+            6.5153528,
+            53.2067742,
+            0
+          ],
+          [
+            6.5155518,
+            53.2064289,
+            0
+          ],
+          [
+            6.5156949,
+            53.2062555,
+            0
+          ],
+          [
+            6.5158104,
+            53.2061481,
+            0
+          ],
+          [
+            6.5159795,
+            53.2060423,
+            0
+          ],
+          [
+            6.5161246,
+            53.2059593,
+            0
+          ],
+          [
+            6.5163346,
+            53.2058904,
+            0
+          ],
+          [
+            6.5165272,
+            53.2058352,
+            0
+          ],
+          [
+            6.51673,
+            53.2057907,
+            0
+          ],
+          [
+            6.5168039,
+            53.2057835,
+            0
+          ],
+          [
+            6.5168671,
+            53.2057971,
+            0
+          ],
+          [
+            6.5169357,
+            53.2057385,
+            0
+          ],
+          [
+            6.5170381,
+            53.2056276,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-87CEAC-3000",
+        "styleHash": "-79f7d704",
+        "styleMapHash": {
+          "normal": "#line-87CEAC-3000-normal",
+          "highlight": "#line-87CEAC-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#87ceac",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514214,
+          53.20669,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-microphone",
+        "styleUrl": "#icon-1625-424242",
+        "styleHash": "-1b53f3da",
+        "styleMapHash": {
+          "normal": "#icon-1625-424242-normal",
+          "highlight": "#icon-1625-424242-highlight"
+        },
+        "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
+        "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5135821,
+              53.2076085,
+              0
+            ],
+            [
+              6.5136123,
+              53.2075559,
+              0
+            ],
+            [
+              6.5136888,
+              53.2075667,
+              0
+            ],
+            [
+              6.5136666,
+              53.2076154,
+              0
+            ],
+            [
+              6.5135821,
+              53.2076085,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-C2185B-1200-77",
+        "styleHash": "351afd2a",
+        "styleMapHash": {
+          "normal": "#poly-C2185B-1200-77-normal",
+          "highlight": "#poly-C2185B-1200-77-highlight"
+        },
+        "description": "beschrijving: Strafbox<br>name: ",
+        "stroke": "#c2185b",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#c2185b",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Strafbox"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5131777,
+          53.207769,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "description": "beschrijving: Balk op/afstappen<br>name: fa-stopwatch",
+        "beschrijving": "Balk op/afstappen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5145227,
+            53.2073869,
+            0
+          ],
+          [
+            6.5144555,
+            53.2073981,
+            0
+          ],
+          [
+            6.5143991,
+            53.2074254,
+            0
+          ],
+          [
+            6.514352,
+            53.2074463,
+            0
+          ],
+          [
+            6.5143115,
+            53.2074656,
+            0
+          ],
+          [
+            6.5142676,
+            53.2074799,
+            0
+          ],
+          [
+            6.5142336,
+            53.2074739,
+            0
+          ],
+          [
+            6.5142306,
+            53.2074509,
+            0
+          ],
+          [
+            6.514243,
+            53.2074217,
+            0
+          ],
+          [
+            6.514314,
+            53.2073559,
+            0
+          ],
+          [
+            6.5143648,
+            53.20727,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-097138-3000",
+        "styleHash": "75f7021c",
+        "styleMapHash": {
+          "normal": "#line-097138-3000-normal",
+          "highlight": "#line-097138-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#097138",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "Finish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5143648,
+          53.20727,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-097138",
+        "styleHash": "14b7d402",
+        "styleMapHash": {
+          "normal": "#icon-1661-097138-normal",
+          "highlight": "#icon-1661-097138-highlight"
+        },
+        "description": "",
+        "beschrijving": "Finish, bocht rechtsom voor het ingaan van volgende loopronde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5169997,
+            53.2056262,
+            0
+          ],
+          [
+            6.5169444,
+            53.2056587,
+            0
+          ],
+          [
+            6.5166905,
+            53.2056912,
+            0
+          ],
+          [
+            6.5164456,
+            53.205737,
+            0
+          ],
+          [
+            6.5161737,
+            53.2058008,
+            0
+          ],
+          [
+            6.5159687,
+            53.2058839,
+            0
+          ],
+          [
+            6.5156662,
+            53.2060309,
+            0
+          ],
+          [
+            6.5155186,
+            53.2061515,
+            0
+          ],
+          [
+            6.515371,
+            53.2063043,
+            0
+          ],
+          [
+            6.5152314,
+            53.2065071,
+            0
+          ],
+          [
+            6.5150273,
+            53.2068162,
+            0
+          ],
+          [
+            6.5149034,
+            53.2070216,
+            0
+          ],
+          [
+            6.5147286,
+            53.2072287,
+            0
+          ],
+          [
+            6.5146364,
+            53.2073158,
+            0
+          ],
+          [
+            6.5145227,
+            53.2073869,
+            0
+          ],
+          [
+            6.5144785,
+            53.2074222,
+            0
+          ],
+          [
+            6.5144275,
+            53.2074511,
+            0
+          ],
+          [
+            6.5143658,
+            53.2074905,
+            0
+          ],
+          [
+            6.5143102,
+            53.2075234,
+            0
+          ],
+          [
+            6.5142284,
+            53.2075631,
+            0
+          ],
+          [
+            6.5141727,
+            53.2075821,
+            0
+          ],
+          [
+            6.5141372,
+            53.2076102,
+            0
+          ],
+          [
+            6.5141217,
+            53.2076326,
+            0
+          ],
+          [
+            6.5141225,
+            53.2076622,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-0F9D58-2938",
+        "styleHash": "700d1e9c",
+        "styleMapHash": {
+          "normal": "#line-0F9D58-2938-normal",
+          "highlight": "#line-0F9D58-2938-highlight"
+        },
+        "description": "",
+        "stroke": "#0f9d58",
+        "stroke-opacity": 1,
+        "stroke-width": 2.938,
+        "beschrijving": "Lopen volgende ronde in"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51322,
+          53.207772,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrows-v",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "",
+        "beschrijving": "Oversteekplaats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513872,
+          53.207006,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrows-v",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "",
+        "beschrijving": "Oversteekplaats mixed zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5141313,
+          53.207718,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-tint",
+        "styleUrl": "#icon-1577-0288D1",
+        "styleHash": "-37fec48",
+        "styleMapHash": {
+          "normal": "#icon-1577-0288D1-normal",
+          "highlight": "#icon-1577-0288D1-highlight"
+        },
+        "description": "",
+        "beschrijving": "Verzorging loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51358,
+          53.207836,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-user-circle",
+        "styleUrl": "#icon-1733-006064",
+        "styleHash": "-599e35f8",
+        "styleMapHash": {
+          "normal": "#icon-1733-006064-normal",
+          "highlight": "#icon-1733-006064-highlight"
+        },
+        "description": "",
+        "beschrijving": "Plaszuilen en dixies"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.512658,
+          53.207895,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-user-circle",
+        "styleUrl": "#icon-1733-006064",
+        "styleHash": "-599e35f8",
+        "styleMapHash": {
+          "normal": "#icon-1733-006064-normal",
+          "highlight": "#icon-1733-006064-highlight"
+        },
+        "description": "",
+        "beschrijving": "Kleedkamer en wc's"
+      }
+    }
+  ]
+}
