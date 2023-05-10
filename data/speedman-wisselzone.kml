@@ -710,8 +710,8 @@
               <coordinates>
                 6.5128487,53.2079765,0
                 6.5128437,53.2079105,0
-                6.5131897,53.2078965,0
-                6.5131947,53.2079605,0
+                6.5132782,53.2078925,0
+                6.5132846,53.2079565,0
                 6.5128487,53.2079765,0
               </coordinates>
             </LinearRing>
@@ -1095,11 +1095,11 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5135821,53.2076085,0
+                6.5135868,53.2076048,0
                 6.5136123,53.2075559,0
                 6.5136888,53.2075667,0
                 6.5136666,53.2076154,0
-                6.5135821,53.2076085,0
+                6.5135868,53.2076048,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1311,45 +1311,6 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Naamloze laag</name>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5167725,53.2058319,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
