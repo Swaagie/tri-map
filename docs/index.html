@@ -68,6 +68,39 @@
         vertical-align: sub;
       }
 
+      .wisselzone {
+        font-size: 16px;
+      }
+
+      .wisselzone td:first-child {
+        width: 30%;
+        text-align: center;
+      }
+
+      .inschrijving {
+        color: rgb(156, 39, 176);
+      }
+
+      .zwemmen {
+        color: rgb(2, 136, 209);
+      }
+
+      .fietsen-uit {
+        color: rgb(230, 81, 0);
+      }
+
+      .fietsen-in {
+        color: rgb(165, 39, 20);
+      }
+
+      .lopen {
+        color: rgb(15, 157, 88);
+      }
+
+      .finish {
+        color: rgb(9, 113, 56);
+      }
+
       summary {
         font-size: 16px;
       }
@@ -85,7 +118,100 @@
     <div class="grid-container">
       <div class="grid-item">
         <div id="map-all"></div>
-        <div class="legend">
+        <div id="legend-wisselzone" class="legend wisselzone" style="display: none;">
+          <h1>Legenda 050media speedman triatlon</h1>
+          <table>
+            <tr>
+              <td class="inschrijving">
+                <i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i>
+              </td>
+              <td>Naar inschrijving en check-in, rechts lopen</td>
+            </tr>
+            <tr>
+              <td class="zwemmen">
+                <i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i>
+              </td>
+              <td>Zwemmen in</td>
+            </tr>
+            <tr>
+              <td class="fietsen-uit">
+                <i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i>
+              </td>
+              <td>Fietsen uit</td>
+            </tr>
+            <tr>
+              <td class="fietsen-in">
+                <i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i>
+              </td>
+              <td>Fietsen in</td>
+            </tr>
+            <tr>
+              <td class="lopen">
+                <i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i>
+              </td>
+              <td>Lopen uit en volgende ronde</td>
+            </tr>
+            <tr>
+              <td class="finish">
+                <i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i
+                ><i class="fa-solid fa-long-arrow-right"></i>
+              </td>
+              <td>Lopen finish</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa-solid fa-check-circle">
+              </td>
+              <td>Check in/out</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa-solid fa-user-circle">
+              </td>
+              <td>WC/kleedkamers</td>
+            </tr>
+            <tr>
+              <td class="zwemmen">
+                <i class="fa-solid fa-tint">
+              </td>
+              <td>Verzorgingspost</td>
+            </tr>
+            <tr>
+              <td class="fietsen-uit">
+                <i class="fa-solid fa-arrows-v">
+              </td>
+              <td>Oversteek naar mixed zone</td>
+            </tr>
+            <tr>
+              <td class="finish">
+                <i class="fa-solid fa-flag-checkered">
+              </td>
+              <td>Finish</td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa-solid fa-microphone">
+              </td>
+              <td>Captains/race briefing</td>
+            </tr>
+          </table>
+        </div>
+        <div  id="legend-default" class="legend wisselzone" style="display: none;">
           <h1>Legenda 050media speedman triatlon</h1>
           <p style="color: red">
             <i class="fa-solid fa-warning"></i>
@@ -291,6 +417,12 @@
 
         const MapboxStyleSwitcherControl = exports.MapboxStyleSwitcherControl;
 
+        // Toggle legend based on map
+        const legend = document.getElementById(`legend-${query}`) || document.getElementById('legend-default');
+        if (legend) {
+          legend.style.display = 'block';
+        }
+
         // Fullscreen control
         map.addControl(new mapboxgl.FullscreenControl());
 
@@ -375,40 +507,60 @@
             },
           });
 
-          // Direction arrows
-          map.addLayer({
-            id: n + '-arrows',
-            type: 'symbol',
-            source: 'triathlon' + n,
-            layout: {
-              'symbol-placement': 'line',
-              'text-field': '➞',
-              'text-size': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                20,
-                24,
-                22,
-                60,
-              ],
-              'symbol-spacing': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                12,
-                30,
-                22,
-                160,
-              ],
-              'text-keep-upright': false,
-            },
-            paint: {
-              'text-color': properties.stroke,
-              'text-halo-color': '#333',
-              'text-halo-width': 1,
-            },
-          });
+          if (properties.name.includes('text')) {
+            map.addLayer({
+              id: n + '-text',
+              type: 'symbol',
+              source: 'triathlon' + n,
+              layout: {
+                'symbol-placement': 'line',
+                'symbol-placement': 'line-center',
+                'text-allow-overlap': true,
+                'text-field': ['get', 'beschrijving'],
+                'text-padding': 0,
+                'text-size': 12,
+                'text-offset': [0,-0.75]
+              },
+              paint: {
+                'text-color': '#333'
+              }
+            });
+          } else {
+            // Direction arrows
+            map.addLayer({
+              id: n + '-arrows',
+              type: 'symbol',
+              source: 'triathlon' + n,
+              layout: {
+                'symbol-placement': 'line',
+                'text-field': '➞',
+                'text-size': [
+                  'interpolate',
+                  ['linear'],
+                  ['zoom'],
+                  20,
+                  24,
+                  22,
+                  60,
+                ],
+                'symbol-spacing': [
+                  'interpolate',
+                  ['linear'],
+                  ['zoom'],
+                  12,
+                  30,
+                  22,
+                  160,
+                ],
+                'text-keep-upright': false,
+              },
+              paint: {
+                'text-color': properties.stroke,
+                'text-halo-color': '#333',
+                'text-halo-width': 1,
+              },
+            });
+          }
         }
 
         function polygon({ properties, geometry }, n) {
@@ -443,9 +595,12 @@
             source: 'triathlon' + n,
             layout: {
               'text-field': ['get', 'beschrijving'],
-              'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
-              'text-justify': 'center',
+              'text-size': 12,
+              'text-allow-overlap': true
             },
+            paint: {
+              'text-color': '#333'
+            }
           });
         }
 
