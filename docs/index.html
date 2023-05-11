@@ -106,11 +106,15 @@
       }
 
       .marker {
+        display: block;
         font-size: 16px;
         background: whitesmoke;
         padding: 4px;
         border: 1px solid #ccc;
         border-radius: 50%;
+        height: 16px;
+        width: 16px;
+        text-align: center;
       }
     </style>
   </head>
@@ -474,7 +478,7 @@
 
         function point({ properties, geometry }, n, innerHTML) {
           // Create a DOM element for each marker.
-          const el = document.createElement('span');
+          const el = document.createElement('div');
 
           el.className = `marker fa-solid ${properties.name}`;
           el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
@@ -600,7 +604,7 @@
             source: 'triathlon' + n,
             layout: {
               'text-field': ['get', 'beschrijving'],
-              'text-size': 12,
+              'text-size': 16,
               'text-allow-overlap': true
             },
             paint: {
