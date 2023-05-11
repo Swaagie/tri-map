@@ -71,6 +71,40 @@
         <styleUrl>#icon-1577-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1603-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1625-424242-normal">
       <IconStyle>
         <color>ff424242</color>
@@ -933,6 +967,44 @@
           </coordinates>
         </LineString>
       </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-2550</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5142498,53.2072561,0
+            6.514286,53.2071959,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wisselvak estafette</name>
+        <description><![CDATA[beschrijving: Wisselvak estafette<br>name: fa-arrows-h]]></description>
+        <styleUrl>#icon-1603-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Wisselvak estafette</value>
+          </Data>
+          <Data name="name">
+            <value>fa-arrows-h</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5142833,53.2072304,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Wisselzone en transities</name>
@@ -955,34 +1027,6 @@
             6.513872,53.207006,0
             6.5143237,53.207087,0
             6.5143077,53.2071271,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Fietsen in</name>
-        <description><![CDATA[beschrijving: Fietsen in<br>name: ]]></description>
-        <styleUrl>#line-A52714-3000</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Fietsen in</value>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5131241,53.2077776,0
-            6.5133723,53.2077694,0
-            6.5135239,53.2077597,0
-            6.5137339,53.2077524,0
-            6.5137838,53.2077402,0
-            6.5138141,53.2077148,0
-            6.513833,53.2076809,0
-            6.5138345,53.2076464,0
-            6.513826,53.2076135,0
-            6.5138344,53.2075577,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1104,6 +1148,34 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Fietsen in</name>
+        <description><![CDATA[beschrijving: Fietsen in<br>name: ]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Fietsen in</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.513124,53.207778,0
+            6.513372,53.207769,0
+            6.513524,53.20776,0
+            6.513734,53.207752,0
+            6.513784,53.20774,0
+            6.513814,53.207715,0
+            6.513833,53.207681,0
+            6.513834,53.207646,0
+            6.513826,53.207614,0
+            6.513834,53.207558,0
+          </coordinates>
+        </LineString>
       </Placemark>
     </Folder>
     <Folder>
