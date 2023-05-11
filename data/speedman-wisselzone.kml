@@ -784,12 +784,12 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Recreatief 1/4</name>
-        <description><![CDATA[beschrijving: Open series 1/4 + HIS<br>name: text]]></description>
+        <name>Recreatief 1/8 + Schuiteman 2e divisie dames</name>
+        <description><![CDATA[beschrijving: Open series 1/8 + Schuiteman 2e divisie dames<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Open series 1/4 + HIS</value>
+            <value>Open series 1/8 + Schuiteman 2e divisie dames</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -908,12 +908,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Open serie 1/8 + HIS</name>
-        <description><![CDATA[beschrijving: Open serie 1/8 + HIS<br>name: text]]></description>
+        <name>Open serie 1/4 + HIS</name>
+        <description><![CDATA[beschrijving: Open serie 1/4  + HIS<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2550</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Open serie 1/8 + HIS</value>
+            <value>Open serie 1/4  + HIS</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -928,12 +928,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Sportzot 3e divisie</name>
-        <description><![CDATA[beschrijving: Sportzot 3e divisie<br>name: text]]></description>
+        <name>Sportzot 3e divisie heren + dames</name>
+        <description><![CDATA[beschrijving: Sportzot 3e divisie heren + dames<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Sportzot 3e divisie</value>
+            <value>Sportzot 3e divisie heren + dames</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -948,12 +948,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Schuiteman 2e divisie</name>
-        <description><![CDATA[beschrijving: Schuiteman 2e divisie<br>name: text]]></description>
+        <name>Schuiteman 2e divisie heren</name>
+        <description><![CDATA[beschrijving: Schuiteman 2e divisie heren<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Schuiteman 2e divisie</value>
+            <value>Schuiteman 2e divisie heren</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1383,6 +1383,45 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Locatie</name>
+      <Placemark>
+        <name>Huidige locatie</name>
+        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
+        <styleUrl>#icon-1898-880E4F</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Huidige locatie</value>
+          </Data>
+          <Data name="name">
+            <value>fa-star</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5167725,53.2058319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huidige locatie</name>
+        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
+        <styleUrl>#icon-1898-880E4F</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Huidige locatie</value>
+          </Data>
+          <Data name="name">
+            <value>fa-star</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
