@@ -1,42 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Speedman 2022</name>
+    <name>Speedman 2023 - vrijwilligers</name>
     <description/>
-    <Style id="icon-1499-424242-normal">
-      <IconStyle>
-        <color>ff424242</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1499-424242-highlight">
-      <IconStyle>
-        <color>ff424242</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1499-424242">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1499-424242-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1499-424242-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1499-A52714-normal">
       <IconStyle>
         <color>ff1427a5</color>
@@ -207,9 +173,9 @@
         <styleUrl>#icon-1499-FFD600-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1522-A52714-normal">
+    <Style id="icon-1577-0288D1-normal">
       <IconStyle>
-        <color>ff1427a5</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -219,9 +185,9 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1522-A52714-highlight">
+    <Style id="icon-1577-0288D1-highlight">
       <IconStyle>
-        <color>ff1427a5</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -231,17 +197,17 @@
         <scale>1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1522-A52714">
+    <StyleMap id="icon-1577-0288D1">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1522-A52714-normal</styleUrl>
+        <styleUrl>#icon-1577-0288D1-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1522-A52714-highlight</styleUrl>
+        <styleUrl>#icon-1577-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1592-0288D1-labelson">
+    <Style id="icon-1592-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -249,7 +215,32 @@
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
     </Style>
+    <Style id="icon-1592-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1592-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1592-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1592-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1625-424242-normal">
       <IconStyle>
         <color>ff424242</color>
@@ -284,16 +275,7 @@
         <styleUrl>#icon-1625-424242-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1628-9C27B0-labelson">
-      <IconStyle>
-        <color>ffb0279c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="icon-1657-F57C00-labelson">
+    <Style id="icon-1657-F57C00-normal">
       <IconStyle>
         <color>ff007cf5</color>
         <scale>1</scale>
@@ -301,7 +283,32 @@
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
     </Style>
+    <Style id="icon-1657-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1657-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1657-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1657-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1661-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -368,40 +375,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1661-097138-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1680-097138-normal">
-      <IconStyle>
-        <color>ff387109</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1680-097138-highlight">
-      <IconStyle>
-        <color>ff387109</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1680-097138">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1680-097138-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1680-097138-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1699-424242-normal">
@@ -472,6 +445,40 @@
         <styleUrl>#icon-1701-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1733-006064-normal">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-006064-highlight">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-006064">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-006064-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-006064-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1769-424242-normal">
       <IconStyle>
         <color>ff424242</color>
@@ -538,42 +545,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1857-E65100-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-097138-normal">
-      <IconStyle>
-        <color>ff387109</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-097138-highlight">
-      <IconStyle>
-        <color>ff387109</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-097138">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-097138-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-097138-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-424242-normal">
@@ -648,230 +619,120 @@
         <styleUrl>#icon-1899-A52714-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-1969-normal">
+    <Style id="line-0288D1-2000-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>1.969</width>
+        <width>2</width>
       </LineStyle>
     </Style>
-    <Style id="line-0288D1-1969-highlight">
+    <Style id="line-0288D1-2000-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>2.9535</width>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-0288D1-1969">
+    <StyleMap id="line-0288D1-2000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-1969-normal</styleUrl>
+        <styleUrl>#line-0288D1-2000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-1969-highlight</styleUrl>
+        <styleUrl>#line-0288D1-2000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-2356-normal">
+    <Style id="line-0288D1-3000-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>2.356</width>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-0288D1-2356-highlight">
+    <Style id="line-0288D1-3000-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>3.534</width>
+        <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-0288D1-2356">
+    <StyleMap id="line-0288D1-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-2356-normal</styleUrl>
+        <styleUrl>#line-0288D1-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-2356-highlight</styleUrl>
+        <styleUrl>#line-0288D1-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-2550-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>2.55</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-2550-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>3.825</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-2550">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-2550-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-2550-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-097138-2356-normal">
+    <Style id="line-097138-3000-normal">
       <LineStyle>
         <color>ff387109</color>
-        <width>2.356</width>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-097138-2356-highlight">
+    <Style id="line-097138-3000-highlight">
       <LineStyle>
         <color>ff387109</color>
-        <width>3.534</width>
+        <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-097138-2356">
+    <StyleMap id="line-097138-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-097138-2356-normal</styleUrl>
+        <styleUrl>#line-097138-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-097138-2356-highlight</styleUrl>
+        <styleUrl>#line-097138-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-097138-2550-normal">
+    <Style id="line-424242-3000-normal">
       <LineStyle>
-        <color>ff387109</color>
-        <width>2.55</width>
+        <color>ff424242</color>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-097138-2550-highlight">
+    <Style id="line-424242-3000-highlight">
       <LineStyle>
-        <color>ff387109</color>
-        <width>3.825</width>
+        <color>ff424242</color>
+        <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-097138-2550">
+    <StyleMap id="line-424242-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-097138-2550-normal</styleUrl>
+        <styleUrl>#line-424242-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-097138-2550-highlight</styleUrl>
+        <styleUrl>#line-424242-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-424242-2550-normal">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>2.55</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-424242-2550-highlight">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>3.825</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-424242-2550">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-424242-2550-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-424242-2550-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-424242-2744-normal">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>2.744</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-424242-2744-highlight">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>4.116</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-424242-2744">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-424242-2744-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-424242-2744-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-424242-2938-normal">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>2.938</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-424242-2938-highlight">
-      <LineStyle>
-        <color>ff424242</color>
-        <width>4.407</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-424242-2938">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-424242-2938-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-424242-2938-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-A52714-2550-normal">
+    <Style id="line-A52714-3000-normal">
       <LineStyle>
         <color>ff1427a5</color>
-        <width>2.55</width>
+        <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-A52714-2550-highlight">
+    <Style id="line-A52714-3000-highlight">
       <LineStyle>
         <color>ff1427a5</color>
-        <width>3.825</width>
+        <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-A52714-2550">
+    <StyleMap id="line-A52714-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-A52714-2550-normal</styleUrl>
+        <styleUrl>#line-A52714-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-A52714-2550-highlight</styleUrl>
+        <styleUrl>#line-A52714-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-A52714-2744-normal">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>2.744</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-A52714-2744-highlight">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>4.116</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-A52714-2744">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-A52714-2744-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-A52714-2744-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-000000-1200-77-normal">
+    <Style id="poly-000000-2000-77-normal">
       <LineStyle>
         <color>ff000000</color>
-        <width>1.2</width>
+        <width>2</width>
       </LineStyle>
       <PolyStyle>
         <color>4d000000</color>
@@ -879,10 +740,10 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <Style id="poly-000000-1200-77-highlight">
+    <Style id="poly-000000-2000-77-highlight">
       <LineStyle>
         <color>ff000000</color>
-        <width>1.8</width>
+        <width>3</width>
       </LineStyle>
       <PolyStyle>
         <color>4d000000</color>
@@ -890,52 +751,20 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <StyleMap id="poly-000000-1200-77">
+    <StyleMap id="poly-000000-2000-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+        <styleUrl>#poly-000000-2000-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+        <styleUrl>#poly-000000-2000-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-000000-1501-77-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.501</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-000000-1501-77-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>2.2515</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-000000-1501-77">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-000000-1501-77-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-000000-1501-77-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-0288D1-1200-77-normal">
+    <Style id="poly-0288D1-2000-77-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>1.2</width>
+        <width>2</width>
       </LineStyle>
       <PolyStyle>
         <color>4dd18802</color>
@@ -943,10 +772,10 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <Style id="poly-0288D1-1200-77-highlight">
+    <Style id="poly-0288D1-2000-77-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>1.8</width>
+        <width>3</width>
       </LineStyle>
       <PolyStyle>
         <color>4dd18802</color>
@@ -954,14 +783,46 @@
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <StyleMap id="poly-0288D1-1200-77">
+    <StyleMap id="poly-0288D1-2000-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-0288D1-1200-77-normal</styleUrl>
+        <styleUrl>#poly-0288D1-2000-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-0288D1-1200-77-highlight</styleUrl>
+        <styleUrl>#poly-0288D1-2000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FBC02D-1200-77-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FBC02D-1200-77-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FBC02D-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FBC02D-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FBC02D-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
@@ -969,7 +830,7 @@
       <Placemark>
         <name>Wisselzone</name>
         <description><![CDATA[beschrijving: Wisselzone<br>name: ]]></description>
-        <styleUrl>#poly-000000-1501-77</styleUrl>
+        <styleUrl>#poly-000000-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Wisselzone</value>
@@ -983,12 +844,12 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5136133,53.2075471,0
-                6.5137554,53.2073174,0
-                6.5138949,53.207033,0
-                6.5143723,53.2071118,0
-                6.5140612,53.2076146,0
-                6.5136133,53.2075471,0
+                6.513613,53.207547,0
+                6.513755,53.207317,0
+                6.513895,53.207033,0
+                6.514372,53.207112,0
+                6.514061,53.207615,0
+                6.513613,53.207547,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -997,7 +858,7 @@
       <Placemark>
         <name>Teamtenten</name>
         <description><![CDATA[beschrijving: Teamtenten<br>name: ]]></description>
-        <styleUrl>#poly-0288D1-1200-77</styleUrl>
+        <styleUrl>#poly-0288D1-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Teamtenten</value>
@@ -1011,39 +872,20 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5140279,53.2069347,0
-                6.51417,53.2068721,0
-                6.5143471,53.206848,0
-                6.514449,53.2068223,0
-                6.5145268,53.206766,0
-                6.5145938,53.2066552,0
-                6.5148486,53.2067419,0
-                6.5147333,53.2069443,0
-                6.5146019,53.2070504,0
-                6.5140279,53.2069347,0
+                6.514028,53.206935,0
+                6.51417,53.206872,0
+                6.514347,53.206848,0
+                6.514449,53.206822,0
+                6.514527,53.206766,0
+                6.514594,53.206655,0
+                6.514849,53.206742,0
+                6.514733,53.206944,0
+                6.514602,53.20705,0
+                6.514028,53.206935,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Check in/uit</name>
-        <description><![CDATA[beschrijving: Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone<br><br>name: fa-check-circle]]></description>
-        <styleUrl>#icon-1769-424242</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Check in/out. Bereikbaar vanaf teamtenten en langs de wisselzone
-</value>
-          </Data>
-          <Data name="name">
-            <value>fa-check-circle</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5143056,53.2071017,0
-          </coordinates>
-        </Point>
       </Placemark>
       <Placemark>
         <name>Check in/uit</name>
@@ -1059,14 +901,14 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5139519,53.2075987,0
+            6.513952,53.207599,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Registratie en organisatie</name>
         <description><![CDATA[beschrijving: Registratie<br>name: ]]></description>
-        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <styleUrl>#poly-000000-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Registratie</value>
@@ -1080,11 +922,42 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5129052,53.2079579,0
-                6.5128998,53.2078921,0
-                6.5132458,53.2078776,0
-                6.5132512,53.2079418,0
-                6.5129052,53.2079579,0
+                6.512905,53.207958,0
+                6.5129,53.207892,0
+                6.513246,53.207878,0
+                6.513251,53.207942,0
+                6.512905,53.207958,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Mixed zone</name>
+        <description><![CDATA[beschrijving: Mixed zone<br>name: ]]></description>
+        <styleUrl>#poly-FBC02D-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Mixed zone</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                6.5129558,53.2075848,0
+                6.5130523,53.2075141,0
+                6.5132186,53.2074081,0
+                6.5134493,53.207196,0
+                6.5137443,53.207135,0
+                6.5136853,53.207257,0
+                6.5135941,53.2074402,0
+                6.5134761,53.207604,0
+                6.5129558,53.2075848,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1107,14 +980,14 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.514018,53.2070541,0
+            6.5143157,53.2071046,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Transitie 1 in</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2938</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -1126,38 +999,17 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5133661,53.2071319,0
-            6.5138715,53.2070063,0
-            6.5140298,53.2070344,0
-            6.514018,53.2070541,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Transitie 1 uit</name>
-        <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2744</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5138675,53.2075846,0
-            6.5137642,53.20775,0
-            6.5132224,53.2077757,0
+            6.513366,53.207132,0
+            6.513872,53.207006,0
+            6.5143237,53.207087,0
+            6.5143157,53.2071046,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Transitie 2 in</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2550</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -1169,16 +1021,42 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5132237,53.2077621,0
-            6.5133337,53.2077532,0
-            6.5134423,53.2077002,0
-            6.5135121,53.2076464,0
-            6.5136113,53.2075083,0
-            6.5136703,53.2074207,0
-            6.5137387,53.2072898,0
-            6.5138085,53.2071587,0
-            6.5138536,53.2070603,0
-            6.5138827,53.2070614,0
+            6.5138237,53.2075786,0
+            6.5138162,53.2076596,0
+            6.5138019,53.2077165,0
+            6.5137466,53.2077468,0
+            6.5135239,53.2077597,0
+            6.5133723,53.2077694,0
+            6.513222,53.207776,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Transitie 1 uit</name>
+        <description><![CDATA[beschrijving: <br>name: ]]></description>
+        <styleUrl>#line-424242-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5137631,53.2072993,0
+            6.5137424,53.2073097,0
+            6.5137055,53.2073667,0
+            6.5136834,53.2074052,0
+            6.5136381,53.2074821,0
+            6.5135775,53.2075763,0
+            6.513505,53.2076555,0
+            6.5134507,53.2077037,0
+            6.5133923,53.2077325,0
+            6.5133055,53.2077524,0
+            6.513224,53.207762,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1196,14 +1074,14 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.513224,53.2077669,0
+            6.5131777,53.207769,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Transitie 2 uit</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-2938</styleUrl>
+        <styleUrl>#line-424242-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -1215,9 +1093,9 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5140821,53.2075816,0
-            6.5141277,53.2076081,0
-            6.5141478,53.2076747,0
+            6.514082,53.207582,0
+            6.514128,53.207608,0
+            6.514148,53.207675,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1235,36 +1113,17 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5141478,53.2076747,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Wisselbox estafette</name>
-        <description><![CDATA[beschrijving: Wisselen van onderdelen voor estafette deelnemers<br>name: fa-circle]]></description>
-        <styleUrl>#icon-1499-424242</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Wisselen van onderdelen voor estafette deelnemers</value>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5137924,53.2073012,0
+            6.514148,53.207675,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Strafbox</name>
-        <description><![CDATA[beschrijving: Strafbox<br><br>name: fa-hourglass-half]]></description>
+        <description><![CDATA[beschrijving: Strafbox<br>name: fa-hourglass-half]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Strafbox
-</value>
+            <value>Strafbox</value>
           </Data>
           <Data name="name">
             <value>fa-hourglass-half</value>
@@ -1272,7 +1131,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5136026,53.2075648,0
+            6.513603,53.207565,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1290,17 +1149,17 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5126896,53.2082865,0
+            6.51269,53.208286,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Captains/race briefing</name>
-        <description><![CDATA[beschrijving: Verzamelen nabij speeltoestel<br>name: fa-microphone]]></description>
+        <description><![CDATA[beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone]]></description>
         <styleUrl>#icon-1625-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Verzamelen nabij speeltoestel</value>
+            <value>Captains/race briefing: verzamelen nabij speeltoestel</value>
           </Data>
           <Data name="name">
             <value>fa-microphone</value>
@@ -1308,244 +1167,22 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5142141,53.2066904,0
+            6.514214,53.20669,0
           </coordinates>
         </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Loopparcours kinderen</name>
-      <Placemark>
-        <name>Keerpunt</name>
-        <description><![CDATA[name: fa-arrow-circle-right<br>description: ]]></description>
-        <styleUrl>#icon-1899-097138</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-arrow-circle-right</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5147774,53.2036777,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Start</name>
-        <description><![CDATA[name: fa-person-running<br>description: ]]></description>
-        <styleUrl>#icon-1680-097138</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-person-running</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5142853,53.2075552,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Loopparcours</name>
-        <description><![CDATA[name: <br>description: ]]></description>
-        <styleUrl>#line-097138-2550</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value/>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5142853,53.2075552,0
-            6.5145012,53.2074226,0
-            6.5146675,53.207278,0
-            6.5147855,53.2071013,0
-            6.5148821,53.2069825,0
-            6.5149786,53.2068186,0
-            6.5151074,53.2066226,0
-            6.5152039,53.2064138,0
-            6.5153166,53.2062306,0
-            6.5155043,53.2060893,0
-            6.5158423,53.2059158,0
-            6.5161105,53.2058129,0
-            6.5163787,53.2057423,0
-            6.5166309,53.2056941,0
-            6.5169257,53.2056588,0
-            6.5171924,53.2053652,0
-            6.5175051,53.2049777,0
-            6.5175158,53.2049552,0
-            6.5167136,53.2045129,0
-            6.5155212,53.2038799,0
-            6.5152152,53.203797,0
-            6.5147638,53.203688,0
-            6.5147747,53.2036698,0
-            6.5152305,53.2037828,0
-            6.5155212,53.2038799,0
-            6.5167217,53.2045064,0
-            6.5175158,53.2049552,0
-            6.5175051,53.2049777,0
-            6.5171915,53.2053667,0
-            6.5169257,53.2056588,0
-            6.5166309,53.2056928,0
-            6.5163761,53.205741,0
-            6.5161105,53.2058133,0
-            6.5158382,53.2059134,0
-            6.5155029,53.2060885,0
-            6.5153166,53.2062308,0
-            6.5152363,53.2064198,0
-            6.5151478,53.2066238,0
-            6.5150207,53.2068291,0
-            6.5149241,53.2069897,0
-            6.5147846,53.2071761,0
-            6.5146804,53.2073087,0
-            6.5145852,53.2073922,0
-            6.5144832,53.2074717,0
-            6.5143666,53.2075392,0
-            6.5143156,53.2075673,0
-            6.5142853,53.2075552,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Fietsparcours kinderen</name>
-      <Placemark>
-        <name>Start</name>
-        <description><![CDATA[name: fa-person-biking<br>description: ]]></description>
-        <styleUrl>#icon-1522-A52714</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value>fa-person-biking</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5139717,53.2077323,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Fietsparcours</name>
-        <description><![CDATA[name: <br>description: ]]></description>
-        <styleUrl>#line-A52714-2744</styleUrl>
-        <ExtendedData>
-          <Data name="name">
-            <value/>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5139717,53.2077323,0
-            6.5120942,53.2078287,0
-            6.5103963,53.2079171,0
-            6.5097763,53.2079463,0
-            6.5089797,53.2079785,0
-            6.5082448,53.2080218,0
-            6.5076145,53.2080524,0
-            6.506939,53.2080846,0
-            6.5068465,53.2080903,0
-            6.5067754,53.208079,0
-            6.5067741,53.2080501,0
-            6.5069283,53.2078605,0
-            6.5074437,53.2070412,0
-            6.5076636,53.2066509,0
-            6.5084781,53.2052705,0
-            6.5091378,53.2053074,0
-            6.5097762,53.2053187,0
-            6.5104703,53.2052863,0
-            6.5111054,53.2052218,0
-            6.5116498,53.2051517,0
-            6.5124384,53.2050248,0
-            6.5131519,53.2049155,0
-            6.5139753,53.2048031,0
-            6.5141602,53.2047616,0
-            6.5141763,53.2046974,0
-            6.514199,53.2043054,0
-            6.5142634,53.2042459,0
-            6.5144743,53.2041067,0
-            6.5147801,53.2036569,0
-            6.5153594,53.2027701,0
-            6.5156706,53.2023009,0
-            6.5161534,53.2024423,0
-            6.5164014,53.2025229,0
-            6.5165288,53.2025695,0
-            6.5166294,53.2025871,0
-            6.5171805,53.202739,0
-            6.5178217,53.2029173,0
-            6.5183206,53.2030603,0
-            6.5184332,53.2031101,0
-            6.5185164,53.2031759,0
-            6.518562,53.2032386,0
-            6.5185781,53.2033077,0
-            6.5185781,53.2033768,0
-            6.518519,53.2035117,0
-            6.518452,53.2036322,0
-            6.518169,53.2041417,0
-            6.5179961,53.2044225,0
-            6.5177291,53.2047747,0
-            6.5175853,53.2049555,0
-            6.5172473,53.2053572,0
-            6.5170032,53.2056496,0
-            6.5168825,53.2057749,0
-            6.5168516,53.2057898,0
-            6.5167701,53.2057823,0
-            6.5166977,53.2057903,0
-            6.5165984,53.2058144,0
-            6.5163945,53.2058597,0
-            6.5162388,53.2059082,0
-            6.5160471,53.2059874,0
-            6.5159439,53.2060482,0
-            6.5158219,53.206126,0
-            6.5157321,53.2061944,0
-            6.515649,53.2062731,0
-            6.5155644,53.2063711,0
-            6.5155041,53.2064747,0
-            6.5154531,53.206563,0
-            6.5153741,53.2067028,0
-            6.5153137,53.2068225,0
-            6.5152426,53.2069349,0
-            6.5151435,53.2070673,0
-            6.5150671,53.2071613,0
-            6.5149973,53.2072344,0
-            6.5149102,53.2073138,0
-            6.5148364,53.2073806,0
-            6.5147439,53.2074536,0
-            6.5146513,53.2075191,0
-            6.5145996,53.2075534,0
-            6.5144931,53.2076219,0
-            6.5144099,53.2076669,0
-            6.5143403,53.207704,0
-            6.5142568,53.2077119,0
-            6.5140785,53.207719,0
-            6.5139717,53.2077323,0
-          </coordinates>
-        </LineString>
       </Placemark>
     </Folder>
     <Folder>
       <name>Zwemparcours individueel</name>
       <Placemark>
         <name>Finish zwemmen</name>
-        <description><![CDATA[name: fa-flag-checkered<br>description: ]]></description>
+        <description><![CDATA[beschrijving: name: fa-flag-checkered<br>description:<br>name: fa-flag-checkered<br>description: ]]></description>
         <styleUrl>#icon-1661-0288D1</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: fa-flag-checkered
+description:</value>
+          </Data>
           <Data name="name">
             <value>fa-flag-checkered</value>
           </Data>
@@ -1555,60 +1192,69 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5133661,53.2071319,0
+            6.513366,53.207132,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Start individueel</name>
-        <description><![CDATA[name: fa-person-swimming<br>description: Start vanaf strand. Opstellen tussen afrastering]]></description>
+        <name>Start individueel/recreatief</name>
+        <description><![CDATA[beschrijving: Start vanaf strand. Opstellen tussen afrastering<br>name: fa-person-swimming<br>description: ]]></description>
         <styleUrl>#icon-1701-0288D1</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>Start vanaf strand. Opstellen tussen afrastering</value>
+          </Data>
           <Data name="name">
             <value>fa-person-swimming</value>
           </Data>
           <Data name="description">
-            <value>Start vanaf strand. Opstellen tussen afrastering</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5138128,53.2067431,0
+            6.513813,53.206743,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Zwemparcours</name>
-        <description><![CDATA[name: Zwemparcours individueel<br>description: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden]]></description>
-        <styleUrl>#line-0288D1-2550</styleUrl>
+        <description><![CDATA[beschrijving: 500m per ronde<br><br>achtste: 1 ronde<br>kwart: 2 ronden<br>name: Zwemparcours individueel<br>description: ]]></description>
+        <styleUrl>#line-0288D1-3000</styleUrl>
         <ExtendedData>
-          <Data name="name">
-            <value>Zwemparcours individueel</value>
-          </Data>
-          <Data name="description">
+          <Data name="beschrijving">
             <value>500m per ronde
 
 achtste: 1 ronde
 kwart: 2 ronden</value>
           </Data>
+          <Data name="name">
+            <value>Zwemparcours individueel</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5138128,53.2067431,0
-            6.5131409,53.2065071,0
-            6.511553,53.2059416,0
-            6.5104265,53.2068235,0
-            6.5126138,53.2071697,0
-            6.5131409,53.2065071,0
+            6.513813,53.206743,0
+            6.513141,53.206507,0
+            6.511553,53.205942,0
+            6.510426,53.206824,0
+            6.512614,53.20717,0
+            6.513141,53.206507,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Boei A</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1618,15 +1264,18 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5131409,53.2065071,0
+            6.513141,53.206507,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei D</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1636,15 +1285,18 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.511553,53.2059416,0
+            6.511553,53.205942,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei F</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1654,15 +1306,18 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5126044,53.2071709,0
+            6.512604,53.207171,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Zwemmen naar finish</name>
-        <description><![CDATA[name: <br>description: ]]></description>
-        <styleUrl>#line-0288D1-1969</styleUrl>
+        <description><![CDATA[beschrijving: <br>name: <br>description: ]]></description>
+        <styleUrl>#line-0288D1-2000</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value/>
           </Data>
@@ -1673,16 +1328,19 @@ kwart: 2 ronden</value>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5126044,53.2071709,0
-            6.5133661,53.2071319,0
+            6.512604,53.207171,0
+            6.513366,53.207132,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Boei E</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1692,43 +1350,49 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5104265,53.2068235,0
+            6.510426,53.206824,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei B 750m</name>
-        <description><![CDATA[name: fa-circle<br>description: Boei 750m divisies]]></description>
+        <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-A52714</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>Boei 750m divisies</value>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
           <Data name="description">
-            <value>Boei 750m divisies</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5150993,53.205651,0
+            6.515099,53.205651,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei C 750m</name>
-        <description><![CDATA[name: fa-circle<br>description: Boei 750m divisies]]></description>
+        <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-C2185B</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>Boei 750m divisies</value>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
           <Data name="description">
-            <value>Boei 750m divisies</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5144932,53.20532,0
+            6.514493,53.20532,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1737,9 +1401,12 @@ kwart: 2 ronden</value>
       <name>Zwemparcours divisies</name>
       <Placemark>
         <name>Boei A</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1749,15 +1416,18 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5131409,53.2065071,0
+            6.513141,53.206507,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei B</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1767,15 +1437,18 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5150993,53.205651,0
+            6.515099,53.205651,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei C</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1785,61 +1458,70 @@ kwart: 2 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5144932,53.20532,0
+            6.514493,53.20532,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei F</name>
-        <description><![CDATA[name: fa-circle<br>description: Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish]]></description>
+        <description><![CDATA[beschrijving: Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish<br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish</value>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
           <Data name="description">
-            <value>Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5126044,53.2071709,0
+            6.512604,53.207171,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Zwemparcours</name>
-        <description><![CDATA[name: Zwemparcours divisie<br>description: 750m per ronde<br><br>sprint: 1 ronde<br>standaard: 2 ronde]]></description>
-        <styleUrl>#line-0288D1-2356</styleUrl>
+        <description><![CDATA[beschrijving: 750m per ronde<br><br>sprint: 1 ronde<br>standaard: 2 ronde<br>name: Zwemparcours divisie<br>description: ]]></description>
+        <styleUrl>#line-0288D1-3000</styleUrl>
         <ExtendedData>
-          <Data name="name">
-            <value>Zwemparcours divisie</value>
-          </Data>
-          <Data name="description">
+          <Data name="beschrijving">
             <value>750m per ronde
 
 sprint: 1 ronde
 standaard: 2 ronde</value>
           </Data>
+          <Data name="name">
+            <value>Zwemparcours divisie</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5131409,53.2065071,0
-            6.5150993,53.205651,0
-            6.5144932,53.20532,0
-            6.5115526,53.2059426,0
-            6.5104272,53.206825,0
-            6.5126044,53.2071709,0
-            6.5131409,53.2065071,0
+            6.513141,53.206507,0
+            6.515099,53.205651,0
+            6.514493,53.20532,0
+            6.511553,53.205943,0
+            6.510427,53.206825,0
+            6.512604,53.207171,0
+            6.513141,53.206507,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Boei D</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1849,15 +1531,18 @@ standaard: 2 ronde</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5115526,53.2059426,0
+            6.511553,53.205943,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Zwemmen naar finish</name>
-        <description><![CDATA[name: <br>description: ]]></description>
-        <styleUrl>#line-0288D1-2356</styleUrl>
+        <description><![CDATA[beschrijving: <br>name: <br>description: ]]></description>
+        <styleUrl>#line-0288D1-3000</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value/>
           </Data>
@@ -1868,16 +1553,19 @@ standaard: 2 ronde</value>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5126044,53.2071709,0
-            6.5133661,53.2071319,0
+            6.512604,53.207171,0
+            6.513366,53.207132,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Finish zwemmen</name>
-        <description><![CDATA[name: fa-flag-checkered<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-flag-checkered<br>description: ]]></description>
         <styleUrl>#icon-1661-0288D1</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-flag-checkered</value>
           </Data>
@@ -1887,33 +1575,39 @@ standaard: 2 ronde</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5133661,53.2071319,0
+            6.513366,53.207132,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Waterstart</name>
-        <description><![CDATA[name: fa-person-swimming<br>description: Waterstart. Opstellen tussen boei en afrastering]]></description>
+        <name>Waterstart divisies</name>
+        <description><![CDATA[beschrijving: Waterstart. Opstellen voorbij de boei<br>name: fa-person-swimming<br>description: ]]></description>
         <styleUrl>#icon-1701-0288D1</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>Waterstart. Opstellen voorbij de boei</value>
+          </Data>
           <Data name="name">
             <value>fa-person-swimming</value>
           </Data>
           <Data name="description">
-            <value>Waterstart. Opstellen tussen boei en afrastering</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.513402,53.2066355,0
+            6.5129219,53.2064689,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Boei E</name>
-        <description><![CDATA[name: fa-circle<br>description: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
         <styleUrl>#icon-1499-FFD600</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
             <value>fa-circle</value>
           </Data>
@@ -1923,7 +1617,7 @@ standaard: 2 ronde</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5104272,53.206825,0
+            6.510427,53.206825,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1931,103 +1625,13 @@ standaard: 2 ronde</value>
     <Folder>
       <name>Fietsparcours</name>
       <Placemark>
-        <name>Aanloopstrook fietsen</name>
-        <description><![CDATA[name: Aanloopstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-A52714-2550</styleUrl>
+        <name>Terugkomstrook fietsen</name>
+        <description><![CDATA[beschrijving: <br>name: Terugkomstrook fietsen<br>description: ]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
         <ExtendedData>
-          <Data name="name">
-            <value>Aanloopstrook fietsen</value>
-          </Data>
-          <Data name="description">
+          <Data name="beschrijving">
             <value/>
           </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5132224,53.2077757,0
-            6.5099379,53.2079483,0
-            6.5096241,53.2079483,0
-            6.5083957,53.2080125,0
-            6.5072048,53.2080736,0
-            6.5068465,53.2080903,0
-            6.5067822,53.2080824,0
-            6.5067087,53.2080623,0
-            6.5066525,53.2080299,0
-            6.506674,53.2079817,0
-            6.5067143,53.2079271,0
-            6.5067974,53.2078259,0
-            6.5068939,53.2076942,0
-            6.5070013,53.2075368,0
-            6.5073178,53.2070091,0
-            6.5077215,53.2063304,0
-            6.5080919,53.2056763,0
-            6.5083212,53.2052956,0
-            6.5083869,53.2051799,0
-            6.5084901,53.2050297,0
-            6.5088415,53.2046212,0
-            6.509162,53.2042441,0
-            6.5097449,53.203639,0
-            6.5099389,53.2034138,0
-            6.5099639,53.2033846,0
-            6.5099888,53.2033474,0
-            6.5099975,53.2033175,0
-            6.5100176,53.203277,0
-            6.5101866,53.203085,0
-            6.5113266,53.2018913,0
-            6.5115599,53.2016503,0
-            6.5117235,53.2014253,0
-            6.5117155,53.2013723,0
-            6.5116887,53.2013129,0
-            6.5116323,53.2012695,0
-            6.5115519,53.2012293,0
-            6.5114285,53.2011892,0
-            6.5113373,53.2011458,0
-            6.5112247,53.2010895,0
-            6.5111388,53.2010172,0
-            6.5110664,53.2009642,0
-            6.5109591,53.2008726,0
-            6.510876,53.2008485,0
-            6.5107901,53.2008325,0
-            6.5107016,53.2008373,0
-            6.5104978,53.2008791,0
-            6.5102644,53.2009465,0
-            6.5098111,53.2010879,0
-            6.5090172,53.2013225,0
-            6.508698,53.2014028,0
-            6.5083413,53.2014832,0
-            6.5077405,53.2015635,0
-            6.507491,53.2015828,0
-            6.5070914,53.2016406,0
-            6.5066971,53.2017226,0
-            6.5062438,53.2018431,0
-            6.5051823,53.2021668,0
-            6.5049738,53.2022334,0
-            6.5039509,53.2025443,0
-            6.5016388,53.2032376,0
-            6.5008448,53.2034465,0
-            6.5000616,53.2036103,0
-            6.4994715,53.2037292,0
-            6.4989887,53.2038095,0
-            6.498345,53.2038963,0
-            6.4976655,53.2039711,0
-            6.4970084,53.2040273,0
-            6.4966288,53.2040514,0
-            6.4959096,53.2040804,0
-            6.4955489,53.2040965,0
-            6.4941273,53.2041575,0
-            6.4930705,53.2041921,0
-            6.4925475,53.2042097,0
-            6.4924536,53.2041969,0
-            6.492302,53.2041969,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Terugkomstrook fietsen</name>
-        <description><![CDATA[name: Terugkomstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-A52714-2550</styleUrl>
-        <ExtendedData>
           <Data name="name">
             <value>Terugkomstrook fietsen</value>
           </Data>
@@ -2038,334 +1642,453 @@ standaard: 2 ronde</value>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5089268,53.2012125,0
-            6.5090092,53.2012443,0
-            6.5090991,53.2012267,0
-            6.5092868,53.2011769,0
-            6.5095014,53.201111,0
-            6.5097334,53.2010355,0
-            6.5099319,53.2009559,0
-            6.51007,53.2008893,0
-            6.5102832,53.2007897,0
-            6.5104254,53.2007278,0
-            6.5105863,53.2006908,0
-            6.5107137,53.2006796,0
-            6.5108157,53.2006876,0
-            6.5108881,53.2007053,0
-            6.5109337,53.2007149,0
-            6.5110048,53.2007656,0
-            6.5110919,53.2008772,0
-            6.5112073,53.2009704,0
-            6.5112877,53.2010379,0
-            6.5114648,53.2011254,0
-            6.5116418,53.2011889,0
-            6.5117906,53.2012925,0
-            6.5118121,53.2013102,0
-            6.5118416,53.2013681,0
-            6.5118121,53.2014283,0
-            6.5115653,53.2017287,0
-            6.5108706,53.2024662,0
-            6.5105112,53.2028405,0
-            6.5101786,53.2031771,0
-            6.5100821,53.2032771,0
-            6.5100445,53.2033409,0
-            6.5100459,53.2033751,0
-            6.5100398,53.2034203,0
-            6.5099801,53.203496,0
-            6.5097294,53.203737,0
-            6.5095295,53.2039411,0
-            6.5092399,53.2042728,0
-            6.5090011,53.2045323,0
-            6.508635,53.2049523,0
-            6.5085036,53.2051339,0
-            6.508399,53.2053026,0
-            6.5079779,53.2059693,0
-            6.507699,53.2064705,0
-            6.5075139,53.2068143,0
-            6.5071786,53.2074071,0
-            6.5069533,53.2077412,0
-            6.5068782,53.2078456,0
-            6.5068681,53.207934,0
-            6.5069426,53.2079838,0
-            6.5070901,53.208007,0
-            6.5072832,53.2080183,0
-            6.507821,53.2079902,0
-            6.5086972,53.2079439,0
-            6.5089412,53.2079696,0
-            6.509589,53.2079334,0
-            6.5097633,53.2079326,0
-            6.5099471,53.2079318,0
-            6.5132237,53.2077621,0
+            6.492302,53.204197,0
+            6.492454,53.204197,0
+            6.492548,53.20421,0
+            6.49307,53.204192,0
+            6.494127,53.204158,0
+            6.495549,53.204096,0
+            6.49591,53.20408,0
+            6.496629,53.204051,0
+            6.497008,53.204027,0
+            6.497666,53.203971,0
+            6.498345,53.203896,0
+            6.498989,53.20381,0
+            6.499472,53.203729,0
+            6.500062,53.20361,0
+            6.500845,53.203446,0
+            6.501639,53.203238,0
+            6.503951,53.202544,0
+            6.504974,53.202233,0
+            6.505182,53.202167,0
+            6.506244,53.201843,0
+            6.506697,53.201723,0
+            6.507091,53.201641,0
+            6.507491,53.201583,0
+            6.50774,53.201564,0
+            6.508341,53.201483,0
+            6.508698,53.201403,0
+            6.509017,53.201322,0
+            6.509811,53.201088,0
+            6.510264,53.200946,0
+            6.510498,53.200879,0
+            6.510702,53.200837,0
+            6.51079,53.200832,0
+            6.510876,53.200848,0
+            6.510959,53.200873,0
+            6.511066,53.200964,0
+            6.511139,53.201017,0
+            6.511225,53.20109,0
+            6.511337,53.201146,0
+            6.511428,53.201189,0
+            6.511552,53.201229,0
+            6.511632,53.20127,0
+            6.511689,53.201313,0
+            6.511716,53.201372,0
+            6.511724,53.201425,0
+            6.51156,53.20165,0
+            6.511327,53.201891,0
+            6.510187,53.203085,0
+            6.510018,53.203277,0
+            6.509998,53.203318,0
+            6.509989,53.203347,0
+            6.509964,53.203385,0
+            6.5099658,53.203414,0
+            6.5097879,53.2036358,0
+            6.509475,53.2039511,0
+            6.509162,53.204244,0
+            6.508842,53.204621,0
+            6.5085195,53.20503,0
+            6.5084004,53.205172,0
+            6.5083156,53.2053072,0
+            6.508092,53.205676,0
+            6.507722,53.20633,0
+            6.507318,53.207009,0
+            6.507001,53.207537,0
+            6.506894,53.207694,0
+            6.5068118,53.2078284,0
+            6.5067918,53.2079125,0
+            6.5068269,53.2079539,0
+            6.5068961,53.207985,0
+            6.5069745,53.2080026,0
+            6.5070784,53.2080169,0
+            6.5072054,53.2080306,0
+            6.5073498,53.2080314,0
+            6.5078206,53.2080065,0
+            6.5084416,53.2079735,0
+            6.5085851,53.2079703,0
+            6.5086816,53.2079843,0
+            6.5087487,53.2079855,0
+            6.509624,53.207948,0
+            6.509938,53.207948,0
+            6.513222,53.207776,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Fietsparcours</name>
-        <description><![CDATA[name: Fietsparcours<br>description: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden]]></description>
-        <styleUrl>#line-A52714-2550</styleUrl>
+        <name>Aanloopstrook fietsen</name>
+        <description><![CDATA[beschrijving: <br>name: Aanloopstrook fietsen<br>description: ]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
           <Data name="name">
-            <value>Fietsparcours</value>
+            <value>Aanloopstrook fietsen</value>
           </Data>
           <Data name="description">
-            <value>10.6 km per ronde
-
-achtste/sprint: 2 ronden
-kwart/standaard: 4 ronden</value>
+            <value/>
           </Data>
         </ExtendedData>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5050013,53.2021868,0
-            6.5044289,53.2023621,0
-            6.5036269,53.2026139,0
-            6.5032206,53.2027366,0
-            6.5028182,53.2028601,0
-            6.5025804,53.2029247,0
-            6.5022907,53.2030114,0
-            6.5017274,53.2031785,0
-            6.5012755,53.2033047,0
-            6.5006518,53.203458,0
-            6.5003407,53.2035255,0
-            6.499634,53.2036677,0
-            6.4987609,53.2038155,0
-            6.4980166,53.2039006,0
-            6.4967881,53.2040003,0
-            6.4952941,53.204075,0
-            6.4937546,53.204136,0
-            6.493312,53.2041464,0
-            6.4926548,53.2041786,0
-            6.4924738,53.2041858,0
-            6.4915873,53.2042396,0
-            6.4914519,53.2042517,0
-            6.4913339,53.2042774,0
-            6.4912507,53.2043191,0
-            6.4912024,53.204369,0
-            6.491189,53.2044557,0
-            6.4912078,53.2045698,0
-            6.4912561,53.2050421,0
-            6.4912239,53.2053457,0
-            6.4910898,53.2056654,0
-            6.490674,53.2064285,0
-            6.4888555,53.209512,0
-            6.4887898,53.2095232,0
-            6.4887107,53.2095192,0
-            6.4886221,53.2095064,0
-            6.4865582,53.2091096,0
-            6.4863731,53.2090437,0
-            6.4862792,53.2089859,0
-            6.4861854,53.2089297,0
-            6.4860057,53.2088686,0
-            6.4842756,53.2085409,0
-            6.4806791,53.2078559,0
-            6.4805933,53.2078816,0
-            6.4805396,53.2079395,0
-            6.4796169,53.2097033,0
-            6.4794989,53.2097579,0
-            6.4793487,53.2097643,0
-            6.4792146,53.2097322,0
-            6.4715059,53.2081419,0
-            6.4713906,53.2080953,0
-            6.4713691,53.2080744,0
-            6.4713396,53.2080326,0
-            6.4713423,53.2079796,0
-            6.4719673,53.206778,0
-            6.4729865,53.2056888,0
-            6.4729865,53.2056229,0
-            6.4729517,53.2055699,0
-            6.4729007,53.2055314,0
-            6.4727317,53.2054896,0
-            6.4725976,53.2054832,0
-            6.4724903,53.2054944,0
-            6.4723669,53.2055201,0
-            6.4722355,53.2055073,0
-            6.4721684,53.2054719,0
-            6.4721068,53.2054221,0
-            6.4720558,53.2053804,0
-            6.4719244,53.2053402,0
-            6.4717607,53.2053081,0
-            6.4716454,53.2052952,0
-            6.4716374,53.2052294,0
-            6.4716803,53.2050783,0
-            6.4723991,53.2034397,0
-            6.4724152,53.2033433,0
-            6.472375,53.2032774,0
-            6.4722516,53.2031858,0
-            6.4720826,53.20312,0
-            6.4711358,53.2026942,0
-            6.4709775,53.2026396,0
-            6.4707576,53.2025769,0
-            6.470138,53.2024564,0
-            6.4700549,53.2024275,0
-            6.4700388,53.2024018,0
-            6.4700227,53.2023697,0
-            6.4700415,53.2023263,0
-            6.4700871,53.2021945,0
-            6.4700736,53.2021721,0
-            6.4700522,53.2021319,0
-            6.4699798,53.2020837,0
-            6.4698188,53.2020548,0
-            6.4671742,53.2015631,0
-            6.4660316,53.2013141,0
-            6.4640601,53.2008771,0
-            6.4634754,53.2007437,0
-            6.4613672,53.2002682,0
-            6.4611821,53.2002023,0
-            6.4609836,53.2001268,0
-            6.4608093,53.2000464,0
-            6.4606376,53.1999902,0
-            6.4595969,53.199754,0
-            6.455689,53.1988816,0
-            6.4519298,53.1980605,0
-            6.451333,53.1979569,0
-            6.4499571,53.1977175,0
-            6.4489995,53.1975777,0
-            6.4486321,53.1975327,0
-            6.4485033,53.1975005,0
-            6.4484309,53.1974588,0
-            6.448388,53.1974138,0
-            6.4483451,53.197372,0
-            6.4480956,53.1967469,0
-            6.4481251,53.1966971,0
-            6.4481761,53.1966457,0
-            6.4482619,53.1966088,0
-            6.4483531,53.1965943,0
-            6.4484792,53.1965911,0
-            6.4486052,53.1965975,0
-            6.4490934,53.1966586,0
-            6.4499517,53.1967855,0
-            6.4502602,53.1968385,0
-            6.451671,53.1971792,0
-            6.4535566,53.1976403,0
-            6.4565446,53.1983602,0
-            6.4591705,53.1989916,0
-            6.4609246,53.1994142,0
-            6.4610373,53.1994238,0
-            6.4611365,53.1994206,0
-            6.4612036,53.1994078,0
-            6.4612787,53.1993837,0
-            6.4613377,53.1993547,0
-            6.4613886,53.1993531,0
-            6.461453,53.1993692,0
-            6.4616891,53.1995026,0
-            6.4618419,53.1995813,0
-            6.4619546,53.1996231,0
-            6.4621947,53.1996817,0
-            6.4648782,53.2003035,0
-            6.4654012,53.200424,0
-            6.4661013,53.200559,0
-            6.4672278,53.200755,0
-            6.4695023,53.2011567,0
-            6.4713544,53.2014764,0
-            6.4718238,53.2015141,0
-            6.4729074,53.2015832,0
-            6.4731609,53.2016089,0
-            6.4734479,53.2016555,0
-            6.4740111,53.2017616,0
-            6.4743209,53.201829,0
-            6.4746964,53.2019134,0
-            6.4751591,53.2020283,0
-            6.4759611,53.20225,0
-            6.4768462,53.2025239,0
-            6.4773156,53.2026685,0
-            6.4779567,53.2028083,0
-            6.4787613,53.2029705,0
-            6.4799093,53.2031939,0
-            6.481186,53.2034188,0
-            6.4826948,53.2036582,0
-            6.4830783,53.2036807,0
-            6.4838508,53.2037168,0
-            6.484351,53.2037184,0
-            6.4848794,53.2037047,0
-            6.4860703,53.2036381,0
-            6.4873122,53.203561,0
-            6.4898227,53.2034019,0
-            6.4900641,53.2033891,0
-            6.490209,53.2034132,0
-            6.4902814,53.2034453,0
-            6.490335,53.2034951,0
-            6.4903726,53.203561,0
-            6.4904477,53.204051,0
-            6.4905161,53.2047803,0
-            6.4904752,53.2050908,0
-            6.4903404,53.2055037,0
-            6.490154,53.2059631,0
-            6.4900615,53.2061961,0
-            6.4900145,53.2063872,0
-            6.4900226,53.206474,0
-            6.4900628,53.2065318,0
-            6.4901138,53.2065607,0
-            6.4902237,53.2065864,0
-            6.4903149,53.2066041,0
-            6.4904303,53.2065977,0
-            6.4905107,53.206572,0
-            6.4905885,53.2064836,0
-            6.4910069,53.2057189,0
-            6.4911759,53.205351,0
-            6.4911974,53.2052354,0
-            6.491192,53.2049334,0
-            6.4911276,53.2044112,0
-            6.4911437,53.2043502,0
-            6.4911759,53.2043148,0
-            6.4912135,53.2042843,0
-            6.4912644,53.2042522,0
-            6.4913234,53.2042313,0
-            6.4913905,53.2042184,0
-            6.4914683,53.2042056,0
-            6.4920342,53.2041815,0
-            6.4930803,53.2041269,0
-            6.4939574,53.2040963,0
-            6.4960012,53.2040064,0
-            6.496763,53.2039678,0
-            6.4977902,53.2038907,0
-            6.4983616,53.2038361,0
-            6.4989168,53.2037678,0
-            6.4993822,53.2036827,0
-            6.5002526,53.2035172,0
-            6.5006616,53.2034321,0
-            6.5012208,53.2032931,0
-            6.5022897,53.2029886,0
-            6.5033612,53.2026729,0
-            6.5056464,53.201958,0
-            6.5062875,53.2017571,0
-            6.5067596,53.2016366,0
-            6.5072102,53.2015531,0
-            6.5078003,53.2014792,0
-            6.5086532,53.2012912,0
-            6.508849,53.2012157,0
-            6.5089268,53.2012125,0
-            6.5089328,53.2012438,0
-            6.5089161,53.2012723,0
-            6.5088617,53.2012988,0
-            6.5087638,53.2013242,0
-            6.5082483,53.2014381,0
-            6.5078781,53.2015039,0
-            6.5075777,53.2015377,0
-            6.5072881,53.2015666,0
-            6.5068348,53.201655,0
-            6.5065478,53.2017257,0
-            6.5060623,53.2018622,0
-            6.5053247,53.2020839,0
-            6.5050013,53.2021868,0
+            6.513224,53.207762,0
+            6.509947,53.207932,0
+            6.509763,53.207933,0
+            6.509589,53.207933,0
+            6.5091363,53.2079579,0
+            6.5089893,53.2079467,0
+            6.5088579,53.2079373,0
+            6.508697,53.2079368,0
+            6.5078223,53.2079844,0
+            6.507279,53.2080092,0
+            6.5070927,53.2079966,0
+            6.5069457,53.2079639,0
+            6.5068962,53.2079364,0
+            6.5068811,53.2078976,0
+            6.5068968,53.2078468,0
+            6.506961,53.207741,0
+            6.507179,53.207407,0
+            6.5075274,53.206814,0
+            6.5076266,53.206642,0
+            6.5077741,53.2063752,0
+            6.5080021,53.2059626,0
+            6.508399,53.205303,0
+            6.508504,53.205134,0
+            6.508635,53.204952,0
+            6.509001,53.204532,0
+            6.50924,53.204273,0
+            6.50953,53.203941,0
+            6.509729,53.203737,0
+            6.50998,53.203496,0
+            6.5100521,53.2034112,0
+            6.5100648,53.2033638,0
+            6.5100762,53.2033241,0
+            6.5100968,53.2032754,0
+            6.510179,53.203177,0
+            6.510511,53.20284,0
+            6.510871,53.202466,0
+            6.511565,53.201729,0
+            6.511812,53.201428,0
+            6.511842,53.201368,0
+            6.511812,53.20131,0
+            6.511791,53.201292,0
+            6.511642,53.201189,0
+            6.511465,53.201125,0
+            6.511288,53.201038,0
+            6.511207,53.20097,0
+            6.511092,53.200877,0
+            6.511005,53.200766,0
+            6.510934,53.200715,0
+            6.510888,53.200705,0
+            6.510816,53.200688,0
+            6.510714,53.20068,0
+            6.510586,53.200691,0
+            6.510425,53.200728,0
+            6.510283,53.20079,0
+            6.5101156,53.200885,0
+            6.5099709,53.2009544,0
+            6.5097545,53.201036,0
+            6.5095359,53.2011094,0
+            6.5093152,53.2011778,0
+            6.5091593,53.2012182,0
+            6.509013,53.2012569,0
+            6.5088135,53.2013128,0
+            6.5085482,53.2013785,0
+            6.5083475,53.2013972,0
+            6.5082468,53.2014004,0
+            6.5081474,53.2014155,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fietsparcours</name>
+        <description><![CDATA[beschrijving: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>name: Fietsparcours<br>description: ]]></description>
+        <styleUrl>#line-A52714-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>10.6 km per ronde
+
+achtste/sprint: 2 ronden
+kwart/standaard: 4 ronden</value>
+          </Data>
+          <Data name="name">
+            <value>Fietsparcours</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.505001,53.202187,0
+            6.505325,53.202084,0
+            6.506062,53.201862,0
+            6.506548,53.201726,0
+            6.506835,53.201655,0
+            6.507288,53.201567,0
+            6.507578,53.201538,0
+            6.507878,53.201504,0
+            6.5079804,53.2014926,0
+            6.5081089,53.2014726,0
+            6.5081599,53.2014613,0
+            6.5081952,53.2014527,0
+            6.5082182,53.2014384,0
+            6.5082162,53.2014233,0
+            6.5081898,53.2014124,0
+            6.5081474,53.2014155,0
+            6.5080562,53.2014344,0
+            6.5079559,53.2014541,0
+            6.5078,53.201479,0
+            6.50721,53.201553,0
+            6.50676,53.201637,0
+            6.506288,53.201757,0
+            6.505646,53.201958,0
+            6.503361,53.202673,0
+            6.50229,53.202989,0
+            6.501221,53.203293,0
+            6.500662,53.203432,0
+            6.500253,53.203517,0
+            6.499382,53.203683,0
+            6.498917,53.203768,0
+            6.498362,53.203836,0
+            6.49779,53.203891,0
+            6.496763,53.203968,0
+            6.496001,53.204006,0
+            6.493957,53.204096,0
+            6.49308,53.204127,0
+            6.492034,53.204182,0
+            6.491468,53.204206,0
+            6.49139,53.204218,0
+            6.491323,53.204231,0
+            6.491264,53.204252,0
+            6.491214,53.204284,0
+            6.491176,53.204315,0
+            6.491144,53.20435,0
+            6.491128,53.204411,0
+            6.491192,53.204933,0
+            6.491197,53.205235,0
+            6.491176,53.205351,0
+            6.491007,53.205719,0
+            6.490588,53.206484,0
+            6.490511,53.206572,0
+            6.49043,53.206598,0
+            6.490315,53.206604,0
+            6.490224,53.206586,0
+            6.490114,53.206561,0
+            6.490063,53.206532,0
+            6.490023,53.206474,0
+            6.490014,53.206387,0
+            6.490062,53.206196,0
+            6.490154,53.205963,0
+            6.49034,53.205504,0
+            6.490475,53.205091,0
+            6.4904811,53.2047832,0
+            6.4903944,53.2040831,0
+            6.4903247,53.2036012,0
+            6.4903055,53.2035111,0
+            6.4902676,53.2034627,0
+            6.4901983,53.2034307,0
+            6.4900667,53.2034051,0
+            6.489823,53.2034165,0
+            6.4874568,53.2035674,0
+            6.486078,53.2036589,0
+            6.4848629,53.2037227,0
+            6.4843376,53.2037453,0
+            6.4837598,53.2037331,0
+            6.483078,53.2037035,0
+            6.4824938,53.2036451,0
+            6.4812075,53.2034447,0
+            6.4798393,53.2032069,0
+            6.4787315,53.2029877,0
+            6.477906,53.2028225,0
+            6.4772489,53.2026664,0
+            6.4766448,53.2024854,0
+            6.4758939,53.2022596,0
+            6.4751214,53.2020425,0
+            6.4746584,53.2019323,0
+            6.4742325,53.2018322,0
+            6.4739574,53.2017716,0
+            6.4733944,53.2016737,0
+            6.4731422,53.2016299,0
+            6.472797,53.2016039,0
+            6.4718106,53.2015333,0
+            6.4712574,53.2014889,0
+            6.4694698,53.2011795,0
+            6.4671824,53.2007743,0
+            6.4660366,53.2005751,0
+            6.4652776,53.200432,0
+            6.4647814,53.2003072,0
+            6.4621628,53.1996916,0
+            6.4618987,53.1996342,0
+            6.4617857,53.1995826,0
+            6.4616568,53.1995062,0
+            6.461453,53.1993947,0
+            6.4613783,53.1993867,0
+            6.46133,53.1993903,0
+            6.4612683,53.1994065,0
+            6.4611933,53.1994289,0
+            6.4611038,53.1994355,0
+            6.4610021,53.1994385,0
+            6.4608472,53.199406,0
+            6.4591807,53.1990081,0
+            6.4565182,53.1983696,0
+            6.453557,53.19764,0
+            6.4516898,53.1971935,0
+            6.4502573,53.1968476,0
+            6.4499118,53.1967876,0
+            6.4490715,53.1966783,0
+            6.4485943,53.1966157,0
+            6.4484441,53.1966055,0
+            6.4483342,53.1966117,0
+            6.448262,53.1966347,0
+            6.4481867,53.1966669,0
+            6.4481357,53.1967131,0
+            6.448155,53.1967711,0
+            6.4483665,53.1973624,0
+            6.4484148,53.1974124,0
+            6.4484632,53.1974494,0
+            6.4485245,53.1974855,0
+            6.4486374,53.1975218,0
+            6.4490054,53.1975651,0
+            6.449957,53.197718,0
+            6.451341,53.1979377,0
+            6.451938,53.1980455,0
+            6.4556863,53.1988659,0
+            6.4595782,53.1997395,0
+            6.4606246,53.1999707,0
+            6.4608331,53.2000396,0
+            6.4610135,53.2001222,0
+            6.461182,53.200202,0
+            6.4613777,53.2002584,0
+            6.463467,53.2007247,0
+            6.4641753,53.2008899,0
+            6.4660749,53.2013028,0
+            6.4672089,53.2015341,0
+            6.4698512,53.2020454,0
+            6.4700283,53.202084,0
+            6.4700922,53.2021175,0
+            6.4701276,53.2021688,0
+            6.4701272,53.2022085,0
+            6.4700903,53.2023324,0
+            6.4701061,53.2023796,0
+            6.4701275,53.2024004,0
+            6.4701542,53.2024248,0
+            6.4702158,53.2024448,0
+            6.4707634,53.2025561,0
+            6.4709941,53.2026175,0
+            6.4712057,53.2026892,0
+            6.4721206,53.2030991,0
+            6.4723271,53.2031972,0
+            6.4724313,53.2032834,0
+            6.4724579,53.2033559,0
+            6.4724419,53.2034673,0
+            6.4717202,53.2050796,0
+            6.4717134,53.2051752,0
+            6.4717496,53.2052211,0
+            6.4718066,53.205255,0
+            6.4719481,53.2052838,0
+            6.4720775,53.2053029,0
+            6.4721955,53.2052838,0
+            6.4722592,53.2052648,0
+            6.4723594,53.2052564,0
+            6.4724501,53.205271,0
+            6.4725141,53.2053012,0
+            6.4725819,53.2053625,0
+            6.4726757,53.2054129,0
+            6.4728447,53.2054523,0
+            6.4729734,53.2054766,0
+            6.4730486,53.2055395,0
+            6.473045,53.2056214,0
+            6.4729914,53.2057581,0
+            6.4720421,53.2067941,0
+            6.4714225,53.207972,0
+            6.4714258,53.208033,0
+            6.4714521,53.2080611,0
+            6.4714876,53.208087,0
+            6.4715462,53.2081179,0
+            6.479215,53.2097031,0
+            6.479349,53.2097367,0
+            6.4794856,53.2097307,0
+            6.4795821,53.2096789,0
+            6.4805212,53.2079255,0
+            6.4805769,53.2078756,0
+            6.480628,53.2078497,0
+            6.4807621,53.2078512,0
+            6.4842894,53.2085137,0
+            6.4860248,53.2088433,0
+            6.4861904,53.2089011,0
+            6.4863005,53.2089667,0
+            6.4863971,53.2090231,0
+            6.4865795,53.2090827,0
+            6.4886247,53.2094803,0
+            6.4887217,53.2094949,0
+            6.4888007,53.2094844,0
+            6.488848,53.209459,0
+            6.490674,53.206428,0
+            6.49109,53.205665,0
+            6.491224,53.205346,0
+            6.491256,53.205042,0
+            6.491208,53.20457,0
+            6.491189,53.204456,0
+            6.491202,53.204369,0
+            6.491251,53.204319,0
+            6.491334,53.204277,0
+            6.491452,53.204252,0
+            6.491587,53.20424,0
+            6.492474,53.204186,0
+            6.492655,53.204179,0
+            6.493312,53.204146,0
+            6.493755,53.204136,0
+            6.495294,53.204075,0
+            6.496788,53.204,0
+            6.498017,53.203901,0
+            6.498761,53.203816,0
+            6.499634,53.203668,0
+            6.500341,53.203526,0
+            6.500652,53.203458,0
+            6.501276,53.203305,0
+            6.501727,53.203178,0
+            6.502291,53.203011,0
+            6.50258,53.202925,0
+            6.502818,53.20286,0
+            6.503221,53.202737,0
+            6.503627,53.202614,0
+            6.504429,53.202362,0
+            6.505001,53.202187,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Keerpunt</name>
-        <description><![CDATA[name: fa-arrow-circle-left<br>description: Keerpunt volgende ronde fietsen, op weg blijven!]]></description>
+        <description><![CDATA[beschrijving: Keerpunt volgende ronde fietsen, op weg blijven!<br>name: fa-arrow-circle-left<br>description: ]]></description>
         <styleUrl>#icon-1899-A52714</styleUrl>
         <ExtendedData>
+          <Data name="beschrijving">
+            <value>Keerpunt volgende ronde fietsen, op weg blijven!</value>
+          </Data>
           <Data name="name">
             <value>fa-arrow-circle-left</value>
           </Data>
           <Data name="description">
-            <value>Keerpunt volgende ronde fietsen, op weg blijven!</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5088901,53.201241,0
+            6.5081604,53.2014322,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2374,174 +2097,182 @@ kwart/standaard: 4 ronden</value>
       <name>Loopparcours</name>
       <Placemark>
         <name>Loopparcours</name>
-        <description><![CDATA[name: Loopparcours<br>description: 2.5 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>]]></description>
-        <styleUrl>#line-097138-2356</styleUrl>
+        <description><![CDATA[beschrijving: 2.5 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br><br>name: Loopparcours<br>description: ]]></description>
+        <styleUrl>#line-097138-3000</styleUrl>
         <ExtendedData>
-          <Data name="name">
-            <value>Loopparcours</value>
-          </Data>
-          <Data name="description">
+          <Data name="beschrijving">
             <value>2.5 km per ronde
 
 achtste/sprint: 2 ronden
 kwart/standaard: 4 ronden
 </value>
           </Data>
+          <Data name="name">
+            <value>Loopparcours</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5141586,53.2077113,0
-            6.5143403,53.207704,0
-            6.5144769,53.2076293,0
-            6.5145996,53.2075534,0
-            6.5147195,53.2074727,0
-            6.5148644,53.2073587,0
-            6.5150053,53.2072273,0
-            6.5150991,53.2071233,0
-            6.5151736,53.2070345,0
-            6.5152604,53.2069147,0
-            6.5153717,53.2067139,0
-            6.5154723,53.2065283,0
-            6.5155755,53.2063581,0
-            6.5156654,53.2062528,0
-            6.5157472,53.2061781,0
-            6.5158652,53.2060954,0
-            6.5159957,53.2060137,0
-            6.5161593,53.2059398,0
-            6.5164168,53.2058547,0
-            6.5165984,53.2058144,0
-            6.5167701,53.2057823,0
-            6.5168516,53.2057898,0
-            6.5168932,53.2057689,0
-            6.5169908,53.2056699,0
-            6.5173106,53.2052921,0
-            6.5176614,53.2048589,0
-            6.5179961,53.2044225,0
-            6.5182165,53.2040562,0
-            6.5184209,53.2036866,0
-            6.5185704,53.2034067,0
-            6.5185806,53.2033432,0
-            6.5185752,53.203283,0
-            6.5185504,53.2032199,0
-            6.5185075,53.2031625,0
-            6.5184512,53.2031187,0
-            6.5183975,53.2030876,0
-            6.518256,53.2030366,0
-            6.5180541,53.2029804,0
-            6.5178617,53.2029282,0
-            6.5170312,53.2026966,0
-            6.5166182,53.2025817,0
-            6.5165057,53.2025565,0
-            6.5163139,53.2024898,0
-            6.5157131,53.2023179,0
-            6.5133777,53.2016598,0
+            6.514159,53.207711,0
+            6.51434,53.207704,0
+            6.514477,53.207629,0
+            6.5146,53.207553,0
+            6.51472,53.207473,0
+            6.514864,53.207359,0
+            6.515005,53.207227,0
+            6.515099,53.207123,0
+            6.515174,53.207034,0
+            6.51526,53.206915,0
+            6.515372,53.206714,0
+            6.515472,53.206528,0
+            6.515576,53.206358,0
+            6.515665,53.206253,0
+            6.515747,53.206178,0
+            6.515865,53.206095,0
+            6.515996,53.206014,0
+            6.516159,53.20594,0
+            6.516417,53.205855,0
+            6.516598,53.205814,0
+            6.51677,53.205782,0
+            6.516852,53.20579,0
+            6.516893,53.205769,0
+            6.516991,53.20567,0
+            6.517311,53.205292,0
+            6.517661,53.204859,0
+            6.517996,53.204422,0
+            6.518216,53.204056,0
+            6.518421,53.203687,0
+            6.51857,53.203407,0
+            6.518581,53.203343,0
+            6.518575,53.203283,0
+            6.51855,53.20322,0
+            6.518508,53.203162,0
+            6.518451,53.203119,0
+            6.518398,53.203088,0
+            6.518256,53.203037,0
+            6.518054,53.20298,0
+            6.517862,53.202928,0
+            6.517031,53.202697,0
+            6.516618,53.202582,0
+            6.516506,53.202556,0
+            6.516314,53.20249,0
+            6.515713,53.202318,0
+            6.513378,53.20166,0
             6.512809,53.201504,0
-            6.5125494,53.2014572,0
-            6.5122973,53.2014243,0
-            6.5122421,53.2014202,0
-            6.5121268,53.2014299,0
-            6.5120302,53.2014668,0
-            6.5119229,53.2015471,0
+            6.512549,53.201457,0
+            6.512297,53.201424,0
+            6.512242,53.20142,0
+            6.512127,53.20143,0
+            6.51203,53.201467,0
+            6.511923,53.201547,0
             6.511714,53.201728,0
-            6.5110741,53.2024109,0
-            6.5106852,53.2028382,0
-            6.5100596,53.2034851,0
-            6.5093464,53.2042486,0
-            6.5097056,53.2043575,0
-            6.5101562,53.204478,0
-            6.5111728,53.2047672,0
-            6.5113813,53.2048184,0
-            6.5113759,53.204571,0
-            6.5125346,53.2046352,0
-            6.5125507,53.2045228,0
-            6.5126044,53.2043718,0
-            6.5126902,53.2042368,0
-            6.5128243,53.2040505,0
-            6.5134029,53.2032946,0
-            6.5155212,53.2038799,0
-            6.5168319,53.2045777,0
-            6.5175158,53.2049552,0
-            6.5175051,53.2049777,0
-            6.5169257,53.2056588,0
-            6.5166951,53.2056878,0
-            6.5164402,53.2057327,0
-            6.5162337,53.2057809,0
-            6.5160474,53.2058396,0
-            6.5158865,53.2058974,0
-            6.5157202,53.2059794,0
-            6.5153898,53.2062813,0
-            6.5151859,53.2065705,0
-            6.5150675,53.2068156,0
-            6.5149816,53.2069554,0
-            6.5148287,53.2071353,0
-            6.5145384,53.2073642,0
-            6.5143238,53.2075136,0
-            6.5142004,53.2076148,0
-            6.5141478,53.2076747,0
-            6.5141586,53.2077113,0
+            6.511074,53.202411,0
+            6.510685,53.202838,0
+            6.51006,53.203485,0
+            6.509346,53.204249,0
+            6.509706,53.204358,0
+            6.510156,53.204478,0
+            6.511173,53.204767,0
+            6.511381,53.204818,0
+            6.511376,53.204571,0
+            6.512535,53.204635,0
+            6.512551,53.204523,0
+            6.512604,53.204372,0
+            6.51269,53.204237,0
+            6.512824,53.20405,0
+            6.513403,53.203295,0
+            6.515521,53.20388,0
+            6.516832,53.204578,0
+            6.517516,53.204955,0
+            6.517505,53.204978,0
+            6.516926,53.205659,0
+            6.516695,53.205688,0
+            6.51644,53.205733,0
+            6.516234,53.205781,0
+            6.516047,53.20584,0
+            6.515886,53.205897,0
+            6.51572,53.205979,0
+            6.51539,53.206281,0
+            6.515186,53.20657,0
+            6.515068,53.206816,0
+            6.514982,53.206955,0
+            6.514829,53.207135,0
+            6.514538,53.207364,0
+            6.514324,53.207514,0
+            6.5142,53.207615,0
+            6.514148,53.207675,0
+            6.514159,53.207711,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
         <name>Finish</name>
-        <description><![CDATA[name: fa-flag-checkered<br>description: Finish, bocht linksom voor het ingaan van volgende loopronde]]></description>
-        <styleUrl>#icon-1661-097138</styleUrl>
+        <description><![CDATA[beschrijving: <br>name: Finish<br>description: ]]></description>
+        <styleUrl>#line-097138-3000</styleUrl>
         <ExtendedData>
-          <Data name="name">
-            <value>fa-flag-checkered</value>
+          <Data name="beschrijving">
+            <value/>
           </Data>
-          <Data name="description">
-            <value>Finish, bocht linksom voor het ingaan van volgende loopronde</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5142872,53.2073597,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Finish</name>
-        <description><![CDATA[name: Finish<br>description: fa-flag-checkered]]></description>
-        <styleUrl>#line-097138-2356</styleUrl>
-        <ExtendedData>
           <Data name="name">
             <value>Finish</value>
           </Data>
           <Data name="description">
-            <value>fa-flag-checkered</value>
+            <value/>
           </Data>
         </ExtendedData>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5146636,53.2072635,0
-            6.5143793,53.2074226,0
-            6.5142801,53.2074643,0
-            6.5142264,53.2074531,0
-            6.5142479,53.2074177,0
-            6.5142872,53.2073597,0
+            6.514664,53.207264,0
+            6.514379,53.207423,0
+            6.51428,53.207464,0
+            6.514226,53.207453,0
+            6.514248,53.207418,0
+            6.514287,53.20736,0
           </coordinates>
         </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Finish</name>
+        <description><![CDATA[beschrijving: Finish, bocht rechtsom voor het ingaan van volgende loopronde<br>name: fa-flag-checkered<br>description: ]]></description>
+        <styleUrl>#icon-1661-097138</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Finish, bocht rechtsom voor het ingaan van volgende loopronde</value>
+          </Data>
+          <Data name="name">
+            <value>fa-flag-checkered</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514287,53.20736,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
     <Folder>
       <name>Markering/waarschuwingen</name>
       <Placemark>
         <name>Pionnen</name>
-        <description><![CDATA[beschrijving: name: fa-warning<br>description: Overgang vanaf weg naar fietspad<br>name: fa-warning<br>description: Overgang vanaf weg naar fietspad]]></description>
+        <description><![CDATA[beschrijving: Overgang vanaf weg naar fietspad<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-warning
-description: Overgang vanaf weg naar fietspad</value>
+            <value>Overgang vanaf weg naar fietspad</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Overgang vanaf weg naar fietspad</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2551,18 +2282,18 @@ description: Overgang vanaf weg naar fietspad</value>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Samenvoegen ronde</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg]]></description>
+        <name>Splitsing finish is fietspad</name>
+        <description><![CDATA[beschrijving: Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Splitsing finish is fietspad. Van weg naar fietspad om terug te keren naar wisselzone</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Samenvoegen met deelnemers in fiets ronde. Vanaf fietspad naar weg</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2573,17 +2304,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Oversteken</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Heen: naar fietspad, terug: naar rechterzijde weg]]></description>
+        <description><![CDATA[beschrijving: Heen: naar rechterzijde weg, terug: van fietspad naar weg<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Heen: naar rechterzijde weg, terug: van fietspad naar weg</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Heen: naar fietspad, terug: naar rechterzijde weg</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2594,17 +2325,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Start afval zone</name>
-        <description><![CDATA[beschrijving: <br>name: fa-trash<br>description: Start afval zone 200m]]></description>
+        <description><![CDATA[beschrijving: Start afval zone 200m<br>name: fa-trash<br>description: ]]></description>
         <styleUrl>#icon-1857-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Start afval zone 200m</value>
           </Data>
           <Data name="name">
             <value>fa-trash</value>
           </Data>
           <Data name="description">
-            <value>Start afval zone 200m</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2615,17 +2346,17 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Einde afval zone</name>
-        <description><![CDATA[beschrijving: <br>name: fa-trash<br>description: Einde afval zone]]></description>
+        <description><![CDATA[beschrijving: Einde afval zone<br>name: fa-trash<br>description: ]]></description>
         <styleUrl>#icon-1857-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Einde afval zone</value>
           </Data>
           <Data name="name">
             <value>fa-trash</value>
           </Data>
           <Data name="description">
-            <value>Einde afval zone</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
@@ -2636,22 +2367,148 @@ description: Overgang vanaf weg naar fietspad</value>
       </Placemark>
       <Placemark>
         <name>Overgang asfalt</name>
-        <description><![CDATA[beschrijving: <br>name: fa-warning<br>description: Overgang asfalt voorzien van rubberen matten voor veiligheid]]></description>
+        <description><![CDATA[beschrijving: Overgang asfalt voorzien van rubberen matten voor veiligheid<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-E65100</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Overgang asfalt voorzien van rubberen matten voor veiligheid</value>
           </Data>
           <Data name="name">
             <value>fa-warning</value>
           </Data>
           <Data name="description">
-            <value>Overgang asfalt voorzien van rubberen matten voor veiligheid</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4806791,53.2078559,0
+            6.480679,53.207856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oversteekplaats</name>
+        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
+        <styleUrl>#icon-1499-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Oversteekplaats</value>
+          </Data>
+          <Data name="name">
+            <value>fa-arrows-v</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5132199,53.207772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samenvoegen fietsers ronde</name>
+        <description><![CDATA[beschrijving: Samenvoegen fietsers ronde<br>name: fa-warning<br>description: ]]></description>
+        <styleUrl>#icon-1499-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Samenvoegen fietsers ronde</value>
+          </Data>
+          <Data name="name">
+            <value>fa-warning</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5083819,53.201394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oversteekplaats</name>
+        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
+        <styleUrl>#icon-1499-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Oversteekplaats</value>
+          </Data>
+          <Data name="name">
+            <value>fa-arrows-v</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513872,53.207006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Verzorging loopparcours</name>
+        <description><![CDATA[beschrijving: Verzorging loopparcours<br>name: fa-tint<br>description: ]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Verzorging loopparcours</value>
+          </Data>
+          <Data name="name">
+            <value>fa-tint</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5142478,53.2077223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaszuilen en dixies</name>
+        <description><![CDATA[beschrijving: Plaszuilen en dixies<br>name: fa-user-circle<br>description: ]]></description>
+        <styleUrl>#icon-1733-006064</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Plaszuilen en dixies</value>
+          </Data>
+          <Data name="name">
+            <value>fa-user-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5135798,53.2078357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kleedkamer en wc's]]></name>
+        <description><![CDATA[beschrijving: Kleedkamer en wc's<br>name: fa-user-circle<br>description: ]]></description>
+        <styleUrl>#icon-1733-006064</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value><![CDATA[Kleedkamer en wc's]]></value>
+          </Data>
+          <Data name="name">
+            <value>fa-user-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5126582,53.2078952,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2659,1010 +2516,1073 @@ description: Overgang vanaf weg naar fietspad</value>
     <Folder>
       <name>Vrijwilligers</name>
       <Placemark>
-        <name>NTB check in/out</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB check in/out]]></description>
-        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
+        <name>Check in/out 2x</name>
+        <description><![CDATA[beschrijving: Check in/out 2x<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Check in/out 2x</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>NTB check in/out</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.514269,53.2070741,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>NTB check-in/out</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB check-in/out]]></description>
-        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
             <value/>
           </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>NTB check-in/out</value>
-          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.513918,53.2076197,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>NTB strafbox</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: NTB strafbox]]></description>
-        <styleUrl>#icon-1628-9C27B0-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>NTB strafbox</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5136384,53.2075636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger wisselzone</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Helpen in wisselzone]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value>Helpen in wisselzone</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.513993,53.207322,0
+            6.5139082,53.2075672,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name><![CDATA[Vrijwilligers kano's 2x]]></name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilligers kano's 2x]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilligers kano's 2x<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value><![CDATA[Vrijwilligers kano's 2x]]></value>
           </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5114149,53.2073627,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Vrijwilliger inschrijving 5x</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger inschrijving 5x]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.511415,53.207363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger inschrijving 2x</name>
+        <description><![CDATA[beschrijving: Vrijwilliger inschrijving 5x<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
             <value>Vrijwilliger inschrijving 5x</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5129625,53.2079392,0
+            6.512962,53.207939,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger tijdwaarneming 3x </name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger tijdwaarneming 3x ]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <name>Vrijwilliger tijdwaarneming 2x </name>
+        <description><![CDATA[beschrijving: Vrijwilliger tijdwaarneming 2x <br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger tijdwaarneming 2x </value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger tijdwaarneming 3x </value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5144168,53.2072469,0
+            6.514417,53.207247,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger verzorging finish</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger verzorging finish]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <name>Vrijwilliger verzorging finish 2x</name>
+        <description><![CDATA[beschrijving: Vrijwilliger verzorging finish<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>Vrijwilliger verzorging finish</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5143739,53.2073064,0
+            6.5144223,53.2071518,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger verzorging loopparcours 2x</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger verzorging loopparcours 2x]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger verzorging loopparcours 2x<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger verzorging loopparcours 2x</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger verzorging loopparcours 2x</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5142043,53.2077586,0
+            6.514204,53.207759,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger loopparcours + kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours + kinderen<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>Vrijwilliger loopparcours + kinderen</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5157131,53.2023179,0
+            6.515713,53.202318,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5133777,53.2016598,0
+            6.513378,53.20166,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5119585,53.2015112,0
+            6.511958,53.201511,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5110238,53.2024388,0
+            6.511024,53.202439,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>StEB</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5101496,53.2033836,0
+            6.51015,53.203384,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5113813,53.2048184,0
+            6.511381,53.204818,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5113866,53.2045966,0
+            6.511387,53.204597,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>vrijwilliger loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5127787,53.2041253,0
+            6.512779,53.204125,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger loopparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5134029,53.2032946,0
+            6.513403,53.203295,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>vrijwilliger loopparcours + kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours + kinderen + begeleiding registratiestroom</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5169257,53.2056588,0
+            6.516926,53.205659,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger loopparcours + kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger loopparcours + kinderen]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours + kinderen<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger loopparcours + kinderen</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger loopparcours + kinderen</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5147638,53.203688,0
+            6.514764,53.203688,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger oversteek naar voetbal (lage prio)</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger oversteek naar voetbal (lage prio)]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger oversteek naar voetbal (lage prio)<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger oversteek naar voetbal (lage prio)</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger oversteek naar voetbal (lage prio)</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5098404,53.2079374,0
+            6.50984,53.207937,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger opgang fietspad</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: vrijwilliger opgang fietspad]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: vrijwilliger opgang fietspad<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>vrijwilliger opgang fietspad</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5086144,53.2079578,0
+            6.508614,53.207958,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5066617,53.2080654,0
+            6.506662,53.208065,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5073178,53.2070091,0
+            6.507318,53.207009,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5076781,53.2063562,0
+            6.507678,53.206356,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.508312,53.2052456,0
+            6.508312,53.205246,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5100232,53.203331,0
+            6.510023,53.203331,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>Vrijwilliger fietsparcours</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.510868,53.2023998,0
+            6.510868,53.2024,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5118416,53.2013681,0
+            6.511842,53.201368,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5114198,53.2011088,0
+            6.51142,53.201109,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5108881,53.2007053,0
+            6.510888,53.200705,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>StEB</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5090088,53.2011798,0
+            6.509009,53.20118,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <name>Vrijwilliger schoonmaken afvalzone</name>
+        <description><![CDATA[beschrijving: Vrijwilliger schoonmaken afvalzone<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger schoonmaken afvalzone</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger schoonmaken afvalzone en aanduiding keerpunt</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5051418,53.2021088,0
+            6.5038009,53.2025444,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.490449,53.2066524,0
+            6.490449,53.206652,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Steb</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>StEB</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4888555,53.209512,0
+            6.488856,53.209512,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4806791,53.207843,0
+            6.480679,53.207843,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4764255,53.2091073,0
+            6.4794998,53.2098459,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4739288,53.2086006,0
+            6.471279,53.2081512,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>StEB</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: StEB]]></description>
-        <styleUrl>#icon-1657-F57C00-labelson</styleUrl>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
             <value>StEB</value>
           </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4722355,53.2055073,0
+            6.472236,53.205507,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4718206,53.2053498,0
+            6.4715367,53.2052215,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4507629,53.1970132,0
+            6.450763,53.197013,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4507897,53.1969481,0
+            6.45079,53.196948,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4613377,53.1993547,0
+            6.461338,53.199355,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4858679,53.2036613,0
+            6.485868,53.203661,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.4965624,53.2040569,0
+            6.496562,53.204057,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5050435,53.202219,0
+            6.505044,53.202219,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Vrijwilliger fietsparcours kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours kinderen]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours kinderen<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger fietsparcours kinderen</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours kinderen</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5084781,53.2052705,0
+            6.508478,53.20527,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger fietsparcours kinderen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-person<br>description: Vrijwilliger fietsparcours kinderen]]></description>
-        <styleUrl>#icon-1592-0288D1-labelson</styleUrl>
+        <name>Vrijwilliger aanduiding keerpunt</name>
+        <description><![CDATA[beschrijving: Vrijwilliger aanduiding keerpunt<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Vrijwilliger aanduiding keerpunt</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
           </Data>
           <Data name="description">
-            <value>Vrijwilliger fietsparcours kinderen</value>
+            <value/>
           </Data>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.511514,53.2051791,0
+            6.507911,53.2014856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4731415,53.2055457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5093194,53.2042507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5091489,53.2042042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger oversteek zwemmen</name>
+        <description><![CDATA[beschrijving: Bewaken oversteek zwemmen, dicht zetten met hekken<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Bewaken oversteek zwemmen, dicht zetten met hekken</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5139175,53.2069827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger oversteek balk 2x</name>
+        <description><![CDATA[beschrijving: Vrijwilliger oversteek balk 2x<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Vrijwilliger oversteek balk 2x</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5132469,53.2077943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger wisselzone 2x</name>
+        <description><![CDATA[beschrijving: Vrijwilliger helpen in wisselzone 2x<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Vrijwilliger helpen in wisselzone 2x</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513993,53.207322,0
           </coordinates>
         </Point>
       </Placemark>
