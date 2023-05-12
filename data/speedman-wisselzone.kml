@@ -37,6 +37,40 @@
         <styleUrl>#icon-1499-E65100-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1549-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1549-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1549-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1549-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1549-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1577-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -799,7 +833,7 @@
           <tessellate>1</tessellate>
           <coordinates>
             6.5137333,53.2075275,0
-            6.513984,53.2070793,0
+            6.5139277,53.2071773,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1002,6 +1036,24 @@
         <Point>
           <coordinates>
             6.5142833,53.2072304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Verzamelpunt kleding</name>
+        <description><![CDATA[beschrijving: Verzamelpunt kleding<br>name: fa-suitcase]]></description>
+        <styleUrl>#icon-1549-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Verzamelpunt kleding</value>
+          </Data>
+          <Data name="name">
+            <value>fa-suitcase</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5139339,53.2070826,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1383,45 +1435,6 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Locatie</name>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5167725,53.2058319,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
