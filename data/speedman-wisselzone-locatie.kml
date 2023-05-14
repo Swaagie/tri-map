@@ -776,11 +776,11 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5128487,53.2079765,0
+                6.5128487,53.2080006,0
                 6.5128437,53.2079105,0
                 6.5132782,53.2078925,0
-                6.5132846,53.2079565,0
-                6.5128487,53.2079765,0
+                6.5132819,53.2079822,0
+                6.5128487,53.2080006,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -833,7 +833,7 @@
           <tessellate>1</tessellate>
           <coordinates>
             6.5137333,53.2075275,0
-            6.5139277,53.2071773,0
+            6.5139813,53.2070841,0
           </coordinates>
         </LineString>
       </Placemark>
