@@ -818,12 +818,12 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Recreatief 1/8 + Schuiteman 2e divisie dames</name>
-        <description><![CDATA[beschrijving: Open series 1/8 + Schuiteman 2e divisie dames<br>name: text]]></description>
+        <name>Open series 1/8 + 2e divisie D</name>
+        <description><![CDATA[beschrijving: Open series 1/8 + 2e divisie D<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Open series 1/8 + Schuiteman 2e divisie dames</value>
+            <value>Open series 1/8 + 2e divisie D</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -962,12 +962,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Sportzot 3e divisie heren + dames</name>
-        <description><![CDATA[beschrijving: Sportzot 3e divisie heren + dames<br>name: text]]></description>
+        <name>3e divisie H + D</name>
+        <description><![CDATA[beschrijving: 3e divisie H + D<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Sportzot 3e divisie heren + dames</value>
+            <value>3e divisie H + D</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -982,12 +982,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Schuiteman 2e divisie heren</name>
-        <description><![CDATA[beschrijving: Schuiteman 2e divisie heren<br>name: text]]></description>
+        <name>2e divisie H</name>
+        <description><![CDATA[beschrijving: 2e divisie H<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Schuiteman 2e divisie heren</value>
+            <value>2e divisie H</value>
           </Data>
           <Data name="name">
             <value>text</value>

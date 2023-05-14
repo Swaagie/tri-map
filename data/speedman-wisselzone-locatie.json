@@ -302,11 +302,11 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: Open series 1/8 + Schuiteman 2e divisie dames<br>name: text",
+        "description": "beschrijving: Open series 1/8 + 2e divisie D<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "Open series 1/8 + Schuiteman 2e divisie dames"
+        "beschrijving": "Open series 1/8 + 2e divisie D"
       }
     },
     {
@@ -750,11 +750,11 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: Sportzot 3e divisie heren + dames<br>name: text",
+        "description": "beschrijving: 3e divisie H + D<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "Sportzot 3e divisie heren + dames"
+        "beschrijving": "3e divisie H + D"
       }
     },
     {
@@ -782,11 +782,11 @@
           "normal": "#line-FFFFFF-3131-normal",
           "highlight": "#line-FFFFFF-3131-highlight"
         },
-        "description": "beschrijving: Schuiteman 2e divisie heren<br>name: text",
+        "description": "beschrijving: 2e divisie H<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
-        "beschrijving": "Schuiteman 2e divisie heren"
+        "beschrijving": "2e divisie H"
       }
     },
     {
