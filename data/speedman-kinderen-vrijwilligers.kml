@@ -430,12 +430,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Registratie en organisatie</name>
+        <name>Inschrijving</name>
         <description><![CDATA[beschrijving: Registratie<br>name: ]]></description>
         <styleUrl>#poly-000000-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Registratie</value>
+            <value>Inschrijving</value>
           </Data>
           <Data name="name">
             <value/>
@@ -446,11 +446,11 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.512905,53.207958,0
-                6.5129,53.207892,0
-                6.513246,53.207878,0
-                6.513251,53.207942,0
-                6.512905,53.207958,0
+                6.5128487,53.2080006,0
+                6.5128437,53.2079105,0
+                6.5132782,53.2078925,0
+                6.5132819,53.2079822,0
+                6.5128487,53.2080006,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
