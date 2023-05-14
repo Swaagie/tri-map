@@ -302,11 +302,11 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: Open series 1/8 + 2e divisie D<br>name: text",
+        "description": "beschrijving: 1/8 + 2e divisie D<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "Open series 1/8 + 2e divisie D"
+        "beschrijving": "1/8 + 2e divisie D"
       }
     },
     {
@@ -718,11 +718,11 @@
           "normal": "#line-FFFFFF-2550-normal",
           "highlight": "#line-FFFFFF-2550-highlight"
         },
-        "description": "beschrijving: Open serie 1/4  + HIS<br>name: text",
+        "description": "beschrijving: 1/4  + HIS<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.55,
-        "beschrijving": "Open serie 1/4  + HIS"
+        "beschrijving": "1/4  + HIS"
       }
     },
     {

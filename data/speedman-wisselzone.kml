@@ -818,12 +818,12 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Open series 1/8 + 2e divisie D</name>
-        <description><![CDATA[beschrijving: Open series 1/8 + 2e divisie D<br>name: text]]></description>
+        <name>1/8 + 2e divisie D</name>
+        <description><![CDATA[beschrijving: 1/8 + 2e divisie D<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Open series 1/8 + 2e divisie D</value>
+            <value>1/8 + 2e divisie D</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -942,12 +942,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Open serie 1/4 + HIS</name>
-        <description><![CDATA[beschrijving: Open serie 1/4  + HIS<br>name: text]]></description>
+        <name>1/4 + HIS</name>
+        <description><![CDATA[beschrijving: 1/4  + HIS<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2550</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Open serie 1/4  + HIS</value>
+            <value>1/4  + HIS</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1435,45 +1435,6 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Locatie</name>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5167725,53.2058319,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Huidige locatie</name>
-        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
-        <styleUrl>#icon-1898-880E4F</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Huidige locatie</value>
-          </Data>
-          <Data name="name">
-            <value>fa-star</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
