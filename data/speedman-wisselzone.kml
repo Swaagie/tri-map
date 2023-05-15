@@ -1100,15 +1100,11 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.512805,53.2080584,0
-                6.5128044,53.2079685,0
-                6.5128091,53.2079132,0
-                6.5130838,53.2079034,0
-                6.5133665,53.2078904,0
-                6.5133658,53.207943,0
-                6.5133625,53.2079731,0
-                6.5130784,53.2080266,0
-                6.512805,53.2080584,0
+                6.5128559,53.2081427,0
+                6.5128372,53.2079277,0
+                6.5135542,53.2078719,0
+                6.5135248,53.2080181,0
+                6.5128559,53.2081427,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1447,6 +1443,45 @@
         <Point>
           <coordinates>
             6.512658,53.207895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Locatie</name>
+      <Placemark>
+        <name>Huidige locatie</name>
+        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
+        <styleUrl>#icon-1898-880E4F</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Huidige locatie</value>
+          </Data>
+          <Data name="name">
+            <value>fa-star</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5167725,53.2058319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huidige locatie</name>
+        <description><![CDATA[beschrijving: Huidige locatie<br>name: fa-star]]></description>
+        <styleUrl>#icon-1898-880E4F</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Huidige locatie</value>
+          </Data>
+          <Data name="name">
+            <value>fa-star</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5141209,53.2077868,0
           </coordinates>
         </Point>
       </Placemark>
