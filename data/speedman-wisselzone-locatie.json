@@ -162,57 +162,6 @@
         "coordinates": [
           [
             [
-              6.5128517,
-              53.2080082,
-              0
-            ],
-            [
-              6.512844,
-              53.20791,
-              0
-            ],
-            [
-              6.513278,
-              53.207892,
-              0
-            ],
-            [
-              6.513282,
-              53.20799,
-              0
-            ],
-            [
-              6.5128517,
-              53.2080082,
-              0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#poly-000000-2000-77",
-        "styleHash": "-49a2dcd9",
-        "styleMapHash": {
-          "normal": "#poly-000000-2000-77-normal",
-          "highlight": "#poly-000000-2000-77-highlight"
-        },
-        "description": "beschrijving: Inschrijving<br>name: ",
-        "stroke": "#000000",
-        "stroke-opacity": 1,
-        "stroke-width": 2,
-        "fill": "#000000",
-        "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Inschrijving"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               6.512956,
               53.207585,
               0
@@ -968,6 +917,57 @@
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": "3e divisie D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5128063,
+              53.2080295,
+              0
+            ],
+            [
+              6.5128064,
+              53.20791,
+              0
+            ],
+            [
+              6.513278,
+              53.207892,
+              0
+            ],
+            [
+              6.513282,
+              53.20799,
+              0
+            ],
+            [
+              6.5128063,
+              53.2080295,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-000000-1200-77",
+        "styleHash": "3579b9c1",
+        "styleMapHash": {
+          "normal": "#poly-000000-1200-77-normal",
+          "highlight": "#poly-000000-1200-77-highlight"
+        },
+        "description": "beschrijving: Inschrijving<br>name: ",
+        "stroke": "#000000",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#000000",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Inschrijving"
       }
     },
     {

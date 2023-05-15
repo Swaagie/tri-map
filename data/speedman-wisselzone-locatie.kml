@@ -507,6 +507,38 @@
         <styleUrl>#line-FFFFFF-4000-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-000000-1200-77-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-000000-2000-77-normal">
       <LineStyle>
         <color>ff000000</color>
@@ -714,33 +746,6 @@
             6.513952,53.207599,0
           </coordinates>
         </Point>
-      </Placemark>
-      <Placemark>
-        <name>Inschrijving</name>
-        <description><![CDATA[beschrijving: Inschrijving<br>name: ]]></description>
-        <styleUrl>#poly-000000-2000-77</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Inschrijving</value>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                6.5128517,53.2080082,0
-                6.512844,53.20791,0
-                6.513278,53.207892,0
-                6.513282,53.20799,0
-                6.5128517,53.2080082,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
       </Placemark>
       <Placemark>
         <name>Mixed zone</name>
@@ -1077,6 +1082,33 @@
             6.514054,53.207094,0
           </coordinates>
         </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Inschrijving</name>
+        <description><![CDATA[beschrijving: Inschrijving<br>name: ]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Inschrijving</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                6.5128063,53.2080295,0
+                6.5128064,53.20791,0
+                6.513278,53.207892,0
+                6.513282,53.20799,0
+                6.5128063,53.2080295,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
       </Placemark>
     </Folder>
     <Folder>
