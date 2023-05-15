@@ -926,28 +926,28 @@
         "coordinates": [
           [
             [
-              6.5128559,
-              53.2081427,
+              6.5128023,
+              53.2080206,
               0
             ],
             [
-              6.5128372,
-              53.2079277,
+              6.5128064,
+              53.20791,
               0
             ],
             [
-              6.5135542,
-              53.2078719,
+              6.5133638,
+              53.2078872,
               0
             ],
             [
-              6.5135248,
-              53.2080181,
+              6.5133625,
+              53.2079924,
               0
             ],
             [
-              6.5128559,
-              53.2081427,
+              6.5128023,
+              53.2080206,
               0
             ]
           ]
@@ -955,17 +955,17 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#poly-000000-1200-77",
-        "styleHash": "3579b9c1",
+        "styleUrl": "#poly-7CB342-1101-77",
+        "styleHash": "4c4fad12",
         "styleMapHash": {
-          "normal": "#poly-000000-1200-77-normal",
-          "highlight": "#poly-000000-1200-77-highlight"
+          "normal": "#poly-7CB342-1101-77-normal",
+          "highlight": "#poly-7CB342-1101-77-highlight"
         },
         "description": "beschrijving: Inschrijving<br>name: ",
-        "stroke": "#000000",
+        "stroke": "#7cb342",
         "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#000000",
+        "stroke-width": 1.101,
+        "fill": "#7cb342",
         "fill-opacity": 0.30196078431372547,
         "beschrijving": "Inschrijving"
       }
@@ -1667,50 +1667,6 @@
         },
         "description": "",
         "beschrijving": "Kleedkamer en wc's"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5167725,
-          53.2058319,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-star",
-        "styleUrl": "#icon-1898-880E4F",
-        "styleHash": "-51210896",
-        "styleMapHash": {
-          "normal": "#icon-1898-880E4F-normal",
-          "highlight": "#icon-1898-880E4F-highlight"
-        },
-        "description": "beschrijving: Huidige locatie<br>name: fa-star",
-        "beschrijving": "Huidige locatie"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5141209,
-          53.2077868,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-star",
-        "styleUrl": "#icon-1898-880E4F",
-        "styleHash": "-51210896",
-        "styleMapHash": {
-          "normal": "#icon-1898-880E4F-normal",
-          "highlight": "#icon-1898-880E4F-highlight"
-        },
-        "description": "beschrijving: Huidige locatie<br>name: fa-star",
-        "beschrijving": "Huidige locatie"
       }
     }
   ]

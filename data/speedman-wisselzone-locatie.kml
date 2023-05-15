@@ -507,38 +507,6 @@
         <styleUrl>#line-FFFFFF-4000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-000000-1200-77-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-000000-1200-77-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.8</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-000000-1200-77">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="poly-000000-2000-77-normal">
       <LineStyle>
         <color>ff000000</color>
@@ -601,6 +569,38 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-0288D1-2000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-7CB342-1101-77-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-7CB342-1101-77-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.6515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-7CB342-1101-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-7CB342-1101-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-7CB342-1101-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-C2185B-2000-77-normal">
@@ -858,11 +858,11 @@
             6.512762,53.208192,0
             6.512694,53.208198,0
             6.51268,53.208188,0
-            6.512724,53.2081,0
-            6.512754,53.208038,0
-            6.512778,53.207985,0
-            6.5127883,53.2079488,0
-            6.5127986,53.2079166,0
+            6.5127133,53.2081048,0
+            6.5127392,53.208046,0
+            6.5127606,53.2079938,0
+            6.5127776,53.207948,0
+            6.5127959,53.2079053,0
             6.512823,53.2078932,0
             6.5128801,53.2078916,0
             6.5129358,53.2079059,0
@@ -1086,7 +1086,7 @@
       <Placemark>
         <name>Inschrijving</name>
         <description><![CDATA[beschrijving: Inschrijving<br>name: ]]></description>
-        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <styleUrl>#poly-7CB342-1101-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Inschrijving</value>
@@ -1100,11 +1100,11 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5128063,53.2080295,0
+                6.5128023,53.2080206,0
                 6.5128064,53.20791,0
-                6.513278,53.207892,0
-                6.513282,53.2080173,0
-                6.5128063,53.2080295,0
+                6.5133638,53.2078872,0
+                6.5133625,53.2079924,0
+                6.5128023,53.2080206,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
