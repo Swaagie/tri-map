@@ -9,32 +9,32 @@
           [
             [
               6.513613,
-              53.2075454,
+              53.207545,
               0
             ],
             [
               6.513755,
-              53.2073154,
+              53.207315,
               0
             ],
             [
               6.513895,
-              53.2070314,
+              53.207031,
               0
             ],
             [
-              6.514372,
-              53.2071104,
+              6.514482,
+              53.207133,
               0
             ],
             [
-              6.514061,
-              53.2076134,
+              6.514151,
+              53.207629,
               0
             ],
             [
               6.513613,
-              53.2075454,
+              53.207545,
               0
             ]
           ]
@@ -162,28 +162,28 @@
         "coordinates": [
           [
             [
-              6.5128487,
-              53.2080006,
+              6.5128517,
+              53.2080082,
               0
             ],
             [
-              6.5128437,
-              53.2079105,
+              6.512844,
+              53.20791,
               0
             ],
             [
-              6.5132782,
-              53.2078925,
+              6.513278,
+              53.207892,
               0
             ],
             [
-              6.5132819,
-              53.2079822,
+              6.513282,
+              53.20799,
               0
             ],
             [
-              6.5128487,
-              53.2080006,
+              6.5128517,
+              53.2080082,
               0
             ]
           ]
@@ -213,48 +213,48 @@
         "coordinates": [
           [
             [
-              6.5129558,
-              53.2075848,
+              6.512956,
+              53.207585,
               0
             ],
             [
-              6.5130523,
-              53.2075141,
+              6.513052,
+              53.207514,
               0
             ],
             [
-              6.5132186,
-              53.2074081,
+              6.513219,
+              53.207408,
               0
             ],
             [
-              6.5134493,
+              6.513449,
               53.207196,
               0
             ],
             [
-              6.5137443,
+              6.513744,
               53.207135,
               0
             ],
             [
-              6.5136853,
+              6.513685,
               53.207257,
               0
             ],
             [
-              6.5135941,
-              53.2074402,
+              6.513594,
+              53.20744,
               0
             ],
             [
-              6.5134761,
+              6.513476,
               53.207604,
               0
             ],
             [
-              6.5129558,
-              53.2075848,
+              6.512956,
+              53.207585,
               0
             ]
           ]
@@ -262,16 +262,16 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#poly-FBC02D-1200-77",
-        "styleHash": "2e2ab9d2",
+        "styleUrl": "#poly-FBC02D-2000-77",
+        "styleHash": "-78cff748",
         "styleMapHash": {
-          "normal": "#poly-FBC02D-1200-77-normal",
-          "highlight": "#poly-FBC02D-1200-77-highlight"
+          "normal": "#poly-FBC02D-2000-77-normal",
+          "highlight": "#poly-FBC02D-2000-77-highlight"
         },
         "description": "beschrijving: Mixed zone<br>name: ",
         "stroke": "#fbc02d",
         "stroke-opacity": 1,
-        "stroke-width": 1.2,
+        "stroke-width": 2,
         "fill": "#fbc02d",
         "fill-opacity": 0.30196078431372547,
         "beschrijving": "Mixed zone"
@@ -283,29 +283,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5137333,
-            53.2075275,
+            6.514075,
+            53.207582,
             0
           ],
           [
-            6.5139813,
-            53.2070841,
+            6.514334,
+            53.207139,
             0
           ]
         ]
       },
       "properties": {
         "name": "text",
-        "styleUrl": "#line-FFFFFF-2938",
-        "styleHash": "-57c52824",
+        "styleUrl": "#line-FFFFFF-3000",
+        "styleHash": "-33edb8e4",
         "styleMapHash": {
-          "normal": "#line-FFFFFF-2938-normal",
-          "highlight": "#line-FFFFFF-2938-highlight"
+          "normal": "#line-FFFFFF-3000-normal",
+          "highlight": "#line-FFFFFF-3000-highlight"
         },
         "description": "beschrijving: 1/8 + 2e divisie D<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
-        "stroke-width": 2.938,
+        "stroke-width": 3,
         "beschrijving": "1/8 + 2e divisie D"
       }
     },
@@ -315,143 +315,143 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5170735,
+            6.517074,
             53.205646,
             0
           ],
           [
-            6.5169797,
-            53.2057415,
+            6.51698,
+            53.205742,
             0
           ],
           [
-            6.5169012,
-            53.2058142,
+            6.516901,
+            53.205814,
             0
           ],
           [
-            6.5168737,
-            53.2058291,
+            6.516874,
+            53.205829,
             0
           ],
           [
-            6.5168328,
-            53.2058098,
+            6.516833,
+            53.20581,
             0
           ],
           [
-            6.5167614,
-            53.2058082,
+            6.516761,
+            53.205808,
             0
           ],
           [
-            6.5166155,
-            53.2058398,
+            6.516616,
+            53.20584,
             0
           ],
           [
             6.516483,
-            53.2058775,
+            53.205878,
             0
           ],
           [
-            6.5163478,
-            53.2059206,
+            6.516348,
+            53.205921,
             0
           ],
           [
-            6.5162531,
+            6.516253,
             53.205955,
             0
           ],
           [
-            6.5161355,
-            53.2059999,
+            6.516136,
+            53.206,
             0
           ],
           [
-            6.5160372,
-            53.2060544,
+            6.516037,
+            53.206054,
             0
           ],
           [
-            6.5159429,
-            53.2061089,
+            6.515943,
+            53.206109,
             0
           ],
           [
-            6.5158713,
-            53.2061563,
+            6.515871,
+            53.206156,
             0
           ],
           [
-            6.5158111,
-            53.2062028,
+            6.515811,
+            53.206203,
             0
           ],
           [
-            6.5157061,
+            6.515706,
             53.20631,
             0
           ],
           [
-            6.5156143,
-            53.2064275,
+            6.515614,
+            53.206428,
             0
           ],
           [
-            6.5155379,
-            53.2065607,
+            6.515538,
+            53.206561,
             0
           ],
           [
-            6.5154514,
-            53.2067053,
+            6.515451,
+            53.206705,
             0
           ],
           [
-            6.5153656,
+            6.515366,
             53.206858,
             0
           ],
           [
             6.515072,
-            53.2072393,
+            53.207239,
             0
           ],
           [
-            6.5149674,
-            53.2073377,
+            6.514967,
+            53.207338,
             0
           ],
           [
-            6.5148562,
-            53.2074361,
+            6.514856,
+            53.207436,
             0
           ],
           [
-            6.5147502,
-            53.2075115,
+            6.51475,
+            53.207512,
             0
           ],
           [
-            6.5146336,
-            53.2075886,
+            6.514634,
+            53.207589,
             0
           ],
           [
-            6.5145585,
-            53.2076341,
+            6.514558,
+            53.207634,
             0
           ],
           [
-            6.5144848,
-            53.2076729,
+            6.514485,
+            53.207673,
             0
           ],
           [
-            6.5144533,
-            53.2076916,
+            6.514453,
+            53.207692,
             0
           ],
           [
@@ -460,139 +460,139 @@
             0
           ],
           [
-            6.5143762,
-            53.2077316,
+            6.514376,
+            53.207732,
             0
           ],
           [
-            6.5143367,
-            53.2077528,
+            6.514337,
+            53.207753,
             0
           ],
           [
-            6.5142939,
-            53.2077769,
+            6.514294,
+            53.207777,
             0
           ],
           [
-            6.5142491,
-            53.2077976,
+            6.514249,
+            53.207798,
             0
           ],
           [
-            6.5140815,
+            6.514082,
             53.20787,
             0
           ],
           [
-            6.5139727,
-            53.2079097,
+            6.513973,
+            53.20791,
             0
           ],
           [
-            6.5138646,
-            53.2079514,
+            6.513865,
+            53.207951,
             0
           ],
           [
-            6.5137351,
-            53.2079919,
+            6.513735,
+            53.207992,
             0
           ],
           [
-            6.5135929,
-            53.2080328,
+            6.513593,
+            53.208033,
             0
           ],
           [
-            6.5134466,
-            53.2080705,
+            6.513447,
+            53.20807,
             0
           ],
           [
-            6.5132595,
-            53.2081149,
+            6.51326,
+            53.208115,
             0
           ],
           [
-            6.5130395,
-            53.2081539,
+            6.51304,
+            53.208154,
             0
           ],
           [
-            6.5128699,
-            53.2081783,
+            6.51287,
+            53.208178,
             0
           ],
           [
-            6.5127621,
-            53.2081924,
+            6.512762,
+            53.208192,
             0
           ],
           [
-            6.5126938,
-            53.2081981,
+            6.512694,
+            53.208198,
             0
           ],
           [
-            6.5126796,
-            53.2081879,
+            6.51268,
+            53.208188,
             0
           ],
           [
-            6.5127241,
-            53.2080997,
+            6.512724,
+            53.2081,
             0
           ],
           [
             6.512754,
-            53.2080376,
+            53.208038,
             0
           ],
           [
-            6.5127779,
-            53.2079851,
+            6.512778,
+            53.207985,
             0
           ],
           [
-            6.5127908,
-            53.2079556,
+            6.512791,
+            53.207956,
             0
           ],
           [
-            6.5128084,
+            6.512808,
             53.207927,
             0
           ],
           [
-            6.5128311,
-            53.2079023,
+            6.512831,
+            53.207902,
             0
           ],
           [
-            6.5129149,
-            53.2078981,
+            6.512915,
+            53.207898,
             0
           ],
           [
-            6.5129718,
-            53.2079219,
+            6.512972,
+            53.207922,
             0
           ]
         ]
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-9C27B0-3131",
-        "styleHash": "-6b991762",
+        "styleUrl": "#line-9C27B0-4000",
+        "styleHash": "-c45f402",
         "styleMapHash": {
-          "normal": "#line-9C27B0-3131-normal",
-          "highlight": "#line-9C27B0-3131-highlight"
+          "normal": "#line-9C27B0-4000-normal",
+          "highlight": "#line-9C27B0-4000-highlight"
         },
         "description": "beschrijving: Van/naar parkeerplaats A7 - richting inschrijving rechts houden<br>name: ",
         "stroke": "#9c27b0",
         "stroke-opacity": 1,
-        "stroke-width": 3.131,
+        "stroke-width": 4,
         "beschrijving": "Van/naar parkeerplaats A7 - richting inschrijving rechts houden"
       }
     },
@@ -602,73 +602,73 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5131171,
-            53.2079163,
+            6.513117,
+            53.207916,
             0
           ],
           [
-            6.5131412,
-            53.2078729,
+            6.513141,
+            53.207873,
             0
           ],
           [
-            6.5131734,
-            53.2078296,
+            6.513173,
+            53.20783,
             0
           ],
           [
-            6.5132324,
-            53.2078103,
+            6.513232,
+            53.20781,
             0
           ],
           [
             6.513278,
-            53.2078039,
+            53.207804,
             0
           ],
           [
-            6.5134094,
-            53.2078007,
+            6.513409,
+            53.207801,
             0
           ],
           [
-            6.5135328,
-            53.2077974,
+            6.513533,
+            53.207797,
             0
           ],
           [
-            6.5136347,
-            53.2077974,
+            6.513635,
+            53.207797,
             0
           ],
           [
-            6.5137313,
+            6.513731,
             53.207783,
             0
           ],
           [
-            6.5137903,
-            53.2077701,
+            6.51379,
+            53.20777,
             0
           ],
           [
-            6.5138359,
-            53.2077476,
+            6.513836,
+            53.207748,
             0
           ],
           [
-            6.5139003,
-            53.2076995,
+            6.5139,
+            53.2077,
             0
           ],
           [
-            6.5139164,
-            53.2076673,
+            6.513916,
+            53.207667,
             0
           ],
           [
-            6.5139325,
-            53.2076416,
+            6.513932,
+            53.207642,
             0
           ],
           [
@@ -680,16 +680,16 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-9C27B0-3325",
-        "styleHash": "247978be",
+        "styleUrl": "#line-9C27B0-4000",
+        "styleHash": "-c45f402",
         "styleMapHash": {
-          "normal": "#line-9C27B0-3325-normal",
-          "highlight": "#line-9C27B0-3325-highlight"
+          "normal": "#line-9C27B0-4000-normal",
+          "highlight": "#line-9C27B0-4000-highlight"
         },
         "description": "beschrijving: Naar check-in<br>name: ",
         "stroke": "#9c27b0",
         "stroke-opacity": 1,
-        "stroke-width": 3.325,
+        "stroke-width": 4,
         "beschrijving": "Naar check-in"
       }
     },
@@ -699,29 +699,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5138201,
-            53.2075416,
+            6.513718,
+            53.207525,
             0
           ],
           [
-            6.5140695,
-            53.2070942,
+            6.513968,
+            53.207077,
             0
           ]
         ]
       },
       "properties": {
         "name": "text",
-        "styleUrl": "#line-FFFFFF-2550",
-        "styleHash": "31e23422",
+        "styleUrl": "#line-FFFFFF-3000",
+        "styleHash": "-33edb8e4",
         "styleMapHash": {
-          "normal": "#line-FFFFFF-2550-normal",
-          "highlight": "#line-FFFFFF-2550-highlight"
+          "normal": "#line-FFFFFF-3000-normal",
+          "highlight": "#line-FFFFFF-3000-highlight"
         },
         "description": "beschrijving: 1/4  + HIS<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
-        "stroke-width": 2.55,
+        "stroke-width": 3,
         "beschrijving": "1/4  + HIS"
       }
     },
@@ -731,30 +731,30 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5139082,
-            53.2075531,
+            6.513903,
+            53.207551,
             0
           ],
           [
-            6.514159,
-            53.2071097,
+            6.514154,
+            53.207108,
             0
           ]
         ]
       },
       "properties": {
         "name": "text",
-        "styleUrl": "#line-FFFFFF-2938",
-        "styleHash": "-57c52824",
+        "styleUrl": "#line-FFFFFF-3000",
+        "styleHash": "-33edb8e4",
         "styleMapHash": {
-          "normal": "#line-FFFFFF-2938-normal",
-          "highlight": "#line-FFFFFF-2938-highlight"
+          "normal": "#line-FFFFFF-3000-normal",
+          "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 3e divisie H + D<br>name: text",
+        "description": "beschrijving: 3e divisie H<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
-        "stroke-width": 2.938,
-        "beschrijving": "3e divisie H + D"
+        "stroke-width": 3,
+        "beschrijving": "3e divisie H"
       }
     },
     {
@@ -763,60 +763,111 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5139979,
-            53.2075697,
+            6.51399,
+            53.207566,
             0
           ],
           [
-            6.5142513,
-            53.2071271,
+            6.514243,
+            53.207123,
             0
           ]
         ]
       },
       "properties": {
         "name": "text",
-        "styleUrl": "#line-FFFFFF-3131",
-        "styleHash": "6b4cd6fe",
+        "styleUrl": "#line-FFFFFF-4000",
+        "styleHash": "-1369d5a2",
         "styleMapHash": {
-          "normal": "#line-FFFFFF-3131-normal",
-          "highlight": "#line-FFFFFF-3131-highlight"
+          "normal": "#line-FFFFFF-4000-normal",
+          "highlight": "#line-FFFFFF-4000-highlight"
         },
         "description": "beschrijving: 2e divisie H<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
-        "stroke-width": 3.131,
+        "stroke-width": 4,
         "beschrijving": "2e divisie H"
       }
     },
     {
       "type": "Feature",
       "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.513587,
+              53.207605,
+              0
+            ],
+            [
+              6.513612,
+              53.207556,
+              0
+            ],
+            [
+              6.513689,
+              53.207567,
+              0
+            ],
+            [
+              6.513667,
+              53.207615,
+              0
+            ],
+            [
+              6.513587,
+              53.207605,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#poly-C2185B-2000-77",
+        "styleHash": "59c37010",
+        "styleMapHash": {
+          "normal": "#poly-C2185B-2000-77-normal",
+          "highlight": "#poly-C2185B-2000-77-highlight"
+        },
+        "description": "beschrijving: Strafbox<br>name: ",
+        "stroke": "#c2185b",
+        "stroke-opacity": 1,
+        "stroke-width": 2,
+        "fill": "#c2185b",
+        "fill-opacity": 0.30196078431372547,
+        "beschrijving": "Strafbox"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            6.5142498,
-            53.2072561,
+            6.514347,
+            53.207266,
             0
           ],
           [
-            6.514286,
-            53.2071959,
+            6.514383,
+            53.207206,
             0
           ]
         ]
       },
       "properties": {
-        "styleUrl": "#line-FFFFFF-2550",
-        "styleHash": "31e23422",
+        "styleUrl": "#line-FFFFFF-3000",
+        "styleHash": "-33edb8e4",
         "styleMapHash": {
-          "normal": "#line-FFFFFF-2550-normal",
-          "highlight": "#line-FFFFFF-2550-highlight"
+          "normal": "#line-FFFFFF-3000-normal",
+          "highlight": "#line-FFFFFF-3000-highlight"
         },
         "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
-        "stroke-width": 2.55,
+        "stroke-width": 3,
         "beschrijving": "",
         "name": "text"
       }
@@ -826,8 +877,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5142833,
-          53.2072304,
+          6.514381,
+          53.207242,
           0
         ]
       },
@@ -848,8 +899,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5139339,
-          53.2070826,
+          6.514214,
+          53.20669,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-microphone",
+        "styleUrl": "#icon-1625-424242",
+        "styleHash": "-1b53f3da",
+        "styleMapHash": {
+          "normal": "#icon-1625-424242-normal",
+          "highlight": "#icon-1625-424242-highlight"
+        },
+        "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
+        "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513934,
+          53.207083,
           0
         ]
       },
@@ -863,6 +936,38 @@
         },
         "description": "beschrijving: Verzamelpunt kleding<br>name: fa-suitcase",
         "beschrijving": "Verzamelpunt kleding"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.513809,
+            53.20754,
+            0
+          ],
+          [
+            6.514054,
+            53.207094,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "text",
+        "styleUrl": "#line-FFFFFF-3000",
+        "styleHash": "-33edb8e4",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-3000-normal",
+          "highlight": "#line-FFFFFF-3000-highlight"
+        },
+        "description": "beschrijving: 3e divisie D<br>name: text",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "3e divisie D"
       }
     },
     {
@@ -1139,79 +1244,6 @@
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514214,
-          53.20669,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-microphone",
-        "styleUrl": "#icon-1625-424242",
-        "styleHash": "-1b53f3da",
-        "styleMapHash": {
-          "normal": "#icon-1625-424242-normal",
-          "highlight": "#icon-1625-424242-highlight"
-        },
-        "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
-        "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              6.5135868,
-              53.2076048,
-              0
-            ],
-            [
-              6.5136123,
-              53.2075559,
-              0
-            ],
-            [
-              6.5136888,
-              53.2075667,
-              0
-            ],
-            [
-              6.5136666,
-              53.2076154,
-              0
-            ],
-            [
-              6.5135868,
-              53.2076048,
-              0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#poly-C2185B-1200-77",
-        "styleHash": "351afd2a",
-        "styleMapHash": {
-          "normal": "#poly-C2185B-1200-77-normal",
-          "highlight": "#poly-C2185B-1200-77-highlight"
-        },
-        "description": "beschrijving: Strafbox<br>name: ",
-        "stroke": "#c2185b",
-        "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#c2185b",
-        "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Strafbox"
       }
     },
     {
