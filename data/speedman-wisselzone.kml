@@ -1060,14 +1060,14 @@
       </Placemark>
       <Placemark>
         <name>3e divisie D</name>
-        <description><![CDATA[beschrijving: 3e divisie D<br>name: ]]></description>
+        <description><![CDATA[beschrijving: 3e divisie D<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>3e divisie D</value>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>

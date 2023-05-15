@@ -956,14 +956,14 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "text",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 3e divisie D<br>name: ",
+        "description": "beschrijving: 3e divisie D<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
