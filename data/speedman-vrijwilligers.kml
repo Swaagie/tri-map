@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Speedman 2023 - vrijwilligers</name>
+    <name>Speedman 2023</name>
     <description/>
     <Style id="icon-1499-A52714-normal">
       <IconStyle>
@@ -173,6 +173,74 @@
         <styleUrl>#icon-1499-FFD600-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1522-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1522-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1522-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1549-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1549-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1549-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1549-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1549-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1577-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -239,6 +307,40 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1592-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-9C27B0-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1625-424242-normal">
@@ -375,6 +477,40 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1661-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1680-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1680-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1680-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1680-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1680-097138-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1699-424242-normal">
@@ -547,6 +683,42 @@
         <styleUrl>#icon-1857-E65100-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1899-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1899-424242-normal">
       <IconStyle>
         <color>ff424242</color>
@@ -707,6 +879,50 @@
         <styleUrl>#line-424242-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-9C27B0-4000-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-9C27B0-4000-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-2938-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-2938-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-A52714-3000-normal">
       <LineStyle>
         <color>ff1427a5</color>
@@ -727,6 +943,72 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-A52714-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-2938-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-2938-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-3000-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-3000-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-4000-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-4000-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-4000-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-000000-2000-77-normal">
@@ -793,47 +1075,111 @@
         <styleUrl>#poly-0288D1-2000-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-FBC02D-1200-77-normal">
+    <Style id="poly-7CB342-2000-77-normal">
       <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>1.2</width>
+        <color>ff42b37c</color>
+        <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>4d2dc0fb</color>
+        <color>4d42b37c</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <Style id="poly-FBC02D-1200-77-highlight">
+    <Style id="poly-7CB342-2000-77-highlight">
       <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>1.8</width>
+        <color>ff42b37c</color>
+        <width>3</width>
       </LineStyle>
       <PolyStyle>
-        <color>4d2dc0fb</color>
+        <color>4d42b37c</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <StyleMap id="poly-FBC02D-1200-77">
+    <StyleMap id="poly-7CB342-2000-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-FBC02D-1200-77-normal</styleUrl>
+        <styleUrl>#poly-7CB342-2000-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-FBC02D-1200-77-highlight</styleUrl>
+        <styleUrl>#poly-7CB342-2000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-C2185B-2000-77-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-C2185B-2000-77-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-C2185B-2000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-C2185B-2000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-C2185B-2000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FBC02D-2000-77-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FBC02D-2000-77-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FBC02D-2000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FBC02D-2000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FBC02D-2000-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>Wisselzone</name>
       <Placemark>
         <name>Wisselzone</name>
-        <description><![CDATA[beschrijving: Wisselzone<br>name: ]]></description>
+        <description><![CDATA[beschrijving: <br>name: ]]></description>
         <styleUrl>#poly-000000-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Wisselzone</value>
+            <value/>
           </Data>
           <Data name="name">
             <value/>
@@ -844,12 +1190,12 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.513613,53.207547,0
-                6.513755,53.207317,0
-                6.513895,53.207033,0
-                6.514372,53.207112,0
-                6.514061,53.207615,0
-                6.513613,53.207547,0
+                6.513613,53.207545,0
+                6.513755,53.207315,0
+                6.513895,53.207031,0
+                6.514482,53.2071333,0
+                6.5141509,53.2076291,0
+                6.513613,53.207545,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -907,8 +1253,8 @@
       </Placemark>
       <Placemark>
         <name>Inschrijving</name>
-        <description><![CDATA[beschrijving: Registratie<br>name: ]]></description>
-        <styleUrl>#poly-000000-2000-77</styleUrl>
+        <description><![CDATA[beschrijving: Inschrijving<br>name: ]]></description>
+        <styleUrl>#poly-7CB342-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Inschrijving</value>
@@ -922,11 +1268,11 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5128487,53.2080006,0
-                6.5128437,53.2079105,0
-                6.5132782,53.2078925,0
-                6.5132819,53.2079822,0
-                6.5128487,53.2080006,0
+                6.512849,53.208001,0
+                6.512844,53.20791,0
+                6.513278,53.207892,0
+                6.513282,53.207982,0
+                6.512849,53.208001,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -935,7 +1281,7 @@
       <Placemark>
         <name>Mixed zone</name>
         <description><![CDATA[beschrijving: Mixed zone<br>name: ]]></description>
-        <styleUrl>#poly-FBC02D-1200-77</styleUrl>
+        <styleUrl>#poly-FBC02D-2000-77</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Mixed zone</value>
@@ -949,19 +1295,324 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5129558,53.2075848,0
-                6.5130523,53.2075141,0
-                6.5132186,53.2074081,0
-                6.5134493,53.207196,0
-                6.5137443,53.207135,0
-                6.5136853,53.207257,0
-                6.5135941,53.2074402,0
-                6.5134761,53.207604,0
-                6.5129558,53.2075848,0
+                6.512956,53.207585,0
+                6.513052,53.207514,0
+                6.513219,53.207408,0
+                6.513449,53.207196,0
+                6.513744,53.207135,0
+                6.513685,53.207257,0
+                6.513594,53.20744,0
+                6.513476,53.207604,0
+                6.512956,53.207585,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>1/8 + 2e divisie D</name>
+        <description><![CDATA[beschrijving: 1/8 + 2e divisie D<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>1/8 + 2e divisie D</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.514075,53.2075818,0
+            6.5143337,53.2071394,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Naar check-in</name>
+        <description><![CDATA[beschrijving: Naar check-in<br>name: ]]></description>
+        <styleUrl>#line-9C27B0-4000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Naar check-in</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.513117,53.207916,0
+            6.513141,53.207873,0
+            6.513173,53.20783,0
+            6.513232,53.20781,0
+            6.513278,53.207804,0
+            6.513409,53.207801,0
+            6.513533,53.207797,0
+            6.513635,53.207797,0
+            6.513731,53.207783,0
+            6.51379,53.20777,0
+            6.513836,53.207748,0
+            6.5139,53.2077,0
+            6.513916,53.207667,0
+            6.513932,53.207642,0
+            6.513952,53.207599,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1/4 + HIS</name>
+        <description><![CDATA[beschrijving: 1/4  + HIS<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>1/4  + HIS</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5137181,53.2075251,0
+            6.5139681,53.2070771,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>3e divisie H</name>
+        <description><![CDATA[beschrijving: 3e divisie H<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>3e divisie H</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5139026,53.2075506,0
+            6.5141536,53.2071076,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>2e divisie H</name>
+        <description><![CDATA[beschrijving: 2e divisie H<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-4000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>2e divisie H</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.51399,53.207566,0
+            6.514243,53.207123,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Strafbox</name>
+        <description><![CDATA[beschrijving: Strafbox<br>name: ]]></description>
+        <styleUrl>#poly-C2185B-2000-77</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Strafbox</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                6.513587,53.207605,0
+                6.513612,53.207556,0
+                6.513689,53.207567,0
+                6.513667,53.207615,0
+                6.513587,53.207605,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5143466,53.2072664,0
+            6.5143826,53.2072064,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wisselvak estafette</name>
+        <description><![CDATA[beschrijving: Wisselvak estafette<br>name: fa-arrows-h]]></description>
+        <styleUrl>#icon-1603-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Wisselvak estafette</value>
+          </Data>
+          <Data name="name">
+            <value>fa-arrows-h</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5143809,53.207242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Captains/race briefing</name>
+        <description><![CDATA[beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone]]></description>
+        <styleUrl>#icon-1625-424242</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Captains/race briefing: verzamelen nabij speeltoestel</value>
+          </Data>
+          <Data name="name">
+            <value>fa-microphone</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514214,53.20669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Verzamelpunt kleding</name>
+        <description><![CDATA[beschrijving: Verzamelpunt kleding<br>name: fa-suitcase]]></description>
+        <styleUrl>#icon-1549-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Verzamelpunt kleding</value>
+          </Data>
+          <Data name="name">
+            <value>fa-suitcase</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513934,53.207083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3e divisie D</name>
+        <description><![CDATA[beschrijving: 3e divisie D<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-2938</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>3e divisie D</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.513809,53.2075397,0
+            6.5140545,53.207094,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Van/naar parkeerplaats A7 - richting inschrijving rechts houden</name>
+        <description><![CDATA[beschrijving: Van/naar parkeerplaats A7 - richting inschrijving rechts houden<br>name: ]]></description>
+        <styleUrl>#line-9C27B0-4000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Van/naar parkeerplaats A7 - richting inschrijving rechts houden</value>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.517074,53.205646,0
+            6.51698,53.205742,0
+            6.516901,53.205814,0
+            6.516874,53.205829,0
+            6.516833,53.20581,0
+            6.516761,53.205808,0
+            6.516616,53.20584,0
+            6.516483,53.205878,0
+            6.516348,53.205921,0
+            6.516253,53.205955,0
+            6.516136,53.206,0
+            6.516037,53.206054,0
+            6.515943,53.206109,0
+            6.515871,53.206156,0
+            6.515811,53.206203,0
+            6.515706,53.20631,0
+            6.515614,53.206428,0
+            6.515538,53.206561,0
+            6.515451,53.206705,0
+            6.515366,53.206858,0
+            6.515072,53.207239,0
+            6.514967,53.207338,0
+            6.514856,53.207436,0
+            6.51475,53.207512,0
+            6.514634,53.207589,0
+            6.514558,53.207634,0
+            6.514485,53.207673,0
+            6.514453,53.207692,0
+            6.514407,53.207713,0
+            6.514376,53.207732,0
+            6.514337,53.207753,0
+            6.514294,53.207777,0
+            6.514249,53.207798,0
+            6.514082,53.20787,0
+            6.513973,53.20791,0
+            6.513865,53.207951,0
+            6.513735,53.207992,0
+            6.513593,53.208033,0
+            6.513447,53.20807,0
+            6.51326,53.208115,0
+            6.51304,53.208154,0
+            6.51287,53.208178,0
+            6.512762,53.208192,0
+            6.512694,53.208198,0
+            6.51268,53.208188,0
+            6.512724,53.2081,0
+            6.512754,53.208038,0
+            6.512778,53.207985,0
+            6.512791,53.207956,0
+            6.512808,53.207927,0
+            6.512831,53.207902,0
+            6.512915,53.207898,0
+            6.512972,53.207922,0
+          </coordinates>
+        </LineString>
       </Placemark>
     </Folder>
     <Folder>
@@ -980,7 +1631,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5143157,53.2071046,0
+            6.514431,53.2071263,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1001,8 +1652,8 @@
           <coordinates>
             6.513366,53.207132,0
             6.513872,53.207006,0
-            6.5143237,53.207087,0
-            6.5143157,53.2071046,0
+            6.5144404,53.2071087,0
+            6.514431,53.2071263,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1022,12 +1673,12 @@
           <tessellate>1</tessellate>
           <coordinates>
             6.513222,53.207776,0
-            6.5133723,53.2077694,0
-            6.5135239,53.2077597,0
+            6.5134199,53.2077656,0
+            6.5136088,53.2077559,0
             6.5137466,53.2077468,0
-            6.5138019,53.2077165,0
-            6.5138162,53.2076596,0
-            6.5138237,53.2075786,0
+            6.5138035,53.2077119,0
+            6.5138182,53.2076537,0
+            6.5138449,53.2075804,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1093,8 +1744,7 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.514082,53.207582,0
-            6.514128,53.207608,0
+            6.5141347,53.2076297,0
             6.514148,53.207675,0
           </coordinates>
         </LineString>
@@ -2228,11 +2878,11 @@ kwart/standaard: 4 ronden
           <tessellate>1</tessellate>
           <coordinates>
             6.514664,53.207264,0
-            6.514379,53.207423,0
-            6.51428,53.207464,0
-            6.514226,53.207453,0
-            6.514248,53.207418,0
-            6.514287,53.20736,0
+            6.5144554,53.2073901,0
+            6.5143927,53.2074086,0
+            6.5143641,53.2073912,0
+            6.5144049,53.2073296,0
+            6.5144774,53.2072484,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -2253,7 +2903,7 @@ kwart/standaard: 4 ronden
         </ExtendedData>
         <Point>
           <coordinates>
-            6.514287,53.20736,0
+            6.5144774,53.2072484,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2595,7 +3245,7 @@ kwart/standaard: 4 ronden
         </ExtendedData>
         <Point>
           <coordinates>
-            6.514417,53.207247,0
+            6.514468,53.2072076,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2616,7 +3266,7 @@ kwart/standaard: 4 ronden
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5144223,53.2071518,0
+            6.5145417,53.2072185,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2642,12 +3292,12 @@ kwart/standaard: 4 ronden
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger loopparcours + kinderen</name>
-        <description><![CDATA[beschrijving: Vrijwilliger loopparcours + kinderen<br>name: fa-person<br>description: ]]></description>
+        <name>Vrijwilliger loopparcours</name>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
         <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Vrijwilliger loopparcours + kinderen</value>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -2915,12 +3565,12 @@ kwart/standaard: 4 ronden
         </Point>
       </Placemark>
       <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <name>StEB 2x</name>
+        <description><![CDATA[beschrijving: StEB 2x<br>name: fa-person<br>description: ]]></description>
         <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>StEB</value>
+            <value>StEB 2x</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -3037,48 +3687,6 @@ kwart/standaard: 4 ronden
         <Point>
           <coordinates>
             6.510868,53.2024,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1657-F57C00</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>StEB</value>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.511842,53.201368,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1657-F57C00</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>StEB</value>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.51142,53.201109,0
           </coordinates>
         </Point>
       </Placemark>
@@ -3272,12 +3880,12 @@ kwart/standaard: 4 ronden
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Vrijwilliger fietsparcours</value>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -3335,12 +3943,12 @@ kwart/standaard: 4 ronden
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger fietsparcours</name>
-        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Vrijwilliger fietsparcours</value>
+            <value>StEB</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -3482,12 +4090,12 @@ kwart/standaard: 4 ronden
         </Point>
       </Placemark>
       <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <name>Vrijwilliger loopparcours</name>
+        <description><![CDATA[beschrijving: Vrijwilliger loopparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>StEB</value>
+            <value>Vrijwilliger loopparcours</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -3583,6 +4191,48 @@ kwart/standaard: 4 ronden
         <Point>
           <coordinates>
             6.513993,53.207322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.51142,53.201109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.511842,53.201368,0
           </coordinates>
         </Point>
       </Placemark>
