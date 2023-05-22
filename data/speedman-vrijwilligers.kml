@@ -3707,6 +3707,48 @@ kwart/standaard: 4 ronden
         </ExtendedData>
         <Point>
           <coordinates>
+            6.511842,53.201368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.51142,53.201109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StEB</name>
+        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1657-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>StEB</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
             6.510888,53.200705,0
           </coordinates>
         </Point>
@@ -4191,48 +4233,6 @@ kwart/standaard: 4 ronden
         <Point>
           <coordinates>
             6.513993,53.207322,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1657-F57C00</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>StEB</value>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.51142,53.201109,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>StEB</name>
-        <description><![CDATA[beschrijving: StEB<br>name: fa-person<br>description: ]]></description>
-        <styleUrl>#icon-1657-F57C00</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>StEB</value>
-          </Data>
-          <Data name="name">
-            <value>fa-person</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.511842,53.201368,0
           </coordinates>
         </Point>
       </Placemark>

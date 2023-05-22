@@ -5188,6 +5188,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.511842,
+          53.201368,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51142,
+          53.201109,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.510888,
           53.200705,
           0
@@ -5709,50 +5753,6 @@
         },
         "description": "",
         "beschrijving": "Vrijwilliger helpen in wisselzone 2x"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.51142,
-          53.201109,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-person",
-        "styleUrl": "#icon-1657-F57C00",
-        "styleHash": "-13f0d1bd",
-        "styleMapHash": {
-          "normal": "#icon-1657-F57C00-normal",
-          "highlight": "#icon-1657-F57C00-highlight"
-        },
-        "description": "",
-        "beschrijving": "StEB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.511842,
-          53.201368,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-person",
-        "styleUrl": "#icon-1657-F57C00",
-        "styleHash": "-13f0d1bd",
-        "styleMapHash": {
-          "normal": "#icon-1657-F57C00-normal",
-          "highlight": "#icon-1657-F57C00-highlight"
-        },
-        "description": "",
-        "beschrijving": "StEB"
       }
     }
   ]
