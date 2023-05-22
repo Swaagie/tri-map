@@ -3166,12 +3166,12 @@ kwart/standaard: 4 ronden
     <Folder>
       <name>Vrijwilligers</name>
       <Placemark>
-        <name>Check in/out 2x</name>
-        <description><![CDATA[beschrijving: Check in/out 2x<br>name: fa-person<br>description: ]]></description>
+        <name>Check in/out 3x</name>
+        <description><![CDATA[beschrijving: Check in/out 3x<br>name: fa-person<br>description: ]]></description>
         <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Check in/out 2x</value>
+            <value>Check in/out 3x</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -3209,11 +3209,11 @@ kwart/standaard: 4 ronden
       </Placemark>
       <Placemark>
         <name>Vrijwilliger inschrijving 2x</name>
-        <description><![CDATA[beschrijving: Vrijwilliger inschrijving 5x<br>name: fa-person<br>description: ]]></description>
+        <description><![CDATA[beschrijving: Vrijwilliger inschrijving 2x<br>name: fa-person<br>description: ]]></description>
         <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Vrijwilliger inschrijving 5x</value>
+            <value>Vrijwilliger inschrijving 2x</value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
@@ -3229,12 +3229,12 @@ kwart/standaard: 4 ronden
         </Point>
       </Placemark>
       <Placemark>
-        <name>Vrijwilliger tijdwaarneming 2x </name>
-        <description><![CDATA[beschrijving: Vrijwilliger tijdwaarneming 2x <br>name: fa-person<br>description: ]]></description>
+        <name>Vrijwilliger tijdwaarneming 3x </name>
+        <description><![CDATA[beschrijving: Vrijwilliger tijdwaarneming 3x <br>name: fa-person<br>description: ]]></description>
         <styleUrl>#icon-1592-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Vrijwilliger tijdwaarneming 2x </value>
+            <value>Vrijwilliger tijdwaarneming 3x </value>
           </Data>
           <Data name="name">
             <value>fa-person</value>
