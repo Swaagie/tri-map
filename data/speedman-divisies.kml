@@ -1013,6 +1013,24 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Scherpe bocht</name>
+        <description><![CDATA[beschrijving: Scherpe bocht<br>name: fa-warning]]></description>
+        <styleUrl>#icon-1499-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Scherpe bocht</value>
+          </Data>
+          <Data name="name">
+            <value>fa-warning</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4483342,53.1966117,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Zwemparcours divisies</name>

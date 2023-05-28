@@ -1315,6 +1315,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.4483342,
+          53.1966117,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "description": "beschrijving: Scherpe bocht<br>name: fa-warning",
+        "beschrijving": "Scherpe bocht"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.513366,
           53.207132,
           0
