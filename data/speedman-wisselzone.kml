@@ -1228,24 +1228,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Scherpe bocht</name>
-        <description><![CDATA[beschrijving: Scherpe bocht<br>name: fa-warning]]></description>
-        <styleUrl>#icon-1499-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Scherpe bocht</value>
-          </Data>
-          <Data name="name">
-            <value>fa-warning</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.4483342,53.1966117,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Strafbox</name>
         <description><![CDATA[beschrijving: Strafbox<br>name: fa-hourglass-half]]></description>
         <styleUrl>#icon-1499-FF5252</styleUrl>
@@ -1375,27 +1357,6 @@
     </Folder>
     <Folder>
       <name>Markering/waarschuwingen</name>
-      <Placemark>
-        <name>Oversteken</name>
-        <description><![CDATA[beschrijving: Heen: naar rechterzijde weg, terug: van fietspad naar weg<br>name: fa-warning<br>description: ]]></description>
-        <styleUrl>#icon-1499-FF5252</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Heen: naar rechterzijde weg, terug: van fietspad naar weg</value>
-          </Data>
-          <Data name="name">
-            <value>fa-warning</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.509996,53.203366,0
-          </coordinates>
-        </Point>
-      </Placemark>
       <Placemark>
         <name>Oversteekplaats</name>
         <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>

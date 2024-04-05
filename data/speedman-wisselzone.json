@@ -1229,28 +1229,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.4483342,
-          53.1966117,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-warning",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
-        "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
-        },
-        "description": "beschrijving: Scherpe bocht<br>name: fa-warning",
-        "beschrijving": "Scherpe bocht"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.5137941,
           53.2076927,
           0
@@ -1509,28 +1487,6 @@
         "stroke-opacity": 1,
         "stroke-width": 3.131,
         "beschrijving": "Vanuit de wisselzone richting loopparcours"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.509996,
-          53.203366,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-warning",
-        "styleUrl": "#icon-1499-FF5252",
-        "styleHash": "528e3e01",
-        "styleMapHash": {
-          "normal": "#icon-1499-FF5252-normal",
-          "highlight": "#icon-1499-FF5252-highlight"
-        },
-        "description": "",
-        "beschrijving": "Heen: naar rechterzijde weg, terug: van fietspad naar weg"
       }
     },
     {
