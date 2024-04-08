@@ -380,11 +380,11 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 1/4 <br>name: text",
+        "description": "beschrijving: Achtste<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "1/4 "
+        "beschrijving": "Achtste"
       }
     },
     {
@@ -890,11 +890,11 @@
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: <br>name: text",
+        "description": "beschrijving: Kwart<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": ""
+        "beschrijving": "Kwart"
       }
     },
     {
@@ -922,11 +922,11 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: <br>name: text",
+        "description": "beschrijving: Kwart<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": ""
+        "beschrijving": "Kwart"
       }
     },
     {
@@ -1181,8 +1181,8 @@
             0
           ],
           [
-            6.5144118,
-            53.2068006,
+            6.5144232,
+            53.2068058,
             0
           ]
         ]
@@ -1273,8 +1273,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5131777,
-          53.207769,
+          6.5132072,
+          53.2077642,
           0
         ]
       },
@@ -1318,8 +1318,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5144118,
-            53.2068006,
+            6.5144232,
+            53.2068058,
             0
           ],
           [
@@ -1487,50 +1487,6 @@
         "stroke-opacity": 1,
         "stroke-width": 3.131,
         "beschrijving": "Vanuit de wisselzone richting loopparcours"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5132199,
-          53.207772,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-arrows-v",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
-        "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
-        },
-        "description": "",
-        "beschrijving": "Oversteekplaats"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5138492,
-          53.2070526,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-arrows-v",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
-        "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
-        },
-        "description": "",
-        "beschrijving": "Oversteekplaats"
       }
     },
     {

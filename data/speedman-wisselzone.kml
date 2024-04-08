@@ -3,40 +3,6 @@
   <Document>
     <name>Speedman 2024 - wisselzone</name>
     <description/>
-    <Style id="icon-1499-E65100-normal">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1499-E65100-highlight">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1499-E65100">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1499-E65100-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1499-E65100-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1499-FF5252-normal">
       <IconStyle>
         <color>ff5252ff</color>
@@ -800,12 +766,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>1/4</name>
-        <description><![CDATA[beschrijving: 1/4 <br>name: text]]></description>
+        <name>Achtste</name>
+        <description><![CDATA[beschrijving: Achtste<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>1/4 </value>
+            <value>Achtste</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1058,12 +1024,12 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>1/8</name>
-        <description><![CDATA[beschrijving: <br>name: text]]></description>
+        <name>Kwart</name>
+        <description><![CDATA[beschrijving: Kwart<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3325</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Kwart</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1078,12 +1044,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>1/8</name>
-        <description><![CDATA[beschrijving: <br>name: text]]></description>
+        <name>Kwart</name>
+        <description><![CDATA[beschrijving: Kwart<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value/>
+            <value>Kwart</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1205,7 +1171,7 @@
             6.5144501,53.2070491,0
             6.5144037,53.2069725,0
             6.5143894,53.2068862,0
-            6.5144118,53.2068006,0
+            6.5144232,53.2068058,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1277,7 +1243,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5131777,53.207769,0
+            6.5132072,53.2077642,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1320,7 +1286,7 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5144118,53.2068006,0
+            6.5144232,53.2068058,0
             6.5144754,53.2067507,0
             6.5145344,53.2066736,0
             6.5145639,53.2066222,0
@@ -1357,48 +1323,6 @@
     </Folder>
     <Folder>
       <name>Markering/waarschuwingen</name>
-      <Placemark>
-        <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
-        <styleUrl>#icon-1499-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Oversteekplaats</value>
-          </Data>
-          <Data name="name">
-            <value>fa-arrows-v</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5132199,53.207772,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
-        <styleUrl>#icon-1499-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Oversteekplaats</value>
-          </Data>
-          <Data name="name">
-            <value>fa-arrows-v</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5138492,53.2070526,0
-          </coordinates>
-        </Point>
-      </Placemark>
       <Placemark>
         <name>Plaszuilen en dixies</name>
         <description><![CDATA[beschrijving: Plaszuilen en dixies<br>name: fa-user-circle<br>description: ]]></description>

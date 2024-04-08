@@ -3,40 +3,6 @@
   <Document>
     <name>Speedman 2024 - individueel</name>
     <description/>
-    <Style id="icon-1499-A52714-normal">
-      <IconStyle>
-        <color>ff1427a5</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1499-A52714-highlight">
-      <IconStyle>
-        <color>ff1427a5</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1499-A52714">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1499-A52714-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1499-A52714-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1499-C2185B-normal">
       <IconStyle>
         <color>ff5b18c2</color>
@@ -627,6 +593,28 @@
         <styleUrl>#line-424242-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-424242-3131-normal">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-424242-3131-highlight">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-424242-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-424242-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-424242-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-9C27B0-4000-normal">
       <LineStyle>
         <color>ffb0279c</color>
@@ -1114,7 +1102,7 @@
             6.5144501,53.2070491,0
             6.5144037,53.2069725,0
             6.5143894,53.2068862,0
-            6.5144118,53.2068006,0
+            6.5144185,53.2068102,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1376,7 +1364,7 @@ kwart: 2 ronden</value>
       <Placemark>
         <name>Boei B 750m</name>
         <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-A52714</styleUrl>
+        <styleUrl>#icon-1499-C2185B</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Boei 750m divisies</value>
@@ -2068,7 +2056,7 @@ kwart/standaard: 4 ronden</value>
       <Placemark>
         <name>Aanloopstrook lopen</name>
         <description><![CDATA[beschrijving: Vanuit de wisselzone richting loopparcours<br>name: Aanloopstrook lopen<br>description: ]]></description>
-        <styleUrl>#line-097138-3131</styleUrl>
+        <styleUrl>#line-424242-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Vanuit de wisselzone richting loopparcours</value>
@@ -2083,7 +2071,7 @@ kwart/standaard: 4 ronden</value>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5144118,53.2068006,0
+            6.5144185,53.2068102,0
             6.5144754,53.2067507,0
             6.5145344,53.2066736,0
             6.5145639,53.2066222,0
@@ -2247,27 +2235,6 @@ kwart/standaard: 4 ronden</value>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
-        <styleUrl>#icon-1499-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Oversteekplaats</value>
-          </Data>
-          <Data name="name">
-            <value>fa-arrows-v</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5132199,53.207772,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Samenvoegen fietsers ronde</name>
         <description><![CDATA[beschrijving: Samenvoegen fietsers ronde<br>name: fa-warning<br>description: ]]></description>
         <styleUrl>#icon-1499-E65100</styleUrl>
@@ -2285,27 +2252,6 @@ kwart/standaard: 4 ronden</value>
         <Point>
           <coordinates>
             6.5083819,53.201394,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
-        <styleUrl>#icon-1499-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Oversteekplaats</value>
-          </Data>
-          <Data name="name">
-            <value>fa-arrows-v</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5138492,53.2070526,0
           </coordinates>
         </Point>
       </Placemark>

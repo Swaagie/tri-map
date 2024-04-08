@@ -569,6 +569,28 @@
         <styleUrl>#line-424242-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-424242-3131-normal">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-424242-3131-highlight">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-424242-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-424242-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-424242-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-9C27B0-4000-normal">
       <LineStyle>
         <color>ffb0279c</color>
@@ -1097,7 +1119,7 @@
             6.5144501,53.2070491,0
             6.5144037,53.2069725,0
             6.5143894,53.2068862,0
-            6.5144118,53.2068006,0
+            6.5144239,53.2068046,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -2015,7 +2037,7 @@ kwart/standaard: 4 ronden</value>
       <Placemark>
         <name>Aanloopstrook lopen</name>
         <description><![CDATA[beschrijving: Vanuit de wisselzone richting loopparcours<br>name: Aanloopstrook lopen<br>description: ]]></description>
-        <styleUrl>#line-097138-3131</styleUrl>
+        <styleUrl>#line-424242-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Vanuit de wisselzone richting loopparcours</value>
@@ -2030,7 +2052,7 @@ kwart/standaard: 4 ronden</value>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5144118,53.2068006,0
+            6.5144239,53.2068046,0
             6.5144754,53.2067507,0
             6.5145344,53.2066736,0
             6.5145639,53.2066222,0

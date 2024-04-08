@@ -670,8 +670,8 @@
             0
           ],
           [
-            6.5144118,
-            53.2068006,
+            6.5144185,
+            53.2068102,
             0
           ]
         ]
@@ -1007,11 +1007,11 @@
       },
       "properties": {
         "name": "fa-circle",
-        "styleUrl": "#icon-1499-A52714",
-        "styleHash": "-7b686de3",
+        "styleUrl": "#icon-1499-C2185B",
+        "styleHash": "-38404dd1",
         "styleMapHash": {
-          "normal": "#icon-1499-A52714-normal",
-          "highlight": "#icon-1499-A52714-highlight"
+          "normal": "#icon-1499-C2185B-normal",
+          "highlight": "#icon-1499-C2185B-highlight"
         },
         "description": "",
         "beschrijving": "Boei 750m divisies"
@@ -3654,8 +3654,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5144118,
-            53.2068006,
+            6.5144185,
+            53.2068102,
             0
           ],
           [
@@ -3812,14 +3812,14 @@
       },
       "properties": {
         "name": "Aanloopstrook lopen",
-        "styleUrl": "#line-097138-3131",
-        "styleHash": "-31a3ee02",
+        "styleUrl": "#line-424242-3131",
+        "styleHash": "-3c171dc2",
         "styleMapHash": {
-          "normal": "#line-097138-3131-normal",
-          "highlight": "#line-097138-3131-highlight"
+          "normal": "#line-424242-3131-normal",
+          "highlight": "#line-424242-3131-highlight"
         },
         "description": "",
-        "stroke": "#097138",
+        "stroke": "#424242",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
         "beschrijving": "Vanuit de wisselzone richting loopparcours"
@@ -3962,28 +3962,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5132199,
-          53.207772,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-arrows-v",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
-        "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
-        },
-        "description": "",
-        "beschrijving": "Oversteekplaats"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.5083819,
           53.201394,
           0
@@ -3999,28 +3977,6 @@
         },
         "description": "",
         "beschrijving": "Samenvoegen fietsers ronde"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5138492,
-          53.2070526,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-arrows-v",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
-        "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
-        },
-        "description": "",
-        "beschrijving": "Oversteekplaats"
       }
     },
     {
