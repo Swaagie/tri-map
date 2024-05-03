@@ -1212,12 +1212,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdbalk transitie 2 uit</name>
-        <description><![CDATA[beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch]]></description>
+        <name>Tijdregistratie transitie 2 uit</name>
+        <description><![CDATA[beschrijving: Tijdregistratie transitie 2 en volgende loopronde<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Tijdbalk transitie 2 en volgende loopronde</value>
+            <value>Tijdregistratie transitie 2 en volgende loopronde</value>
           </Data>
           <Data name="name">
             <value>fa-stopwatch</value>
@@ -1230,7 +1230,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdbalk transitie 2 in</name>
+        <name>Tijdregistratie transitie 2 in</name>
         <description><![CDATA[beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
@@ -1248,12 +1248,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdbalk transitie 1 in</name>
-        <description><![CDATA[beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch]]></description>
+        <name>Tijdregistratie transitie 1 in</name>
+        <description><![CDATA[beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Tijdbalk transitie 1</value>
+            <value>Tijdregistratie transitie 1</value>
           </Data>
           <Data name="name">
             <value>fa-stopwatch</value>

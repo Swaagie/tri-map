@@ -1264,8 +1264,8 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
-        "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
+        "description": "beschrijving: Tijdregistratie transitie 2 en volgende loopronde<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 2 en volgende loopronde"
       }
     },
     {
@@ -1308,8 +1308,8 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
-        "beschrijving": "Tijdbalk transitie 1"
+        "description": "beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 1"
       }
     },
     {

@@ -392,8 +392,8 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
-        "beschrijving": "Tijdbalk transitie 1"
+        "description": "beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 1"
       }
     },
     {
@@ -709,8 +709,8 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
-        "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
+        "description": "beschrijving: Tijdregistratie transitie 2 en volgende loopronde<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 2 en volgende loopronde"
       }
     },
     {
@@ -755,6 +755,28 @@
         },
         "description": "beschrijving: Scherpe bocht<br>name: fa-warning",
         "beschrijving": "Scherpe bocht"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5069257,
+          53.201613,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "description": "beschrijving: Tijdregistratie fietsronde<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie fietsronde"
       }
     },
     {
