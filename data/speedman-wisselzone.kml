@@ -419,6 +419,28 @@
         <styleUrl>#line-FFFFFF-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-FFFFFF-3131-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-3131-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-FFFFFF-3325-normal">
       <LineStyle>
         <color>ffffffff</color>
@@ -439,6 +461,28 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-FFFFFF-3325-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-3519-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3.519</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-3519-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>5.2785</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-3519">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-3519-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-000000-2000-77-normal">
@@ -709,12 +753,12 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>1e divisie D</name>
-        <description><![CDATA[beschrijving: 1e divisie D<br>name: text]]></description>
+        <name>Achtste</name>
+        <description><![CDATA[beschrijving: Achtste<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>1e divisie D</value>
+            <value>Achtste</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -723,8 +767,8 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5142292,53.2073722,0
-            6.5138315,53.2073141,0
+            6.5142265,53.2073682,0
+            6.5138288,53.2073101,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -766,12 +810,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Achtste</name>
-        <description><![CDATA[beschrijving: Achtste<br>name: text]]></description>
+        <name>1e divisie H\n</name>
+        <description><![CDATA[beschrijving: 1e divisie H\n<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Achtste</value>
+            <value>1e divisie H\n</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -780,18 +824,18 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5140576,53.2075858,0
-            6.5136623,53.2075429,0
+            6.5140509,53.2075954,0
+            6.5136516,53.207559,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>2e divisie H</name>
-        <description><![CDATA[beschrijving: 2e divisie H<br>name: text]]></description>
+        <name>1e divisie D\n2e divisie H</name>
+        <description><![CDATA[beschrijving: 1e divisie D\n2e divisie H<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>2e divisie H</value>
+            <value>1e divisie D\n2e divisie H</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -800,18 +844,18 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5141413,53.2074783,0
-            6.5137446,53.2074305,0
+            6.5141225,53.2074992,0
+            6.5137272,53.207457,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>1e divisie H</name>
-        <description><![CDATA[beschrijving: 1e divisie H<br>name: text]]></description>
+        <name>2e divisie D\n</name>
+        <description><![CDATA[beschrijving: 2e divisie D\n<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3325</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>1e divisie H</value>
+            <value>2e divisie D\n</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -820,8 +864,8 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5141737,53.2074238,0
-            6.513791,53.207372,0
+            6.5141871,53.2074093,0
+            6.5138044,53.2073575,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -927,12 +971,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>2e divisie D</name>
-        <description><![CDATA[beschrijving: 2e divisie D<br>name: text]]></description>
+        <name>1e divisie H\n1e divisie D</name>
+        <description><![CDATA[beschrijving: 1e divisie H\n1e divisie D<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>2e divisie D</value>
+            <value>1e divisie H\n1e divisie D</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -941,8 +985,8 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.514104,53.2075317,0
-            6.5137018,53.2074884,0
+            6.5140906,53.2075502,0
+            6.5136884,53.2075069,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1024,12 +1068,12 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Kwart</name>
-        <description><![CDATA[beschrijving: Kwart<br>name: text]]></description>
+        <name>Achtste\nKwart</name>
+        <description><![CDATA[beschrijving: Achtste\nKwart<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3325</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Kwart</value>
+            <value>Achtste\nKwart</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1038,18 +1082,18 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5139577,53.2072666,0
-            6.5142602,53.2073144,0
+            6.5139563,53.2072786,0
+            6.5142588,53.2073264,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Kwart</name>
-        <description><![CDATA[beschrijving: Kwart<br>name: text]]></description>
+        <name>Kwart\n</name>
+        <description><![CDATA[beschrijving: Kwart\n<br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Kwart</value>
+            <value>Kwart\n</value>
           </Data>
           <Data name="name">
             <value>text</value>
@@ -1058,8 +1102,68 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5142876,53.2072586,0
-            6.5139946,53.2072105,0
+            6.5142862,53.2072409,0
+            6.5139932,53.2071928,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kwart\n</name>
+        <description><![CDATA[beschrijving: Kwart\n<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3131</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Kwart\n</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5140139,53.2071516,0
+            6.5143103,53.2072038,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kwart\n</name>
+        <description><![CDATA[beschrijving: Kwart\n<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3131</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Kwart\n</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5139846,53.2072374,0
+            6.5142877,53.2072872,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>2e divisie H\n2e divisie D</name>
+        <description><![CDATA[beschrijving: 2e divisie H\n2e divisie D<br>name: text]]></description>
+        <styleUrl>#line-FFFFFF-3519</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>2e divisie H\n2e divisie D</value>
+          </Data>
+          <Data name="name">
+            <value>text</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.5137686,53.2074045,0
+            6.5141575,53.2074519,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1212,12 +1316,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdregistratie transitie 2 uit</name>
-        <description><![CDATA[beschrijving: Tijdregistratie transitie 2 en volgende loopronde<br>name: fa-stopwatch]]></description>
+        <name>Tijdbalk transitie 2 uit</name>
+        <description><![CDATA[beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Tijdregistratie transitie 2 en volgende loopronde</value>
+            <value>Tijdbalk transitie 2 en volgende loopronde</value>
           </Data>
           <Data name="name">
             <value>fa-stopwatch</value>
@@ -1230,7 +1334,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdregistratie transitie 2 in</name>
+        <name>Tijdbalk transitie 2 in</name>
         <description><![CDATA[beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
@@ -1248,12 +1352,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdregistratie transitie 1 in</name>
-        <description><![CDATA[beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch]]></description>
+        <name>Tijdbalk transitie 1 in</name>
+        <description><![CDATA[beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Tijdregistratie transitie 1</value>
+            <value>Tijdbalk transitie 1</value>
           </Data>
           <Data name="name">
             <value>fa-stopwatch</value>

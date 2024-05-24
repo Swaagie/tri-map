@@ -6,7 +6,7 @@
     <link href="assets/css/solid.css" rel="stylesheet" />
     <link href="assets/css/fontawesome.css" rel="stylesheet" />
     <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
+      href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css"
       rel="stylesheet"
     />
     <link
@@ -123,6 +123,16 @@
         width: 16px;
         text-align: center;
       }
+
+      button.indeling {
+        color: whitesmoke;
+        background: teal;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0.5em 1em;
+      }
     </style>
   </head>
   <body>
@@ -135,6 +145,12 @@
             <i class="fa-solid fa-warning"></i>
             Laden en lossen teamtenten via parkeerplaats noordzijde<br>
             GEEN parkeergelegenheid! Parkeren bij P+R transferium Hoogkerk
+          </p>
+          <p>
+            <button id="indeling" class="indeling">Toon wisselzone indeling</button>
+          </p>
+          <p>
+            De indeling is onder voorbehoud van wijzigingen.
           </p>
           <details>
             <summary><b>Wisselzone details</b></summary>
@@ -402,7 +418,7 @@
       </div>
     </div>
     <!-- Add mapbox -->
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
     <script>
       // Enable use of style switcher without needing bundler (barf)
@@ -433,6 +449,17 @@
         if (legend) {
           legend.style.display = 'block';
         }
+
+        document.getElementById('indeling').addEventListener('click', () => {
+          map.flyTo({
+              center: [6.513925, 53.207331],
+              zoom: 19.25,
+              pitch: 0,
+              bearing: 0,
+              duration: 5000,
+              essential: true
+          });
+        });
 
         // Fullscreen control
         map.addControl(new mapboxgl.FullscreenControl());
@@ -530,7 +557,6 @@
                 'text-field': ['get', 'beschrijving'],
                 'text-padding': 0,
                 'text-size': 16,
-                'text-offset': [0,-0.75]
               },
               paint: {
                 'text-color': '#333'

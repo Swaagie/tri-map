@@ -212,13 +212,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5142292,
-            53.2073722,
+            6.5142265,
+            53.2073682,
             0
           ],
           [
-            6.5138315,
-            53.2073141,
+            6.5138288,
+            53.2073101,
             0
           ]
         ]
@@ -231,11 +231,11 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 1e divisie D<br>name: text",
+        "description": "beschrijving: Achtste<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "1e divisie D"
+        "beschrijving": "Achtste"
       }
     },
     {
@@ -361,13 +361,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5140576,
-            53.2075858,
+            6.5140509,
+            53.2075954,
             0
           ],
           [
-            6.5136623,
-            53.2075429,
+            6.5136516,
+            53.207559,
             0
           ]
         ]
@@ -380,11 +380,11 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: Achtste<br>name: text",
+        "description": "beschrijving: 1e divisie H\\n<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "Achtste"
+        "beschrijving": "1e divisie H\\n"
       }
     },
     {
@@ -393,13 +393,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5141413,
-            53.2074783,
+            6.5141225,
+            53.2074992,
             0
           ],
           [
-            6.5137446,
-            53.2074305,
+            6.5137272,
+            53.207457,
             0
           ]
         ]
@@ -412,11 +412,11 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 2e divisie H<br>name: text",
+        "description": "beschrijving: 1e divisie D\\n2e divisie H<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "2e divisie H"
+        "beschrijving": "1e divisie D\\n2e divisie H"
       }
     },
     {
@@ -425,13 +425,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5141737,
-            53.2074238,
+            6.5141871,
+            53.2074093,
             0
           ],
           [
-            6.513791,
-            53.207372,
+            6.5138044,
+            53.2073575,
             0
           ]
         ]
@@ -444,11 +444,11 @@
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: 1e divisie H<br>name: text",
+        "description": "beschrijving: 2e divisie D\\n<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": "1e divisie H"
+        "beschrijving": "2e divisie D\\n"
       }
     },
     {
@@ -606,13 +606,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.514104,
-            53.2075317,
+            6.5140906,
+            53.2075502,
             0
           ],
           [
-            6.5137018,
-            53.2074884,
+            6.5136884,
+            53.2075069,
             0
           ]
         ]
@@ -625,11 +625,11 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: 2e divisie D<br>name: text",
+        "description": "beschrijving: 1e divisie H\\n1e divisie D<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "2e divisie D"
+        "beschrijving": "1e divisie H\\n1e divisie D"
       }
     },
     {
@@ -871,13 +871,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5139577,
-            53.2072666,
+            6.5139563,
+            53.2072786,
             0
           ],
           [
-            6.5142602,
-            53.2073144,
+            6.5142588,
+            53.2073264,
             0
           ]
         ]
@@ -890,11 +890,11 @@
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: Kwart<br>name: text",
+        "description": "beschrijving: Achtste\\nKwart<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": "Kwart"
+        "beschrijving": "Achtste\\nKwart"
       }
     },
     {
@@ -903,13 +903,13 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.5142876,
-            53.2072586,
+            6.5142862,
+            53.2072409,
             0
           ],
           [
-            6.5139946,
-            53.2072105,
+            6.5139932,
+            53.2071928,
             0
           ]
         ]
@@ -922,11 +922,107 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: Kwart<br>name: text",
+        "description": "beschrijving: Kwart\\n<br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "Kwart"
+        "beschrijving": "Kwart\\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5140139,
+            53.2071516,
+            0
+          ],
+          [
+            6.5143103,
+            53.2072038,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "text",
+        "styleUrl": "#line-FFFFFF-3131",
+        "styleHash": "6b4cd6fe",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-3131-normal",
+          "highlight": "#line-FFFFFF-3131-highlight"
+        },
+        "description": "beschrijving: Kwart\\n<br>name: text",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Kwart\\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5139846,
+            53.2072374,
+            0
+          ],
+          [
+            6.5142877,
+            53.2072872,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "text",
+        "styleUrl": "#line-FFFFFF-3131",
+        "styleHash": "6b4cd6fe",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-3131-normal",
+          "highlight": "#line-FFFFFF-3131-highlight"
+        },
+        "description": "beschrijving: Kwart\\n<br>name: text",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Kwart\\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5137686,
+            53.2074045,
+            0
+          ],
+          [
+            6.5141575,
+            53.2074519,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "text",
+        "styleUrl": "#line-FFFFFF-3519",
+        "styleHash": "-748e08c2",
+        "styleMapHash": {
+          "normal": "#line-FFFFFF-3519-normal",
+          "highlight": "#line-FFFFFF-3519-highlight"
+        },
+        "description": "beschrijving: 2e divisie H\\n2e divisie D<br>name: text",
+        "stroke": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke-width": 3.519,
+        "beschrijving": "2e divisie H\\n2e divisie D"
       }
     },
     {
@@ -1264,8 +1360,8 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdregistratie transitie 2 en volgende loopronde<br>name: fa-stopwatch",
-        "beschrijving": "Tijdregistratie transitie 2 en volgende loopronde"
+        "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
+        "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
       }
     },
     {
@@ -1308,8 +1404,8 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
-        "description": "beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch",
-        "beschrijving": "Tijdregistratie transitie 1"
+        "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
+        "beschrijving": "Tijdbalk transitie 1"
       }
     },
     {
