@@ -72,8 +72,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5142283,
-          53.2073998,
+          6.5140535,
+          53.2071231,
           0
         ]
       },
@@ -94,8 +94,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5140535,
-          53.2071231,
+          6.5142283,
+          53.2073998,
           0
         ]
       },
@@ -129,18 +129,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: Achtste<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "Achtste"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -161,18 +161,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 1e divisie H\\n<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "1e divisie H\\n"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -193,18 +193,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 1e divisie D\\n2e divisie H<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "1e divisie D\\n2e divisie H"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -225,18 +225,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3325",
         "styleHash": "-4a098e2",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: 2e divisie D\\n<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": "2e divisie D\\n"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -257,18 +257,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-2938",
         "styleHash": "-57c52824",
         "styleMapHash": {
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: 1e divisie H\\n1e divisie D<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "1e divisie H\\n1e divisie D"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -289,18 +289,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3325",
         "styleHash": "-4a098e2",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: Achtste\\nKwart<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": "Achtste\\nKwart"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -321,18 +321,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-2938",
         "styleHash": "-57c52824",
         "styleMapHash": {
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: Kwart\\n<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "Kwart\\n"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -353,18 +353,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-BDBDBD-3131",
         "styleHash": "-2d91b042",
         "styleMapHash": {
           "normal": "#line-BDBDBD-3131-normal",
           "highlight": "#line-BDBDBD-3131-highlight"
         },
-        "description": "beschrijving: Kwart\\n<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#bdbdbd",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
-        "beschrijving": "Kwart\\n"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -385,18 +385,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3131",
         "styleHash": "6b4cd6fe",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3131-normal",
           "highlight": "#line-FFFFFF-3131-highlight"
         },
-        "description": "beschrijving: Kwart\\n<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
-        "beschrijving": "Kwart\\n"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -417,18 +417,18 @@
         ]
       },
       "properties": {
-        "name": "",
         "styleUrl": "#line-FFFFFF-3519",
         "styleHash": "-748e08c2",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3519-normal",
           "highlight": "#line-FFFFFF-3519-highlight"
         },
-        "description": "beschrijving: 2e divisie H\\n2e divisie D<br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.519,
-        "beschrijving": "2e divisie H\\n2e divisie D"
+        "beschrijving": "",
+        "name": "text"
       }
     },
     {
@@ -436,8 +436,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5136755,
-          53.2074848,
+          6.5141248,
+          53.207533,
           0
         ]
       },
@@ -458,8 +458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5141248,
-          53.207533,
+          6.5136755,
+          53.2074848,
           0
         ]
       },

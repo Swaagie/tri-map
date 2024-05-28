@@ -403,7 +403,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5142283,53.2073998,0
+            6.5140535,53.2071231,0
           </coordinates>
         </Point>
       </Placemark>
@@ -421,20 +421,20 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5140535,53.2071231,0
+            6.5142283,53.2073998,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Achtste</name>
-        <description><![CDATA[beschrijving: Achtste<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Achtste</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -446,15 +446,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>1e divisie H\n</name>
-        <description><![CDATA[beschrijving: 1e divisie H\n<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>1e divisie H\n</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -466,15 +466,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>1e divisie D\n2e divisie H</name>
-        <description><![CDATA[beschrijving: 1e divisie D\n2e divisie H<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>1e divisie D\n2e divisie H</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -486,15 +486,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>2e divisie D\n</name>
-        <description><![CDATA[beschrijving: 2e divisie D\n<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3325</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>2e divisie D\n</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -506,15 +506,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>1e divisie H\n1e divisie D</name>
-        <description><![CDATA[beschrijving: 1e divisie H\n1e divisie D<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>1e divisie H\n1e divisie D</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -526,15 +526,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Achtste\nKwart</name>
-        <description><![CDATA[beschrijving: Achtste\nKwart<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3325</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Achtste\nKwart</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -546,15 +546,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Kwart\n</name>
-        <description><![CDATA[beschrijving: Kwart\n<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Kwart\n</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -566,15 +566,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Kwart\n</name>
-        <description><![CDATA[beschrijving: Kwart\n<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-BDBDBD-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Kwart\n</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -586,15 +586,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Kwart\n</name>
-        <description><![CDATA[beschrijving: Kwart\n<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Kwart\n</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -606,15 +606,15 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>2e divisie H\n2e divisie D</name>
-        <description><![CDATA[beschrijving: 2e divisie H\n2e divisie D<br>name: ]]></description>
+        <name/>
+        <description><![CDATA[beschrijving: <br>name: text]]></description>
         <styleUrl>#line-FFFFFF-3519</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>2e divisie H\n2e divisie D</value>
+            <value/>
           </Data>
           <Data name="name">
-            <value/>
+            <value>text</value>
           </Data>
         </ExtendedData>
         <LineString>
@@ -639,7 +639,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5136755,53.2074848,0
+            6.5141248,53.207533,0
           </coordinates>
         </Point>
       </Placemark>
@@ -657,7 +657,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5141248,53.207533,0
+            6.5136755,53.2074848,0
           </coordinates>
         </Point>
       </Placemark>
