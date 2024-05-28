@@ -353,14 +353,14 @@
         ]
       },
       "properties": {
-        "styleUrl": "#line-BDBDBD-3131",
-        "styleHash": "-2d91b042",
+        "styleUrl": "#line-FFFFFF-3131",
+        "styleHash": "6b4cd6fe",
         "styleMapHash": {
-          "normal": "#line-BDBDBD-3131-normal",
-          "highlight": "#line-BDBDBD-3131-highlight"
+          "normal": "#line-FFFFFF-3131-normal",
+          "highlight": "#line-FFFFFF-3131-highlight"
         },
         "description": "beschrijving: <br>name: text",
-        "stroke": "#bdbdbd",
+        "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
         "beschrijving": "",

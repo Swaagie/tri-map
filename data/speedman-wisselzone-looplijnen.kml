@@ -171,28 +171,6 @@
         <styleUrl>#line-A52714-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-BDBDBD-3131-normal">
-      <LineStyle>
-        <color>ffbdbdbd</color>
-        <width>3.131</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-BDBDBD-3131-highlight">
-      <LineStyle>
-        <color>ffbdbdbd</color>
-        <width>4.6965</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-BDBDBD-3131">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-BDBDBD-3131-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-BDBDBD-3131-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-E65100-3000-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -568,7 +546,7 @@
       <Placemark>
         <name/>
         <description><![CDATA[beschrijving: <br>name: text]]></description>
-        <styleUrl>#line-BDBDBD-3131</styleUrl>
+        <styleUrl>#line-FFFFFF-3131</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
