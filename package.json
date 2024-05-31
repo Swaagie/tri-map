@@ -4,8 +4,9 @@
   "description": "Map utilies for triathlon events",
   "main": "index.js",
   "scripts": {
-    "convert:gpx": "node ./bin/convert-gpx-to-geojson.mjs ./data",
-    "convert:kml": "node ./bin/convert-kml-to-geojson.mjs ./data",
+    "convert:to:gpx": "node ./bin/convert-geojson-to-gpx.mjs ./data",
+    "convert:from:gpx": "node ./bin/convert-gpx-to-geojson.mjs ./data",
+    "convert:from:kml": "node ./bin/convert-kml-to-geojson.mjs ./data",
     "start": "npx http-server ./docs"
   },
   "repository": {
@@ -23,5 +24,8 @@
     "http-server": "^14.1.0",
     "togeojson": "^0.16.0",
     "xmldom": "^0.6.0"
+  },
+  "dependencies": {
+    "@dwayneparton/geojson-to-gpx": "^0.2.0"
   }
 }

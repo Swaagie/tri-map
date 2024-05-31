@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Loopparcours</name>
+    <Style id="icon-1661-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1661-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1661-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1661-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1661-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-097138-3000-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-097138-3000-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-097138-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-097138-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-097138-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-097138-3131-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-097138-3131-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-097138-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-097138-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-097138-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Finish</name>
+      <description><![CDATA[beschrijving: Finish, bocht rechtsom voor het ingaan van volgende loopronde<br>name: fa-flag-checkered<br>description: ]]></description>
+      <styleUrl>#icon-1661-097138</styleUrl>
+      <ExtendedData>
+        <Data name="beschrijving">
+          <value>Finish, bocht rechtsom voor het ingaan van volgende loopronde</value>
+        </Data>
+        <Data name="name">
+          <value>fa-flag-checkered</value>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          6.5135359,53.2080264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Loopparcours</name>
+      <description><![CDATA[beschrijving: 2.5 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>name: Loopparcours<br>description: ]]></description>
+      <styleUrl>#line-097138-3000</styleUrl>
+      <ExtendedData>
+        <Data name="beschrijving">
+          <value>2.5 km per ronde
+
+achtste/sprint: 2 ronden
+kwart/standaard: 4 ronden</value>
+        </Data>
+        <Data name="name">
+          <value>Loopparcours</value>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          6.514292,53.207697,0
+          6.514349,53.207682,0
+          6.514435,53.207648,0
+          6.514558,53.207574,0
+          6.514755,53.207425,0
+          6.514861,53.207346,0
+          6.514953,53.207264,0
+          6.51508,53.207126,0
+          6.515237,53.206908,0
+          6.515285,53.206815,0
+          6.51541,53.206598,0
+          6.515554,53.206356,0
+          6.515698,53.206206,0
+          6.515865,53.206085,0
+          6.516038,53.205987,0
+          6.516207,53.205918,0
+          6.516359,53.205869,0
+          6.516539,53.205823,0
+          6.516687,53.205792,0
+          6.51679,53.205785,0
+          6.516841,53.205794,0
+          6.516885,53.20577,0
+          6.516927,53.205727,0
+          6.517045,53.205573,0
+          6.517252,53.2053,0
+          6.517505,53.204978,0
+          6.517516,53.204955,0
+          6.516832,53.204578,0
+          6.515521,53.20388,0
+          6.513403,53.203295,0
+          6.512824,53.20405,0
+          6.51269,53.204237,0
+          6.512604,53.204372,0
+          6.512551,53.204523,0
+          6.512535,53.204635,0
+          6.511376,53.204571,0
+          6.511381,53.204818,0
+          6.511173,53.204767,0
+          6.510156,53.204478,0
+          6.509706,53.204358,0
+          6.509346,53.204249,0
+          6.51006,53.203485,0
+          6.510685,53.202838,0
+          6.511074,53.202411,0
+          6.511714,53.201728,0
+          6.511923,53.201547,0
+          6.51203,53.201467,0
+          6.512127,53.20143,0
+          6.512242,53.20142,0
+          6.512297,53.201424,0
+          6.512549,53.201457,0
+          6.512809,53.201504,0
+          6.513378,53.20166,0
+          6.515713,53.202318,0
+          6.516314,53.20249,0
+          6.516506,53.202556,0
+          6.516618,53.202582,0
+          6.517031,53.202697,0
+          6.517862,53.202928,0
+          6.518054,53.20298,0
+          6.518256,53.203037,0
+          6.518398,53.203088,0
+          6.518451,53.203119,0
+          6.518508,53.203162,0
+          6.51855,53.20322,0
+          6.518575,53.203283,0
+          6.518581,53.203343,0
+          6.51857,53.203407,0
+          6.518421,53.203687,0
+          6.518216,53.204056,0
+          6.517996,53.204422,0
+          6.517661,53.204859,0
+          6.517311,53.205292,0
+          6.51701,53.205668,0
+          6.516885,53.205805,0
+          6.516836,53.205817,0
+          6.516753,53.205812,0
+          6.516657,53.205825,0
+          6.516468,53.205873,0
+          6.516261,53.205934,0
+          6.516072,53.206014,0
+          6.515919,53.206098,0
+          6.515797,53.206179,0
+          6.515704,53.206252,0
+          6.515606,53.20636,0
+          6.515498,53.206529,0
+          6.515395,53.206714,0
+          6.515292,53.2069,0
+          6.515194,53.207034,0
+          6.515115,53.207124,0
+          6.51502,53.207227,0
+          6.51496,53.207293,0
+          6.514881,53.207359,0
+          6.514737,53.207475,0
+          6.514628,53.207553,0
+          6.514514,53.207633,0
+          6.514389,53.207695,0
+          6.514337,53.207712,0
+          6.514291,53.207718,0
+          6.514272,53.20771,0
+          6.514292,53.207697,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Finish lopen</name>
+      <description><![CDATA[beschrijving: Keerpunt linksom voor de volgende ronde. Rechtdoor richting finishstraat in de laatste ronde. <br>name: Finish lopen<br>description: ]]></description>
+      <styleUrl>#line-097138-3131</styleUrl>
+      <ExtendedData>
+        <Data name="beschrijving">
+          <value>Keerpunt linksom voor de volgende ronde. Rechtdoor richting finishstraat in de laatste ronde. </value>
+        </Data>
+        <Data name="name">
+          <value>Finish lopen</value>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          6.5142908,53.2077181,0
+          6.5142379,53.2077214,0
+          6.5141891,53.2077327,0
+          6.5141924,53.2077656,0
+          6.5141871,53.2077905,0
+          6.5141441,53.2078194,0
+          6.5140342,53.207858,0
+          6.513774,53.2079463,0
+          6.5135359,53.2080264,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

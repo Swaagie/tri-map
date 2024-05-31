@@ -3,11 +3,7 @@ import { DOMParser } from 'xmldom';
 import tj from 'togeojson';
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { argv } from 'process';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const source = argv[2];
 let sources = await fs.readdir(source);
