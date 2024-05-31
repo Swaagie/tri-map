@@ -249,8 +249,8 @@
             </b>
           </p>
           <p>
-            <a id="fietsparcours" href="https://raw.githubusercontent.com/Swaagie/tri-map/main/data/speedman-fietsparcours.gpx">Fietsparcours GPX</a>
-            <a id="loopparcours" href="https://raw.githubusercontent.com/Swaagie/tri-map/main/data/speedman-loopparcours.gpx">Loopparcours GPX</a>
+            <a download="speedman-fietsparcours.gpx" href="assets/gpx/speedman-fietsparcours.gpx">Fietsparcours GPX</a><br>
+            <a download="speedman-loopparcours.gpx" href="assets/gpx/speedman-loopparcours.gpx">Loopparcours GPX</a>
           </p>
           <details>
             <summary><b>Wisselzone</b></summary>
@@ -464,22 +464,6 @@
               essential: true
           });
         });
-
-        // GPX download
-        document.getElementById('fietsparcours').addEventListener('click', downloadGPX);
-        document.getElementById('loopparcours').addEventListener('click', downloadGPX);
-
-        async function downloadGPX(event) {
-          const result = await fetch(event.target.href, { method: 'get' });
-          const blob = await result.blob();
-          const aElement = document.createElement('a');
-          aElement.setAttribute('download', name);
-          const href = URL.createObjectURL(blob);
-          aElement.href = href;
-          aElement.setAttribute('target', '_blank');
-          aElement.click();
-          URL.revokeObjectURL(href);
-        }
 
         // Fullscreen control
         map.addControl(new mapboxgl.FullscreenControl());
