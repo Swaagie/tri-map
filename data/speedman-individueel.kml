@@ -962,12 +962,12 @@
     <Folder>
       <name>Wisselzone en transities</name>
       <Placemark>
-        <name>Tijdregistratie transitie 1 in</name>
-        <description><![CDATA[beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch]]></description>
+        <name>Tijdbalk transitie 1 in</name>
+        <description><![CDATA[beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Tijdregistratie transitie 1</value>
+            <value>Tijdbalk transitie 1</value>
           </Data>
           <Data name="name">
             <value>fa-stopwatch</value>
@@ -1062,7 +1062,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Tijdregistratie transitie 2 in</name>
+        <name>Tijdbalk transitie 2 in</name>
         <description><![CDATA[beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
@@ -1107,12 +1107,12 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Tijdregistratie transitie 2 uit</name>
-        <description><![CDATA[beschrijving: Tijdregistratie transitie 2 en volgende loopronde<br>name: fa-stopwatch]]></description>
+        <name>Tijdbalk transitie 2 uit</name>
+        <description><![CDATA[beschrijving: Tijdbalk transitie 2 uit<br>name: fa-stopwatch]]></description>
         <styleUrl>#icon-1899-424242</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Tijdregistratie transitie 2 en volgende loopronde</value>
+            <value>Tijdbalk transitie 2 uit</value>
           </Data>
           <Data name="name">
             <value>fa-stopwatch</value>
@@ -1120,7 +1120,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5170408,53.2055713,0
+            6.5141722,53.207136,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1161,24 +1161,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Tijdregistratie ronde fietsen</name>
-        <description><![CDATA[beschrijving: Tijdregistratie fietsronde<br>name: fa-stopwatch]]></description>
-        <styleUrl>#icon-1899-424242</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Tijdregistratie fietsronde</value>
-          </Data>
-          <Data name="name">
-            <value>fa-stopwatch</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5069257,53.201613,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Captains/race briefing</name>
         <description><![CDATA[beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone]]></description>
         <styleUrl>#icon-1625-424242</styleUrl>
@@ -1193,6 +1175,24 @@
         <Point>
           <coordinates>
             6.514041,53.206898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tijdregistratie loopronde</name>
+        <description><![CDATA[beschrijving: Tijdregistratie loopronde<br>name: fa-stopwatch]]></description>
+        <styleUrl>#icon-1899-424242</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Tijdregistratie loopronde</value>
+          </Data>
+          <Data name="name">
+            <value>fa-stopwatch</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514291,53.207718,0
           </coordinates>
         </Point>
       </Placemark>
