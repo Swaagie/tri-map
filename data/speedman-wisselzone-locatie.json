@@ -171,6 +171,7 @@
           "normal": "#icon-1769-424242-normal",
           "highlight": "#icon-1769-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle",
         "beschrijving": "Check in/out vanaf registratie via fietsenstalling"
       }
@@ -859,6 +860,7 @@
           "normal": "#icon-1603-9C27B0-normal",
           "highlight": "#icon-1603-9C27B0-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Wisselvak estafette<br>name: fa-arrows-h",
         "beschrijving": "Wisselvak estafette"
       }
@@ -881,6 +883,7 @@
           "normal": "#icon-1625-424242-normal",
           "highlight": "#icon-1625-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
         "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
       }
@@ -903,6 +906,7 @@
           "normal": "#icon-1549-F9A825-normal",
           "highlight": "#icon-1549-F9A825-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Verzamelpunt kleding<br>name: fa-suitcase",
         "beschrijving": "Verzamelpunt kleding"
       }
@@ -1428,6 +1432,7 @@
           "normal": "#icon-1661-097138-normal",
           "highlight": "#icon-1661-097138-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Finish, bocht rechtsom voor het ingaan van volgende loopronde"
       }
@@ -1592,6 +1597,7 @@
           "normal": "#icon-1499-E65100-normal",
           "highlight": "#icon-1499-E65100-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Oversteekplaats"
       }
@@ -1614,6 +1620,7 @@
           "normal": "#icon-1499-E65100-normal",
           "highlight": "#icon-1499-E65100-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Oversteekplaats mixed zone"
       }
@@ -1636,6 +1643,7 @@
           "normal": "#icon-1577-0288D1-normal",
           "highlight": "#icon-1577-0288D1-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Verzorging loopparcours"
       }
@@ -1658,6 +1666,7 @@
           "normal": "#icon-1733-424242-normal",
           "highlight": "#icon-1733-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Plaszuilen en dixies"
       }
@@ -1680,6 +1689,7 @@
           "normal": "#icon-1733-424242-normal",
           "highlight": "#icon-1733-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Kleedkamer en wc's"
       }
@@ -1702,6 +1712,7 @@
           "normal": "#icon-1898-880E4F-normal",
           "highlight": "#icon-1898-880E4F-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Huidige locatie<br>name: fa-star",
         "beschrijving": "Huidige locatie"
       }
@@ -1724,6 +1735,7 @@
           "normal": "#icon-1898-880E4F-normal",
           "highlight": "#icon-1898-880E4F-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Huidige locatie<br>name: fa-star",
         "beschrijving": "Huidige locatie"
       }

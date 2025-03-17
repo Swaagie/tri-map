@@ -85,6 +85,7 @@
           "normal": "#icon-1769-424242-normal",
           "highlight": "#icon-1769-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle",
         "beschrijving": "Check in/out vanaf registratie via fietsenstalling"
       }
@@ -552,6 +553,7 @@
           "normal": "#icon-1603-9C27B0-normal",
           "highlight": "#icon-1603-9C27B0-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Wisselvak estafette<br>name: fa-arrows-h",
         "beschrijving": "Wisselvak estafette"
       }
@@ -574,6 +576,7 @@
           "normal": "#icon-1625-424242-normal",
           "highlight": "#icon-1625-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
         "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
       }
@@ -596,6 +599,7 @@
           "normal": "#icon-1549-F9A825-normal",
           "highlight": "#icon-1549-F9A825-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Verzamelpunt kleding<br>name: fa-suitcase",
         "beschrijving": "Verzamelpunt kleding"
       }
@@ -1316,6 +1320,7 @@
           "normal": "#icon-1625-424242-normal",
           "highlight": "#icon-1625-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
         "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
       }
@@ -1338,6 +1343,7 @@
           "normal": "#icon-1499-FF5252-normal",
           "highlight": "#icon-1499-FF5252-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Strafbox<br>name: fa-hourglass-half",
         "beschrijving": "Strafbox"
       }
@@ -1360,6 +1366,7 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Tijdbalk transitie 2 en volgende loopronde<br>name: fa-stopwatch",
         "beschrijving": "Tijdbalk transitie 2 en volgende loopronde"
       }
@@ -1382,6 +1389,7 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Balk transitie 1 en start transitie 2<br>name: fa-stopwatch",
         "beschrijving": "Balk transitie 1 en start transitie 2"
       }
@@ -1404,6 +1412,7 @@
           "normal": "#icon-1899-424242-normal",
           "highlight": "#icon-1899-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
         "beschrijving": "Tijdbalk transitie 1"
       }
@@ -1603,6 +1612,7 @@
           "normal": "#icon-1733-006064-normal",
           "highlight": "#icon-1733-006064-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Plaszuilen en dixies"
       }
@@ -1625,6 +1635,7 @@
           "normal": "#icon-1733-006064-normal",
           "highlight": "#icon-1733-006064-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Kleedkamer en wc's"
       }

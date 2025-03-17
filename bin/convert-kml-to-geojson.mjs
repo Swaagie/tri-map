@@ -1,6 +1,6 @@
 // const tj = require('@tmcw/togeojson'); // alternative
 import { DOMParser } from 'xmldom';
-import tj from 'togeojson';
+import tj from '@mapbox/togeojson';
 import fs from 'fs/promises';
 import path from 'path';
 import { argv } from 'process';

@@ -171,6 +171,7 @@
           "normal": "#icon-1769-424242-normal",
           "highlight": "#icon-1769-424242-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Check in/out vanaf registratie via fietsenstalling<br>name: fa-check-circle",
         "beschrijving": "Check in/out vanaf registratie via fietsenstalling"
       }
@@ -315,6 +316,7 @@
           "normal": "#icon-1899-097138-normal",
           "highlight": "#icon-1899-097138-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Keerpunt"
       }
@@ -337,6 +339,7 @@
           "normal": "#icon-1680-097138-normal",
           "highlight": "#icon-1680-097138-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Start lopen en keerpunt tweede ronde"
       }
@@ -616,6 +619,7 @@
           "normal": "#icon-1701-0288D1-normal",
           "highlight": "#icon-1701-0288D1-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Start zwemmen"
       }
@@ -638,6 +642,7 @@
           "normal": "#icon-1522-A52714-normal",
           "highlight": "#icon-1522-A52714-highlight"
         },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Start fietsen"
       }
