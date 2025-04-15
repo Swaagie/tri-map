@@ -4635,6 +4635,52 @@
         "description": "",
         "beschrijving": "Vrijwilliger helpen in wisselzone 2x"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4778497,
+          53.2065092,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4753264,
+          53.2060204,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
     }
   ]
 }

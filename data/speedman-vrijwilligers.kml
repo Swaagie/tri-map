@@ -3221,6 +3221,48 @@ kwart/standaard: 4 ronden</value>
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4778497,53.2065092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vrijwilliger fietsparcours</name>
+        <description><![CDATA[beschrijving: Vrijwilliger fietsparcours<br>name: fa-person<br>description: ]]></description>
+        <styleUrl>#icon-1592-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Vrijwilliger fietsparcours</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4753264,53.2060204,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
