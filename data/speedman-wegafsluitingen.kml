@@ -791,6 +791,48 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Aankondigingsbord afsluiting Roderwolderdijk bij Matsloot</name>
+        <description><![CDATA[beschrijving: Aankondigingsbord afsluiting Roderwolderdijk bij Matsloot<br>name: fa-bullhorn<br>description: ]]></description>
+        <styleUrl>#icon-1625-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Aankondigingsbord afsluiting Roderwolderdijk bij Matsloot</value>
+          </Data>
+          <Data name="name">
+            <value>fa-bullhorn</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.4614503,53.1993936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Afhekken 1 rijstrook rotonde richting roderwolderdijk</name>
+        <description><![CDATA[beschrijving: Afhekken 1 rijstrook rotonde richting roderwolderdijk<br>name: fa-ban<br>description: ]]></description>
+        <styleUrl>#icon-1898-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Afhekken 1 rijstrook rotonde richting roderwolderdijk</value>
+          </Data>
+          <Data name="name">
+            <value>fa-ban</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.5108492,53.2006696,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
