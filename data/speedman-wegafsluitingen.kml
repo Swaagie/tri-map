@@ -772,14 +772,14 @@
       <Placemark>
         <name>Weghalen betonblokken en paaltje bij Westpoort 
 </name>
-        <description><![CDATA[beschrijving: Weghalen betonblokken en paaltje bij Westpoort <br>name: fa-broken-chain<br>description: ]]></description>
+        <description><![CDATA[beschrijving: Weghalen betonblokken en paaltje bij Westpoort <br>name: fa-chain-broken<br>description: ]]></description>
         <styleUrl>#icon-1594-097138</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Weghalen betonblokken en paaltje bij Westpoort </value>
           </Data>
           <Data name="name">
-            <value>fa-broken-chain</value>
+            <value>fa-chain-broken</value>
           </Data>
           <Data name="description">
             <value/>
