@@ -143,7 +143,6 @@
           <h1>Legenda speedman triatlon</h1>
           <p style="color: red">
             <i class="fa-solid fa-warning"></i>
-            Laden en lossen teamtenten via parkeerplaats noordzijde<br>
             GEEN parkeergelegenheid! Parkeren bij P+R transferium Hoogkerk
           </p>
           <p>
@@ -245,13 +244,13 @@
             <b>
               Fietsen: Op de aanloopstroken naar de ronde en terug richting<br />
               wisselzone wordt links gereden. Op de Roderwolderdijk<br />
-              wordt na het keerpunt ook tot de viaduct links gereden.
+              wordt na het keerpunt tot het opdraaien van Westpoort ook links gereden.
             </b>
           </p>
-          <p>
+          <!-- <p>
             <a download="speedman-fietsparcours.gpx" href="assets/gpx/speedman-fietsparcours.gpx">Fietsparcours GPX</a><br>
             <a download="speedman-loopparcours.gpx" href="assets/gpx/speedman-loopparcours.gpx">Loopparcours GPX</a>
-          </p>
+          </p> -->
           <details>
             <summary><b>Wisselzone</b></summary>
             <div>
@@ -471,7 +470,7 @@
         // Use style control
         map.addControl(
           new MapboxStyleSwitcherControl(null, {
-            defaultStyle: 'Outdoors',
+            defaultStyle: 'streets',
             eventListeners: {
               onChange: () => {
                 map.once('styledata', render);
