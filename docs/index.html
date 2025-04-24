@@ -513,273 +513,318 @@
           zoom: 12, // starting zoom
         });
 
-        const query = new URL(window.location).searchParams.get('course');
-        const data = await fetchSourceFromGithub(
-          `speedman-${query || 'divisies'}.json`
-        );
+        // Add loading indicator
+        const loadingIndicator = document.createElement('div');
+        loadingIndicator.style.position = 'absolute';
+        loadingIndicator.style.top = '50%';
+        loadingIndicator.style.left = '50%';
+        loadingIndicator.style.transform = 'translate(-50%, -50%)';
+        loadingIndicator.style.padding = '10px';
+        loadingIndicator.style.background = 'white';
+        loadingIndicator.style.borderRadius = '5px';
+        loadingIndicator.style.boxShadow = '0 0 10px rgba(0,0,0,0.2)';
+        loadingIndicator.innerHTML = 'Loading map data...';
+        document.getElementById('map-all').appendChild(loadingIndicator);
 
-        const MapboxStyleSwitcherControl = exports.MapboxStyleSwitcherControl;
-
-        // Toggle legend based on map
-        const legend = document.getElementById(`legend-${query}`) || document.getElementById('legend-default');
-        if (legend) {
-          legend.style.display = 'block';
-          const header = legend.querySelector('h1');
-          header.addEventListener('click', (e) => {
-            e.stopPropagation();
-            legend.classList.toggle('collapsed');
-          });
-        }
-
-        document.getElementById('indeling').addEventListener('click', () => {
-          map.flyTo({
-              center: [6.513925, 53.207331],
-              zoom: 19.25,
-              pitch: 0,
-              bearing: 0,
-              duration: 5000,
-              essential: true
-          });
-        });
-
-        // Fullscreen control
-        map.addControl(new mapboxgl.FullscreenControl());
-
-        // Use style control
-        map.addControl(
-          new MapboxStyleSwitcherControl(null, {
-            defaultStyle: 'streets',
-            eventListeners: {
-              onChange: () => {
-                map.once('styledata', render);
-              },
-            },
-          })
-        );
-
-        // Navigation control
-        map.addControl(new mapboxgl.NavigationControl());
-
-        async function fetchSourceFromGithub(url) {
-          const response = await fetch(
-            `https://api.github.com/repos/swaagie/tri-map/contents/data/${url}`,
-            {
-              credentials: 'omit',
-              headers: {
-                Accept: 'application/vnd.github.v3.raw',
-              },
+        try {
+          // Wait for document to be ready
+          await new Promise(resolve => {
+            if (document.readyState === 'complete') {
+              resolve();
+            } else {
+              window.addEventListener('load', resolve);
             }
+          });
+
+          // Fetch data from GitHub
+          const query = new URL(window.location).searchParams.get('course');
+          const data = await fetchSourceFromGithub(
+            `speedman-${query || 'divisies'}.json`
           );
 
-          return await response.json();
-        }
+          // Wait for map to be loaded
+          await new Promise(resolve => map.once('load', resolve));
 
-        function getBoundingBox(coordinates = []) {
-          // Create a 'LngLatBounds' with both corners at the first coordinate.
-          const bounds = new mapboxgl.LngLatBounds(coordinates.slice(0, 2));
+          // Remove loading indicator
+          loadingIndicator.remove();
 
-          // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
-          for (const coord of coordinates) {
-            bounds.extend(coord);
+          const MapboxStyleSwitcherControl = exports.MapboxStyleSwitcherControl;
+
+          // Toggle legend based on map
+          const legend = document.getElementById(`legend-${query}`) || document.getElementById('legend-default');
+          if (legend) {
+            legend.style.display = 'block';
+            const header = legend.querySelector('h1');
+            header.addEventListener('click', (e) => {
+              e.stopPropagation();
+              legend.classList.toggle('collapsed');
+            });
           }
 
-          return bounds;
-        }
-
-        function point({ properties, geometry }, n, innerHTML) {
-          // Create a DOM element for each marker.
-          const el = document.createElement('div');
-
-          el.className = `marker fa-solid ${properties.name}`;
-          el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
-          el.innerHTML = innerHTML;
-
-          // Add markers with popups to the map.
-          if (properties.beschrijving) {
-            new mapboxgl.Marker(el)
-              .setLngLat(geometry.coordinates)
-              .setPopup(
-                new mapboxgl.Popup({ offset: 25 }) // add popups
-                  .setHTML(`<span>${properties.beschrijving}</span>`)
-              )
-              .addTo(map);
-          } else {
-            // Add markers with popups to the map.
-            new mapboxgl.Marker(el).setLngLat(geometry.coordinates).addTo(map);
-          }
-        }
-
-        function linestring({ properties, geometry }, n) {
-          // Route
-          map.addLayer({
-            id: 'layer-' + n,
-            type: 'line',
-            source: 'triathlon' + n,
-            layout: {
-              'line-join': 'round',
-              'line-cap': 'round',
-            },
-            paint: {
-              'line-color': properties.stroke,
-              'line-width': properties['stroke-width'],
-              'line-opacity': properties['stroke-opacity'],
-            },
+          document.getElementById('indeling').addEventListener('click', () => {
+            map.flyTo({
+                center: [6.513925, 53.207331],
+                zoom: 19.25,
+                pitch: 0,
+                bearing: 0,
+                duration: 5000,
+                essential: true
+            });
           });
 
-          if (properties.name.includes('text')) {
+          // Fullscreen control
+          map.addControl(new mapboxgl.FullscreenControl());
+
+          // Use style control
+          map.addControl(
+            new MapboxStyleSwitcherControl(null, {
+              defaultStyle: 'streets',
+              eventListeners: {
+                onChange: () => {
+                  map.once('styledata', render);
+                },
+              },
+            })
+          );
+
+          // Navigation control
+          map.addControl(new mapboxgl.NavigationControl());
+
+          async function fetchSourceFromGithub(url) {
+            const response = await fetch(
+              `https://api.github.com/repos/swaagie/tri-map/contents/data/${url}`,
+              {
+                credentials: 'omit',
+                headers: {
+                  Accept: 'application/vnd.github.v3.raw',
+                },
+              }
+            );
+
+            return await response.json();
+          }
+
+          function getBoundingBox(coordinates = []) {
+            // Create a 'LngLatBounds' with both corners at the first coordinate.
+            const bounds = new mapboxgl.LngLatBounds(coordinates.slice(0, 2));
+
+            // Extend the 'LngLatBounds' to include every coordinate in the bounds result.
+            for (const coord of coordinates) {
+              bounds.extend(coord);
+            }
+
+            return bounds;
+          }
+
+          function point({ properties, geometry }, n, innerHTML) {
+            // Create a DOM element for each marker.
+            const el = document.createElement('div');
+
+            // Check if Font Awesome is loaded
+            if (!document.fonts.check('1em "Font Awesome 6 Free"')) {
+              console.warn('Font Awesome not loaded yet, retrying marker creation...');
+              setTimeout(() => point({ properties, geometry }, n, innerHTML), 100);
+              return;
+            }
+
+            el.className = `marker fa-solid ${properties.name}`;
+            el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
+            el.innerHTML = innerHTML;
+
+            // Add markers with popups to the map.
+            if (properties.beschrijving) {
+              new mapboxgl.Marker(el)
+                .setLngLat(geometry.coordinates)
+                .setPopup(
+                  new mapboxgl.Popup({ offset: 25 }) // add popups
+                    .setHTML(`<span>${properties.beschrijving}</span>`)
+                )
+                .addTo(map);
+            } else {
+              // Add markers with popups to the map.
+              new mapboxgl.Marker(el).setLngLat(geometry.coordinates).addTo(map);
+            }
+          }
+
+          function linestring({ properties, geometry }, n) {
+            // Route
             map.addLayer({
-              id: n + '-text',
+              id: 'layer-' + n,
+              type: 'line',
+              source: 'triathlon' + n,
+              layout: {
+                'line-join': 'round',
+                'line-cap': 'round',
+              },
+              paint: {
+                'line-color': properties.stroke,
+                'line-width': properties['stroke-width'],
+                'line-opacity': properties['stroke-opacity'],
+              },
+            });
+
+            if (properties.name.includes('text')) {
+              map.addLayer({
+                id: n + '-text',
+                type: 'symbol',
+                source: 'triathlon' + n,
+                layout: {
+                  'symbol-placement': 'line',
+                  'symbol-placement': 'line-center',
+                  'text-allow-overlap': true,
+                  'text-field': ['get', 'beschrijving'],
+                  'text-line-height': 1.5,
+                  'text-padding': 0,
+                  'text-size': 18,
+                },
+                paint: {
+                  'text-color': '#333'
+                }
+              });
+            } else {
+              // Direction arrows
+              map.addLayer({
+                id: n + '-arrows',
+                type: 'symbol',
+                source: 'triathlon' + n,
+                layout: {
+                  'symbol-placement': 'line',
+                  'text-field': '➞',
+                  'text-size': [
+                    'interpolate',
+                    ['linear'],
+                    ['zoom'],
+                    20,
+                    24,
+                    22,
+                    60,
+                  ],
+                  'symbol-spacing': [
+                    'interpolate',
+                    ['linear'],
+                    ['zoom'],
+                    12,
+                    30,
+                    22,
+                    160,
+                  ],
+                  'text-keep-upright': false,
+                },
+                paint: {
+                  'text-color': properties.stroke,
+                  'text-halo-color': '#333',
+                  'text-halo-width': 1,
+                },
+              });
+            }
+          }
+
+          function polygon({ properties, geometry }, n) {
+            // Polygon outline
+            map.addLayer({
+              id: 'layer-' + n,
+              type: 'fill',
+              source: 'triathlon' + n,
+              layout: {},
+              paint: {
+                'fill-color': properties.fill,
+                'fill-opacity': properties['fill-opacity'],
+              },
+            });
+
+            // Polygon fill
+            map.addLayer({
+              id: n + '-line',
+              type: 'line',
+              source: 'triathlon' + n,
+              layout: {},
+              paint: {
+                'line-color': properties.stroke,
+                'line-width': properties['stroke-width'],
+              },
+            });
+
+            // Text labels on polygons
+            map.addLayer({
+              id: 'poi-labels-' + n,
               type: 'symbol',
               source: 'triathlon' + n,
               layout: {
-                'symbol-placement': 'line',
-                'symbol-placement': 'line-center',
-                'text-allow-overlap': true,
                 'text-field': ['get', 'beschrijving'],
-                'text-line-height': 1.5,
-                'text-padding': 0,
-                'text-size': 18,
+                'text-size': 16,
+                'text-allow-overlap': true
               },
               paint: {
                 'text-color': '#333'
               }
             });
-          } else {
-            // Direction arrows
-            map.addLayer({
-              id: n + '-arrows',
-              type: 'symbol',
-              source: 'triathlon' + n,
-              layout: {
-                'symbol-placement': 'line',
-                'text-field': '➞',
-                'text-size': [
-                  'interpolate',
-                  ['linear'],
-                  ['zoom'],
-                  20,
-                  24,
-                  22,
-                  60,
-                ],
-                'symbol-spacing': [
-                  'interpolate',
-                  ['linear'],
-                  ['zoom'],
-                  12,
-                  30,
-                  22,
-                  160,
-                ],
-                'text-keep-upright': false,
-              },
-              paint: {
-                'text-color': properties.stroke,
-                'text-halo-color': '#333',
-                'text-halo-width': 1,
-              },
-            });
           }
-        }
 
-        function polygon({ properties, geometry }, n) {
-          // Polygon outline
-          map.addLayer({
-            id: 'layer-' + n,
-            type: 'fill',
-            source: 'triathlon' + n,
-            layout: {},
-            paint: {
-              'fill-color': properties.fill,
-              'fill-opacity': properties['fill-opacity'],
-            },
-          });
+          // Initialize renderers
+          const renderers = {
+            Point: point,
+            LineString: linestring,
+            Polygon: polygon,
+          };
 
-          // Polygon fill
-          map.addLayer({
-            id: n + '-line',
-            type: 'line',
-            source: 'triathlon' + n,
-            layout: {},
-            paint: {
-              'line-color': properties.stroke,
-              'line-width': properties['stroke-width'],
-            },
-          });
+          function isVolunteer({ properties, geometry }) {
+            return geometry.type === 'Point' && properties.name === 'fa-person';
+          }
 
-          // Text labels on polygons
-          map.addLayer({
-            id: 'poi-labels-' + n,
-            type: 'symbol',
-            source: 'triathlon' + n,
-            layout: {
-              'text-field': ['get', 'beschrijving'],
-              'text-size': 16,
-              'text-allow-overlap': true
-            },
-            paint: {
-              'text-color': '#333'
-            }
-          });
-        }
+          function render() {
+            let k = 1;
 
-        const renderers = {
-          Point: point,
-          LineString: linestring,
-          Polygon: polygon,
-        };
+            // Loop over all features
+            data.features.forEach((feature, n) => {
+              // Add all data
+              map.addSource('triathlon' + n, {
+                type: 'geojson',
+                data: feature,
+              });
 
-        map.once('load', render);
-
-        function isVolunteer({ properties, geometry }) {
-          return geometry.type === 'Point' && properties.name === 'fa-person';
-        }
-
-        function render() {
-          let k = 1;
-
-          // Loop over all features
-          data.features.forEach((feature, n) => {
-            // Add all data
-            map.addSource('triathlon' + n, {
-              type: 'geojson',
-              data: feature,
+              renderers[feature.geometry.type](
+                feature,
+                n,
+                isVolunteer(feature) ? ` <small>${k++}</small>` : ''
+              );
             });
 
-            renderers[feature.geometry.type](
-              feature,
-              n,
-              isVolunteer(feature) ? ` <small>${k++}</small>` : ''
-            );
-          });
-        }
+            // Calculate bounding box, normalize per feature
+            map.fitBounds(
+              getBoundingBox(
+                data.features.reduce((acc, feature) => {
+                  let coordinates = [];
 
-        // Calculate bounding box, normalize per feature
-        map.fitBounds(
-          getBoundingBox(
-            data.features.reduce((acc, feature) => {
-              let coordinates = [];
+                  switch (feature.geometry.type) {
+                    case 'Point':
+                      coordinates = [feature.geometry.coordinates];
+                      break;
+                    case 'LineString':
+                      coordinates = feature.geometry.coordinates;
+                      break;
+                    case 'Polygon':
+                      coordinates = feature.geometry.coordinates[0];
+                      break;
+                  }
 
-              switch (feature.geometry.type) {
-                case 'Point':
-                  coordinates = [feature.geometry.coordinates];
-                  break;
-                case 'LineString':
-                  coordinates = feature.geometry.coordinates;
-                  break;
-                case 'Polygon':
-                  coordinates = feature.geometry.coordinates[0];
-                  break;
+                  acc.push.apply(acc, coordinates);
+                  return acc;
+                }, [])
+              ),
+              {
+                padding: 50,
               }
-
-              acc.push.apply(acc, coordinates);
-              return acc;
-            }, [])
-          ),
-          {
-            padding: 50,
+            );
           }
-        );
+
+          // Call render after everything is set up
+          render();
+
+        } catch (error) {
+          console.error('Error loading map data:', error);
+          loadingIndicator.innerHTML = 'Error loading map data. Please refresh the page.';
+          loadingIndicator.style.color = 'red';
+        }
       })();
     </script>
   </body>
