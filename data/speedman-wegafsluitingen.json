@@ -1,0 +1,1225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5143226,
+          53.2073568,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Check in/out 3x"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511415,
+          53.207363,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilligers kano's 4x"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.512962,
+          53.207939,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger inschrijving 2x"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5134997,
+          53.2080116,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger tijdwaarneming 3x "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5134708,
+          53.2080225,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger verzorging finish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5142348,
+          53.2077,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger verzorging loopparcours 2x"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.515713,
+          53.202318,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513378,
+          53.20166,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511958,
+          53.201511,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511024,
+          53.202439,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51015,
+          53.203384,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511381,
+          53.204818,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511387,
+          53.204597,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.512779,
+          53.204125,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513403,
+          53.203295,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.516926,
+          53.205659,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours + begeleiding registratiestroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514764,
+          53.203688,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours + kinderen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.50984,
+          53.207937,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger oversteek naar voetbal (lage prio)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.508614,
+          53.207958,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "vrijwilliger opgang fietspad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5072375,
+          53.2069608,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5168646,
+          53.2058106,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours + begeleiding registratiestroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5082396,
+          53.2052058,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5099318,
+          53.2033294,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.510868,
+          53.2024,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.511842,
+          53.201368,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51142,
+          53.201109,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.510888,
+          53.200705,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.509009,
+          53.20118,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5038009,
+          53.2025444,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger schoonmaken afvalzone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.490449,
+          53.206652,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.488856,
+          53.209512,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.480679,
+          53.207843,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4794998,
+          53.2098459,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.471279,
+          53.2081512,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.472236,
+          53.205507,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4715367,
+          53.2052215,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.450763,
+          53.197013,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.45079,
+          53.196948,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.461338,
+          53.199355,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.485868,
+          53.203661,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.496562,
+          53.204057,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.505044,
+          53.202219,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.508478,
+          53.20527,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours kinderen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.507911,
+          53.2014856,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger aanduiding keerpunt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4731415,
+          53.2055457,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5093194,
+          53.2042507,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5090845,
+          53.2041897,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1657-F57C00",
+        "styleHash": "-13f0d1bd",
+        "styleMapHash": {
+          "normal": "#icon-1657-F57C00-normal",
+          "highlight": "#icon-1657-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "StEB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5138357,
+          53.2070787,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Bewaken oversteek zwemmen, dicht zetten met hekken"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5132469,
+          53.2077943,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger oversteek balk 2x"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5139394,
+          53.2074264,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger helpen in wisselzone 2x"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4778497,
+          53.2065092,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4753264,
+          53.2060204,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person",
+        "styleUrl": "#icon-1592-0288D1",
+        "styleHash": "-61738f",
+        "styleMapHash": {
+          "normal": "#icon-1592-0288D1-normal",
+          "highlight": "#icon-1592-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Vrijwilliger fietsparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.506662,
+          53.208065,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-bullhorn",
+        "styleUrl": "#icon-1625-F57C00",
+        "styleHash": "3c31ba64",
+        "styleMapHash": {
+          "normal": "#icon-1625-F57C00-normal",
+          "highlight": "#icon-1625-F57C00-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "naam": "Vooraankondigingsbord Kruising zuiderweg/bangeweer > ten behoeve van afsluiting zuiderweg\n",
+        "beschrijving": "Vooraankondigingsbord Kruising zuiderweg/bangeweer > ten behoeve van afsluiting zuiderweg\n"
+      }
+    }
+  ]
+}
