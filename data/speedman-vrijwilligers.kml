@@ -591,6 +591,28 @@
         <styleUrl>#line-424242-3131-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-9C27B0-3000-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-9C27B0-3000-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-9C27B0-4000-normal">
       <LineStyle>
         <color>ffb0279c</color>
@@ -613,26 +635,26 @@
         <styleUrl>#line-9C27B0-4000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-A52714-3000-normal">
+    <Style id="line-FF5252-3000-normal">
       <LineStyle>
-        <color>ff1427a5</color>
+        <color>ff5252ff</color>
         <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-A52714-3000-highlight">
+    <Style id="line-FF5252-3000-highlight">
       <LineStyle>
-        <color>ff1427a5</color>
+        <color>ff5252ff</color>
         <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-A52714-3000">
+    <StyleMap id="line-FF5252-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-A52714-3000-normal</styleUrl>
+        <styleUrl>#line-FF5252-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-A52714-3000-highlight</styleUrl>
+        <styleUrl>#line-FF5252-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-000000-2000-77-normal">
@@ -1390,7 +1412,7 @@ standaard: 2 ronde</value>
       <Placemark>
         <name>Terugkomstrook fietsen</name>
         <description><![CDATA[beschrijving: <br>name: Terugkomstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-A52714-3000</styleUrl>
+        <styleUrl>#line-9C27B0-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -1488,7 +1510,7 @@ standaard: 2 ronde</value>
       <Placemark>
         <name>Aanloopstrook fietsen</name>
         <description><![CDATA[beschrijving: <br>name: Aanloopstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-A52714-3000</styleUrl>
+        <styleUrl>#line-9C27B0-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -1569,7 +1591,7 @@ standaard: 2 ronde</value>
       <Placemark>
         <name>Fietsparcours</name>
         <description><![CDATA[beschrijving: 10.6 km per ronde<br><br>achtste/sprint: 2 ronden<br>kwart/standaard: 4 ronden<br>name: Fietsparcours<br>description: ]]></description>
-        <styleUrl>#line-A52714-3000</styleUrl>
+        <styleUrl>#line-FF5252-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>10.6 km per ronde

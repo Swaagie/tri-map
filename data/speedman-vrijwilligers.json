@@ -1435,14 +1435,14 @@
       },
       "properties": {
         "name": "Terugkomstrook fietsen",
-        "styleUrl": "#line-A52714-3000",
-        "styleHash": "-60c775c4",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
         "styleMapHash": {
-          "normal": "#line-A52714-3000-normal",
-          "highlight": "#line-A52714-3000-highlight"
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
         },
         "description": "",
-        "stroke": "#a52714",
+        "stroke": "#9c27b0",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -1757,14 +1757,14 @@
       },
       "properties": {
         "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-A52714-3000",
-        "styleHash": "-60c775c4",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
         "styleMapHash": {
-          "normal": "#line-A52714-3000-normal",
-          "highlight": "#line-A52714-3000-highlight"
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
         },
         "description": "",
-        "stroke": "#a52714",
+        "stroke": "#9c27b0",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -2449,14 +2449,14 @@
       },
       "properties": {
         "name": "Fietsparcours",
-        "styleUrl": "#line-A52714-3000",
-        "styleHash": "-60c775c4",
+        "styleUrl": "#line-FF5252-3000",
+        "styleHash": "-58ec7324",
         "styleMapHash": {
-          "normal": "#line-A52714-3000-normal",
-          "highlight": "#line-A52714-3000-highlight"
+          "normal": "#line-FF5252-3000-normal",
+          "highlight": "#line-FF5252-3000-highlight"
         },
         "description": "",
-        "stroke": "#a52714",
+        "stroke": "#ff5252",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"

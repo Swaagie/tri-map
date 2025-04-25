@@ -620,17 +620,8 @@
           }
 
           function linestring({ properties, geometry }, n) {
-            // Route
             let lineColor = properties.stroke;
             
-            // Check if this is a bike transition section
-            if (properties.name === 'Aanloopstrook fietsen' || properties.name === 'Terugkomstrook fietsen' || 
-                properties.name === 'Fietsen uit' || properties.name === 'Fietsen in') {
-              lineColor = '#9c27b0'; // Purple color for all bike transition sections
-            } else if (properties.stroke === '#a52714') {
-              lineColor = '#e65100'; // Bright red for main bike course
-            }
-
             map.addLayer({
               id: 'layer-' + n,
               type: 'line',
