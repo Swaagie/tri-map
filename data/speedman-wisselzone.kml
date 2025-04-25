@@ -309,70 +309,48 @@
         <styleUrl>#line-097138-3131-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-9C27B0-4000-normal">
+    <Style id="line-9C27B0-3000-normal">
       <LineStyle>
         <color>ffb0279c</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-9C27B0-3000-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-4000-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
         <width>4</width>
       </LineStyle>
     </Style>
-    <Style id="line-9C27B0-4000-highlight">
+    <Style id="line-A52714-4000-highlight">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff1427a5</color>
         <width>6</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-9C27B0-4000">
+    <StyleMap id="line-A52714-4000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-9C27B0-4000-normal</styleUrl>
+        <styleUrl>#line-A52714-4000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-9C27B0-4000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-A52714-3000-normal">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-A52714-3000-highlight">
-      <LineStyle>
-        <color>ff1427a5</color>
-        <width>4.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-A52714-3000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-A52714-3000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-A52714-3000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-E65100-3000-normal">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-E65100-3000-highlight">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>4.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-E65100-3000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-E65100-3000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-E65100-3000-highlight</styleUrl>
+        <styleUrl>#line-A52714-4000-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-FFFFFF-2938-normal">
@@ -775,7 +753,7 @@
       <Placemark>
         <name>Naar check-in</name>
         <description><![CDATA[beschrijving: Naar check-in<br>name: ]]></description>
-        <styleUrl>#line-9C27B0-4000</styleUrl>
+        <styleUrl>#line-A52714-4000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Naar check-in</value>
@@ -993,7 +971,7 @@
       <Placemark>
         <name>Van/naar parkeerplaats A7 - richting inschrijving rechts houden</name>
         <description><![CDATA[beschrijving: Van/naar parkeerplaats A7 - richting inschrijving rechts houden<br>name: ]]></description>
-        <styleUrl>#line-9C27B0-4000</styleUrl>
+        <styleUrl>#line-A52714-4000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Van/naar parkeerplaats A7 - richting inschrijving rechts houden</value>
@@ -1195,7 +1173,7 @@
       <Placemark>
         <name>Fietsen in</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-A52714-3000</styleUrl>
+        <styleUrl>#line-9C27B0-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -1226,7 +1204,7 @@
       <Placemark>
         <name>Fietsen uit</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-E65100-3000</styleUrl>
+        <styleUrl>#line-9C27B0-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>

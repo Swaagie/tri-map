@@ -343,14 +343,14 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-9C27B0-4000",
-        "styleHash": "-c45f402",
+        "styleUrl": "#line-A52714-4000",
+        "styleHash": "-40439282",
         "styleMapHash": {
-          "normal": "#line-9C27B0-4000-normal",
-          "highlight": "#line-9C27B0-4000-highlight"
+          "normal": "#line-A52714-4000-normal",
+          "highlight": "#line-A52714-4000-highlight"
         },
         "description": "beschrijving: Naar check-in<br>name: ",
-        "stroke": "#9c27b0",
+        "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 4,
         "beschrijving": "Naar check-in"
@@ -805,14 +805,14 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-9C27B0-4000",
-        "styleHash": "-c45f402",
+        "styleUrl": "#line-A52714-4000",
+        "styleHash": "-40439282",
         "styleMapHash": {
-          "normal": "#line-9C27B0-4000-normal",
-          "highlight": "#line-9C27B0-4000-highlight"
+          "normal": "#line-A52714-4000-normal",
+          "highlight": "#line-A52714-4000-highlight"
         },
         "description": "beschrijving: Van/naar parkeerplaats A7 - richting inschrijving rechts houden<br>name: ",
-        "stroke": "#9c27b0",
+        "stroke": "#a52714",
         "stroke-opacity": 1,
         "stroke-width": 4,
         "beschrijving": "Van/naar parkeerplaats A7 - richting inschrijving rechts houden"
@@ -1145,14 +1145,14 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-A52714-3000",
-        "styleHash": "-60c775c4",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
         "styleMapHash": {
-          "normal": "#line-A52714-3000-normal",
-          "highlight": "#line-A52714-3000-highlight"
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
         },
         "description": "beschrijving: <br>name: ",
-        "stroke": "#a52714",
+        "stroke": "#9c27b0",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -1222,14 +1222,14 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-E65100-3000",
-        "styleHash": "32c63c5c",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
         "styleMapHash": {
-          "normal": "#line-E65100-3000-normal",
-          "highlight": "#line-E65100-3000-highlight"
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
         },
         "description": "beschrijving: <br>name: ",
-        "stroke": "#e65100",
+        "stroke": "#9c27b0",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""

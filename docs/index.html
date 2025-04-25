@@ -136,19 +136,15 @@
       }
 
       .inschrijving {
-        color: rgb(156, 39, 176);
+        color: rgb(165, 39, 20);
       }
 
       .zwemmen {
         color: rgb(2, 136, 209);
       }
 
-      .fietsen-uit {
-        color: rgb(230, 81, 0);
-      }
-
-      .fietsen-in {
-        color: rgb(165, 39, 20);
+      .fietsen-transitie {
+        color: rgb(156, 39, 176);
       }
 
       .lopen {
@@ -228,20 +224,12 @@
                   <td>Zwemmen in</td>
                 </tr>
                 <tr>
-                  <td class="fietsen-uit">
+                  <td class="fietsen-transitie">
                     <i class="fa-solid fa-long-arrow-right"></i
                     ><i class="fa-solid fa-long-arrow-right"></i
                     ><i class="fa-solid fa-long-arrow-right"></i>
                   </td>
-                  <td>Fietsen uit</td>
-                </tr>
-                <tr>
-                  <td class="fietsen-in">
-                    <i class="fa-solid fa-long-arrow-right"></i
-                    ><i class="fa-solid fa-long-arrow-right"></i
-                    ><i class="fa-solid fa-long-arrow-right"></i>
-                  </td>
-                  <td>Fietsen in</td>
+                  <td>Fietsen in/uit</td>
                 </tr>
                 <tr>
                   <td class="lopen">
@@ -280,7 +268,7 @@
                   <td>Verzamelpunt kleding</td>
                 </tr>
                 <tr>
-                  <td class="fietsen-uit">
+                  <td class="fietsen-transitie">
                     <i class="fa-solid fa-arrows-v">
                   </td>
                   <td>Oversteek naar mixed zone</td>
@@ -462,6 +450,10 @@
                     <i class="fa-solid fa-afvalzone" style="color: #ff5252"></i>
                     Afvalzone 200m
                   </li>
+                  <li>
+                    <i class="fa-solid fa-arrows-h" style="color: #9c27b0"></i>
+                    Aanloopstrook en Terugkomstrook
+                  </li>
                 </ul>
               </div>
             </details>
@@ -527,23 +519,11 @@
         document.getElementById('map-all').appendChild(loadingIndicator);
 
         try {
-          // Wait for document to be ready
-          await new Promise(resolve => {
-            if (document.readyState === 'complete') {
-              resolve();
-            } else {
-              window.addEventListener('load', resolve);
-            }
-          });
-
           // Fetch data from GitHub
           const query = new URL(window.location).searchParams.get('course');
           const data = await fetchSourceFromGithub(
             `speedman-${query || 'divisies'}.json`
           );
-
-          // Wait for map to be loaded
-          await new Promise(resolve => map.once('load', resolve));
 
           // Remove loading indicator
           loadingIndicator.remove();
@@ -620,13 +600,6 @@
             // Create a DOM element for each marker.
             const el = document.createElement('div');
 
-            // Check if Font Awesome is loaded
-            if (!document.fonts.check('1em "Font Awesome 6 Free"')) {
-              console.warn('Font Awesome not loaded yet, retrying marker creation...');
-              setTimeout(() => point({ properties, geometry }, n, innerHTML), 100);
-              return;
-            }
-
             el.className = `marker fa-solid ${properties.name}`;
             el.style.color = `#${properties.styleUrl.split('-')[2] || '333'}`;
             el.innerHTML = innerHTML;
@@ -648,6 +621,16 @@
 
           function linestring({ properties, geometry }, n) {
             // Route
+            let lineColor = properties.stroke;
+            
+            // Check if this is a bike transition section
+            if (properties.name === 'Aanloopstrook fietsen' || properties.name === 'Terugkomstrook fietsen' || 
+                properties.name === 'Fietsen uit' || properties.name === 'Fietsen in') {
+              lineColor = '#9c27b0'; // Purple color for all bike transition sections
+            } else if (properties.stroke === '#a52714') {
+              lineColor = '#e65100'; // Bright red for main bike course
+            }
+
             map.addLayer({
               id: 'layer-' + n,
               type: 'line',
@@ -657,7 +640,7 @@
                 'line-cap': 'round',
               },
               paint: {
-                'line-color': properties.stroke,
+                'line-color': lineColor,
                 'line-width': properties['stroke-width'],
                 'line-opacity': properties['stroke-opacity'],
               },
@@ -711,7 +694,7 @@
                   'text-keep-upright': false,
                 },
                 paint: {
-                  'text-color': properties.stroke,
+                  'text-color': lineColor,
                   'text-halo-color': '#333',
                   'text-halo-width': 1,
                 },
