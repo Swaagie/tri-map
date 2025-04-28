@@ -3072,16 +3072,16 @@
       },
       "properties": {
         "name": "Loopparcours Grunnman",
-        "styleUrl": "#line-87CEAC-5000",
-        "styleHash": "-38f01080",
+        "styleUrl": "#line-87CEAC-2938",
+        "styleHash": "-31533644",
         "styleMapHash": {
-          "normal": "#line-87CEAC-5000-normal",
-          "highlight": "#line-87CEAC-5000-highlight"
+          "normal": "#line-87CEAC-2938-normal",
+          "highlight": "#line-87CEAC-2938-highlight"
         },
         "description": "",
         "stroke": "#87ceac",
         "stroke-opacity": 1,
-        "stroke-width": 5,
+        "stroke-width": 2.938,
         "beschrijving": "5 km per ronde (8x rondje + 1x speedman ronde)\n"
       }
     },
@@ -17485,15 +17485,15 @@
       },
       "properties": {
         "name": "GrunnMan 2 rondes",
-        "styleUrl": "#line-FF5252-5000-nodesc",
-        "styleHash": "6b8be5e9",
+        "styleUrl": "#line-FF5252-2744-nodesc",
+        "styleHash": "306a8139",
         "styleMapHash": {
-          "normal": "#line-FF5252-5000-nodesc-normal",
-          "highlight": "#line-FF5252-5000-nodesc-highlight"
+          "normal": "#line-FF5252-2744-nodesc-normal",
+          "highlight": "#line-FF5252-2744-nodesc-highlight"
         },
         "stroke": "#ff5252",
         "stroke-opacity": 1,
-        "stroke-width": 5
+        "stroke-width": 2.744
       }
     }
   ]
