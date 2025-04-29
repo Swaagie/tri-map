@@ -13114,14 +13114,14 @@
       },
       "properties": {
         "name": "Loopparcours Grunnman",
-        "styleUrl": "#line-87CEAC-2938",
-        "styleHash": "-31533644",
+        "styleUrl": "#line-F9A825-2938",
+        "styleHash": "7b84f9bc",
         "styleMapHash": {
-          "normal": "#line-87CEAC-2938-normal",
-          "highlight": "#line-87CEAC-2938-highlight"
+          "normal": "#line-F9A825-2938-normal",
+          "highlight": "#line-F9A825-2938-highlight"
         },
         "description": "",
-        "stroke": "#87ceac",
+        "stroke": "#f9a825",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
         "beschrijving": "5 km per ronde (8x rondje + 1x speedman ronde)\n"

@@ -593,28 +593,6 @@
         <styleUrl>#line-424242-3131-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-87CEAC-2938-normal">
-      <LineStyle>
-        <color>ffacce87</color>
-        <width>2.938</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-87CEAC-2938-highlight">
-      <LineStyle>
-        <color>ffacce87</color>
-        <width>4.407</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-87CEAC-2938">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-87CEAC-2938-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-87CEAC-2938-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-9C27B0-3000-normal">
       <LineStyle>
         <color>ffb0279c</color>
@@ -657,6 +635,28 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-9C27B0-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-2938-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-2938-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-2938-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-FF5252-2550-normal">
@@ -3900,7 +3900,7 @@ kwart/standaard: 4 ronden</value>
       <Placemark>
         <name>Loopparcours Grunnman</name>
         <description><![CDATA[beschrijving: 5 km per ronde (8x rondje + 1x speedman ronde)<br><br>name: Loopparcours Grunnman<br>description: ]]></description>
-        <styleUrl>#line-87CEAC-2938</styleUrl>
+        <styleUrl>#line-F9A825-2938</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>5 km per ronde (8x rondje + 1x speedman ronde)
