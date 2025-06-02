@@ -35,5 +35,5 @@ const createFeatureCollection = (features) => ({
     features
 });
 
-writeFileSync(join(__dirname, '../data/speedman-divisies-fietsen.json'), JSON.stringify(createFeatureCollection(sortSegments(fietsenData)), null, 2));
-writeFileSync(join(__dirname, '../data/speedman-divisies-lopen.json'), JSON.stringify(createFeatureCollection(sortSegments(lopenData)), null, 2));
+writeFileSync(join(__dirname, '../data/speedman-parcours-fietsen.json'), JSON.stringify(createFeatureCollection(sortSegments(fietsenData)), null, 2));
+writeFileSync(join(__dirname, '../data/speedman-parcours-lopen.json'), JSON.stringify(createFeatureCollection(sortSegments(lopenData)), null, 2));
