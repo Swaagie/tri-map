@@ -7,8 +7,8 @@ const __dirname = dirname(__filename);
 
 const data = JSON.parse(readFileSync(join(__dirname, '../data/speedman-divisies.json'), 'utf8')).features.filter(f => f.geometry.type == 'LineString');
 
-const fietsenData = data.filter(f => f.properties.name.toLowerCase().includes('fiets'));
-const lopenData = data.filter(f => f.properties.name.toLowerCase().includes('lopen') || f.properties.name.toLowerCase().includes('loopparcours'));
+const fietsenData = data.filter(f => f.properties.name.toLowerCase().includes('fiets') && !f.properties.name.toLowerCase().includes('terugkom'));
+const lopenData = data.filter(f => f.properties.name.toLowerCase().includes('loopparcours'));
 
 const sortSegments = (segments) => {
     return segments.sort((a, b) => {
@@ -18,12 +18,6 @@ const sortSegments = (segments) => {
         // Aanloop comes first
         if (nameA.includes('aanloop') && !nameB.includes('aanloop')) return -1;
         if (!nameA.includes('aanloop') && nameB.includes('aanloop')) return 1;
-        
-        // Terugkom/finish comes last
-        if ((nameA.includes('terugkom') || nameA.includes('finish')) && 
-            !(nameB.includes('terugkom') || nameB.includes('finish'))) return 1;
-        if (!(nameA.includes('terugkom') || nameA.includes('finish')) && 
-            (nameB.includes('terugkom') || nameB.includes('finish'))) return -1;
         
         // Keep original order for other segments
         return 0;
