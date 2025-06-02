@@ -3,6 +3,20 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "name": "Aanloopstrook lopen",
+        "styleUrl": "#line-424242-3131",
+        "styleHash": "-3c171dc2",
+        "styleMapHash": {
+          "normal": "#line-424242-3131-normal",
+          "highlight": "#line-424242-3131-highlight"
+        },
+        "description": "",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Vanuit de wisselzone richting loopparcours"
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -160,29 +174,7 @@
             6.517045,
             53.2055729,
             0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Aanloopstrook lopen",
-        "styleUrl": "#line-424242-3131",
-        "styleHash": "-3c171dc2",
-        "styleMapHash": {
-          "normal": "#line-424242-3131-normal",
-          "highlight": "#line-424242-3131-highlight"
-        },
-        "description": "",
-        "stroke": "#424242",
-        "stroke-opacity": 1,
-        "stroke-width": 3.131,
-        "beschrijving": "Vanuit de wisselzone richting loopparcours"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+          ],
           [
             6.514292,
             53.207697,
@@ -687,29 +679,7 @@
             6.514292,
             53.207697,
             0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Loopparcours",
-        "styleUrl": "#line-097138-3000",
-        "styleHash": "75f7021c",
-        "styleMapHash": {
-          "normal": "#line-097138-3000-normal",
-          "highlight": "#line-097138-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#097138",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+          ],
           [
             6.5142908,
             53.2077181,
@@ -756,20 +726,6 @@
             0
           ]
         ]
-      },
-      "properties": {
-        "name": "Finish lopen",
-        "styleUrl": "#line-097138-3131",
-        "styleHash": "-31a3ee02",
-        "styleMapHash": {
-          "normal": "#line-097138-3131-normal",
-          "highlight": "#line-097138-3131-highlight"
-        },
-        "description": "",
-        "stroke": "#097138",
-        "stroke-opacity": 1,
-        "stroke-width": 3.131,
-        "beschrijving": "Keerpunt linksom voor de volgende ronde. Rechtdoor richting finishstraat in de laatste ronde. "
       }
     }
   ]

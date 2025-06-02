@@ -3,6 +3,20 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "name": "Aanloopstrook fietsen",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
+        "styleMapHash": {
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#9c27b0",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -305,29 +319,7 @@
             6.5081474,
             53.2014155,
             0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-9C27B0-3000",
-        "styleHash": "-2cc9d744",
-        "styleMapHash": {
-          "normal": "#line-9C27B0-3000-normal",
-          "highlight": "#line-9C27B0-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#9c27b0",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+          ],
           [
             6.505001,
             53.202187,
@@ -997,29 +989,7 @@
             6.505001,
             53.202187,
             0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Fietsparcours",
-        "styleUrl": "#line-FF5252-3000",
-        "styleHash": "-58ec7324",
-        "styleMapHash": {
-          "normal": "#line-FF5252-3000-normal",
-          "highlight": "#line-FF5252-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#ff5252",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+          ],
           [
             6.492302,
             53.204197,
@@ -1406,20 +1376,6 @@
             0
           ]
         ]
-      },
-      "properties": {
-        "name": "Terugkomstrook fietsen",
-        "styleUrl": "#line-9C27B0-3000",
-        "styleHash": "-2cc9d744",
-        "styleMapHash": {
-          "normal": "#line-9C27B0-3000-normal",
-          "highlight": "#line-9C27B0-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#9c27b0",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
       }
     }
   ]

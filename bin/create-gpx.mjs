@@ -35,5 +35,23 @@ const createFeatureCollection = (features) => ({
     features
 });
 
-writeFileSync(join(__dirname, '../data/speedman-parcours-fietsen.json'), JSON.stringify(createFeatureCollection(sortSegments(fietsenData)), null, 2));
-writeFileSync(join(__dirname, '../data/speedman-parcours-lopen.json'), JSON.stringify(createFeatureCollection(sortSegments(lopenData)), null, 2));
+const combineLineStrings = (features) => {
+    const coordinates = features.flatMap(f => f.geometry.coordinates);
+    return {
+        type: "Feature",
+        properties: {
+            name: "Combined Route",
+            ...features[0].properties
+        },
+        geometry: {
+            type: "LineString",
+            coordinates
+        }
+    };
+};
+
+const sortedFietsen = sortSegments(fietsenData);
+const sortedLopen = sortSegments(lopenData);
+
+writeFileSync(join(__dirname, '../data/speedman-parcours-fietsen.json'), JSON.stringify(createFeatureCollection([combineLineStrings(sortedFietsen)]), null, 2));
+writeFileSync(join(__dirname, '../data/speedman-parcours-lopen.json'), JSON.stringify(createFeatureCollection([combineLineStrings(sortedLopen)]), null, 2));
