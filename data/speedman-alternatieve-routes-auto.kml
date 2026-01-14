@@ -47,7 +47,43 @@
     </StyleMap>
     <Style id="line-1267FF-5000-nodesc-normal">
       <LineStyle>
-        <color>ffff6712</color>
+        <color>ffFF6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0070C0-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffC07000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00B050-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff50B000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF8000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0080FF</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7030A0-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffA03070</color>
         <width>5</width>
       </LineStyle>
       <BalloonStyle>
@@ -56,7 +92,43 @@
     </Style>
     <Style id="line-1267FF-5000-nodesc-highlight">
       <LineStyle>
-        <color>ffff6712</color>
+        <color>ffFF6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0070C0-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffC07000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00B050-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff50B000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF8000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0080FF</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7030A0-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffA03070</color>
         <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
@@ -73,11 +145,51 @@
         <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <StyleMap id="line-0070C0-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0070C0-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0070C0-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="line-00B050-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-00B050-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-00B050-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="line-FF8000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF8000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF8000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="line-7030A0-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7030A0-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7030A0-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Folder>
       <name>Hoogkerk noord en wijk</name>
       <Placemark>
         <name>Hoogkerk noord en wijk</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#line-0070C0-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -222,7 +334,7 @@
       <name><![CDATA[Auto's matsloot die richting hoogkerk willen]]></name>
       <Placemark>
         <name><![CDATA[Auto's matsloot die richting hoogkerk willen]]></name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#line-00B050-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1049,7 +1161,7 @@
       <name><![CDATA[Auto's en fietsers die over de roderwolderdijk will richting hoogkerk]]></name>
       <Placemark>
         <name><![CDATA[Auto's en fietsers die over de roderwolderdijk will richting hoogkerk]]></name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#line-FF8000-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1219,7 +1331,7 @@
       <name>Fietsers die door westpoort willen (via hoendiep)</name>
       <Placemark>
         <name>Fietsers die door westpoort willen (via hoendiep)</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#line-7030A0-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>

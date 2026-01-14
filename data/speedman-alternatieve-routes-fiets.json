@@ -585,11 +585,11 @@
       },
       "properties": {
         "name": "Hoogkerk noord en wijk",
-        "styleUrl": "#line-1267FF-5000-nodesc",
-        "styleHash": "-5954b8c7",
+        "styleUrl": "#line-0070C0-5000-nodesc",
+        "styleHash": "-5a9820bf",
         "styleMapHash": {
-          "normal": "#line-1267FF-5000-nodesc-normal",
-          "highlight": "#line-1267FF-5000-nodesc-highlight"
+          "normal": "#line-0070C0-5000-nodesc-normal",
+          "highlight": "#line-0070C0-5000-nodesc-highlight"
         },
         "stroke": "#0070C0",
         "stroke-opacity": 1,
@@ -1587,11 +1587,11 @@
       },
       "properties": {
         "name": "Fietsers die door westpoort willen (via hoendiep)",
-        "styleUrl": "#line-1267FF-5000-nodesc",
-        "styleHash": "-5954b8c7",
+        "styleUrl": "#line-00B050-5000-nodesc",
+        "styleHash": "6bd1bc47",
         "styleMapHash": {
-          "normal": "#line-1267FF-5000-nodesc-normal",
-          "highlight": "#line-1267FF-5000-nodesc-highlight"
+          "normal": "#line-00B050-5000-nodesc-normal",
+          "highlight": "#line-00B050-5000-nodesc-highlight"
         },
         "stroke": "#00B050",
         "stroke-opacity": 1,
@@ -2294,11 +2294,11 @@
       },
       "properties": {
         "name": "Fietsers bij matsloot (via hoendiep)",
-        "styleUrl": "#line-1267FF-5000-nodesc",
-        "styleHash": "-5954b8c7",
+        "styleUrl": "#line-FF8000-5000-nodesc",
+        "styleHash": "-d49dd1b",
         "styleMapHash": {
-          "normal": "#line-1267FF-5000-nodesc-normal",
-          "highlight": "#line-1267FF-5000-nodesc-highlight"
+          "normal": "#line-FF8000-5000-nodesc-normal",
+          "highlight": "#line-FF8000-5000-nodesc-highlight"
         },
         "stroke": "#FF8000",
         "stroke-opacity": 1,
@@ -3756,11 +3756,11 @@
       },
       "properties": {
         "name": "Fietsers bij matsloot (via PR v/d valk)",
-        "styleUrl": "#line-1267FF-5000-nodesc",
-        "styleHash": "-5954b8c7",
+        "styleUrl": "#line-7030A0-5000-nodesc",
+        "styleHash": "-5ceffc1",
         "styleMapHash": {
-          "normal": "#line-1267FF-5000-nodesc-normal",
-          "highlight": "#line-1267FF-5000-nodesc-highlight"
+          "normal": "#line-7030A0-5000-nodesc-normal",
+          "highlight": "#line-7030A0-5000-nodesc-highlight"
         },
         "stroke": "#7030A0",
         "stroke-opacity": 1,
