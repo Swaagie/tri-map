@@ -311,14 +311,14 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-9C27B0-4000",
-        "styleHash": "-c45f402",
+        "styleUrl": "#line-F9A825-4000",
+        "styleHash": "66fc3c3e",
         "styleMapHash": {
-          "normal": "#line-9C27B0-4000-normal",
-          "highlight": "#line-9C27B0-4000-highlight"
+          "normal": "#line-F9A825-4000-normal",
+          "highlight": "#line-F9A825-4000-highlight"
         },
         "description": "beschrijving: Naar check-in<br>name: ",
-        "stroke": "#9c27b0",
+        "stroke": "#f9a825",
         "stroke-opacity": 1,
         "stroke-width": 4,
         "beschrijving": "Naar check-in"

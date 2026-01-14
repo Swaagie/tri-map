@@ -649,28 +649,6 @@
         <styleUrl>#line-9C27B0-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-9C27B0-4000-normal">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-9C27B0-4000-highlight">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>6</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-9C27B0-4000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-9C27B0-4000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-9C27B0-4000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-F9A825-4000-normal">
       <LineStyle>
         <color>ff25a8f9</color>
@@ -985,7 +963,7 @@
       <Placemark>
         <name>Naar check-in</name>
         <description><![CDATA[beschrijving: Naar check-in<br>name: ]]></description>
-        <styleUrl>#line-9C27B0-4000</styleUrl>
+        <styleUrl>#line-F9A825-4000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value>Naar check-in</value>
