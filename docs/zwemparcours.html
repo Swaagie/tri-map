@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Graph Node Editor - Draggable Points</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      #info-panel {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        max-width: 350px;
+        max-height: calc(100vh - 20px);
+        overflow-y: auto;
+        z-index: 1000;
+      }
+      #info-panel h2 {
+        margin: 0 0 15px 0;
+        font-size: 18px;
+        color: #333;
+      }
+      .node-info {
+        margin-bottom: 15px;
+        padding: 10px;
+        background: #f5f5f5;
+        border-radius: 4px;
+        border-left: 3px solid #007cbf;
+      }
+      .node-info h3 {
+        margin: 0 0 8px 0;
+        font-size: 14px;
+        color: #007cbf;
+      }
+      .coordinates {
+        font-family: 'Monaco', 'Courier New', monospace;
+        font-size: 12px;
+        color: #666;
+        margin: 5px 0;
+      }
+      .distance-info {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 2px solid #ddd;
+      }
+      .distance-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+        font-size: 12px;
+        color: #555;
+      }
+      .distance-item .label {
+        font-weight: 500;
+      }
+      .distance-item .value {
+        font-family: 'Monaco', 'Courier New', monospace;
+        color: #007cbf;
+      }
+      .total-distance {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+        font-weight: 600;
+        color: #333;
+      }
+      .tile-selector {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        z-index: 1000;
+      }
+      .tile-selector select {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        background: white;
+      }
+      .tile-selector select:hover {
+        border-color: #007cbf;
+      }
+      .marker {
+        background-color: #007cbf;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        cursor: move;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+      }
+      .marker:hover {
+        transform: scale(1.2);
+        transition: transform 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="tile-selector">
+      <select id="tile-selector">
+        <option value="satellite" selected>Satellite</option>
+        <option value="dark">Dark</option>
+        <option value="osm">OpenStreetMap</option>
+      </select>
+    </div>
+    <div id="info-panel">
+      <h2>Graph Node Editor</h2>
+      <div id="nodes-info"></div>
+      <div class="distance-info">
+        <div class="total-distance" id="short-distance"></div>
+        <div class="total-distance" id="long-distance"></div>
+      </div>
+    </div>
+
+    <script>
+      mapboxgl.accessToken =
+        'pk.eyJ1Ijoic3dhYWdpZSIsImEiOiJja3phY3JjdXgyMW5vMndyeGtma2d6NWxkIn0.sVSiLelg5k2XwpdokGxYUQ';
+
+      // Tile configurations
+      const tileConfigs = {
+        satellite: {
+          version: 8,
+          sources: {
+            satellite: {
+              type: 'raster',
+              tiles: [
+                'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
+              ],
+              tileSize: 256,
+              attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+            }
+          },
+          layers: [
+            {
+              id: 'satellite',
+              type: 'raster',
+              source: 'satellite'
+            }
+          ]
+        },
+        dark: {
+          version: 8,
+          sources: {
+            dark: {
+              type: 'raster',
+              tiles: [
+                'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
+              ],
+              tileSize: 256,
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            }
+          },
+          layers: [
+            {
+              id: 'dark',
+              type: 'raster',
+              source: 'dark'
+            }
+          ]
+        },
+        osm: {
+          version: 8,
+          sources: {
+            osm: {
+              type: 'raster',
+              tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+              tileSize: 256,
+              attribution:
+                'Map tiles by <a target="_top" rel="noopener" href="https://tile.openstreetmap.org/">OpenStreetMap tile servers</a>, under the <a target="_top" rel="noopener" href="https://operations.osmfoundation.org/policies/tiles/">tile usage policy</a>. Data by <a target="_top" rel="noopener" href="http://openstreetmap.org">OpenStreetMap</a>',
+            },
+          },
+          layers: [
+            {
+              id: 'osm',
+              type: 'raster',
+              source: 'osm',
+            },
+          ],
+        }
+      };
+
+      const map = new mapboxgl.Map({
+        container: 'map',
+        style: tileConfigs.satellite, // Default to satellite
+        center: [6.511849, 53.206743], // Water location
+        zoom: 16, // Increased zoom to show nodes with better spacing
+      });
+
+      // Store graph layer configurations for re-adding after tile change
+      const graphEdgesLayerConfig = {
+        id: 'graph-edges',
+        type: 'line',
+        source: 'graph-edges',
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        paint: {
+          'line-color': '#007cbf',
+          'line-width': 3,
+          'line-opacity': 0.7
+        }
+      };
+
+      const graphEdgesShortLayerConfig = {
+        id: 'graph-edges-short',
+        type: 'line',
+        source: 'graph-edges-short',
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        paint: {
+          'line-color': '#ff6b35',
+          'line-width': 3,
+          'line-opacity': 0.7,
+          'line-dasharray': [2, 2]
+        }
+      };
+
+      const distanceLabelsLayerConfig = {
+        id: 'distance-labels',
+        type: 'symbol',
+        source: 'distance-labels',
+        layout: {
+          'text-field': ['get', 'distance'],
+          'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+          'text-size': 12,
+          'text-anchor': 'center',
+          'text-offset': [0, 0]
+        },
+        paint: {
+          'text-color': '#ffffff',
+          'text-halo-color': '#007cbf',
+          'text-halo-width': 2
+        }
+      };
+
+      // Tile selector functionality
+      const tileSelector = document.getElementById('tile-selector');
+      tileSelector.addEventListener('change', (e) => {
+        const selectedTile = e.target.value;
+        const style = tileConfigs[selectedTile];
+        
+        // Preserve graph layers and sources
+        const graphLayers = ['graph-edges', 'graph-edges-short', 'distance-labels'];
+        const graphSources = ['graph-edges', 'graph-edges-short', 'distance-labels'];
+        
+        // Temporarily remove graph layers (we'll re-add them on top)
+        graphLayers.forEach(layerId => {
+          if (map.getLayer(layerId)) {
+            map.removeLayer(layerId);
+          }
+        });
+        
+        // Remove only base map layers and sources
+        const existingLayers = map.getStyle().layers.map(l => l.id);
+        const existingSources = Object.keys(map.getStyle().sources);
+        
+        existingLayers.forEach(layerId => {
+          if (map.getLayer(layerId) && !graphLayers.includes(layerId)) {
+            map.removeLayer(layerId);
+          }
+        });
+        
+        existingSources.forEach(sourceId => {
+          if (map.getSource(sourceId) && !graphSources.includes(sourceId)) {
+            map.removeSource(sourceId);
+          }
+        });
+        
+        // Add new base map sources and layers first
+        Object.keys(style.sources).forEach(sourceId => {
+          map.addSource(sourceId, style.sources[sourceId]);
+        });
+        
+        style.layers.forEach(layer => {
+          map.addLayer(layer);
+        });
+        
+        // Re-add graph layers on top of base map (sources should still exist)
+        if (map.getSource('graph-edges')) {
+          map.addLayer(graphEdgesLayerConfig);
+        }
+        if (map.getSource('graph-edges-short')) {
+          map.addLayer(graphEdgesShortLayerConfig);
+        }
+        if (map.getSource('distance-labels')) {
+          map.addLayer(distanceLabelsLayerConfig);
+        }
+      });
+
+      map.addControl(new mapboxgl.ScaleControl({ position: 'bottom-right' }));
+      map.addControl(new mapboxgl.FullscreenControl());
+
+      // Initialize 6 nodes in a rough circle around the center
+      const center = [6.511849, 53.206743];
+      // Radius calculated for ~750m total distance (6 edges × 125m each)
+      // At 53° latitude: 125m ≈ 0.00115 degrees
+      const radius = 0.00115; // ~125m per edge, ~750m total
+      const nodes = [];
+      const markers = [];
+      const nodeInfo = [];
+      const edgeDistances = []; // Store distances for each edge
+      const swimEdges = new Set([0, 1, 2, 3, 4, 5]); // All edges are swim (all nodes are swim buoys)
+
+      // Calculate Haversine distance between two points in kilometers
+      function calculateDistance(coord1, coord2) {
+        const R = 6371; // Earth's radius in km
+        const dLat = (coord2[1] - coord1[1]) * Math.PI / 180;
+        const dLon = (coord2[0] - coord1[0]) * Math.PI / 180;
+        const a =
+          Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+          Math.cos(coord1[1] * Math.PI / 180) *
+            Math.cos(coord2[1] * Math.PI / 180) *
+            Math.sin(dLon / 2) *
+            Math.sin(dLon / 2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return R * c;
+      }
+
+      // Format distance for display
+      function formatDistance(km) {
+        if (km < 1) {
+          return (km * 1000).toFixed(0) + ' m';
+        }
+        return km.toFixed(2) + ' km';
+      }
+
+      // Calculate midpoint of a line segment for label placement
+      function getMidpoint(coord1, coord2) {
+        return [
+          (coord1[0] + coord2[0]) / 2,
+          (coord1[1] + coord2[1]) / 2
+        ];
+      }
+
+      // Update the graph visualization
+      function updateGraph() {
+        // Update coordinates
+        const coordinates = nodes.map(node => node.getLngLat().toArray());
+
+        // Calculate distances and store them
+        edgeDistances.length = 0;
+        const edgeMidpoints = [];
+        
+        for (let i = 0; i < nodes.length; i++) {
+          const current = coordinates[i];
+          const next = coordinates[(i + 1) % nodes.length];
+          const distance = calculateDistance(current, next);
+          edgeDistances.push(distance);
+          edgeMidpoints.push(getMidpoint(current, next));
+        }
+
+        // Update GeoJSON source for long route (all 6 nodes: 1→2→3→4→5→6→1)
+        if (map.getSource('graph-edges')) {
+          map.getSource('graph-edges').setData({
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: coordinates.concat([coordinates[0]]) // Close the cycle
+            }
+          });
+        }
+
+        // Update GeoJSON source for short route (first 4 nodes: 1→2→3→4→1)
+        if (map.getSource('graph-edges-short')) {
+          const shortRouteCoords = coordinates.slice(0, 4); // Nodes 1, 2, 3, 4
+          map.getSource('graph-edges-short').setData({
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: shortRouteCoords.concat([shortRouteCoords[0]]) // Close: 1→2→3→4→1
+            }
+          });
+        }
+
+        // Update distance labels (for the long route)
+        if (map.getSource('distance-labels')) {
+          const labelFeatures = edgeMidpoints.map((midpoint, i) => ({
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: midpoint
+            },
+            properties: {
+              distance: formatDistance(edgeDistances[i]),
+              edgeIndex: i
+            }
+          }));
+
+          map.getSource('distance-labels').setData({
+            type: 'FeatureCollection',
+            features: labelFeatures
+          });
+        }
+
+        // Update node info display
+        updateNodeInfo();
+        updateDistances();
+      }
+
+      // Update node information display
+      function updateNodeInfo() {
+        const nodesInfoDiv = document.getElementById('nodes-info');
+        nodesInfoDiv.innerHTML = '';
+
+        nodes.forEach((node, index) => {
+          const lngLat = node.getLngLat();
+          const nodeDiv = document.createElement('div');
+          nodeDiv.className = 'node-info';
+          nodeDiv.innerHTML = `
+            <h3>Node ${index + 1}</h3>
+            <div class="coordinates">Lat: ${lngLat.lat.toFixed(6)}</div>
+            <div class="coordinates">Lng: ${lngLat.lng.toFixed(6)}</div>
+          `;
+          nodesInfoDiv.appendChild(nodeDiv);
+        });
+      }
+
+      // Update distance calculations
+      function updateDistances() {
+        // Calculate short distance (nodes 1→2→3→4→1)
+        // edgeDistances[0] = 1→2, [1] = 2→3, [2] = 3→4
+        let shortDistance = 0;
+        for (let i = 0; i < 3; i++) {
+          shortDistance += edgeDistances[i];
+        }
+        // Add edge from node 4 to node 1 (closing the short route)
+        const coordinates = nodes.map(node => node.getLngLat().toArray());
+        const node4ToNode1Distance = calculateDistance(coordinates[3], coordinates[0]);
+        shortDistance += node4ToNode1Distance;
+
+        // Calculate long distance (all 6 nodes: 1→2→3→4→5→6→1)
+        let longDistance = 0;
+        for (let i = 0; i < edgeDistances.length; i++) {
+          longDistance += edgeDistances[i];
+        }
+
+        // Update short distance display
+        document.getElementById('short-distance').textContent = 
+          `Short Distance: ${formatDistance(shortDistance)}`;
+        
+        // Update long distance display
+        document.getElementById('long-distance').textContent = 
+          `Long Distance: ${formatDistance(longDistance)}`;
+      }
+
+      // Initialize nodes in a circle pattern
+      map.on('load', () => {
+        // Create initial node positions in a circle
+        for (let i = 0; i < 6; i++) {
+          const angle = (i * 2 * Math.PI) / 6;
+          const lng = center[0] + radius * Math.cos(angle);
+          const lat = center[1] + radius * Math.sin(angle);
+
+          const el = document.createElement('div');
+          el.className = 'marker';
+          el.textContent = (i + 1).toString();
+          el.style.width = '30px';
+          el.style.height = '30px';
+          el.style.borderRadius = '50%';
+          el.style.backgroundColor = '#007cbf';
+          el.style.border = '3px solid white';
+          el.style.boxShadow = '0 2px 4px rgba(0,0,0,0.3)';
+          el.style.cursor = 'move';
+          el.style.display = 'flex';
+          el.style.alignItems = 'center';
+          el.style.justifyContent = 'center';
+          el.style.fontWeight = 'bold';
+          el.style.color = 'white';
+          el.style.fontSize = '14px';
+
+          const marker = new mapboxgl.Marker({
+            element: el,
+            draggable: true
+          })
+            .setLngLat([lng, lat])
+            .addTo(map);
+
+          marker.on('drag', () => {
+            updateGraph();
+          });
+
+          marker.on('dragend', () => {
+            updateGraph();
+          });
+
+          nodes.push(marker);
+        }
+
+        // Add line source for graph edges
+        map.addSource('graph-edges', {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: []
+            }
+          }
+        });
+
+        // Add line layer for long route
+        map.addLayer({
+          id: 'graph-edges',
+          type: 'line',
+          source: 'graph-edges',
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          paint: {
+            'line-color': '#007cbf',
+            'line-width': 3,
+            'line-opacity': 0.7
+          }
+        });
+
+        // Add line source for short route (1→2→3→4→1)
+        map.addSource('graph-edges-short', {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: []
+            }
+          }
+        });
+
+        // Add line layer for short route
+        map.addLayer({
+          id: 'graph-edges-short',
+          type: 'line',
+          source: 'graph-edges-short',
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          paint: {
+            'line-color': '#ff6b35',
+            'line-width': 3,
+            'line-opacity': 0.7,
+            'line-dasharray': [2, 2]
+          }
+        });
+
+        // Add source for distance labels
+        map.addSource('distance-labels', {
+          type: 'geojson',
+          data: {
+            type: 'FeatureCollection',
+            features: []
+          }
+        });
+
+        // Add symbol layer for distance labels
+        map.addLayer({
+          id: 'distance-labels',
+          type: 'symbol',
+          source: 'distance-labels',
+          layout: {
+            'text-field': ['get', 'distance'],
+            'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+            'text-size': 12,
+            'text-anchor': 'center',
+            'text-offset': [0, 0]
+          },
+          paint: {
+            'text-color': '#ffffff',
+            'text-halo-color': '#007cbf',
+            'text-halo-width': 2
+          }
+        });
+
+        // Initial update
+        updateGraph();
+      });
+    </script>
+  </body>
+</html>
+
