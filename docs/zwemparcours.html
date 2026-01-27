@@ -480,13 +480,20 @@
           `Long Distance: ${formatDistance(longDistance)}`;
       }
 
-      // Initialize nodes in a circle pattern
+      // Initialize nodes with specific starter positions
+      const starterPositions = [
+        [6.513212, 53.206357],  // Node 1
+        [6.512525, 53.207161],  // Node 2
+        [6.510218, 53.207161],  // Node 3
+        [6.510916, 53.206113],  // Node 4
+        [6.514810, 53.205252],  // Node 5
+        [6.515390, 53.205541]   // Node 6
+      ];
+
       map.on('load', () => {
-        // Create initial node positions in a circle
+        // Create initial node positions from starter positions
         for (let i = 0; i < 6; i++) {
-          const angle = (i * 2 * Math.PI) / 6;
-          const lng = center[0] + radius * Math.cos(angle);
-          const lat = center[1] + radius * Math.sin(angle);
+          const [lng, lat] = starterPositions[i];
 
           const el = document.createElement('div');
           el.className = 'marker';
