@@ -533,7 +533,7 @@
           F: finishCoord
         };
 
-        const youthRoute = ['S', '1', '2', '6', 'F'];
+        const youthRoute = ['S', '1', '2', 'F'];
         const shortRoute = ['S', '1', '2', '3', '6', 'F'];
         const quarterRoute = ['S', '1', '2', '3', '6', '1', '2', '3', '6', 'F'];
         const divisieRoute = ['S', '1', '2', '3', '4', '5', '6', '1', '2', '3', '4', '5', '6', 'F'];
@@ -710,7 +710,8 @@
         };
 
         const nodeS2Distance = calculateDistance(pointMap.S, pointMap[2]);
-        const youthDistance = routeDistance(['S', '1', '2', '6', 'F']);
+        const youthDistance = routeDistance(['S', '1', '2', 'F']);
+        const juniorenDistance = Math.max(0, youthDistance - 0.025); // subtract 25m beach section
         const shortDistance = routeDistance(['S', '1', '2', '3', '6', 'F']);
         const quarterDistance = routeDistance(['S', '1', '2', '3', '6', '1', '2', '3', '6', 'F']);
         const divisieDistance = routeDistance(['S', '1', '2', '3', '4', '5', '6', '1', '2', '3', '4', '5', '6', 'F']);
@@ -721,7 +722,7 @@
 
         // Toon jeugdafstand
         document.getElementById('youth-distance').textContent =
-          `Jeugdafstand: ${formatDistance(youthDistance)}`;
+          `Junioren afstand: ${formatDistance(juniorenDistance)}`;
 
         // Toon 1/8 afstand
         document.getElementById('short-distance').textContent = 
@@ -739,9 +740,9 @@
       // Initialize nodes with specific starter positions
       const starterPositions = [
         [6.512960, 53.206728],  // Boei 6
-        [6.512426, 53.207299],  // Boei 1
-        [6.510238, 53.207243],  // Boei 2
-        [6.511072, 53.206077],  // Boei 3
+        [6.512446, 53.207287],  // Boei 1
+        [6.510244, 53.207194],  // Boei 2
+        [6.511059, 53.206015],  // Boei 3
         [6.514130, 53.205488],  // Boei 4
         [6.514467, 53.205703]   // Boei 5
       ];
@@ -913,7 +914,7 @@
           }
         });
 
-        // Add line source for youth route (1→2→6)
+        // Add line source for junioren route (S→1→2→F)
         map.addSource('graph-edges-youth', {
           type: 'geojson',
           data: {
