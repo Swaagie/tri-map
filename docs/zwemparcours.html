@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Graph Node Editor - Draggable Points</title>
+    <title>Zwemparcours Boeieneditor</title>
     <meta
       name="viewport"
       content="initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -86,6 +86,34 @@
         font-weight: 600;
         color: #333;
       }
+      .distance-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+      }
+      .distance-row .label {
+        flex: 1;
+      }
+      .distance-row input[type='checkbox'] {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+      #turn-distance {
+        color: #f59e0b;
+      }
+      #youth-distance {
+        color: #22c55e;
+      }
+      #short-distance {
+        color: #ff6b35;
+      }
+      #quarter-distance {
+        color: #a855f7;
+      }
+      #long-distance {
+        color: #007cbf;
+      }
       .tile-selector {
         position: absolute;
         top: 10px;
@@ -126,23 +154,47 @@
         transform: scale(1.2);
         transition: transform 0.2s;
       }
+      .marker-sf {
+        background-color: #16a34a;
+      }
+      .marker-sf.finish {
+        background-color: #dc2626;
+      }
     </style>
   </head>
   <body>
     <div id="map"></div>
     <div class="tile-selector">
       <select id="tile-selector">
-        <option value="satellite" selected>Satellite</option>
-        <option value="dark">Dark</option>
+        <option value="satellite" selected>Satelliet</option>
+        <option value="dark">Donker</option>
         <option value="osm">OpenStreetMap</option>
       </select>
     </div>
     <div id="info-panel">
-      <h2>Graph Node Editor</h2>
+      <h2>Zwemparcours Boeienoverzicht</h2>
       <div id="nodes-info"></div>
       <div class="distance-info">
-        <div class="total-distance" id="short-distance"></div>
-        <div class="total-distance" id="long-distance"></div>
+        <div class="total-distance distance-row">
+          <span class="label" id="turn-distance"></span>
+          <input type="checkbox" id="toggle-turn-edge" checked />
+        </div>
+        <div class="total-distance distance-row">
+          <span class="label" id="youth-distance"></span>
+          <input type="checkbox" id="toggle-youth-edge" checked />
+        </div>
+        <div class="total-distance distance-row">
+          <span class="label" id="short-distance"></span>
+          <input type="checkbox" id="toggle-short-edge" checked />
+        </div>
+        <div class="total-distance distance-row">
+          <span class="label" id="quarter-distance"></span>
+          <input type="checkbox" id="toggle-quarter-edge" checked />
+        </div>
+        <div class="total-distance distance-row">
+          <span class="label" id="long-distance"></span>
+          <input type="checkbox" id="toggle-long-edge" checked />
+        </div>
       </div>
     </div>
 
@@ -236,6 +288,22 @@
         }
       };
 
+      const graphEdgesTurnLayerConfig = {
+        id: 'graph-edges-turn',
+        type: 'line',
+        source: 'graph-edges-turn',
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        paint: {
+          'line-color': '#f59e0b',
+          'line-width': 3,
+          'line-opacity': 0.85,
+          'line-dasharray': [0.8, 1.2]
+        }
+      };
+
       const graphEdgesShortLayerConfig = {
         id: 'graph-edges-short',
         type: 'line',
@@ -249,6 +317,38 @@
           'line-width': 3,
           'line-opacity': 0.7,
           'line-dasharray': [2, 2]
+        }
+      };
+
+      const graphEdgesYouthLayerConfig = {
+        id: 'graph-edges-youth',
+        type: 'line',
+        source: 'graph-edges-youth',
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        paint: {
+          'line-color': '#22c55e',
+          'line-width': 3,
+          'line-opacity': 0.8,
+          'line-dasharray': [1, 1]
+        }
+      };
+
+      const graphEdgesQuarterLayerConfig = {
+        id: 'graph-edges-quarter',
+        type: 'line',
+        source: 'graph-edges-quarter',
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round'
+        },
+        paint: {
+          'line-color': '#a855f7',
+          'line-width': 3,
+          'line-opacity': 0.8,
+          'line-dasharray': [3, 1]
         }
       };
 
@@ -277,8 +377,8 @@
         const style = tileConfigs[selectedTile];
         
         // Preserve graph layers and sources
-        const graphLayers = ['graph-edges', 'graph-edges-short', 'distance-labels'];
-        const graphSources = ['graph-edges', 'graph-edges-short', 'distance-labels'];
+        const graphLayers = ['graph-edges', 'graph-edges-turn', 'graph-edges-short', 'graph-edges-youth', 'graph-edges-quarter', 'distance-labels'];
+        const graphSources = ['graph-edges', 'graph-edges-turn', 'graph-edges-short', 'graph-edges-youth', 'graph-edges-quarter', 'distance-labels'];
         
         // Temporarily remove graph layers (we'll re-add them on top)
         graphLayers.forEach(layerId => {
@@ -316,12 +416,22 @@
         if (map.getSource('graph-edges')) {
           map.addLayer(graphEdgesLayerConfig);
         }
+        if (map.getSource('graph-edges-turn')) {
+          map.addLayer(graphEdgesTurnLayerConfig);
+        }
         if (map.getSource('graph-edges-short')) {
           map.addLayer(graphEdgesShortLayerConfig);
+        }
+        if (map.getSource('graph-edges-youth')) {
+          map.addLayer(graphEdgesYouthLayerConfig);
+        }
+        if (map.getSource('graph-edges-quarter')) {
+          map.addLayer(graphEdgesQuarterLayerConfig);
         }
         if (map.getSource('distance-labels')) {
           map.addLayer(distanceLabelsLayerConfig);
         }
+        applyEdgeVisibility();
       });
 
       map.addControl(new mapboxgl.ScaleControl({ position: 'bottom-right' }));
@@ -333,10 +443,43 @@
       // At 53° latitude: 125m ≈ 0.00115 degrees
       const radius = 0.00115; // ~125m per edge, ~750m total
       const nodes = [];
-      const markers = [];
-      const nodeInfo = [];
-      const edgeDistances = []; // Store distances for each edge
-      const swimEdges = new Set([0, 1, 2, 3, 4, 5]); // All edges are swim (all nodes are swim buoys)
+      let startMarker = null;
+      let finishMarker = null;
+      const edgeVisibility = {
+        'graph-edges-turn': true,
+        'graph-edges-youth': true,
+        'graph-edges-short': true,
+        'graph-edges-quarter': true,
+        'graph-edges': true
+      };
+
+      function applyEdgeVisibility() {
+        Object.entries(edgeVisibility).forEach(([layerId, visible]) => {
+          if (map.getLayer(layerId)) {
+            map.setLayoutProperty(layerId, 'visibility', visible ? 'visible' : 'none');
+          }
+        });
+      }
+
+      function setupEdgeToggles() {
+        const toggles = [
+          { inputId: 'toggle-turn-edge', layerId: 'graph-edges-turn' },
+          { inputId: 'toggle-youth-edge', layerId: 'graph-edges-youth' },
+          { inputId: 'toggle-short-edge', layerId: 'graph-edges-short' },
+          { inputId: 'toggle-quarter-edge', layerId: 'graph-edges-quarter' },
+          { inputId: 'toggle-long-edge', layerId: 'graph-edges' }
+        ];
+
+        toggles.forEach(({ inputId, layerId }) => {
+          const toggle = document.getElementById(inputId);
+          if (!toggle) return;
+          toggle.checked = edgeVisibility[layerId];
+          toggle.addEventListener('change', () => {
+            edgeVisibility[layerId] = toggle.checked;
+            applyEdgeVisibility();
+          });
+        });
+      }
 
       // Calculate Haversine distance between two points in kilometers
       function calculateDistance(coord1, coord2) {
@@ -373,55 +516,103 @@
       function updateGraph() {
         // Update coordinates
         const coordinates = nodes.map(node => node.getLngLat().toArray());
-
-        // Calculate distances and store them
-        edgeDistances.length = 0;
-        const edgeMidpoints = [];
-        
-        for (let i = 0; i < nodes.length; i++) {
-          const current = coordinates[i];
-          const next = coordinates[(i + 1) % nodes.length];
-          const distance = calculateDistance(current, next);
-          edgeDistances.push(distance);
-          edgeMidpoints.push(getMidpoint(current, next));
+        if (!startMarker || !finishMarker) {
+          return;
         }
 
-        // Update GeoJSON source for long route (all 6 nodes: 1→2→3→4→5→6→1)
+        const startCoord = startMarker.getLngLat().toArray();
+        const finishCoord = finishMarker.getLngLat().toArray();
+        const pointMap = {
+          S: startCoord,
+          1: coordinates[1],
+          2: coordinates[2],
+          3: coordinates[3],
+          4: coordinates[4],
+          5: coordinates[5],
+          6: coordinates[0],
+          F: finishCoord
+        };
+
+        const youthRoute = ['S', '1', '2', '6', 'F'];
+        const shortRoute = ['S', '1', '2', '3', '6', 'F'];
+        const quarterRoute = ['S', '1', '2', '3', '6', '1', '2', '3', '6', 'F'];
+        const divisieRoute = ['S', '1', '2', '3', '4', '5', '6', '1', '2', '3', '4', '5', '6', 'F'];
+        const turnRoute = ['S', '2'];
+
+        const toCoordinates = (route) => route.map((key) => pointMap[key]);
+
+        // Update S->2 route
+        if (map.getSource('graph-edges-turn')) {
+          map.getSource('graph-edges-turn').setData({
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: toCoordinates(turnRoute)
+            }
+          });
+        }
+
+        // Update divisie route
         if (map.getSource('graph-edges')) {
           map.getSource('graph-edges').setData({
             type: 'Feature',
             geometry: {
               type: 'LineString',
-              coordinates: coordinates.concat([coordinates[0]]) // Close the cycle
+              coordinates: toCoordinates(divisieRoute)
             }
           });
         }
 
-        // Update GeoJSON source for short route (first 4 nodes: 1→2→3→4→1)
+        // Update 1/8 route
         if (map.getSource('graph-edges-short')) {
-          const shortRouteCoords = coordinates.slice(0, 4); // Nodes 1, 2, 3, 4
           map.getSource('graph-edges-short').setData({
             type: 'Feature',
             geometry: {
               type: 'LineString',
-              coordinates: shortRouteCoords.concat([shortRouteCoords[0]]) // Close: 1→2→3→4→1
+              coordinates: toCoordinates(shortRoute)
             }
           });
         }
 
-        // Update distance labels (for the long route)
-        if (map.getSource('distance-labels')) {
-          const labelFeatures = edgeMidpoints.map((midpoint, i) => ({
+        // Update youth route
+        if (map.getSource('graph-edges-youth')) {
+          map.getSource('graph-edges-youth').setData({
             type: 'Feature',
             geometry: {
-              type: 'Point',
-              coordinates: midpoint
-            },
-            properties: {
-              distance: formatDistance(edgeDistances[i]),
-              edgeIndex: i
+              type: 'LineString',
+              coordinates: toCoordinates(youthRoute)
             }
-          }));
+          });
+        }
+
+        // Update 1/4 route
+        if (map.getSource('graph-edges-quarter')) {
+          map.getSource('graph-edges-quarter').setData({
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: toCoordinates(quarterRoute)
+            }
+          });
+        }
+
+        // Update distance labels (for divisie route segments)
+        if (map.getSource('distance-labels')) {
+          const divisieCoords = toCoordinates(divisieRoute);
+          const labelFeatures = [];
+          for (let i = 0; i < divisieCoords.length - 1; i++) {
+            labelFeatures.push({
+              type: 'Feature',
+              geometry: {
+                type: 'Point',
+                coordinates: getMidpoint(divisieCoords[i], divisieCoords[i + 1])
+              },
+              properties: {
+                distance: formatDistance(calculateDistance(divisieCoords[i], divisieCoords[i + 1])),
+                edgeIndex: i
+              }
+            });
+          }
 
           map.getSource('distance-labels').setData({
             type: 'FeatureCollection',
@@ -432,63 +623,130 @@
         // Update node info display
         updateNodeInfo();
         updateDistances();
+        applyEdgeVisibility();
+
       }
 
-      // Update node information display
+      // Werk boei-informatie in het overzicht bij
       function updateNodeInfo() {
         const nodesInfoDiv = document.getElementById('nodes-info');
         nodesInfoDiv.innerHTML = '';
 
-        nodes.forEach((node, index) => {
+        const sortedNodes = nodes
+          .map((node, index) => ({
+            node,
+            nodeNumber: ((index + 5) % 6) + 1
+          }))
+          .sort((a, b) => a.nodeNumber - b.nodeNumber);
+
+        sortedNodes.forEach(({ node, nodeNumber }) => {
           const lngLat = node.getLngLat();
           const nodeDiv = document.createElement('div');
           nodeDiv.className = 'node-info';
           nodeDiv.innerHTML = `
-            <h3>Node ${index + 1}</h3>
-            <div class="coordinates">Lat: ${lngLat.lat.toFixed(6)}</div>
-            <div class="coordinates">Lng: ${lngLat.lng.toFixed(6)}</div>
+            <h3>Boei ${nodeNumber}</h3>
+            <div class="coordinates">Breedtegraad: ${lngLat.lat.toFixed(6)}</div>
+            <div class="coordinates">Lengtegraad: ${lngLat.lng.toFixed(6)}</div>
           `;
           nodesInfoDiv.appendChild(nodeDiv);
         });
+
+        if (startMarker) {
+          const startLngLat = startMarker.getLngLat();
+          const startDiv = document.createElement('div');
+          startDiv.className = 'node-info';
+          startDiv.innerHTML = `
+            <h3>Start (S)</h3>
+            <div class="coordinates">Breedtegraad: ${startLngLat.lat.toFixed(6)}</div>
+            <div class="coordinates">Lengtegraad: ${startLngLat.lng.toFixed(6)}</div>
+          `;
+          nodesInfoDiv.appendChild(startDiv);
+        }
+
+        if (finishMarker) {
+          const finishLngLat = finishMarker.getLngLat();
+          const finishDiv = document.createElement('div');
+          finishDiv.className = 'node-info';
+          finishDiv.innerHTML = `
+            <h3>Finish (F)</h3>
+            <div class="coordinates">Breedtegraad: ${finishLngLat.lat.toFixed(6)}</div>
+            <div class="coordinates">Lengtegraad: ${finishLngLat.lng.toFixed(6)}</div>
+          `;
+          nodesInfoDiv.appendChild(finishDiv);
+        }
       }
 
       // Update distance calculations
       function updateDistances() {
-        // Calculate short distance (nodes 1→2→3→4→1)
-        // edgeDistances[0] = 1→2, [1] = 2→3, [2] = 3→4
-        let shortDistance = 0;
-        for (let i = 0; i < 3; i++) {
-          shortDistance += edgeDistances[i];
+        if (!startMarker || !finishMarker) {
+          return;
         }
-        // Add edge from node 4 to node 1 (closing the short route)
+
         const coordinates = nodes.map(node => node.getLngLat().toArray());
-        const node4ToNode1Distance = calculateDistance(coordinates[3], coordinates[0]);
-        shortDistance += node4ToNode1Distance;
+        const startCoord = startMarker.getLngLat().toArray();
+        const finishCoord = finishMarker.getLngLat().toArray();
+        const pointMap = {
+          S: startCoord,
+          1: coordinates[1],
+          2: coordinates[2],
+          3: coordinates[3],
+          4: coordinates[4],
+          5: coordinates[5],
+          6: coordinates[0],
+          F: finishCoord
+        };
+        const routeDistance = (route) => {
+          let total = 0;
+          for (let i = 0; i < route.length - 1; i++) {
+            const from = route[i];
+            const to = route[i + 1];
+            const segmentDistance = calculateDistance(pointMap[from], pointMap[to]);
+            const isHalfSegment =
+              (from === 'S' && to === '1') ||
+              (from === '6' && to === 'F');
+            total += isHalfSegment ? segmentDistance * 0.5 : segmentDistance;
+          }
+          return total;
+        };
 
-        // Calculate long distance (all 6 nodes: 1→2→3→4→5→6→1)
-        let longDistance = 0;
-        for (let i = 0; i < edgeDistances.length; i++) {
-          longDistance += edgeDistances[i];
-        }
+        const nodeS2Distance = calculateDistance(pointMap.S, pointMap[2]);
+        const youthDistance = routeDistance(['S', '1', '2', '6', 'F']);
+        const shortDistance = routeDistance(['S', '1', '2', '3', '6', 'F']);
+        const quarterDistance = routeDistance(['S', '1', '2', '3', '6', '1', '2', '3', '6', 'F']);
+        const divisieDistance = routeDistance(['S', '1', '2', '3', '4', '5', '6', '1', '2', '3', '4', '5', '6', 'F']);
 
-        // Update short distance display
+        // Toon afstand start naar boei 2
+        document.getElementById('turn-distance').textContent =
+          `Afstand boei S - 2: ${formatDistance(nodeS2Distance)}`;
+
+        // Toon jeugdafstand
+        document.getElementById('youth-distance').textContent =
+          `Jeugdafstand: ${formatDistance(youthDistance)}`;
+
+        // Toon 1/8 afstand
         document.getElementById('short-distance').textContent = 
-          `Short Distance: ${formatDistance(shortDistance)}`;
-        
-        // Update long distance display
+          `1/8 afstand: ${formatDistance(shortDistance)}`;
+
+        // Toon 1/4 afstand
+        document.getElementById('quarter-distance').textContent =
+          `1/4 afstand: ${formatDistance(quarterDistance)}`;
+
+        // Toon divisieafstand
         document.getElementById('long-distance').textContent = 
-          `Long Distance: ${formatDistance(longDistance)}`;
+          `Divisie: ${formatDistance(divisieDistance)}`;
       }
 
       // Initialize nodes with specific starter positions
       const starterPositions = [
-        [6.513212, 53.206357],  // Node 1
-        [6.512525, 53.207161],  // Node 2
-        [6.510218, 53.207161],  // Node 3
-        [6.510916, 53.206113],  // Node 4
-        [6.514810, 53.205252],  // Node 5
-        [6.515390, 53.205541]   // Node 6
+        [6.512960, 53.206728],  // Boei 6
+        [6.512426, 53.207299],  // Boei 1
+        [6.510238, 53.207243],  // Boei 2
+        [6.511072, 53.206077],  // Boei 3
+        [6.514130, 53.205488],  // Boei 4
+        [6.514467, 53.205703]   // Boei 5
       ];
+      const startPosition = [6.513236, 53.207320]; // Start (S)
+      const finishPosition = [6.513634, 53.206955]; // Finish (F)
 
       map.on('load', () => {
         // Create initial node positions from starter positions
@@ -497,7 +755,7 @@
 
           const el = document.createElement('div');
           el.className = 'marker';
-          el.textContent = (i + 1).toString();
+          el.textContent = (((i + 5) % 6) + 1).toString();
           el.style.width = '30px';
           el.style.height = '30px';
           el.style.borderRadius = '50%';
@@ -530,8 +788,59 @@
           nodes.push(marker);
         }
 
+        // Add start (S) and finish (F) markers.
+        const startEl = document.createElement('div');
+        startEl.className = 'marker marker-sf';
+        startEl.textContent = 'S';
+
+        const finishEl = document.createElement('div');
+        finishEl.className = 'marker marker-sf finish';
+        finishEl.textContent = 'F';
+
+        startMarker = new mapboxgl.Marker({
+          element: startEl,
+          draggable: true
+        })
+          .setLngLat(startPosition)
+          .addTo(map);
+
+        startMarker.on('drag', () => {
+          updateGraph();
+        });
+
+        startMarker.on('dragend', () => {
+          updateGraph();
+        });
+
+        finishMarker = new mapboxgl.Marker({
+          element: finishEl,
+          draggable: true
+        })
+          .setLngLat(finishPosition)
+          .addTo(map);
+
+        finishMarker.on('drag', () => {
+          updateGraph();
+        });
+
+        finishMarker.on('dragend', () => {
+          updateGraph();
+        });
+
         // Add line source for graph edges
         map.addSource('graph-edges', {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: []
+            }
+          }
+        });
+
+        // Add line source for S->2 route
+        map.addSource('graph-edges-turn', {
           type: 'geojson',
           data: {
             type: 'Feature',
@@ -558,7 +867,24 @@
           }
         });
 
-        // Add line source for short route (1→2→3→4→1)
+        // Add line layer for S->2 route
+        map.addLayer({
+          id: 'graph-edges-turn',
+          type: 'line',
+          source: 'graph-edges-turn',
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          paint: {
+            'line-color': '#f59e0b',
+            'line-width': 3,
+            'line-opacity': 0.85,
+            'line-dasharray': [0.8, 1.2]
+          }
+        });
+
+        // Add line source for short route (6→1→2→3→6)
         map.addSource('graph-edges-short', {
           type: 'geojson',
           data: {
@@ -584,6 +910,64 @@
             'line-width': 3,
             'line-opacity': 0.7,
             'line-dasharray': [2, 2]
+          }
+        });
+
+        // Add line source for youth route (1→2→6)
+        map.addSource('graph-edges-youth', {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: []
+            }
+          }
+        });
+
+        // Add line source for 1/4 route
+        map.addSource('graph-edges-quarter', {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'LineString',
+              coordinates: []
+            }
+          }
+        });
+
+        // Add line layer for youth route
+        map.addLayer({
+          id: 'graph-edges-youth',
+          type: 'line',
+          source: 'graph-edges-youth',
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          paint: {
+            'line-color': '#22c55e',
+            'line-width': 3,
+            'line-opacity': 0.8,
+            'line-dasharray': [1, 1]
+          }
+        });
+
+        // Add line layer for 1/4 route
+        map.addLayer({
+          id: 'graph-edges-quarter',
+          type: 'line',
+          source: 'graph-edges-quarter',
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          paint: {
+            'line-color': '#a855f7',
+            'line-width': 3,
+            'line-opacity': 0.8,
+            'line-dasharray': [3, 1]
           }
         });
 
@@ -616,6 +1000,7 @@
         });
 
         // Initial update
+        setupEdgeToggles();
         updateGraph();
       });
     </script>
