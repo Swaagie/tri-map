@@ -8,8 +8,8 @@
         "coordinates": [
           [
             [
-              6.513613,
-              53.207545,
+              6.5135781,
+              53.2075964,
               0
             ],
             [
@@ -18,43 +18,33 @@
               0
             ],
             [
-              6.5138347,
-              53.2071563,
+              6.513883,
+              53.2070824,
               0
             ],
             [
-              6.5139186,
-              53.2071731,
+              6.5144338,
+              53.2071815,
               0
             ],
             [
-              6.5139391,
-              53.2071446,
+              6.5142655,
+              53.2074446,
               0
             ],
             [
-              6.5141581,
-              53.2071827,
+              6.5141787,
+              53.2075208,
               0
             ],
             [
-              6.5141436,
-              53.2072131,
+              6.514057,
+              53.2076363,
               0
             ],
             [
-              6.5143962,
-              53.2072602,
-              0
-            ],
-            [
-              6.5141509,
-              53.2076291,
-              0
-            ],
-            [
-              6.513613,
-              53.207545,
+              6.5135781,
+              53.2075964,
               0
             ]
           ]
@@ -68,89 +58,13 @@
           "normal": "#poly-000000-2000-77-normal",
           "highlight": "#poly-000000-2000-77-highlight"
         },
-        "description": "beschrijving: Wisselzone<br>name: ",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#000000",
         "stroke-opacity": 1,
         "stroke-width": 2,
         "fill": "#000000",
         "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Wisselzone"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              6.514028,
-              53.206935,
-              0
-            ],
-            [
-              6.51417,
-              53.206872,
-              0
-            ],
-            [
-              6.514347,
-              53.206848,
-              0
-            ],
-            [
-              6.514449,
-              53.206822,
-              0
-            ],
-            [
-              6.514527,
-              53.206766,
-              0
-            ],
-            [
-              6.514594,
-              53.206655,
-              0
-            ],
-            [
-              6.514849,
-              53.206742,
-              0
-            ],
-            [
-              6.514733,
-              53.206944,
-              0
-            ],
-            [
-              6.514602,
-              53.20705,
-              0
-            ],
-            [
-              6.514028,
-              53.206935,
-              0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#poly-0288D1-2000-77",
-        "styleHash": "-748f9a8c",
-        "styleMapHash": {
-          "normal": "#poly-0288D1-2000-77-normal",
-          "highlight": "#poly-0288D1-2000-77-highlight"
-        },
-        "description": "beschrijving: Teamtenten<br>name: ",
-        "stroke": "#0288d1",
-        "stroke-opacity": 1,
-        "stroke-width": 2,
-        "fill": "#0288d1",
-        "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Teamtenten"
+        "beschrijving": ""
       }
     },
     {
@@ -158,8 +72,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.513952,
-          53.207599,
+          6.5142993,
+          53.2073878,
           0
         ]
       },
@@ -183,28 +97,28 @@
         "coordinates": [
           [
             [
-              6.5128487,
-              53.2080006,
+              6.512849,
+              53.208001,
               0
             ],
             [
-              6.5128437,
-              53.2079105,
+              6.512844,
+              53.20791,
               0
             ],
             [
-              6.5132782,
-              53.2078925,
+              6.513278,
+              53.207892,
               0
             ],
             [
-              6.5132819,
-              53.2079822,
+              6.513282,
+              53.207982,
               0
             ],
             [
-              6.5128487,
-              53.2080006,
+              6.512849,
+              53.208001,
               0
             ]
           ]
@@ -212,90 +126,19 @@
       },
       "properties": {
         "name": "",
-        "styleUrl": "#poly-000000-2000-77",
-        "styleHash": "-49a2dcd9",
+        "styleUrl": "#poly-424242-2000-77",
+        "styleHash": "77b57195",
         "styleMapHash": {
-          "normal": "#poly-000000-2000-77-normal",
-          "highlight": "#poly-000000-2000-77-highlight"
+          "normal": "#poly-424242-2000-77-normal",
+          "highlight": "#poly-424242-2000-77-highlight"
         },
         "description": "beschrijving: Registratie<br>name: ",
-        "stroke": "#000000",
+        "stroke": "#424242",
         "stroke-opacity": 1,
         "stroke-width": 2,
-        "fill": "#000000",
+        "fill": "#424242",
         "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Inschrijving"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              6.5129558,
-              53.2075848,
-              0
-            ],
-            [
-              6.5130523,
-              53.2075141,
-              0
-            ],
-            [
-              6.5132186,
-              53.2074081,
-              0
-            ],
-            [
-              6.5134493,
-              53.207196,
-              0
-            ],
-            [
-              6.5137443,
-              53.207135,
-              0
-            ],
-            [
-              6.5136853,
-              53.207257,
-              0
-            ],
-            [
-              6.5135941,
-              53.2074402,
-              0
-            ],
-            [
-              6.5134761,
-              53.207604,
-              0
-            ],
-            [
-              6.5129558,
-              53.2075848,
-              0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#poly-FBC02D-1200-77",
-        "styleHash": "2e2ab9d2",
-        "styleMapHash": {
-          "normal": "#poly-FBC02D-1200-77-normal",
-          "highlight": "#poly-FBC02D-1200-77-highlight"
-        },
-        "description": "beschrijving: Mixed zone<br>name: ",
-        "stroke": "#fbc02d",
-        "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#fbc02d",
-        "fill-opacity": 0.30196078431372547,
-        "beschrijving": "Mixed zone"
+        "beschrijving": "Registratie"
       }
     },
     {
@@ -303,45 +146,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.514777,
-          53.203678,
+          6.5138778,
+          53.207095,
           0
         ]
       },
       "properties": {
-        "name": "fa-arrow-circle-right",
-        "styleUrl": "#icon-1899-097138",
-        "styleHash": "2e2ebb87",
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
         "styleMapHash": {
-          "normal": "#icon-1899-097138-normal",
-          "highlight": "#icon-1899-097138-highlight"
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
         },
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Keerpunt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514285,
-          53.207555,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-person-running",
-        "styleUrl": "#icon-1680-097138",
-        "styleHash": "-41c4c141",
-        "styleMapHash": {
-          "normal": "#icon-1680-097138-normal",
-          "highlight": "#icon-1680-097138-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Start lopen en keerpunt tweede ronde"
+        "description": "beschrijving: Tijdregistratie transitie 1<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 1"
       }
     },
     {
@@ -350,252 +170,161 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.514285,
-            53.207555,
+            6.513366,
+            53.207132,
             0
           ],
           [
-            6.514501,
-            53.207423,
-            0
-          ],
-          [
-            6.514668,
-            53.207278,
-            0
-          ],
-          [
-            6.514786,
-            53.207101,
-            0
-          ],
-          [
-            6.514882,
-            53.206982,
-            0
-          ],
-          [
-            6.514979,
-            53.206819,
-            0
-          ],
-          [
-            6.515107,
-            53.206623,
-            0
-          ],
-          [
-            6.515204,
-            53.206414,
-            0
-          ],
-          [
-            6.515317,
-            53.206231,
-            0
-          ],
-          [
-            6.515504,
-            53.206089,
-            0
-          ],
-          [
-            6.515842,
-            53.205916,
-            0
-          ],
-          [
-            6.51611,
-            53.205813,
-            0
-          ],
-          [
-            6.516379,
-            53.205742,
-            0
-          ],
-          [
-            6.516631,
-            53.205694,
-            0
-          ],
-          [
-            6.516926,
-            53.205659,
-            0
-          ],
-          [
-            6.517192,
-            53.205365,
-            0
-          ],
-          [
-            6.517505,
-            53.204978,
-            0
-          ],
-          [
-            6.517516,
-            53.204955,
-            0
-          ],
-          [
-            6.516714,
-            53.204513,
-            0
-          ],
-          [
-            6.515521,
-            53.20388,
-            0
-          ],
-          [
-            6.515215,
-            53.203797,
-            0
-          ],
-          [
-            6.514764,
-            53.203688,
-            0
-          ],
-          [
-            6.514775,
-            53.20367,
-            0
-          ],
-          [
-            6.51523,
-            53.203783,
-            0
-          ],
-          [
-            6.515521,
-            53.20388,
-            0
-          ],
-          [
-            6.516722,
-            53.204506,
-            0
-          ],
-          [
-            6.517516,
-            53.204955,
-            0
-          ],
-          [
-            6.517505,
-            53.204978,
-            0
-          ],
-          [
-            6.517192,
-            53.205367,
-            0
-          ],
-          [
-            6.516926,
-            53.205659,
-            0
-          ],
-          [
-            6.516631,
-            53.205693,
-            0
-          ],
-          [
-            6.516376,
-            53.205741,
-            0
-          ],
-          [
-            6.51611,
-            53.205813,
-            0
-          ],
-          [
-            6.515838,
-            53.205913,
-            0
-          ],
-          [
-            6.515503,
-            53.206088,
-            0
-          ],
-          [
-            6.515317,
-            53.206231,
-            0
-          ],
-          [
-            6.515236,
-            53.20642,
-            0
-          ],
-          [
-            6.515148,
-            53.206624,
-            0
-          ],
-          [
-            6.515021,
-            53.206829,
-            0
-          ],
-          [
-            6.514924,
-            53.20699,
-            0
-          ],
-          [
-            6.514785,
-            53.207176,
-            0
-          ],
-          [
-            6.51468,
-            53.207309,
-            0
-          ],
-          [
-            6.514585,
-            53.207392,
-            0
-          ],
-          [
-            6.514483,
-            53.207472,
-            0
-          ],
-          [
-            6.514367,
-            53.207539,
-            0
-          ],
-          [
-            6.514316,
-            53.207567,
-            0
-          ],
-          [
-            6.514285,
-            53.207555,
+            6.5138965,
+            53.2070917,
             0
           ]
         ]
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-097138-3000",
-        "styleHash": "75f7021c",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
         "styleMapHash": {
-          "normal": "#line-097138-3000-normal",
-          "highlight": "#line-097138-3000-highlight"
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
         },
-        "description": "",
-        "stroke": "#097138",
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5140186,
+            53.2076146,
+            0
+          ],
+          [
+            6.5140703,
+            53.2076451,
+            0
+          ],
+          [
+            6.5140662,
+            53.2076684,
+            0
+          ],
+          [
+            6.5140564,
+            53.2076986,
+            0
+          ],
+          [
+            6.5140091,
+            53.2077177,
+            0
+          ],
+          [
+            6.5139403,
+            53.2077271,
+            0
+          ],
+          [
+            6.5137069,
+            53.2077364,
+            0
+          ],
+          [
+            6.5135144,
+            53.207748,
+            0
+          ],
+          [
+            6.5133774,
+            53.2077661,
+            0
+          ],
+          [
+            6.513222,
+            53.207776,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
+        "styleMapHash": {
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.513224,
+            53.207762,
+            0
+          ],
+          [
+            6.5132887,
+            53.2077595,
+            0
+          ],
+          [
+            6.5133696,
+            53.2077486,
+            0
+          ],
+          [
+            6.5134178,
+            53.2077254,
+            0
+          ],
+          [
+            6.5134762,
+            53.2076876,
+            0
+          ],
+          [
+            6.5135479,
+            53.2076104,
+            0
+          ],
+          [
+            6.5135724,
+            53.2075837,
+            0
+          ],
+          [
+            6.513625,
+            53.2075837,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
+        "styleMapHash": {
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -606,45 +335,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.513813,
-          53.206743,
+          6.5131777,
+          53.207769,
           0
         ]
       },
       "properties": {
-        "name": "fa-person-swimming",
-        "styleUrl": "#icon-1701-0288D1",
-        "styleHash": "507c9fdb",
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
         "styleMapHash": {
-          "normal": "#icon-1701-0288D1-normal",
-          "highlight": "#icon-1701-0288D1-highlight"
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
         },
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Start zwemmen"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513972,
-          53.207732,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-person-biking",
-        "styleUrl": "#icon-1522-A52714",
-        "styleHash": "6bec17e",
-        "styleMapHash": {
-          "normal": "#icon-1522-A52714-normal",
-          "highlight": "#icon-1522-A52714-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Start fietsen"
+        "description": "beschrijving: Tijdregistratie transitie 1 en start transitie 2<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 1 en start transitie 2"
       }
     },
     {
@@ -653,440 +359,1344 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.513972,
-            53.207732,
+            6.5144128,
+            53.207184,
             0
           ],
           [
-            6.514078,
-            53.207719,
+            6.5144471,
+            53.2071184,
             0
           ],
           [
-            6.514257,
-            53.207712,
+            6.5144501,
+            53.2070491,
             0
           ],
           [
-            6.51434,
-            53.207704,
+            6.5144037,
+            53.2069725,
             0
           ],
           [
-            6.51441,
-            53.207667,
+            6.5143894,
+            53.2068862,
             0
           ],
           [
-            6.514493,
-            53.207622,
-            0
-          ],
-          [
-            6.5146,
-            53.207553,
-            0
-          ],
-          [
-            6.514651,
-            53.207519,
-            0
-          ],
-          [
-            6.514744,
-            53.207454,
-            0
-          ],
-          [
-            6.514836,
-            53.207381,
-            0
-          ],
-          [
-            6.51491,
-            53.207314,
-            0
-          ],
-          [
-            6.514997,
-            53.207234,
-            0
-          ],
-          [
-            6.515067,
-            53.207161,
-            0
-          ],
-          [
-            6.515144,
-            53.207067,
-            0
-          ],
-          [
-            6.515243,
-            53.206935,
-            0
-          ],
-          [
-            6.515314,
-            53.206822,
-            0
-          ],
-          [
-            6.515374,
-            53.206703,
-            0
-          ],
-          [
-            6.515453,
-            53.206563,
-            0
-          ],
-          [
-            6.515504,
-            53.206475,
-            0
-          ],
-          [
-            6.515564,
-            53.206371,
-            0
-          ],
-          [
-            6.515649,
-            53.206273,
-            0
-          ],
-          [
-            6.515732,
-            53.206194,
-            0
-          ],
-          [
-            6.515822,
-            53.206126,
-            0
-          ],
-          [
-            6.515944,
-            53.206048,
-            0
-          ],
-          [
-            6.516047,
-            53.205987,
-            0
-          ],
-          [
-            6.516239,
-            53.205908,
-            0
-          ],
-          [
-            6.516394,
-            53.20586,
-            0
-          ],
-          [
-            6.516598,
-            53.205814,
-            0
-          ],
-          [
-            6.516698,
-            53.20579,
-            0
-          ],
-          [
-            6.51677,
-            53.205782,
-            0
-          ],
-          [
-            6.516852,
-            53.20579,
-            0
-          ],
-          [
-            6.516882,
-            53.205775,
-            0
-          ],
-          [
-            6.517003,
-            53.20565,
-            0
-          ],
-          [
-            6.517247,
-            53.205357,
-            0
-          ],
-          [
-            6.517585,
-            53.204956,
-            0
-          ],
-          [
-            6.517729,
-            53.204775,
-            0
-          ],
-          [
-            6.517996,
-            53.204422,
-            0
-          ],
-          [
-            6.518169,
-            53.204142,
-            0
-          ],
-          [
-            6.518452,
-            53.203632,
-            0
-          ],
-          [
-            6.518519,
-            53.203512,
-            0
-          ],
-          [
-            6.518578,
-            53.203377,
-            0
-          ],
-          [
-            6.518578,
-            53.203308,
-            0
-          ],
-          [
-            6.518562,
-            53.203239,
-            0
-          ],
-          [
-            6.518516,
-            53.203176,
-            0
-          ],
-          [
-            6.518433,
-            53.20311,
-            0
-          ],
-          [
-            6.518321,
-            53.20306,
-            0
-          ],
-          [
-            6.517822,
-            53.202917,
-            0
-          ],
-          [
-            6.51718,
-            53.202739,
-            0
-          ],
-          [
-            6.516629,
-            53.202587,
-            0
-          ],
-          [
-            6.516529,
-            53.20257,
-            0
-          ],
-          [
-            6.516401,
-            53.202523,
-            0
-          ],
-          [
-            6.516153,
-            53.202442,
-            0
-          ],
-          [
-            6.515671,
-            53.202301,
-            0
-          ],
-          [
-            6.515274,
-            53.202192,
-            0
-          ],
-          [
-            6.51345,
-            53.201694,
-            0
-          ],
-          [
-            6.512881,
-            53.201536,
-            0
-          ],
-          [
-            6.512649,
-            53.201486,
-            0
-          ],
-          [
-            6.512364,
-            53.20142,
-            0
-          ],
-          [
-            6.512186,
-            53.201436,
-            0
-          ],
-          [
-            6.512063,
-            53.201481,
-            0
-          ],
-          [
-            6.511926,
-            53.201577,
-            0
-          ],
-          [
-            6.511775,
-            53.201691,
-            0
-          ],
-          [
-            6.511505,
-            53.201972,
-            0
-          ],
-          [
-            6.510942,
-            53.202551,
-            0
-          ],
-          [
-            6.510636,
-            53.202864,
-            0
-          ],
-          [
-            6.510338,
-            53.203185,
-            0
-          ],
-          [
-            6.509794,
-            53.20375,
-            0
-          ],
-          [
-            6.509326,
-            53.204307,
-            0
-          ],
-          [
-            6.508811,
-            53.204864,
-            0
-          ],
-          [
-            6.508478,
-            53.20527,
-            0
-          ],
-          [
-            6.507664,
-            53.206651,
-            0
-          ],
-          [
-            6.507444,
-            53.207041,
-            0
-          ],
-          [
-            6.506928,
-            53.20786,
-            0
-          ],
-          [
-            6.506774,
-            53.20805,
-            0
-          ],
-          [
-            6.506775,
-            53.208079,
-            0
-          ],
-          [
-            6.506846,
-            53.20809,
-            0
-          ],
-          [
-            6.506939,
-            53.208085,
-            0
-          ],
-          [
-            6.507614,
-            53.208052,
-            0
-          ],
-          [
-            6.508245,
-            53.208022,
-            0
-          ],
-          [
-            6.50898,
-            53.207978,
-            0
-          ],
-          [
-            6.509776,
-            53.207946,
-            0
-          ],
-          [
-            6.510396,
-            53.207917,
-            0
-          ],
-          [
-            6.512094,
-            53.207829,
-            0
-          ],
-          [
-            6.513972,
-            53.207732,
+            6.5144266,
+            53.2068151,
             0
           ]
         ]
       },
       "properties": {
         "name": "",
-        "styleUrl": "#line-A52714-2938",
-        "styleHash": "2a4a8afc",
+        "styleUrl": "#line-424242-3000",
+        "styleHash": "-1f0a0da4",
         "styleMapHash": {
-          "normal": "#line-A52714-2938-normal",
-          "highlight": "#line-A52714-2938-highlight"
+          "normal": "#line-424242-3000-normal",
+          "highlight": "#line-424242-3000-highlight"
+        },
+        "description": "beschrijving: <br>name: ",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5144055,
+          53.2071794,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "beschrijving: Tijdregistratie transitie 2 uit<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie transitie 2 uit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5136333,
+          53.2072064,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-microphone",
+        "styleUrl": "#icon-1625-424242",
+        "styleHash": "-1b53f3da",
+        "styleMapHash": {
+          "normal": "#icon-1625-424242-normal",
+          "highlight": "#icon-1625-424242-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "beschrijving: Captains/race briefing: verzamelen nabij speeltoestel<br>name: fa-microphone",
+        "beschrijving": "Captains/race briefing: verzamelen nabij speeltoestel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5069257,
+          53.201613,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "beschrijving: Tijdregistratie fietsronde<br>name: fa-stopwatch",
+        "beschrijving": "Tijdregistratie fietsronde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514291,
+          53.207718,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrow-circle-down",
+        "styleUrl": "#icon-1899-C2185B",
+        "styleHash": "-426dd42f",
+        "styleMapHash": {
+          "normal": "#icon-1899-C2185B-normal",
+          "highlight": "#icon-1899-C2185B-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "beschrijving: Keerpunt lopen<br>name: fa-arrow-circle-down",
+        "beschrijving": "Keerpunt lopen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.512604,
+          53.207171,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.512604,
+            53.207171,
+            0
+          ],
+          [
+            6.513366,
+            53.207132,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-0288D1-3000",
+        "styleHash": "761a8a9c",
+        "styleMapHash": {
+          "normal": "#line-0288D1-3000-normal",
+          "highlight": "#line-0288D1-3000-highlight"
         },
         "description": "",
-        "stroke": "#a52714",
+        "stroke": "#0288d1",
         "stroke-opacity": 1,
-        "stroke-width": 2.938,
-        "beschrijving": "Fietsparcours kinderen"
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513366,
+          53.207132,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-0288D1",
+        "styleHash": "21967554",
+        "styleMapHash": {
+          "normal": "#icon-1661-0288D1-normal",
+          "highlight": "#icon-1661-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5076451,
+            53.2065469,
+            0
+          ],
+          [
+            6.5076471,
+            53.20659,
+            0
+          ],
+          [
+            6.507523,
+            53.2068354,
+            0
+          ],
+          [
+            6.5071872,
+            53.2073927,
+            0
+          ],
+          [
+            6.5070136,
+            53.2076729,
+            0
+          ],
+          [
+            6.5069077,
+            53.2078141,
+            0
+          ],
+          [
+            6.5068675,
+            53.2078794,
+            0
+          ],
+          [
+            6.5068299,
+            53.2079648,
+            0
+          ],
+          [
+            6.5067925,
+            53.2080643,
+            0
+          ],
+          [
+            6.5068566,
+            53.2080741,
+            0
+          ],
+          [
+            6.5078454,
+            53.2080278,
+            0
+          ],
+          [
+            6.509136,
+            53.207958,
+            0
+          ],
+          [
+            6.509589,
+            53.207933,
+            0
+          ],
+          [
+            6.509763,
+            53.207933,
+            0
+          ],
+          [
+            6.509947,
+            53.207932,
+            0
+          ],
+          [
+            6.513224,
+            53.207762,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Terugkomstrook fietsen",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
+        "styleMapHash": {
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#9c27b0",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.507628,
+          53.2065443,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrow-circle-up",
+        "styleUrl": "#icon-1899-A52714",
+        "styleHash": "48ef713f",
+        "styleMapHash": {
+          "normal": "#icon-1899-A52714-normal",
+          "highlight": "#icon-1899-A52714-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Keerpunt volgende ronde fietsen, op weg blijven!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.513222,
+            53.207776,
+            0
+          ],
+          [
+            6.509938,
+            53.207948,
+            0
+          ],
+          [
+            6.509624,
+            53.207948,
+            0
+          ],
+          [
+            6.508764,
+            53.207991,
+            0
+          ],
+          [
+            6.508448,
+            53.208008,
+            0
+          ],
+          [
+            6.508089,
+            53.208027,
+            0
+          ],
+          [
+            6.507542,
+            53.208055,
+            0
+          ],
+          [
+            6.507306,
+            53.208064,
+            0
+          ],
+          [
+            6.507159,
+            53.208073,
+            0
+          ],
+          [
+            6.507026,
+            53.208081,
+            0
+          ],
+          [
+            6.506848,
+            53.208086,
+            0
+          ],
+          [
+            6.506741,
+            53.20807,
+            0
+          ],
+          [
+            6.5066581,
+            53.2080324,
+            0
+          ],
+          [
+            6.5066647,
+            53.2080034,
+            0
+          ],
+          [
+            6.5066975,
+            53.207964,
+            0
+          ],
+          [
+            6.5067769,
+            53.2078688,
+            0
+          ],
+          [
+            6.5068845,
+            53.2077128,
+            0
+          ],
+          [
+            6.5070228,
+            53.2075088,
+            0
+          ],
+          [
+            6.5073084,
+            53.2070346,
+            0
+          ],
+          [
+            6.5074955,
+            53.2067185,
+            0
+          ],
+          [
+            6.5075837,
+            53.2065797,
+            0
+          ],
+          [
+            6.5076064,
+            53.2065432,
+            0
+          ],
+          [
+            6.5076451,
+            53.2065469,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Aanloopstrook fietsen",
+        "styleUrl": "#line-9C27B0-3000",
+        "styleHash": "-2cc9d744",
+        "styleMapHash": {
+          "normal": "#line-9C27B0-3000-normal",
+          "highlight": "#line-9C27B0-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#9c27b0",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5135359,
+          53.2080264,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-097138",
+        "styleHash": "14b7d402",
+        "styleMapHash": {
+          "normal": "#icon-1661-097138-normal",
+          "highlight": "#icon-1661-097138-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Finish, bocht rechtsom voor het ingaan van volgende loopronde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.514292,
+            53.207697,
+            0
+          ],
+          [
+            6.514349,
+            53.207682,
+            0
+          ],
+          [
+            6.514435,
+            53.207648,
+            0
+          ],
+          [
+            6.514558,
+            53.207574,
+            0
+          ],
+          [
+            6.514755,
+            53.207425,
+            0
+          ],
+          [
+            6.514861,
+            53.207346,
+            0
+          ],
+          [
+            6.514953,
+            53.207264,
+            0
+          ],
+          [
+            6.51508,
+            53.207126,
+            0
+          ],
+          [
+            6.515237,
+            53.206908,
+            0
+          ],
+          [
+            6.515285,
+            53.206815,
+            0
+          ],
+          [
+            6.51541,
+            53.206598,
+            0
+          ],
+          [
+            6.515554,
+            53.206356,
+            0
+          ],
+          [
+            6.515698,
+            53.206206,
+            0
+          ],
+          [
+            6.515865,
+            53.206085,
+            0
+          ],
+          [
+            6.516038,
+            53.205987,
+            0
+          ],
+          [
+            6.516207,
+            53.205918,
+            0
+          ],
+          [
+            6.516359,
+            53.205869,
+            0
+          ],
+          [
+            6.516539,
+            53.205823,
+            0
+          ],
+          [
+            6.516687,
+            53.205792,
+            0
+          ],
+          [
+            6.51679,
+            53.205785,
+            0
+          ],
+          [
+            6.516841,
+            53.205794,
+            0
+          ],
+          [
+            6.516885,
+            53.20577,
+            0
+          ],
+          [
+            6.516927,
+            53.205727,
+            0
+          ],
+          [
+            6.517045,
+            53.205573,
+            0
+          ],
+          [
+            6.517252,
+            53.2053,
+            0
+          ],
+          [
+            6.517505,
+            53.204978,
+            0
+          ],
+          [
+            6.517516,
+            53.204955,
+            0
+          ],
+          [
+            6.516832,
+            53.204578,
+            0
+          ],
+          [
+            6.515521,
+            53.20388,
+            0
+          ],
+          [
+            6.5147659,
+            53.2036773,
+            0
+          ],
+          [
+            6.515521,
+            53.20388,
+            0
+          ],
+          [
+            6.516832,
+            53.204578,
+            0
+          ],
+          [
+            6.517516,
+            53.204955,
+            0
+          ],
+          [
+            6.5175526,
+            53.2049943,
+            0
+          ],
+          [
+            6.5174765,
+            53.2050946,
+            0
+          ],
+          [
+            6.517311,
+            53.205292,
+            0
+          ],
+          [
+            6.51701,
+            53.205668,
+            0
+          ],
+          [
+            6.516885,
+            53.205805,
+            0
+          ],
+          [
+            6.516836,
+            53.205817,
+            0
+          ],
+          [
+            6.516753,
+            53.205812,
+            0
+          ],
+          [
+            6.516657,
+            53.205825,
+            0
+          ],
+          [
+            6.516468,
+            53.205873,
+            0
+          ],
+          [
+            6.516261,
+            53.205934,
+            0
+          ],
+          [
+            6.516072,
+            53.206014,
+            0
+          ],
+          [
+            6.515919,
+            53.206098,
+            0
+          ],
+          [
+            6.515797,
+            53.206179,
+            0
+          ],
+          [
+            6.515704,
+            53.206252,
+            0
+          ],
+          [
+            6.515606,
+            53.20636,
+            0
+          ],
+          [
+            6.515498,
+            53.206529,
+            0
+          ],
+          [
+            6.515395,
+            53.206714,
+            0
+          ],
+          [
+            6.515292,
+            53.2069,
+            0
+          ],
+          [
+            6.515194,
+            53.207034,
+            0
+          ],
+          [
+            6.515115,
+            53.207124,
+            0
+          ],
+          [
+            6.51502,
+            53.207227,
+            0
+          ],
+          [
+            6.51496,
+            53.207293,
+            0
+          ],
+          [
+            6.514881,
+            53.207359,
+            0
+          ],
+          [
+            6.514737,
+            53.207475,
+            0
+          ],
+          [
+            6.514628,
+            53.207553,
+            0
+          ],
+          [
+            6.514514,
+            53.207633,
+            0
+          ],
+          [
+            6.514389,
+            53.207695,
+            0
+          ],
+          [
+            6.514337,
+            53.207712,
+            0
+          ],
+          [
+            6.514291,
+            53.207718,
+            0
+          ],
+          [
+            6.514272,
+            53.20771,
+            0
+          ],
+          [
+            6.514292,
+            53.207697,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Loopparcours",
+        "styleUrl": "#line-097138-3000",
+        "styleHash": "75f7021c",
+        "styleMapHash": {
+          "normal": "#line-097138-3000-normal",
+          "highlight": "#line-097138-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#097138",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "2.5 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5142908,
+            53.2077181,
+            0
+          ],
+          [
+            6.5142379,
+            53.2077214,
+            0
+          ],
+          [
+            6.5141891,
+            53.2077327,
+            0
+          ],
+          [
+            6.5141924,
+            53.2077656,
+            0
+          ],
+          [
+            6.5141871,
+            53.2077905,
+            0
+          ],
+          [
+            6.5141441,
+            53.2078194,
+            0
+          ],
+          [
+            6.5140342,
+            53.207858,
+            0
+          ],
+          [
+            6.513774,
+            53.2079463,
+            0
+          ],
+          [
+            6.5135359,
+            53.2080264,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Finish lopen",
+        "styleUrl": "#line-097138-3131",
+        "styleHash": "-31a3ee02",
+        "styleMapHash": {
+          "normal": "#line-097138-3131-normal",
+          "highlight": "#line-097138-3131-highlight"
+        },
+        "description": "",
+        "stroke": "#097138",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Keerpunt linksom voor de volgende ronde. Rechtdoor richting finishstraat in de laatste ronde. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5144266,
+            53.2068151,
+            0
+          ],
+          [
+            6.5144754,
+            53.2067507,
+            0
+          ],
+          [
+            6.5145344,
+            53.2066736,
+            0
+          ],
+          [
+            6.5145639,
+            53.2066222,
+            0
+          ],
+          [
+            6.5145961,
+            53.2065659,
+            0
+          ],
+          [
+            6.514639,
+            53.2064904,
+            0
+          ],
+          [
+            6.5146658,
+            53.2064358,
+            0
+          ],
+          [
+            6.514698,
+            53.2063908,
+            0
+          ],
+          [
+            6.5147516,
+            53.2063635,
+            0
+          ],
+          [
+            6.5148133,
+            53.2063458,
+            0
+          ],
+          [
+            6.514867,
+            53.206333,
+            0
+          ],
+          [
+            6.5149447,
+            53.2063346,
+            0
+          ],
+          [
+            6.5150333,
+            53.2063346,
+            0
+          ],
+          [
+            6.5151298,
+            53.2063201,
+            0
+          ],
+          [
+            6.5152291,
+            53.206288,
+            0
+          ],
+          [
+            6.5152827,
+            53.2062607,
+            0
+          ],
+          [
+            6.5153632,
+            53.2062061,
+            0
+          ],
+          [
+            6.5154383,
+            53.2061611,
+            0
+          ],
+          [
+            6.5155468,
+            53.2060913,
+            0
+          ],
+          [
+            6.5157654,
+            53.2059676,
+            0
+          ],
+          [
+            6.5159062,
+            53.2058969,
+            0
+          ],
+          [
+            6.5160349,
+            53.2058503,
+            0
+          ],
+          [
+            6.5161865,
+            53.2058005,
+            0
+          ],
+          [
+            6.5163434,
+            53.2057579,
+            0
+          ],
+          [
+            6.5164949,
+            53.205729,
+            0
+          ],
+          [
+            6.5167055,
+            53.2056929,
+            0
+          ],
+          [
+            6.5168088,
+            53.2056752,
+            0
+          ],
+          [
+            6.5168841,
+            53.2056693,
+            0
+          ],
+          [
+            6.5169579,
+            53.2056428,
+            0
+          ],
+          [
+            6.5170021,
+            53.2056099,
+            0
+          ],
+          [
+            6.517045,
+            53.2055729,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Aanloopstrook lopen",
+        "styleUrl": "#line-424242-3131",
+        "styleHash": "-3c171dc2",
+        "styleMapHash": {
+          "normal": "#line-424242-3131-normal",
+          "highlight": "#line-424242-3131-highlight"
+        },
+        "description": "",
+        "stroke": "#424242",
+        "stroke-opacity": 1,
+        "stroke-width": 3.131,
+        "beschrijving": "Vanuit de wisselzone richting loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5147445,
+          53.203658,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrow-circle-right",
+        "styleUrl": "#icon-1899-C2185B",
+        "styleHash": "-426dd42f",
+        "styleMapHash": {
+          "normal": "#icon-1899-C2185B-normal",
+          "highlight": "#icon-1899-C2185B-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Keerpunt lopen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.508714,
+          53.207946,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-FF5252",
+        "styleHash": "528e3e01",
+        "styleMapHash": {
+          "normal": "#icon-1499-FF5252-normal",
+          "highlight": "#icon-1499-FF5252-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Overgang vanaf weg naar fietspad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.502281,
+          53.202993,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-trash",
+        "styleUrl": "#icon-1857-E65100",
+        "styleHash": "62de0c1",
+        "styleMapHash": {
+          "normal": "#icon-1857-E65100-normal",
+          "highlight": "#icon-1857-E65100-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Start afval zone 200m"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.504984,
+          53.202164,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-trash",
+        "styleUrl": "#icon-1857-E65100",
+        "styleHash": "62de0c1",
+        "styleMapHash": {
+          "normal": "#icon-1857-E65100-normal",
+          "highlight": "#icon-1857-E65100-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Einde afval zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.480679,
+          53.207856,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Overgang asfalt voorzien van rubberen matten voor veiligheid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5132199,
+          53.207772,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrows-v",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Oversteekplaats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5083819,
+          53.201394,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-warning",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Uitvoegen om terug te keren naar de wisselzone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5138318,
+          53.2070811,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-arrows-v",
+        "styleUrl": "#icon-1499-E65100",
+        "styleHash": "5ea9273b",
+        "styleMapHash": {
+          "normal": "#icon-1499-E65100-normal",
+          "highlight": "#icon-1499-E65100-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Oversteekplaats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5142713,
+          53.2076978,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-tint",
+        "styleUrl": "#icon-1577-0288D1",
+        "styleHash": "-37fec48",
+        "styleMapHash": {
+          "normal": "#icon-1577-0288D1-normal",
+          "highlight": "#icon-1577-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Verzorging loopparcours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5135798,
+          53.2078357,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-user-circle",
+        "styleUrl": "#icon-1733-006064",
+        "styleHash": "-599e35f8",
+        "styleMapHash": {
+          "normal": "#icon-1733-006064-normal",
+          "highlight": "#icon-1733-006064-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Plaszuilen en dixies"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5126582,
+          53.2078952,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-user-circle",
+        "styleUrl": "#icon-1733-006064",
+        "styleHash": "-599e35f8",
+        "styleMapHash": {
+          "normal": "#icon-1733-006064-normal",
+          "highlight": "#icon-1733-006064-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Kleedkamer en wc's"
       }
     }
   ]
