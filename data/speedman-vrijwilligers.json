@@ -5004,11 +5004,11 @@
       },
       "properties": {
         "name": "fa-circle",
-        "styleUrl": "#icon-1499-C2185B",
-        "styleHash": "-38404dd1",
+        "styleUrl": "#icon-1499-F57C00",
+        "styleHash": "1502b53f",
         "styleMapHash": {
-          "normal": "#icon-1499-C2185B-normal",
-          "highlight": "#icon-1499-C2185B-highlight"
+          "normal": "#icon-1499-F57C00-normal",
+          "highlight": "#icon-1499-F57C00-highlight"
         },
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
@@ -5027,11 +5027,11 @@
       },
       "properties": {
         "name": "fa-circle",
-        "styleUrl": "#icon-1499-C2185B",
-        "styleHash": "-38404dd1",
+        "styleUrl": "#icon-1499-F57C00",
+        "styleHash": "1502b53f",
         "styleMapHash": {
-          "normal": "#icon-1499-C2185B-normal",
-          "highlight": "#icon-1499-C2185B-highlight"
+          "normal": "#icon-1499-F57C00-normal",
+          "highlight": "#icon-1499-F57C00-highlight"
         },
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
