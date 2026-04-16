@@ -3452,12 +3452,11 @@ kwart/standaard: 4 ronden</value>
       </Placemark>
       <Placemark>
         <name>Finish zwemmen</name>
-        <description><![CDATA[beschrijving: name: fa-flag-checkered<br>description:<br>name: fa-flag-checkered<br>description: ]]></description>
+        <description><![CDATA[beschrijving: Finish zwemmen<br>name: fa-flag-checkered<br>description: ]]></description>
         <styleUrl>#icon-1661-0288D1</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>name: fa-flag-checkered
-description:</value>
+            <value>Finish zwemmen</value>
           </Data>
           <Data name="name">
             <value>fa-flag-checkered</value>
