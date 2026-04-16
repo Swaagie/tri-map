@@ -118,12 +118,47 @@
         padding: 1em;
       }
 
-      .legend span {
+      /* Kleine vierkanten in lijsten; niet op alle spans — anders krimpen tekstlabels in .legend-line-colors tot 1em */
+      .legend ul span {
         display: inline-block;
         height: 1em;
         width: 1em;
         border: 1px solid var(--grey);
         vertical-align: sub;
+      }
+
+      .legend-line-colors {
+        margin: 0.75em 0 1em;
+        font-size: 0.7rem;
+        line-height: 1.45;
+      }
+
+      .legend-line-colors-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        margin-bottom: 0.45em;
+      }
+
+      .legend-line-colors-row:last-child {
+        margin-bottom: 0;
+      }
+
+      .legend span.legend-swatch-line {
+        display: block;
+        flex: 0 0 3.25em;
+        width: 3.25em;
+        min-width: 3.25em;
+        height: 0.4em;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        box-sizing: border-box;
+      }
+
+      .legend-line-colors-row > span:not(.legend-swatch-line) {
+        flex: 1 1 auto;
+        min-width: 0;
+        line-height: 1.45;
       }
 
       .wisselzone {
@@ -191,7 +226,7 @@
     <div class="grid-container">
       <div class="grid-item">
         <div id="map-all"></div>
-        <div id="legend-wisselzone" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-wisselzone" class="legend wisselzone" style="display: none;">
           <h1>Legenda speedman triatlon</h1>
           <div class="legend-content">
             <p style="color: red">
@@ -283,7 +318,7 @@
             </details>
           </div>
         </div>
-        <div id="legend-wegafsluitingen" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-wegafsluitingen" class="legend wisselzone" style="display: none;">
           <h1>Legenda wegafsluitingen</h1>
           <div class="legend-content">
             <ul>
@@ -302,13 +337,35 @@
             </ul>
           </div>
         </div>
-        <div id="legend-kinderen" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-kinderen" class="legend wisselzone" style="display: none;">
           <h1>Legenda kinderen</h1>
           <div class="legend-content">
             <p>
               <a download="speedman-fietsparcours.gpx" href="assets/gpx/speedman-parcours-fietsen.gpx">Fietsparcours GPX</a><br>
               <a download="speedman-loopparcours.gpx" href="assets/gpx/speedman-parcours-lopen.gpx">Loopparcours GPX</a>
             </p>
+            <div class="legend-line-colors">
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #0288d1" aria-hidden="true"></span>
+                <span>Zwemparcours · blauw</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #9c27b0" aria-hidden="true"></span>
+                <span>Fiets · paars · aanloopstroken</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #ff5252" aria-hidden="true"></span>
+                <span>Fiets · rood · ronden</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #097138" aria-hidden="true"></span>
+                <span>Loop · donkergroen</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #f9a825" aria-hidden="true"></span>
+                <span>Aankomst · geel · route naar het terrein</span>
+              </div>
+            </div>
             <details>
               <summary><b>Wisselzone</b></summary>
               <div>
@@ -429,13 +486,35 @@
           </div>
         </div>
 
-        <div id="legend-junioren" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-junioren" class="legend wisselzone" style="display: none;">
           <h1>Legenda jeugd circuit</h1>
           <div class="legend-content">
             <p>
               <a download="speedman-fietsparcours.gpx" href="assets/gpx/speedman-parcours-fietsen.gpx">Fietsparcours GPX</a><br>
               <a download="speedman-loopparcours.gpx" href="assets/gpx/speedman-parcours-lopen.gpx">Loopparcours GPX</a>
             </p>
+            <div class="legend-line-colors">
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #0288d1" aria-hidden="true"></span>
+                <span>Zwemparcours · blauw</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #9c27b0" aria-hidden="true"></span>
+                <span>Fiets · paars · aanloopstroken</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #ff5252" aria-hidden="true"></span>
+                <span>Fiets · rood · ronden</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #097138" aria-hidden="true"></span>
+                <span>Loop · donkergroen</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #f9a825" aria-hidden="true"></span>
+                <span>Aankomst · geel · route naar het terrein</span>
+              </div>
+            </div>
             <details>
               <summary><b>Wisselzone</b></summary>
               <div>
@@ -543,13 +622,35 @@
           </div>
         </div>
 
-        <div id="legend-individueel" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-individueel" class="legend wisselzone" style="display: none;">
           <h1>Legenda achtste en kwart</h1>
           <div class="legend-content">
             <p>
               <a download="speedman-fietsparcours.gpx" href="assets/gpx/speedman-parcours-fietsen.gpx">Fietsparcours GPX</a><br>
               <a download="speedman-loopparcours.gpx" href="assets/gpx/speedman-parcours-lopen.gpx">Loopparcours GPX</a>
             </p>
+            <div class="legend-line-colors">
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #0288d1" aria-hidden="true"></span>
+                <span>Zwemparcours · blauw</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #9c27b0" aria-hidden="true"></span>
+                <span>Fiets · paars · aanloopstroken</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #ff5252" aria-hidden="true"></span>
+                <span>Fiets · rood · ronden</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #097138" aria-hidden="true"></span>
+                <span>Loop · donkergroen</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #f9a825" aria-hidden="true"></span>
+                <span>Aankomst · geel · route naar het terrein</span>
+              </div>
+            </div>
             <details>
               <summary><b>Wisselzone</b></summary>
               <div>
@@ -681,13 +782,35 @@
           </div>
         </div>
 
-        <div id="legend-divisies" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-divisies" class="legend wisselzone" style="display: none;">
           <h1>Legenda teamcompetities</h1>
           <div class="legend-content">
             <p>
               <a download="speedman-fietsparcours.gpx" href="assets/gpx/speedman-parcours-fietsen.gpx">Fietsparcours GPX</a><br>
               <a download="speedman-loopparcours.gpx" href="assets/gpx/speedman-parcours-lopen.gpx">Loopparcours GPX</a>
             </p>
+            <div class="legend-line-colors">
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #0288d1" aria-hidden="true"></span>
+                <span>Zwemparcours · blauw</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #9c27b0" aria-hidden="true"></span>
+                <span>Fiets · paars · aanloopstroken</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #ff5252" aria-hidden="true"></span>
+                <span>Fiets · rood · ronden</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #097138" aria-hidden="true"></span>
+                <span>Loop · donkergroen</span>
+              </div>
+              <div class="legend-line-colors-row">
+                <span class="legend-swatch-line" style="background: #f9a825" aria-hidden="true"></span>
+                <span>Aankomst · geel · route naar het terrein</span>
+              </div>
+            </div>
             <details>
               <summary><b>Wisselzone</b></summary>
               <div>
@@ -819,7 +942,7 @@
           </div>
         </div>
 
-        <div id="legend-grunnman" class="legend wisselzone collapsed" style="display: none;">
+        <div id="legend-grunnman" class="legend wisselzone" style="display: none;">
           <h1>Legenda Grunnman triatlon</h1>
           <div class="legend-content">
             <details>
