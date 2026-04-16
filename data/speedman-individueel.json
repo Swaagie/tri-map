@@ -148,43 +148,43 @@
         "coordinates": [
           [
             [
-              6.512956,
-              53.207585,
+              6.5129024,
+              53.2076364,
               0
             ],
             [
-              6.513052,
-              53.207514,
+              6.5129984,
+              53.2075654,
               0
             ],
             [
-              6.513219,
-              53.207408,
+              6.5131654,
+              53.2074594,
               0
             ],
             [
-              6.5133229,
-              53.2073133,
+              6.5132693,
+              53.2073647,
               0
             ],
             [
-              6.5136501,
-              53.2073357,
+              6.5135965,
+              53.2073871,
               0
             ],
             [
-              6.513594,
-              53.20744,
+              6.5135404,
+              53.2074914,
               0
             ],
             [
-              6.513476,
-              53.207604,
+              6.5134224,
+              53.2076554,
               0
             ],
             [
-              6.512956,
-              53.207585,
+              6.5129024,
+              53.2076364,
               0
             ]
           ]
@@ -706,8 +706,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            6.513366,
-            53.207132,
+            6.513562,
+            53.207004,
             0
           ],
           [
@@ -1054,274 +1054,6 @@
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Tijdsregistratie loopronde<br>name: fa-stopwatch",
         "beschrijving": "Tijdsregistratie loopronde"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513366,
-          53.207132,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-flag-checkered",
-        "styleUrl": "#icon-1661-0288D1",
-        "styleHash": "21967554",
-        "styleMapHash": {
-          "normal": "#icon-1661-0288D1-normal",
-          "highlight": "#icon-1661-0288D1-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "name: fa-flag-checkered\ndescription:"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513813,
-          53.206743,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-person-swimming",
-        "styleUrl": "#icon-1701-0288D1",
-        "styleHash": "507c9fdb",
-        "styleMapHash": {
-          "normal": "#icon-1701-0288D1-normal",
-          "highlight": "#icon-1701-0288D1-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Start vanaf strand. Opstellen tussen afrastering"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.513813,
-            53.206743,
-            0
-          ],
-          [
-            6.513141,
-            53.206507,
-            0
-          ],
-          [
-            6.511553,
-            53.205942,
-            0
-          ],
-          [
-            6.510426,
-            53.206824,
-            0
-          ],
-          [
-            6.512614,
-            53.20717,
-            0
-          ],
-          [
-            6.513141,
-            53.206507,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Zwemparcours individueel",
-        "styleUrl": "#line-0288D1-3000",
-        "styleHash": "761a8a9c",
-        "styleMapHash": {
-          "normal": "#line-0288D1-3000-normal",
-          "highlight": "#line-0288D1-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#0288d1",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": "500m per ronde\n\nachtste: 1 ronde\nkwart: 2 ronden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.513141,
-          53.206507,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.511553,
-          53.205942,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.512604,
-          53.207171,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.512604,
-            53.207171,
-            0
-          ],
-          [
-            6.513366,
-            53.207132,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "styleUrl": "#line-0288D1-2000",
-        "styleHash": "5596a75a",
-        "styleMapHash": {
-          "normal": "#line-0288D1-2000-normal",
-          "highlight": "#line-0288D1-2000-highlight"
-        },
-        "description": "",
-        "stroke": "#0288d1",
-        "stroke-opacity": 1,
-        "stroke-width": 2,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.510426,
-          53.206824,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-FFD600",
-        "styleHash": "-5eafd04f",
-        "styleMapHash": {
-          "normal": "#icon-1499-FFD600-normal",
-          "highlight": "#icon-1499-FFD600-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.515099,
-          53.205651,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-C2185B",
-        "styleHash": "-38404dd1",
-        "styleMapHash": {
-          "normal": "#icon-1499-C2185B-normal",
-          "highlight": "#icon-1499-C2185B-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Boei 750m divisies"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.514493,
-          53.20532,
-          0
-        ]
-      },
-      "properties": {
-        "name": "fa-circle",
-        "styleUrl": "#icon-1499-C2185B",
-        "styleHash": "-38404dd1",
-        "styleMapHash": {
-          "normal": "#icon-1499-C2185B-normal",
-          "highlight": "#icon-1499-C2185B-highlight"
-        },
-        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-        "description": "",
-        "beschrijving": "Boei 750m divisies"
       }
     },
     {
@@ -3755,6 +3487,274 @@
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
         "beschrijving": "Kleedkamer en wc's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513247,
+          53.207316,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-person-swimming",
+        "styleUrl": "#icon-1701-0288D1",
+        "styleHash": "507c9fdb",
+        "styleMapHash": {
+          "normal": "#icon-1701-0288D1-normal",
+          "highlight": "#icon-1701-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Start vanaf strand. Opstellen tussen afrastering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513562,
+          53.207004,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag-checkered",
+        "styleUrl": "#icon-1661-0288D1",
+        "styleHash": "21967554",
+        "styleMapHash": {
+          "normal": "#icon-1661-0288D1-normal",
+          "highlight": "#icon-1661-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "name: fa-flag-checkered\ndescription:"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.513247,
+            53.207316,
+            0
+          ],
+          [
+            6.512419,
+            53.2073,
+            0
+          ],
+          [
+            6.510295,
+            53.207254,
+            0
+          ],
+          [
+            6.510942,
+            53.206093,
+            0
+          ],
+          [
+            6.51283,
+            53.206742,
+            0
+          ],
+          [
+            6.512419,
+            53.2073,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Zwemparcours individueel",
+        "styleUrl": "#line-0288D1-3000",
+        "styleHash": "761a8a9c",
+        "styleMapHash": {
+          "normal": "#line-0288D1-3000-normal",
+          "highlight": "#line-0288D1-3000-highlight"
+        },
+        "description": "",
+        "stroke": "#0288d1",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "beschrijving": "500m per ronde\n\nachtste: 1 ronde\nkwart: 2 ronden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51283,
+          53.206742,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.510942,
+          53.206093,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.512422,
+          53.207301,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.51283,
+            53.206742,
+            0
+          ],
+          [
+            6.513562,
+            53.207004,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "styleUrl": "#line-0288D1-2000",
+        "styleHash": "5596a75a",
+        "styleMapHash": {
+          "normal": "#line-0288D1-2000-normal",
+          "highlight": "#line-0288D1-2000-highlight"
+        },
+        "description": "",
+        "stroke": "#0288d1",
+        "stroke-opacity": 1,
+        "stroke-width": 2,
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.510295,
+          53.207254,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-FFD600",
+        "styleHash": "-5eafd04f",
+        "styleMapHash": {
+          "normal": "#icon-1499-FFD600-normal",
+          "highlight": "#icon-1499-FFD600-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514528,
+          53.205608,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-C2185B",
+        "styleHash": "-38404dd1",
+        "styleMapHash": {
+          "normal": "#icon-1499-C2185B-normal",
+          "highlight": "#icon-1499-C2185B-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Boei 750m divisies"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514276,
+          53.205426,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-circle",
+        "styleUrl": "#icon-1499-C2185B",
+        "styleHash": "-38404dd1",
+        "styleMapHash": {
+          "normal": "#icon-1499-C2185B-normal",
+          "highlight": "#icon-1499-C2185B-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "",
+        "beschrijving": "Boei 750m divisies"
       }
     }
   ]

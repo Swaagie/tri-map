@@ -3,6 +3,40 @@
   <Document>
     <name>Speedman 2026 - divisies</name>
     <description/>
+    <Style id="icon-1499-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1499-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1499-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1499-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1499-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1499-E65100-normal">
       <IconStyle>
         <color>ff0051e6</color>
@@ -517,6 +551,28 @@
         <styleUrl>#icon-1899-A52714-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-0288D1-2000-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-2000-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-2000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-2000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-2000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-0288D1-3000-normal">
       <LineStyle>
         <color>ffd18802</color>
@@ -947,14 +1003,14 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.512956,53.207585,0
-                6.513052,53.207514,0
-                6.513219,53.207408,0
-                6.5133229,53.2073133,0
-                6.5136501,53.2073357,0
-                6.513594,53.20744,0
-                6.513476,53.207604,0
-                6.512956,53.207585,0
+                6.5128916,53.2076396,0
+                6.5129876,53.2075686,0
+                6.5131546,53.2074626,0
+                6.5132585,53.2073679,0
+                6.5135857,53.2073903,0
+                6.5135296,53.2074946,0
+                6.5134116,53.2076586,0
+                6.5128916,53.2076396,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1191,7 +1247,7 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.513366,53.207132,0
+            6.513562,53.207004,0
             6.5138965,53.2070917,0
           </coordinates>
         </LineString>
@@ -1379,231 +1435,6 @@
         <Point>
           <coordinates>
             6.514291,53.207718,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Zwemparcours divisies</name>
-      <Placemark>
-        <name>Boei A</name>
-        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-FFD600</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.513141,53.206507,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Boei B</name>
-        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-FFD600</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.515099,53.205651,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Boei C</name>
-        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-FFD600</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.514493,53.20532,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Boei F</name>
-        <description><![CDATA[beschrijving: Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish<br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-FFD600</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Rechtsom volgende ronde (voor 2 ronden) of richting zwemfinish</value>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.512604,53.207171,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Zwemparcours</name>
-        <description><![CDATA[beschrijving: 750m per ronde<br><br>sprint: 1 ronde<br>standaard: 2 ronde<br>name: Zwemparcours divisie<br>description: ]]></description>
-        <styleUrl>#line-0288D1-3000</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>750m per ronde
-
-sprint: 1 ronde
-standaard: 2 ronde</value>
-          </Data>
-          <Data name="name">
-            <value>Zwemparcours divisie</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.513141,53.206507,0
-            6.515099,53.205651,0
-            6.514493,53.20532,0
-            6.511553,53.205943,0
-            6.510427,53.206825,0
-            6.512604,53.207171,0
-            6.513141,53.206507,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Boei D</name>
-        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-FFD600</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.511553,53.205943,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Zwemmen naar finish</name>
-        <description><![CDATA[beschrijving: <br>name: <br>description: ]]></description>
-        <styleUrl>#line-0288D1-3000</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value/>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.512604,53.207171,0
-            6.513366,53.207132,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Finish zwemmen</name>
-        <description><![CDATA[beschrijving: <br>name: fa-flag-checkered<br>description: ]]></description>
-        <styleUrl>#icon-1661-0288D1</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-flag-checkered</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.513366,53.207132,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waterstart divisies</name>
-        <description><![CDATA[beschrijving: Waterstart. Opstellen voorbij de boei<br>name: fa-person-swimming<br>description: ]]></description>
-        <styleUrl>#icon-1701-0288D1</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Waterstart. Opstellen voorbij de boei</value>
-          </Data>
-          <Data name="name">
-            <value>fa-person-swimming</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5129219,53.2064689,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Boei E</name>
-        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
-        <styleUrl>#icon-1499-FFD600</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>fa-circle</value>
-          </Data>
-          <Data name="description">
-            <value/>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.510427,53.206825,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2402,6 +2233,233 @@ kwart/standaard: 4 ronden</value>
         <Point>
           <coordinates>
             6.5126582,53.2078952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Zwemparcours</name>
+      <Placemark>
+        <name>Start zwemmen</name>
+        <description><![CDATA[beschrijving: Start vanaf strand. Opstellen tussen afrastering<br>name: fa-person-swimming<br>description: ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Start vanaf strand. Opstellen tussen afrastering</value>
+          </Data>
+          <Data name="name">
+            <value>fa-person-swimming</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513247,53.207316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finish zwemmen</name>
+        <description><![CDATA[beschrijving: name: fa-flag-checkered<br>description:<br>name: fa-flag-checkered<br>description: ]]></description>
+        <styleUrl>#icon-1661-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>name: fa-flag-checkered
+description:</value>
+          </Data>
+          <Data name="name">
+            <value>fa-flag-checkered</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.513562,53.207004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boei A</name>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
+        <styleUrl>#icon-1499-FFD600</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.51283,53.206742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boei D</name>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
+        <styleUrl>#icon-1499-FFD600</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.510942,53.206093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zwemparcours divisies</name>
+        <description><![CDATA[beschrijving: 750m per ronde<br><br>sprint: 1 ronde<br>standaard: 2 ronde<br>name: Zwemparcours divisie<br>description: ]]></description>
+        <styleUrl>#line-0288D1-3000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>750m per ronde
+
+sprint: 1 ronde
+standaard: 2 ronde</value>
+          </Data>
+          <Data name="name">
+            <value>Zwemparcours divisie</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.513247,53.207316,0
+            6.512422,53.207301,0
+            6.510295,53.207254,0
+            6.510942,53.206093,0
+            6.514276,53.205426,0
+            6.514528,53.205608,0
+            6.51283,53.206742,0
+            6.512422,53.207301,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Boei F</name>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
+        <styleUrl>#icon-1499-FFD600</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.512422,53.207301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zwemmen naar finish</name>
+        <description><![CDATA[beschrijving: <br>name: <br>description: ]]></description>
+        <styleUrl>#line-0288D1-2000</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            6.51283,53.206742,0
+            6.513562,53.207004,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Boei E</name>
+        <description><![CDATA[beschrijving: <br>name: fa-circle<br>description: ]]></description>
+        <styleUrl>#icon-1499-FFD600</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value/>
+          </Data>
+          <Data name="name">
+            <value>fa-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.510295,53.207254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boei B 750m</name>
+        <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
+        <styleUrl>#icon-1499-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Boei 750m divisies</value>
+          </Data>
+          <Data name="name">
+            <value>fa-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514528,53.205608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boei C 750m</name>
+        <description><![CDATA[beschrijving: Boei 750m divisies<br>name: fa-circle<br>description: ]]></description>
+        <styleUrl>#icon-1499-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="beschrijving">
+            <value>Boei 750m divisies</value>
+          </Data>
+          <Data name="name">
+            <value>fa-circle</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.514276,53.205426,0
           </coordinates>
         </Point>
       </Placemark>
