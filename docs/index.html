@@ -1112,6 +1112,7 @@
             document.getElementById(legendId) || document.getElementById('legend-divisies');
           if (legend) {
             legend.style.display = 'block';
+            legend.classList.add('collapsed');
             const header = legend.querySelector('h1');
             header.addEventListener('click', (e) => {
               e.stopPropagation();
