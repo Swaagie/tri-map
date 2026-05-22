@@ -1077,6 +1077,9 @@
           zoom: 12, // starting zoom
         });
 
+        // Resolves once the map style is fully loaded and addSource/addLayer are safe to call.
+        const mapLoaded = new Promise(resolve => map.once('load', resolve));
+
         // Add loading indicator
         const loadingIndicator = document.createElement('div');
         loadingIndicator.style.position = 'absolute';
@@ -1091,12 +1094,15 @@
         document.getElementById('map-all').appendChild(loadingIndicator);
 
         try {
-          // Fetch data from GitHub
+          // Fetch data and wait for the map style in parallel; render() is only
+          // safe once both are done — calling addSource/addLayer before the map
+          // 'load' event fires silently drops all layers.
           const query = new URL(window.location).searchParams.get('course');
           const mainCourses = new Set(['kinderen', 'junioren', 'individueel', 'divisies']);
-          const data = await fetchSourceFromGithub(
-            `speedman-${query || 'divisies'}.json`
-          );
+          const [data] = await Promise.all([
+            fetchSourceFromGithub(`speedman-${query || 'divisies'}.json`),
+            mapLoaded,
+          ]);
 
           // Remove loading indicator
           loadingIndicator.remove();
