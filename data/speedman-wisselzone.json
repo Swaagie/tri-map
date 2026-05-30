@@ -163,13 +163,13 @@
               0
             ],
             [
-              6.5133229,
-              53.2073133,
+              6.5132532,
+              53.207376,
               0
             ],
             [
-              6.5136501,
-              53.2073357,
+              6.5136045,
+              53.2074208,
               0
             ],
             [
@@ -225,18 +225,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: Achtste<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "Achtste"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -374,18 +374,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 1e divisie H\\n<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "1e divisie H\\n"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -406,18 +406,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3000",
         "styleHash": "-33edb8e4",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: 1e divisie D\\n2e divisie H<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": "1e divisie D\\n2e divisie H"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -438,18 +438,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3325",
         "styleHash": "-4a098e2",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: 2e divisie D\\n<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": "2e divisie D\\n"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -567,18 +567,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-2938",
         "styleHash": "-57c52824",
         "styleMapHash": {
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: 1e divisie H\\n1e divisie D<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "1e divisie H\\n1e divisie D"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -832,18 +832,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3325",
         "styleHash": "-4a098e2",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: Achtste\\nKwart<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
-        "beschrijving": "Achtste\\nKwart"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -864,18 +864,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-2938",
         "styleHash": "-57c52824",
         "styleMapHash": {
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: Kwart\\n<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
-        "beschrijving": "Kwart\\n"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -896,18 +896,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3131",
         "styleHash": "6b4cd6fe",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3131-normal",
           "highlight": "#line-FFFFFF-3131-highlight"
         },
-        "description": "beschrijving: Kwart\\n<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
-        "beschrijving": "Kwart\\n"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -928,18 +928,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3131",
         "styleHash": "6b4cd6fe",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3131-normal",
           "highlight": "#line-FFFFFF-3131-highlight"
         },
-        "description": "beschrijving: Kwart\\n<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
-        "beschrijving": "Kwart\\n"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -960,18 +960,18 @@
         ]
       },
       "properties": {
-        "name": "text",
         "styleUrl": "#line-FFFFFF-3519",
         "styleHash": "-748e08c2",
         "styleMapHash": {
           "normal": "#line-FFFFFF-3519-normal",
           "highlight": "#line-FFFFFF-3519-highlight"
         },
-        "description": "beschrijving: 2e divisie H\\n2e divisie D<br>name: text",
+        "description": "beschrijving: <br>name: ",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.519,
-        "beschrijving": "2e divisie H\\n2e divisie D"
+        "beschrijving": "",
+        "name": ""
       }
     },
     {
@@ -1197,8 +1197,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.514041,
-          53.206898,
+          6.5136709,
+          53.2072354,
           0
         ]
       },
@@ -1305,6 +1305,52 @@
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "beschrijving: Tijdbalk transitie 1<br>name: fa-stopwatch",
         "beschrijving": "Tijdbalk transitie 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5143988,
+          53.2071839,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-stopwatch",
+        "styleUrl": "#icon-1899-424242",
+        "styleHash": "-5c674dd",
+        "styleMapHash": {
+          "normal": "#icon-1899-424242-normal",
+          "highlight": "#icon-1899-424242-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "beschrijving: Tijdbalk transitie 2 uit<br>name: fa-stopwatch",
+        "beschrijving": "Tijdbalk transitie 2 uit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5132878,
+          53.2072683,
+          0
+        ]
+      },
+      "properties": {
+        "name": "fa-flag",
+        "styleUrl": "#icon-1899-0288D1",
+        "styleHash": "-13b7f8a7",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-normal",
+          "highlight": "#icon-1899-0288D1-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+        "description": "beschrijving: Zwemstart<br>name: fa-flag",
+        "beschrijving": "Zwemstart"
       }
     },
     {
