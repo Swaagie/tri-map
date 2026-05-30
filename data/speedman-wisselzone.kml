@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Speedman 2024 - wisselzone</name>
+    <name>Speedman - wisselzone</name>
     <description/>
     <Style id="icon-1499-FF5252-normal">
       <IconStyle>
@@ -69,40 +69,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1549-F9A825-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1603-9C27B0-normal">
-      <IconStyle>
-        <color>ffb0279c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1603-9C27B0-highlight">
-      <IconStyle>
-        <color>ffb0279c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1603-9C27B0">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1603-9C27B0-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1603-9C27B0-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1625-424242-normal">
@@ -864,53 +830,15 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                6.5137567,53.2077155,0
-                6.5137555,53.2076721,0
-                6.5138345,53.2076694,0
-                6.5138346,53.2077138,0
-                6.5137567,53.2077155,0
+                6.5135005,53.20773,0
+                6.5134993,53.2076866,0
+                6.5135783,53.2076839,0
+                6.5135784,53.2077283,0
+                6.5135005,53.20773,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <description><![CDATA[beschrijving: <br>name: text]]></description>
-        <styleUrl>#line-FFFFFF-3000</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value/>
-          </Data>
-          <Data name="name">
-            <value>text</value>
-          </Data>
-        </ExtendedData>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            6.5143285,53.2072531,0
-            6.5143645,53.2071931,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Wisselvak estafette</name>
-        <description><![CDATA[beschrijving: Wisselvak estafette<br>name: fa-arrows-h]]></description>
-        <styleUrl>#icon-1603-9C27B0</styleUrl>
-        <ExtendedData>
-          <Data name="beschrijving">
-            <value>Wisselvak estafette</value>
-          </Data>
-          <Data name="name">
-            <value>fa-arrows-h</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            6.5143695,53.2072315,0
-          </coordinates>
-        </Point>
       </Placemark>
       <Placemark>
         <name>Captains/race briefing</name>
@@ -1164,9 +1092,8 @@
           <tessellate>1</tessellate>
           <coordinates>
             6.513366,53.207132,0
-            6.5138499,53.2070522,0
-            6.5141084,53.2071007,0
-            6.5140863,53.2071395,0
+            6.5138308,53.2070991,0
+            6.5138952,53.207103,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1185,19 +1112,14 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.513222,53.207776,0
-            6.5134199,53.2077656,0
-            6.5136142,53.2077447,0
-            6.5137466,53.207738,0
-            6.5139058,53.2077281,0
-            6.5140087,53.2077199,0
-            6.5140516,53.2077003,0
-            6.5140823,53.2076721,0
-            6.514146,53.207611,0
-            6.5142389,53.2075134,0
-            6.5142835,53.2074741,0
-            6.5143041,53.2074396,0
-            6.5142553,53.2074262,0
+            6.5132199,53.2077559,0
+            6.5133,53.20775,0
+            6.5133573,53.2077385,0
+            6.5134213,53.2077199,0
+            6.5134803,53.2076818,0
+            6.5135378,53.2076287,0
+            6.513571,53.2075793,0
+            6.5136143,53.2075753,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1216,17 +1138,14 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5137658,53.2073418,0
-            6.5137219,53.2073346,0
-            6.5137055,53.2073667,0
-            6.5136834,53.2074052,0
-            6.5136381,53.2074821,0
-            6.5135775,53.2075763,0
-            6.513505,53.2076555,0
-            6.5134507,53.2077037,0
-            6.5133923,53.2077325,0
-            6.5133055,53.2077524,0
-            6.513224,53.207762,0
+            6.5140568,53.2076163,0
+            6.5141014,53.2076219,0
+            6.514085,53.2076584,0
+            6.5140516,53.2077003,0
+            6.5140087,53.2077199,0
+            6.5136142,53.2077447,0
+            6.5134199,53.2077656,0
+            6.513222,53.207776,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -1245,10 +1164,8 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            6.5141655,53.2071494,0
-            6.5141848,53.2071169,0
-            6.514297,53.2071372,0
-            6.5143852,53.2071503,0
+            6.5143975,53.2071855,0
+            6.5144302,53.2071442,0
             6.5144471,53.2071184,0
             6.5144501,53.2070491,0
             6.5144037,53.2069725,0
@@ -1289,7 +1206,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5137941,53.2076927,0
+            6.5135353,53.2077056,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1343,7 +1260,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5140964,53.2071223,0
+            6.5138952,53.207103,0
           </coordinates>
         </Point>
       </Placemark>
