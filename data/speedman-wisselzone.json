@@ -231,12 +231,12 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -380,12 +380,12 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -412,12 +412,12 @@
           "normal": "#line-FFFFFF-3000-normal",
           "highlight": "#line-FFFFFF-3000-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -444,12 +444,12 @@
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -573,12 +573,12 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -838,12 +838,12 @@
           "normal": "#line-FFFFFF-3325-normal",
           "highlight": "#line-FFFFFF-3325-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.325,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -870,12 +870,12 @@
           "normal": "#line-FFFFFF-2938-normal",
           "highlight": "#line-FFFFFF-2938-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 2.938,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -902,12 +902,12 @@
           "normal": "#line-FFFFFF-3131-normal",
           "highlight": "#line-FFFFFF-3131-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -934,12 +934,12 @@
           "normal": "#line-FFFFFF-3131-normal",
           "highlight": "#line-FFFFFF-3131-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.131,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
@@ -966,12 +966,12 @@
           "normal": "#line-FFFFFF-3519-normal",
           "highlight": "#line-FFFFFF-3519-highlight"
         },
-        "description": "beschrijving: <br>name: ",
+        "description": "beschrijving: <br>name: text",
         "stroke": "#ffffff",
         "stroke-opacity": 1,
         "stroke-width": 3.519,
         "beschrijving": "",
-        "name": ""
+        "name": "text"
       }
     },
     {
