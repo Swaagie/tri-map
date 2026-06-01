@@ -423,26 +423,26 @@
         <styleUrl>#line-424242-3131-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-9C27B0-3000-normal">
+    <Style id="line-C2185B-3000-normal">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff5b18c2</color>
         <width>3</width>
       </LineStyle>
     </Style>
-    <Style id="line-9C27B0-3000-highlight">
+    <Style id="line-C2185B-3000-highlight">
       <LineStyle>
-        <color>ffb0279c</color>
+        <color>ff5b18c2</color>
         <width>4.5</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-9C27B0-3000">
+    <StyleMap id="line-C2185B-3000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-9C27B0-3000-normal</styleUrl>
+        <styleUrl>#line-C2185B-3000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-9C27B0-3000-highlight</styleUrl>
+        <styleUrl>#line-C2185B-3000-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-000000-2000-77-normal">
@@ -870,7 +870,7 @@
       <Placemark>
         <name>Terugkomstrook fietsen</name>
         <description><![CDATA[beschrijving: <br>name: Terugkomstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-9C27B0-3000</styleUrl>
+        <styleUrl>#line-C2185B-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -891,16 +891,23 @@
             6.5071872,53.2073927,0
             6.5070136,53.2076729,0
             6.5069077,53.2078141,0
-            6.5068675,53.2078794,0
-            6.5068299,53.2079648,0
-            6.5067925,53.2080643,0
-            6.5068566,53.2080741,0
-            6.5078454,53.2080278,0
+            6.5068782,53.2078762,0
+            6.5069023,53.2079287,0
+            6.506932,53.2079631,0
+            6.5070216,53.2079874,0
+            6.5072138,53.2080049,0
+            6.5074154,53.2080064,0
+            6.5078427,53.2079796,0
+            6.5087629,53.2079319,0
             6.509136,53.207958,0
             6.509589,53.207933,0
             6.509763,53.207933,0
             6.509947,53.207932,0
             6.513224,53.207762,0
+            6.5132476,53.207763,0
+            6.513255,53.2077687,0
+            6.5132404,53.2077763,0
+            6.513222,53.207776,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -928,7 +935,7 @@
       <Placemark>
         <name>Aanloopstrook fietsen</name>
         <description><![CDATA[beschrijving: <br>name: Aanloopstrook fietsen<br>description: ]]></description>
-        <styleUrl>#line-9C27B0-3000</styleUrl>
+        <styleUrl>#line-C2185B-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -947,17 +954,16 @@
             6.509938,53.207948,0
             6.509624,53.207948,0
             6.508764,53.207991,0
-            6.508448,53.208008,0
-            6.508089,53.208027,0
-            6.507542,53.208055,0
-            6.507306,53.208064,0
-            6.507159,53.208073,0
-            6.507026,53.208081,0
-            6.506848,53.208086,0
-            6.506741,53.20807,0
-            6.5066581,53.2080324,0
-            6.5066647,53.2080034,0
-            6.5066975,53.207964,0
+            6.5085285,53.2079686,0
+            6.5080984,53.2079909,0
+            6.507542,53.2080156,0
+            6.5072403,53.2080319,0
+            6.5071174,53.2080224,0
+            6.5069992,53.2080071,0
+            6.5068574,53.2079816,0
+            6.5068107,53.2079511,0
+            6.5067882,53.2079288,0
+            6.5067753,53.2079005,0
             6.5067769,53.2078688,0
             6.5068845,53.2077128,0
             6.5070228,53.2075088,0
@@ -1188,15 +1194,15 @@ kwart/standaard: 4 ronden</value>
     <Folder>
       <name>Markering/waarschuwingen</name>
       <Placemark>
-        <name>Oversteekplaats</name>
-        <description><![CDATA[beschrijving: Oversteekplaats<br>name: fa-arrows-v<br>description: ]]></description>
-        <styleUrl>#icon-1499-E65100</styleUrl>
+        <name>Keerpunt</name>
+        <description><![CDATA[beschrijving: Keerpunt volgende ronde fietsen, op het fietspad blijven!<br>name: fa-arrow-circle-left<br>description: ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
-            <value>Oversteekplaats</value>
+            <value>Keerpunt volgende ronde fietsen, op het fietspad blijven!</value>
           </Data>
           <Data name="name">
-            <value>fa-arrows-v</value>
+            <value>fa-arrow-circle-left</value>
           </Data>
           <Data name="description">
             <value/>
@@ -1204,7 +1210,7 @@ kwart/standaard: 4 ronden</value>
         </ExtendedData>
         <Point>
           <coordinates>
-            6.5132199,53.207772,0
+            6.5132709,53.207764,0
           </coordinates>
         </Point>
       </Placemark>

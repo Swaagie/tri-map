@@ -616,28 +616,43 @@
             0
           ],
           [
-            6.5068675,
-            53.2078794,
+            6.5068782,
+            53.2078762,
             0
           ],
           [
-            6.5068299,
-            53.2079648,
+            6.5069023,
+            53.2079287,
             0
           ],
           [
-            6.5067925,
-            53.2080643,
+            6.506932,
+            53.2079631,
             0
           ],
           [
-            6.5068566,
-            53.2080741,
+            6.5070216,
+            53.2079874,
             0
           ],
           [
-            6.5078454,
-            53.2080278,
+            6.5072138,
+            53.2080049,
+            0
+          ],
+          [
+            6.5074154,
+            53.2080064,
+            0
+          ],
+          [
+            6.5078427,
+            53.2079796,
+            0
+          ],
+          [
+            6.5087629,
+            53.2079319,
             0
           ],
           [
@@ -664,19 +679,39 @@
             6.513224,
             53.207762,
             0
+          ],
+          [
+            6.5132476,
+            53.207763,
+            0
+          ],
+          [
+            6.513255,
+            53.2077687,
+            0
+          ],
+          [
+            6.5132404,
+            53.2077763,
+            0
+          ],
+          [
+            6.513222,
+            53.207776,
+            0
           ]
         ]
       },
       "properties": {
         "name": "Terugkomstrook fietsen",
-        "styleUrl": "#line-9C27B0-3000",
-        "styleHash": "-2cc9d744",
+        "styleUrl": "#line-C2185B-3000",
+        "styleHash": "228aae7c",
         "styleMapHash": {
-          "normal": "#line-9C27B0-3000-normal",
-          "highlight": "#line-9C27B0-3000-highlight"
+          "normal": "#line-C2185B-3000-normal",
+          "highlight": "#line-C2185B-3000-highlight"
         },
         "description": "",
-        "stroke": "#9c27b0",
+        "stroke": "#c2185b",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -731,58 +766,53 @@
             0
           ],
           [
-            6.508448,
-            53.208008,
+            6.5085285,
+            53.2079686,
             0
           ],
           [
-            6.508089,
-            53.208027,
+            6.5080984,
+            53.2079909,
             0
           ],
           [
             6.507542,
-            53.208055,
+            53.2080156,
             0
           ],
           [
-            6.507306,
-            53.208064,
+            6.5072403,
+            53.2080319,
             0
           ],
           [
-            6.507159,
-            53.208073,
+            6.5071174,
+            53.2080224,
             0
           ],
           [
-            6.507026,
-            53.208081,
+            6.5069992,
+            53.2080071,
             0
           ],
           [
-            6.506848,
-            53.208086,
+            6.5068574,
+            53.2079816,
             0
           ],
           [
-            6.506741,
-            53.20807,
+            6.5068107,
+            53.2079511,
             0
           ],
           [
-            6.5066581,
-            53.2080324,
+            6.5067882,
+            53.2079288,
             0
           ],
           [
-            6.5066647,
-            53.2080034,
-            0
-          ],
-          [
-            6.5066975,
-            53.207964,
+            6.5067753,
+            53.2079005,
             0
           ],
           [
@@ -829,14 +859,14 @@
       },
       "properties": {
         "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-9C27B0-3000",
-        "styleHash": "-2cc9d744",
+        "styleUrl": "#line-C2185B-3000",
+        "styleHash": "228aae7c",
         "styleMapHash": {
-          "normal": "#line-9C27B0-3000-normal",
-          "highlight": "#line-9C27B0-3000-highlight"
+          "normal": "#line-C2185B-3000-normal",
+          "highlight": "#line-C2185B-3000-highlight"
         },
         "description": "",
-        "stroke": "#9c27b0",
+        "stroke": "#c2185b",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -1479,22 +1509,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5132199,
-          53.207772,
+          6.5132709,
+          53.207764,
           0
         ]
       },
       "properties": {
-        "name": "fa-arrows-v",
-        "styleUrl": "#icon-1499-E65100",
-        "styleHash": "5ea9273b",
+        "name": "fa-arrow-circle-left",
+        "styleUrl": "#icon-1899-A52714",
+        "styleHash": "48ef713f",
         "styleMapHash": {
-          "normal": "#icon-1499-E65100-normal",
-          "highlight": "#icon-1499-E65100-highlight"
+          "normal": "#icon-1899-A52714-normal",
+          "highlight": "#icon-1899-A52714-highlight"
         },
         "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
         "description": "",
-        "beschrijving": "Oversteekplaats"
+        "beschrijving": "Keerpunt volgende ronde fietsen, op het fietspad blijven!"
       }
     },
     {
