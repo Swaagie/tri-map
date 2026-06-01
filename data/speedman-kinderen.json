@@ -704,14 +704,14 @@
       },
       "properties": {
         "name": "Terugkomstrook fietsen",
-        "styleUrl": "#line-C2185B-3000",
-        "styleHash": "228aae7c",
+        "styleUrl": "#line-FF5252-3000",
+        "styleHash": "-58ec7324",
         "styleMapHash": {
-          "normal": "#line-C2185B-3000-normal",
-          "highlight": "#line-C2185B-3000-highlight"
+          "normal": "#line-FF5252-3000-normal",
+          "highlight": "#line-FF5252-3000-highlight"
         },
         "description": "",
-        "stroke": "#c2185b",
+        "stroke": "#ff5252",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
@@ -859,14 +859,14 @@
       },
       "properties": {
         "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-C2185B-3000",
-        "styleHash": "228aae7c",
+        "styleUrl": "#line-FF5252-3000",
+        "styleHash": "-58ec7324",
         "styleMapHash": {
-          "normal": "#line-C2185B-3000-normal",
-          "highlight": "#line-C2185B-3000-highlight"
+          "normal": "#line-FF5252-3000-normal",
+          "highlight": "#line-FF5252-3000-highlight"
         },
         "description": "",
-        "stroke": "#c2185b",
+        "stroke": "#ff5252",
         "stroke-opacity": 1,
         "stroke-width": 3,
         "beschrijving": ""
