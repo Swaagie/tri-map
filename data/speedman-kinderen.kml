@@ -423,6 +423,28 @@
         <styleUrl>#line-424242-3131-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-9C27B0-3000-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-9C27B0-3000-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-C2185B-3000-normal">
       <LineStyle>
         <color>ff5b18c2</color>
@@ -630,7 +652,7 @@
       <Placemark>
         <name>Fietsen in</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-3000</styleUrl>
+        <styleUrl>#line-9C27B0-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
@@ -658,7 +680,7 @@
       <Placemark>
         <name>Fietsen uit</name>
         <description><![CDATA[beschrijving: <br>name: ]]></description>
-        <styleUrl>#line-424242-3000</styleUrl>
+        <styleUrl>#line-9C27B0-3000</styleUrl>
         <ExtendedData>
           <Data name="beschrijving">
             <value/>
