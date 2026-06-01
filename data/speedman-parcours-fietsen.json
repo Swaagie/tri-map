@@ -307,113 +307,6 @@
             0
           ],
           [
-            6.503951,
-            53.202544,
-            0
-          ],
-          [
-            6.501639,
-            53.203238,
-            0
-          ],
-          [
-            6.500845,
-            53.203446,
-            0
-          ],
-          [
-            6.500062,
-            53.20361,
-            0
-          ],
-          [
-            6.499472,
-            53.203729,
-            0
-          ],
-          [
-            6.498989,
-            53.20381,
-            0
-          ],
-          [
-            6.498345,
-            53.203896,
-            0
-          ],
-          [
-            6.497666,
-            53.203971,
-            0
-          ],
-          [
-            6.497008,
-            53.204027,
-            0
-          ],
-          [
-            6.496629,
-            53.204051,
-            0
-          ],
-          [
-            6.49591,
-            53.20408,
-            0
-          ],
-          [
-            6.495549,
-            53.204096,
-            0
-          ],
-          [
-            6.494127,
-            53.204158,
-            0
-          ],
-          [
-            6.49307,
-            53.204192,
-            0
-          ],
-          [
-            6.492548,
-            53.20421,
-            0
-          ],
-          [
-            6.492454,
-            53.204197,
-            0
-          ],
-          [
-            6.492302,
-            53.204197,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Aanloopstrook fietsen",
-        "styleUrl": "#line-9C27B0-3000",
-        "styleHash": "-2cc9d744",
-        "styleMapHash": {
-          "normal": "#line-9C27B0-3000-normal",
-          "highlight": "#line-9C27B0-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#9c27b0",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             6.505001,
             53.202187,
             0
@@ -959,103 +852,6 @@
             0
           ],
           [
-            6.50819,
-            53.201412,
-            0
-          ],
-          [
-            6.508216,
-            53.201423,
-            0
-          ],
-          [
-            6.508218,
-            53.201438,
-            0
-          ],
-          [
-            6.508195,
-            53.201453,
-            0
-          ],
-          [
-            6.50816,
-            53.201461,
-            0
-          ],
-          [
-            6.508109,
-            53.201473,
-            0
-          ],
-          [
-            6.50798,
-            53.201493,
-            0
-          ],
-          [
-            6.507878,
-            53.201504,
-            0
-          ],
-          [
-            6.507578,
-            53.201538,
-            0
-          ],
-          [
-            6.507288,
-            53.201567,
-            0
-          ],
-          [
-            6.506835,
-            53.201655,
-            0
-          ],
-          [
-            6.506548,
-            53.201726,
-            0
-          ],
-          [
-            6.506062,
-            53.201862,
-            0
-          ],
-          [
-            6.505325,
-            53.202084,
-            0
-          ],
-          [
-            6.505001,
-            53.202187,
-            0
-          ]
-        ]
-      },
-      "properties": {
-        "name": "Fietsparcours",
-        "styleUrl": "#line-FF5252-3000",
-        "styleHash": "-58ec7324",
-        "styleMapHash": {
-          "normal": "#line-FF5252-3000-normal",
-          "highlight": "#line-FF5252-3000-highlight"
-        },
-        "description": "",
-        "stroke": "#ff5252",
-        "stroke-opacity": 1,
-        "stroke-width": 3,
-        "beschrijving": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             6.508147,
             53.201416,
             0
@@ -1378,18 +1174,18 @@
         ]
       },
       "properties": {
-        "name": "Terugkomstrook fietsen",
-        "styleUrl": "#line-9C27B0-3000",
-        "styleHash": "-2cc9d744",
+        "name": "Fietsparcours",
+        "styleUrl": "#line-FF5252-3000",
+        "styleHash": "-58ec7324",
         "styleMapHash": {
-          "normal": "#line-9C27B0-3000-normal",
-          "highlight": "#line-9C27B0-3000-highlight"
+          "normal": "#line-FF5252-3000-normal",
+          "highlight": "#line-FF5252-3000-highlight"
         },
         "description": "",
-        "stroke": "#9c27b0",
+        "stroke": "#ff5252",
         "stroke-opacity": 1,
         "stroke-width": 3,
-        "beschrijving": ""
+        "beschrijving": "10.6 km per ronde\n\nachtste/sprint: 2 ronden\nkwart/standaard: 4 ronden"
       }
     }
   ]
